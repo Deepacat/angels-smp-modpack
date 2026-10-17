@@ -1,0 +1,520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_books"
+	group: ""
+	icon: {
+		id: "minecraft:knowledge_book"
+	}
+	id: "1DDD193639BE7878"
+	images: [
+		{
+			click_action: "custom_event:"
+			height: 0.75d
+			id: "05F7A5FB2B0C1DA5"
+			image: "etcetera:item/wrench"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 0.75d
+			id: "612F6C060D8E76C0"
+			image: "pastel:textures/particle/shooting_star.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.7d
+			y: -4.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 0.75d
+			id: "37AA5B43CC2F8F86"
+			image: "toxony:item/toxin_flask"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.25d
+			y: -4.0d
+		}
+		{
+			click_action: "custom_event:"
+			height: 0.75d
+			id: "63DAD9232F9EB687"
+			image: "ftbquests:textures/gui/editor_white.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			click_action: "custom_event:"
+			height: 0.75d
+			id: "65C6D6AB0BF061B3"
+			image: "hearthandharvest:item/sugar_cubes"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			color: 11934975
+			height: 1.5d
+			id: "66F6925898F637D4"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.75d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			color: 5289756
+			height: 1.5d
+			id: "3C5C602B63A91669"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.25d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			color: 16731155
+			height: 1.5d
+			id: "344796FCCDC88CC9"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			color: 16722414
+			height: 1.5d
+			id: "4A3AC4E032E1BA3B"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			color: 3572479
+			height: 1.5d
+			id: "755B27CF3BFAFD4A"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "34448E1011EF6F66"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "374330D74B10B2D3"
+			rewards: [{
+				id: "08688D48FE3EB4E0"
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "331A9938BEA530F6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "hbm:nuke_man"
+			}
+			id: "5DD03A18A2544EC7"
+			min_width: 300
+			rewards: [
+				{
+					id: "2E95700EC1D2A9BB"
+					item: {
+						count: 1
+						id: "hbm:book_guide_starter"
+					}
+					type: "item"
+				}
+				{
+					id: "7AA1B812A8D10DD4"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "2713FF6AD5ECC1B8"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "essentials:candle_lilypad"
+			}
+			id: "73E88667F83AD191"
+			min_width: 300
+			rewards: [{
+				id: "1F491F79215D5EFC"
+				item: {
+					components: {
+						"patchouli:book": "essentials:manual"
+					}
+					count: 1
+					id: "essentials:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC9B6ECF11994E6"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "goety:ectoplasm"
+			}
+			id: "7C3107C4663B69B5"
+			min_width: 300
+			rewards: [{
+				id: "4A58D03205D68276"
+				item: {
+					components: {
+						"patchouli:book": "goety:black_book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06E9DA3B709E3B06"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "pastel:pedestal_moonstone"
+			}
+			id: "33A649EA7B9BB90F"
+			min_width: 300
+			rewards: [{
+				id: "3C5AD2E67C9B9323"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2F301A86D986ED86"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "starcatcher:starcatcher_rod"
+			}
+			id: "72F8937B2BF61BB6"
+			min_width: 300
+			rewards: [{
+				id: "3012F332E3726781"
+				item: {
+					count: 1
+					id: "starcatcher:starcatcher_guide"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "512827E0DBA4A700"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "ars_nouveau:creative_spell_book"
+			}
+			id: "32CC120D13F736D8"
+			rewards: [{
+				id: "343E334368A0DF8B"
+				item: {
+					count: 1
+					id: "ars_nouveau:worn_notebook"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE92CA10D17EF75"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "thaumaturge:goggles_revealing"
+			}
+			id: "34EB3A05EDA25078"
+			min_width: 300
+			rewards: [{
+				id: "04C6866B74459FFA"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0DFB6F5004B13231"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "272969EC94605041"
+			min_width: 300
+			rewards: [{
+				id: "422DB878A3C47049"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5E952A1BFD311879"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "toxony:alembic"
+			}
+			id: "05D09AE783CAFB8D"
+			min_width: 300
+			rewards: [{
+				id: "54BA9A082336F8C4"
+				item: {
+					count: 1
+					id: "toxony:lost_journal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04B296067513D8EA"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				components: {
+					"hephaestus_tools:part_material": "hephaestus_tools:copper"
+				}
+				id: "hephaestus_tools:large_plate"
+			}
+			id: "18C88E4E1B292836"
+			min_width: 300
+			tasks: [{
+				id: "2C2237DFF100A098"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "4903C12B4405962C"
+			min_width: 300
+			tasks: [{
+				id: "1FAEC0D714D0C791"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "quark:diamond_heart"
+			}
+			id: "0CFB7EE0C1D30874"
+			min_width: 300
+			tasks: [{
+				id: "09A1535386FEF76D"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "etcetera:bouquet"
+			}
+			id: "0246AEA2F755BCB7"
+			min_width: 300
+			tasks: [{
+				id: "7028FA0D256A2768"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "supplementaries:hourglass"
+			}
+			id: "1D5D4138CF1C0965"
+			min_width: 300
+			tasks: [{
+				id: "4EC12CE2B167EC9E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "decorative_blocks:brazier"
+			}
+			id: "7B136381587996A8"
+			min_width: 300
+			tasks: [{
+				id: "05C0AE77F36B23D1"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "betterend:eternal_crystal"
+			}
+			id: "6D3A6BEB04E55EE1"
+			min_width: 300
+			tasks: [{
+				id: "34E5F308B0221ABA"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "alexsmobs:warped_muscle"
+			}
+			id: "563133E9CEF493F3"
+			min_width: 300
+			tasks: [{
+				id: "674AF754C7D93815"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "industrialhellscape:job_application"
+			}
+			id: "1B725F2A2C1B60C2"
+			min_width: 300
+			tasks: [{
+				id: "752A50AE24799AD1"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "nomansland:no_mans_globe"
+			}
+			id: "59FC7269AC3D980F"
+			min_width: 300
+			tasks: [{
+				id: "7D33FC7FA1489A12"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "cluttered:animated_flag_transgender"
+			}
+			id: "7E62D455D48F7EF2"
+			min_width: 300
+			tasks: [{
+				id: "71033EF3BA8DCC3B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+}

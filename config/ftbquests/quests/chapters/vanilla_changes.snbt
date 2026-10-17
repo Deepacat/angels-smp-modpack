@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla_changes"
+	group: ""
+	id: "71593D4901C1666F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "pastel:villager_head"
+			}
+			id: "53B1CE21DAA199BE"
+			tasks: [{
+				id: "742162462A800223"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "supplementaries:enderman_head"
+			}
+			id: "421AE66C9844B948"
+			tasks: [{
+				id: "344D8BD4BA787A78"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			id: "1B633BB97BC85CA4"
+			min_width: 350
+			tasks: [{
+				id: "3E149D2C65099B37"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "goety:skull_focus"
+			}
+			id: "5F8BB12379912F95"
+			min_width: 300
+			tasks: [{
+				id: "29BCF4B4121C9CB6"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "pastel:horse_head"
+			}
+			id: "05D2119515D9DA69"
+			min_width: 300
+			tasks: [{
+				id: "7773F639EC19C0E7"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7D2F7A86FF9559BE"
+			tasks: [{
+				id: "723B11F2CAD48DF4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "060A4E7A5CA4A968"
+			min_width: 350
+			tasks: [{
+				id: "370629ABAB02FE4D"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:impaling": 1
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+			}
+			id: "3F55301FD684D53B"
+			min_width: 300
+			tasks: [{
+				id: "380BDA40CC265847"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+}

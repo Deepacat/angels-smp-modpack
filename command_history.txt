@@ -1,0 +1,50 @@
+/kill @e[type=creaturefeature:friend]
+/time set midnight
+/execute in thaumaturge:outer_lands run tp @s 83.86 63.00 -268.73 -800.45 25.41
+/execute in minecraft:the_end run tp @s 83.86 63.00 -268.73 -800.45 25.41
+/execute in minecraft:the_end run tp @s 0 63.00 0 -800.45 25.41
+/locate structure minecraft:stronghold
+/locate structure integrated_stronghold:stronghold
+/tp @s 1904 ~ 176
+/spark tps
+/spark profiler start --timeout 60
+/spark tps
+/spark profiler start --timeout 10
+/spark profiler start --timeout 15
+/spark tps
+/tp @e[type=friendsandfoes:glare] @s
+/kill @e[type=minecraft:ender_dragon]
+/locate structure idas:ancient_mines
+/locate structure idas:labyrinth
+/tp @s -1216 ~ -1360
+/spark profiler start
+/tp @s -2160 ~ -7168
+/spark profiler stop
+/execute in minecraft:the_nether run tp @s -2171.04 5.29 -7186.12 -111.04 -10.93
+/locate structure #idas:rare
+/locate structure #idas:applies_mining_fatigue
+/locate structure idas:ruined_church
+/locate structure #idas:small
+/tp @s -2384 ~ -7200
+/locate structure #idas:underground
+/locate structure idas:ancient_portal/ancient_portal
+/locate structure idas:ancient_portal/nether_ancient_portal
+/tp @s -2688 ~ -7200
+/locate structure idas:haunted_manor
+/locate structure idas:iceandfire/dread_citadel
+/locate structure idas:necromancers_spire
+/tp @s -336 ~ -7088
+/kill
+/spark tps
+/spark profiler start --timeout 30
+/spark tps
+/back
+/sparkc profiler start --timeout 60
+/spawnpoint
+/experience set @s 30 levels
+/spawnpoint
+/kill
+/enchant @s minecraft:sharpness 1
+/ntmwikirender
+/reload
+/summon minecraft:armor_stand
