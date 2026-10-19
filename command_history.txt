@@ -1,50 +1,50 @@
-/kill @e[type=creaturefeature:friend]
-/time set midnight
-/execute in thaumaturge:outer_lands run tp @s 83.86 63.00 -268.73 -800.45 25.41
-/execute in minecraft:the_end run tp @s 83.86 63.00 -268.73 -800.45 25.41
-/execute in minecraft:the_end run tp @s 0 63.00 0 -800.45 25.41
-/locate structure minecraft:stronghold
-/locate structure integrated_stronghold:stronghold
-/tp @s 1904 ~ 176
+/spawnpoint
+/gamerule keepInventory
+/gamerule keepInventory true
+/tick rate 100
+/tick rate 500
+/tick rate 2000
+/tick rate 10000
 /spark tps
-/spark profiler start --timeout 60
-/spark tps
-/spark profiler start --timeout 10
-/spark profiler start --timeout 15
-/spark tps
-/tp @e[type=friendsandfoes:glare] @s
-/kill @e[type=minecraft:ender_dragon]
-/locate structure idas:ancient_mines
-/locate structure idas:labyrinth
-/tp @s -1216 ~ -1360
-/spark profiler start
-/tp @s -2160 ~ -7168
-/spark profiler stop
-/execute in minecraft:the_nether run tp @s -2171.04 5.29 -7186.12 -111.04 -10.93
-/locate structure #idas:rare
-/locate structure #idas:applies_mining_fatigue
-/locate structure idas:ruined_church
-/locate structure #idas:small
-/tp @s -2384 ~ -7200
-/locate structure #idas:underground
-/locate structure idas:ancient_portal/ancient_portal
-/locate structure idas:ancient_portal/nether_ancient_portal
-/tp @s -2688 ~ -7200
-/locate structure idas:haunted_manor
-/locate structure idas:iceandfire/dread_citadel
-/locate structure idas:necromancers_spire
-/tp @s -336 ~ -7088
+/tick rate 20
+/tick step 10000s
+/tick freeze
+/tick step 100s
+/tick freeze
+/tick step 100s
+/tick freeze
+/tick sprint 60s
+/tick unfreeze
+/tick rate 20
+/tag @s remove
+/probejs
+/kubejs reload server-scripts
 /kill
-/spark tps
-/spark profiler start --timeout 30
-/spark tps
 /back
-/sparkc profiler start --timeout 60
-/spawnpoint
-/experience set @s 30 levels
-/spawnpoint
 /kill
-/enchant @s minecraft:sharpness 1
-/ntmwikirender
-/reload
-/summon minecraft:armor_stand
+/gamerule playersSleepingPercentage 30
+/gamerule playersSleepingPercentage
+/gamerule playersSleepingPercentage 2
+/gamerule playersSleepingPercentage 100
+/gamerule playersSleepingPercentage 101
+/gamerule projectilesCanBreakBlocks
+/sparkc profiler start --timeout 60
+/flywheel backend
+/time set day
+/fill ~ ~ ~ ~100 ~ ~100 hbm:crashed_balefire
+/spark tps
+/locate structure hbm:factory
+/spark tps
+/summon hbm:entity_mob_mask_man
+/summon hbm:entity_zeta
+/spark tps
+/locate structure hbm:spaceship
+/tp @s -224 ~ 192
+/locate structure hbm:oil_rig
+/tp @s -656 ~ 384
+/effect give @s minecraft:night_vision infinite 1 true
+/locate structure hbm:crashed_vertibird
+/tp @s -3408 ~ -256
+/spark tps
+/time set day
+/time set 0

@@ -3,27 +3,60 @@
 	default_quest_shape: ""
 	filename: "modpack_info"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "69C214B6E3DAC40E"
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "15367BE4A1789124"
-		tasks: [
-			{
-				id: "38BBC439C06DC014"
-				type: "checkmark"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/alert.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			{
-				id: "075EA05F6CEC6D5E"
-				type: "checkmark"
+			id: "15367BE4A1789124"
+			min_width: 350
+			size: 2.0d
+			tasks: [
+				{
+					id: "38BBC439C06DC014"
+					type: "checkmark"
+				}
+				{
+					id: "075EA05F6CEC6D5E"
+					type: "checkmark"
+				}
+				{
+					id: "6D095CB923F3FE43"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			{
-				id: "6D095CB923F3FE43"
+			id: "0223E1862F8504E8"
+			min_width: 350
+			size: 2.0d
+			tasks: [{
+				id: "75AD795F015F6A83"
 				type: "checkmark"
-			}
-		]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+	]
 }

@@ -13,14 +13,6 @@
 [entities]
 	#Has bomber planes spawn closer to their target for smaller render distances.
 	bomber_short_approach = false
-	#Blocks within which missiles, mushroom clouds and meteors stay tracked to players whose Distant Horizons or Voxy terrain reaches that far, past the view distance. 0 = view distance only.
-	# Default: 4096
-	# Range: 0 ~ 65536
-	far_tracking_range = 4096
-
-[login]
-	#If enabled, shows the 'Loaded mod!' chat message when joining a world
-	motd = true
 
 [debug]
 	#Enable debugging mode
@@ -42,7 +34,7 @@
 	# Default: 2
 	# Range: > 1
 	item_hazard_drop_tickrate = 2
-	#Recover unreported changes in loaded entity and player inventories every 20 ticks. Block storage requires slot notifications and is never audited.
+	#Audit every loaded container every 20 ticks, so an armed item that left a mod's opaque storage without notifying still detonates. Costs a walk of all loaded chunks and entities.
 	unstable_recovery_sweep = false
 
 [explosions]

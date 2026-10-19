@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "tabs": {},
+  "deleted_advancements": {},
+  "derived_presentation": {
+    "minecraft:adventure/root": {
+      "title": "Adventure",
+      "icon": "minecraft:map",
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "minecraft:husbandry/root": {
+      "title": "Husbandry",
+      "icon": "minecraft:hay_block",
+      "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
+    },
+    "alexsmobs:alexsmobs/root": {
+      "title": "Alex\u0027s Mobs",
+      "icon": "alexsmobs:animal_dictionary",
+      "background": "alexsmobs:textures/advancement_background.png"
+    },
+    "ars_nouveau:root": {
+      "title": "Ars Nouveau",
+      "icon": "ars_nouveau:worn_notebook",
+      "background": "ars_nouveau:textures/gui/advancements/backgrounds/sourcestone.png"
+    },
+    "betterend:root": {
+      "title": "BetterEnd",
+      "icon": "betterend:end_mycelium",
+      "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+    },
+    "create:root": {
+      "title": "Welcome to Create",
+      "icon": "create:brass_hand",
+      "background": "create:textures/gui/advancements.png"
+    },
+    "create_enchantment_industry:root": {
+      "title": "Welcome to Create: Enchantment Industry",
+      "icon": "create_enchantment_industry:experience_bucket",
+      "background": "create_enchantment_industry:textures/block/super_experience_block.png"
+    },
+    "creaturefeature:root": {
+      "title": "Creature Feature.",
+      "icon": "creaturefeature:sleeping_powder",
+      "background": "creaturefeature:textures/gui/eeper_advancement.png"
+    },
+    "farmersdelight:main/root": {
+      "title": "Farmer\u0027s Delight",
+      "icon": "farmersdelight:cooking_pot",
+      "background": "minecraft:textures/block/bricks.png"
+    },
+    "goety:goety/root": {
+      "title": "The Dark Arts",
+      "icon": "goety:dark_wand",
+      "background": "goety:textures/block/shade_bricks.png"
+    },
+    "hearthandharvest:main/root": {
+      "title": "Hearth and Harvest",
+      "icon": "hearthandharvest:blueberries",
+      "background": "minecraft:textures/block/spruce_planks.png"
+    },
+    "hybrid_aquatic:root": {
+      "title": "Hybrid Aquatic",
+      "icon": "hybrid_aquatic:tuna",
+      "background": "hybrid_aquatic:textures/block/coralstone.png"
+    },
+    "idas:idas_root": {
+      "title": "Integrated Dungeons and Structures",
+      "icon": "minecraft:filled_map",
+      "background": "minecraft:textures/block/purple_terracotta.png"
+    },
+    "lootr:root": {
+      "title": "Lootr",
+      "icon": "minecraft:chest",
+      "background": "lootr:textures/block/gold_planks.png"
+    },
+    "powergrid:root": {
+      "title": "Welcome to Power Grid",
+      "icon": "powergrid:electric_motor",
+      "background": "powergrid:textures/gui/advancements.png"
+    }
+  }
+}

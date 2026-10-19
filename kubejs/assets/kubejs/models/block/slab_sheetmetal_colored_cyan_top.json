@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "kubejs:block/metal/sheetmetal_cyan",
+    "side": "kubejs:block/metal/sheetmetal_cyan",
+    "top": "kubejs:block/metal/sheetmetal_cyan"
+  }
+}

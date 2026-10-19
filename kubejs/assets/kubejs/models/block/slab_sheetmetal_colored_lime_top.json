@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "kubejs:block/metal/sheetmetal_lime",
+    "side": "kubejs:block/metal/sheetmetal_lime",
+    "top": "kubejs:block/metal/sheetmetal_lime"
+  }
+}

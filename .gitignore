@@ -1,4 +1,5 @@
 ### .Minecraft (Root)
+## Folders
 /local/
 /saves/
 /mods/
@@ -19,18 +20,27 @@
 /texturepacks/
 /debug/
 /asm/
+/moddata/
+/coremods/
 /portable_blueprints/
+/moonlight-global-datapacks/
+/schematics/
 /.bobby/
+/.pg-native/
 /.mixin.out/
 /instanceBuild/
 /data/
+# Fancy toasts cfg (auto updates date, should be updated in defaultcfgs)
 /cache/
+/bivrik/
 /figura/
 /dynamic-resource-pack-cache/
 /dynamic-data-pack-cache/
+## Files
 /patchouli_data.json
 /ds_private_storage.json
 /cherishedworlds-favorites.dat
+/.ponders_watched.json
 /icon.png
 /rhino.local.properties
 /usercache.json
@@ -41,8 +51,6 @@
 /hs_err*
 # Should be updated in defaultcfgs
 /options.txt
-# Fancy toasts cfg (auto updates date, should be updated in defaultcfgs)
-/bivrik
 
 ### Misc Files
 
@@ -67,6 +75,7 @@
 /.vscode/*
 
 ## ProbeJS
+/.probe/
 /kubejs/probe/
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
@@ -111,6 +120,7 @@
 /config/roughlyenoughitems/hints.json
 /config/voicechat/username-cache.json
 /config/minihud/*
+/config/ars_nouveau/search_index/
 /config/embeddium-fingerprint.json
 /config/chiselsandbits-common.toml
 /config/defaultworldtype/world-presets.txt

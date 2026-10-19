@@ -8,8 +8,6 @@
 	simple_rebar = false
 
 [hud]
-	#List an item's tags in advanced tooltips.
-	tooltip_ore_dict = false
 	# Default: 0
 	# Range: > -2147483648
 	tool_indicator_x = 0
@@ -53,3 +51,7 @@
 	animation_speed = 1.0
 	#Use the hand-authored gun animations instead of the Blender-exported sets.
 	legacy_animations = false
+
+[audio]
+	#Preserve stereo explosion recordings instead of positioning them in the world, with distance falloff. Mono recordings remain positional. Applies to newly played sounds.
+	original_stereo_explosions = false

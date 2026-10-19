@@ -6,43 +6,43 @@
 	# otherwise it will only register to the root namespace
 	# This setting has no effect if 'register_to_namespace' is false
 	# Default: false
-	register_alias_as_well_as_namespace: false
+	register_alias_as_well_as_namespace: true
 	
 	# If true, the mod will register its commands to the 'ftbessentials' namespace,
 	# otherwise it will register to the root namespace
 	# Default: false
-	register_to_namespace: false
+	register_to_namespace: true
 	
 	# Admin commands for cheating and moderation
 	admin: {
 		# Allows admins to extinguish themselves or a player using a command
 		extinguish: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to fully feed themselves or a player using a command
 		feed: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to toggle flying status using a command, without having to use Creative Mode
 		fly: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to toggle invincibility using a command, without having to use Creative Mode
 		god: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to fully heal (health, food, fire, potion effects) themselves or a player using a command
 		heal: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to view other users' inventories using a command
@@ -54,7 +54,7 @@
 		# Allows admins to configure kits of items that can be given to players.
 		kit: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to restrict players from chatting by using a command to mute (or unmute) them
@@ -66,7 +66,7 @@
 		# Allows admins to change walk speed for themselves or a player
 		speed: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to change the location of offline players.
@@ -88,19 +88,19 @@
 		# Allows users to access an Anvil GUI without needing an Anvil.
 		anvil: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access a Crafting Table GUI without needing a Crafting Table.
 		crafting: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
 		enderchest: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to set a custom hat as their head item by using a command
@@ -124,7 +124,7 @@
 		# Allows users to list nearby players, sorted by distance
 		near: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to change their display name, as well as admins to change nicknames for other users
@@ -142,13 +142,13 @@
 		# Allows users to access a Smithing Table GUI without needing a Smithing Table.
 		smithing: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access a Stonecutter GUI without needing a Stonecutter.
 		stonecutter: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Enables usage of a trash can inventory, which can be used to void unneeded items
@@ -175,7 +175,7 @@
 			cooldown: 30
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Max size of the teleport history. This limits how many times you can use /back
 			# You can override this with FTB Ranks using ftbessentials.back.max
@@ -215,7 +215,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# The minimum Y value for homes, as set by the /sethome command
 			# Default: -2147483648
@@ -238,7 +238,7 @@
 		# Allows admins to jump (teleport) to the focused block
 		jump: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		playerspawn: {
 			# Cooldown between /playerspawn commands (in seconds)
@@ -248,7 +248,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /playerspawn command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.playerspawn.warmup
@@ -287,7 +287,7 @@
 			dimension_whitelist: [ ]
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# /rtp max distance from spawn point
 			# Default: 25000
@@ -318,7 +318,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /spawn command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
@@ -337,7 +337,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /tpa command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.tpa.warmup
@@ -349,13 +349,13 @@
 		# Allows admins to teleport to the location a user was last seen at
 		tpl: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to teleport to dimension
 		tpx: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to create 'warps', which are fixed points in the world that users may teleport to using /warp
@@ -367,7 +367,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /warp command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.warp.warmup

@@ -1,8 +1,8 @@
 {
-    "name": "Template Modpack",
+    "name": "Angel sinkgem",
     "version": "DEV",
-    "description": "Template Modpack by Deepacat",
-    "author": "Deepacat, You!",
+    "description": "Modpack by Deepacat",
+    "author": "Deepacat",
     "overrides": [
         "config",
         "defaultconfigs",
