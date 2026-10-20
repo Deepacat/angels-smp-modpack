@@ -216,7 +216,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "goety:ectoplasm"
+				components: {
+					"ftbquests:missing_item": "goety:ectoplasm"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "7C3107C4663B69B5"
 			min_width: 300
@@ -241,7 +244,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "pastel:pedestal_moonstone"
+				components: {
+					"ftbquests:missing_item": "pastel:pedestal_moonstone"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "33A649EA7B9BB90F"
 			min_width: 300
@@ -260,15 +266,21 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "starcatcher:starcatcher_rod"
+				components: {
+					"ftbquests:missing_item": "starcatcher:starcatcher_rod"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "72F8937B2BF61BB6"
 			min_width: 300
 			rewards: [{
 				id: "3012F332E3726781"
 				item: {
+					components: {
+						"ftbquests:missing_item": "starcatcher:starcatcher_guide"
+					}
 					count: 1
-					id: "starcatcher:starcatcher_guide"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -283,14 +295,20 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "ars_nouveau:creative_spell_book"
+				components: {
+					"ftbquests:missing_item": "ars_nouveau:creative_spell_book"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "32CC120D13F736D8"
 			rewards: [{
 				id: "343E334368A0DF8B"
 				item: {
+					components: {
+						"ftbquests:missing_item": "ars_nouveau:worn_notebook"
+					}
 					count: 1
-					id: "ars_nouveau:worn_notebook"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -304,7 +322,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "thaumaturge:goggles_revealing"
+				components: {
+					"ftbquests:missing_item": "thaumaturge:goggles_revealing"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "34EB3A05EDA25078"
 			min_width: 300
@@ -323,7 +344,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "create:wrench"
+				components: {
+					"ftbquests:missing_item": "create:wrench"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "272969EC94605041"
 			min_width: 300
@@ -465,7 +489,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "alexsmobs:warped_muscle"
+				components: {
+					"ftbquests:missing_item": "alexsmobs:warped_muscle"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "563133E9CEF493F3"
 			min_width: 300
@@ -589,6 +616,9 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
+				components: {
+					"ftbquests:missing_item": "ae2:controller"
+				}
 				id: "ftbquests:missing_item"
 			}
 			id: "7886448655672A40"

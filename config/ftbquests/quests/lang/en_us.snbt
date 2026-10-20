@@ -1,8 +1,13 @@
 {
+	chapter.1000ACAB01763637.title: "Applied Energistics 2"
+	chapter.1000ACAB0E6FB8E7.title: "Ars Nouveau"
 	chapter.1DDD193639BE7878.title: "Mods info"
 	chapter.69C214B6E3DAC40E.title: "Modpack Info"
 	chapter.71593D4901C1666F.title: "Vanilla changes"
 	chapter.7926D8C9008C50C0.title: "Useful n' Tips"
+	chapter_group.1000ACAB055C04B7.title: "Open Quests - Magic"
+	chapter_group.1000ACAB47047AC7.title: "Open Quests - Exploration"
+	chapter_group.1000ACAB694BB7DF.title: "Open Quests - Tech"
 	file.0000000000000001.title: "Angel modpack :3"
 	image.05F7A5FB2B0C1DA5.title: "Tech mods"
 	image.37AA5B43CC2F8F86.title: "Alchemy mods\\n← ↓"
@@ -18,7 +23,7 @@
 		""
 		"-Deepacat"
 	]
-	quest.0223E1862F8504E8.quest_subtitle: "hai :3"
+	quest.0223E1862F8504E8.quest_subtitle: "hai :3 read me!"
 	quest.0223E1862F8504E8.title: "Pack Info"
 	quest.0246AEA2F755BCB7.quest_subtitle: "Clothes \\& misc gadgets"
 	quest.0246AEA2F755BCB7.title: "Etcetera"
@@ -49,6 +54,328 @@
 	]
 	quest.0E293D4FBF15AED7.quest_subtitle: "Anyone else hear that clicking"
 	quest.0E293D4FBF15AED7.title: "Dangerous Landmarks!"
+	quest.1000ACAB0065B4F0.quest_desc: ["This upgrade card allows you to use your terminal from anywhere, even other dimensions! Simply build one side of a Quantum Network Bridge like normal and put the paired entangled singularity into your terminal together with this card."]
+	quest.1000ACAB0065B4F0.title: "Quantum Bridge Card"
+	quest.1000ACAB00768919.quest_desc: ["These export items filtered by item tag or by mod that adds them! There are Storage Bus versions as well!"]
+	quest.1000ACAB00768919.title: "Tag and Mod Buses"
+	quest.1000ACAB02591AE5.quest_desc: ["Singularities are a product of compressing many thousands of items in a Matter Condenser.\nBlowing one up together with Ender Dust splits it into two Quantum Entangled Singularities.\nThese can then be used in a Quantum Network Bridge: see next quest."]
+	quest.1000ACAB02591AE5.title: "Singularity"
+	quest.1000ACAB0292F7F4.quest_desc: ["Mixes the effects of two potions into a single one!"]
+	quest.1000ACAB0292F7F4.title: "Potion Melder"
+	quest.1000ACAB02D9ED73.quest_desc: ["These have three main ways of getting them: you either find them in a loot chest somewhere, or find a Wilden Den (a small hill with Wilden mobs spawning inside), or perform a Ritual of Summon Wilden (see the ritual quests)."]
+	quest.1000ACAB02D9ED73.title: "Wilden Drops"
+	quest.1000ACAB02FCBF81.quest_desc: ["Runes cast spells inscribed in them when an entity steps on them! Runes you can make with a Glyph of Rune are one-use, but you can reinforce them with Runic Chalk. They need source for each cast after the first."]
+	quest.1000ACAB02FCBF81.title: "Runes"
+	quest.1000ACAB03872610.quest_desc: ["The Quantum Network Bridge is a multiblock that allows infinite-range crossdimensional connection to your AE2 system. Build two rings with a Quantum Link Chamber in the center - one connected to your controller with cables, the other one anywhere - and place two Quantum Entangled Singularities of the same pair in the chambers. Now you have access to the system from the second ring!"]
+	quest.1000ACAB03872610.title: "Quantum Network Bridge"
+	quest.1000ACAB0392FF2A.quest_desc: ["Now you can shoot infinite magical torches! And applied to self, this gives night vision for a short time."]
+	quest.1000ACAB0392FF2A.title: "Glyph of Conjure Magelight"
+	quest.1000ACAB039F1556.quest_desc: ["There are two ways to get your foot in the door of AE2, and both of them require the use of a Charger.\n\nThe common way is to charge a compass in the Charger, creating a Meteor Compass; it would then point you to the nearest meteor - a structure containing everything you need to start with the mod.\n\nThe fun way is villager trading. The Charger doubles as a villager profession block for a Fluix Researcher, that can sell you certus quartz and fluix crystals, sky stone, and at expert level - two random inscriber presses. You'll need several of these villagers to get the full set."]
+	quest.1000ACAB039F1556.title: "Starting with AE2"
+	quest.1000ACAB03AF2F9C.quest_desc: ["An infamous part of AE2 is its channel system. You can only connect so much with a simple cable before you run out of channels.\n\nControllers &oprovide&r channels: 32 from every side of the block. Controllerless networks are limited to 8 channels per network.\nCables &otransfer&r channels: standard cables have a throughput of 8 channels, while dense ones support all 32.\nBuses, pattern providers and other network parts &orequire&r one channel each to run. To have this channel, a line of cables must transfer it all the way from a controller face.\n\nThe command /ae2 channelmode can change channel settings to multiply the amount of channels cables fit (x2, x3, x4) or turn the system off completely (/ae2 channelmode infinite)"]
+	quest.1000ACAB03AF2F9C.title: "Channels"
+	quest.1000ACAB03C9B7F2.quest_desc: ["Tired of running to your terminals every time you need to craft something? Luckily, we have a wireless version!\nYou need to click the terminal into the Wireless Access Point to link it."]
+	quest.1000ACAB03C9B7F2.title: "Going Wireless"
+	quest.1000ACAB04558CA2.quest_desc: ["Presses process raw ingredients into printed circuits in the Inscriber. Logic takes gold ingots, Calculation takes certus crystals, Engineering takes diamonds (ouch) and Silicon takes... well, silicon.\nPrinted Silicon, put back into the inscriber with one of the other printed circuits and redstone dust, creates processors. These will be very important crafting ingredients going forward."]
+	quest.1000ACAB04558CA2.title: "Printed Circuits and Processors"
+	quest.1000ACAB046506D1.title: "Glyph of Lightning"
+	quest.1000ACAB05D1CF41.quest_desc: ["Certus quartz blocks can be stonecut into a variety of decorative blocks!"]
+	quest.1000ACAB05D1CF41.title: "Decorative Certus Blocks"
+	quest.1000ACAB05FEEAD7.quest_desc: ["Spell Prisms redirect spell projectiles passing through them. Advanced Spell Prisms can aim at a specific block."]
+	quest.1000ACAB05FEEAD7.title: "Spell Prism"
+	quest.1000ACAB06073E54.quest_desc: ["The Import Bus imports items &ointo&r the system, and the Export Bus exports &ofrom&r the system. The Export Bus needs to be filtered to tell it what to export.\nThe Interface is an inventory that keeps items (fluids, etc.) in constant stock up to set amount. Click items (or drag from JEI) into the top slots to set what to stock, middle-click to change amount.\n\nDid you know? If you place a storage bus of one AE2 system on the interface of another, the first will gain access to the entire contentsof the second!"]
+	quest.1000ACAB06073E54.title: "IO"
+	quest.1000ACAB06E1C4D8.quest_desc: ["A Tablet of Containment can be used to pick mobs up into Containment Jars! It needs source for every activation after the first. To release the mob, cast Dispel on the jar.\n\n&oNota Bene:&r Containment Jars are not limited to mobs - they can contain pretty much any entity, including dropped items and even lightning bolts!"]
+	quest.1000ACAB06E1C4D8.title: "Jars of Containment"
+	quest.1000ACAB07AF786E.quest_desc: ["An alloy of Entro Dust, Gold and Lapis Lazuli, made in the same way Fluix Crystals are. You need these to craft machine frames for this mod."]
+	quest.1000ACAB07AF786E.title: "Entro Infused Ingot"
+	quest.1000ACAB0837A8DB.quest_desc: ["Silk Touch for your break spell!"]
+	quest.1000ACAB0837A8DB.title: "Glyph of Extract"
+	quest.1000ACAB09486E41.quest_desc: ["Infinite water and cobblestone cells, courtesy of Extended AE!"]
+	quest.1000ACAB09486E41.title: "Infinity Cells"
+	quest.1000ACAB0A9EEE48.quest_desc: ["I know I just said Ars blocks all magically connect to each other, but that's only true of the simple blocks like Source Jars. More advanced sourcery requires the use of a Dominion Wand"]
+	quest.1000ACAB0A9EEE48.quest_subtitle: "Domain expansion!"
+	quest.1000ACAB0A9EEE48.title: "Dominion Wand"
+	quest.1000ACAB0AAA5B22.quest_desc: ["This can help you find Amrethyst Geodes!"]
+	quest.1000ACAB0AAA5B22.title: "Dowsing Rod"
+	quest.1000ACAB0CFAC9F7.quest_desc: ["These can be set to emit a redstone signal when the amount of items of a certain type stored in the system exceeds a certain value. Given that export buses etc. can be configured to only work with (or without)redstone signal with the use of a Redstone Card, this allows to make e.g. automatic off switches for passive processing lines."]
+	quest.1000ACAB0CFAC9F7.title: "Level Emitter"
+	quest.1000ACAB0D27BB93.quest_desc: ["Resolves the spell many times over in an area of effect - a better version of the Glyph of AOE!"]
+	quest.1000ACAB0D27BB93.title: "Glyph of Burst"
+	quest.1000ACAB0E1D5384.quest_desc: ["Copies the remainder of the spell three times over into projectiles orbiting the current target."]
+	quest.1000ACAB0E1D5384.quest_subtitle: "Not to be confused with the Sharingan"
+	quest.1000ACAB0E1D5384.title: "Glyph of Orbit"
+	quest.1000ACAB0EEED30B.quest_desc: ["Defeat the Wilden Chimera!"]
+	quest.1000ACAB0EEED30B.title: "Wilden Tribute"
+	quest.1000ACAB116AF96A.quest_desc: ["Harvests crops in an area and deposits them into a nearby chest."]
+	quest.1000ACAB116AF96A.title: "Tablet of Harvest"
+	quest.1000ACAB12618955.quest_desc: ["The big brother of the Glyph of Amplify, this augments specifically the block range of compatible spells.\n\nThe firework star required to craft this doesn't show a recipe in JEI/EMI, so in case you don't know how to craft it, it's gunpowder with any kind of dye."]
+	quest.1000ACAB12618955.title: "Glyph of AOE"
+	quest.1000ACAB1349A6F7.quest_desc: ["If you can't find a pillager captain, this can summon a raid instead!"]
+	quest.1000ACAB1349A6F7.title: "Tablet of Challenge"
+	quest.1000ACAB14894E20.quest_desc: ["Launches you in the direction you're facing. Slap a few amplifys on this bad boy and you've got yourself makeshift early-game flight!"]
+	quest.1000ACAB14894E20.title: "Glyph of Leap"
+	quest.1000ACAB15377955.quest_desc: ["These can hold one item at a time; apart from being useful for sourcelink automation (mycelial and volcanic sourcelinks can take items from them), they can also provide crafting catalysts for imbuing Essences!\nThey can also be crafted into a platform version, which works for all the same things, but is smaller and can be placed on walls or upside down."]
+	quest.1000ACAB15377955.title: "Arcane Pedestals"
+	quest.1000ACAB15C3A852.quest_desc: ["Tier 3 spells are within your reach!"]
+	quest.1000ACAB15C3A852.title: "Archmage's Spell Book"
+	quest.1000ACAB16190F20.quest_desc: ["Ars Nouveau has a variety of trinkets providing boosts to things like mana regeneration! A Trinket Pouch can hold multiple of them and provide all the effects!"]
+	quest.1000ACAB16190F20.title: "Trinkets"
+	quest.1000ACAB17CAD902.quest_desc: ["This machine can put fluids into buckets and take them back out."]
+	quest.1000ACAB17CAD902.title: "ME Canner"
+	quest.1000ACAB17CC6F6C.quest_desc: ["This nifty tool can color cables placed in the world! To work, it needs to be filled with Paint Balls, which are crafted from Matter Balls. The easiest way to do that is with an ME Chest."]
+	quest.1000ACAB17CC6F6C.title: "Color Applicator"
+	quest.1000ACAB197B86F6.quest_desc: ["This machine can make processors of all kinds from printed circuits at a much faster rate than the Inscriber, but it also opens the floodgates for crafting every other machine in Extended AE."]
+	quest.1000ACAB197B86F6.title: "Crystal Assembler"
+	quest.1000ACAB1A9F4FCF.quest_desc: ["You will need an Imbuement Chamber to create the basic materials of Ars, the first of which, source gems, are made from either amethyst or lapis. For now they process rather slowly, but a way to speed it up is on the horizon!"]
+	quest.1000ACAB1A9F4FCF.title: "Making Source Gems"
+	quest.1000ACAB1C0C27EE.quest_desc: ["Arguably the most important glyph in the game, as it makes all other glyphs more powerful. In particular it makes the Break spell as powerful as a diamond pickaxe (which is why it requires one), so you can break obsidian really fast!"]
+	quest.1000ACAB1C0C27EE.title: "Glyph of Amplify"
+	quest.1000ACAB1C24D9FE.quest_desc: ["This multiblock crafts most unique items in Ars Nouveau. It is made of an Arcane Core with an Enchanting Apparatus on top of it and eight Arcane Pedestals surrounding the core."]
+	quest.1000ACAB1C24D9FE.title: "Enchanting Apparatus"
+	quest.1000ACAB1C933B2C.quest_desc: ["Needed to craft some of the more advanced machines in the mod :D"]
+	quest.1000ACAB1C933B2C.title: "Concurrent Processors"
+	quest.1000ACAB1CD8AD6E.quest_desc: ["Sticking these into cables allows you to disconnect what would otherwise be connected."]
+	quest.1000ACAB1CD8AD6E.title: "Cable Anchor"
+	quest.1000ACAB1E051DFE.quest_desc: ["Can hold 20 Storage Cells compared to the normal Drive's 10."]
+	quest.1000ACAB1E051DFE.title: "Extended Drive"
+	quest.1000ACAB1E1CC3FF.quest_desc: ["Warp scrolls are single-use teleports to a location set beforehand! The stabilized version has unlimited uses and can be used crossdimensionally. You can also throw one into a frame made of Sourcestone and/or Mirrorweave and it will create a portal to the scroll's stored location! Creating such a portal requires source, but using it doesn't."]
+	quest.1000ACAB1E1CC3FF.title: "Warp Scrolls"
+	quest.1000ACAB1F626D52.quest_desc: ["P2P Tunnels are portals - a cable can come into one, come out of another, and it's like they're directly connected. P2P tunnels can be linked to one another with a Memory Card.\nDifferent types of P2P tunnels support different cables: item and fluid pipes, energy cables, and even AE2's own cables carrying channels.\nA connection between linked P2P tunnels takes one channel of the network."]
+	quest.1000ACAB1F626D52.title: "P2P Tunnels"
+	quest.1000ACAB204B6F05.quest_desc: ["Stores up to 8 doses of a potion and can be drunk from in inventory."]
+	quest.1000ACAB204B6F05.title: "Potion Flask"
+	quest.1000ACAB209DAD75.quest_desc: ["Finally, a Pattern Access Terminal with a search bar!"]
+	quest.1000ACAB209DAD75.title: "Extended Pattern Access Terminal"
+	quest.1000ACAB22A2B8E8.quest_desc: ["Intercepts hostile mob spawning in a large radius."]
+	quest.1000ACAB22A2B8E8.title: "Tablet of Sanctuary"
+	quest.1000ACAB22FD9205.quest_subtitle: "Stores up to 100 doses of a potion!"
+	quest.1000ACAB22FD9205.title: "Potion Jar"
+	quest.1000ACAB23707A88.quest_desc: ["Creative flight - for the cost of source in a range around the brazier!"]
+	quest.1000ACAB23707A88.title: "Tablet of Flight"
+	quest.1000ACAB2508FB44.quest_desc: ["Rituals are magical effects cast from a Ritual Brazier. Some of them require source to operate, and some of them require augmentation with an item: to do that, toss the item needed into the brazier!"]
+	quest.1000ACAB2508FB44.title: "Ritual Brazier"
+	quest.1000ACAB287F645B.quest_desc: ["Extended AE allows you to have a pocket Matter Condenser in the form of a Storage Cell! Pro tip: it works wonders in on a subnet with an infinite cobblestone cell being imported from in a ME IO port :D"]
+	quest.1000ACAB287F645B.title: "Void Cell"
+	quest.1000ACAB2B2004D6.quest_desc: ["This is an alloy of Redstone, Nether Quartz, and Charged Certus Quartz, obtained by throwing equal amounts of each item together into water. Or you can get it from villagers."]
+	quest.1000ACAB2B2004D6.title: "Fluix Crystals"
+	quest.1000ACAB2C09A926.quest_desc: ["Casts the inscribed spell on everything in a large radius!"]
+	quest.1000ACAB2C09A926.title: "Enchanter's Horn"
+	quest.1000ACAB2CCA3ABF.quest_subtitle: "Access the world remotely!"
+	quest.1000ACAB2CCA3ABF.title: "Scry Crystal"
+	quest.1000ACAB2CFD4E2E.quest_desc: ["These blocks allow for vertical movement similar to bubble columns, but both ways (depends on if you shift) and not just in water: the Bubble one works in water, the Slipstream in air (needs source to work) and the Magmatic in lava (this last one also gives fire resistance!)"]
+	quest.1000ACAB2CFD4E2E.title: "Current Elevators"
+	quest.1000ACAB2D92B03F.quest_desc: ["This machine requires Charged Certus Quartz Crystals and energy to fix Budding Certus Quartz blocks! It even has a 5% chance to upgrade a Flawed one into a Flawless!\n\nIt can also fix Budding Entroized Fluix, using Ender Dust instead of Charged Certus Quartz."]
+	quest.1000ACAB2D92B03F.title: "Crystal Fixer"
+	quest.1000ACAB2EB8C659.quest_desc: ["Extended Pattern Providers hold 36 patterns each, and Extended Molecular Assemblers can craft eight things at once!"]
+	quest.1000ACAB2EB8C659.title: "Extended Crafting"
+	quest.1000ACAB2F9ACD6A.quest_desc: ["These can be used in an Enchanter's Bow!"]
+	quest.1000ACAB2F9ACD6A.title: "Augment Arrows"
+	quest.1000ACAB30108663.quest_desc: ["There are quite a few different weapons in the arsenal of a sorcerer:\n- Enchanter's Wand casts projectile spells, allowing to exceed the glyph cap a little,\n- Enchanter's Mirror does the same with self spells,\n- Enchanter's Sword casts Touch spells with increased damage,\n- Enchanter's Gauntlet also casts with Touch and is a diamond-tier multitool,\n- Enchanter's Fishing Rod casts a touch spell on the hooked entity &ocontinuously&r,\n- Enchanter's Bow shoots arrows imbued with spells,\n- Enchanter's Shield gives Mana Regeneration and Spell Damage when used,\n- and the Splash Flask Cannon fires potions!"]
+	quest.1000ACAB30108663.title: "Magical Tools and Weapons"
+	quest.1000ACAB30350FC5.quest_desc: ["Augment it with any block, and the ritual will highlight all blocks of the same time through walls. Yes, this is ore x-ray, but you can also search for e.g. mob spawner dungeons by scrying mossy cobblestone! Incredibly versatile :3"]
+	quest.1000ACAB30350FC5.title: "Tablet of Scrying"
+	quest.1000ACAB33A0F0D9.quest_desc: ["Makes you bounce on everything, preventing fall damage. Useful with the glyph of Leap."]
+	quest.1000ACAB33A0F0D9.title: "Glyph of Bounce"
+	quest.1000ACAB33AEA023.quest_desc: ["The Alteration Table allows you to weave a variety of different threags into your mage armor, which give different buffs."]
+	quest.1000ACAB33AEA023.quest_subtitle: "Multithreading for your armor"
+	quest.1000ACAB33AEA023.title: "Threads and Alteration"
+	quest.1000ACAB34C70351.quest_subtitle: "Wireless redstone!"
+	quest.1000ACAB34C70351.title: "Redstone Relay"
+	quest.1000ACAB35186E9E.quest_desc: ["Find a colorful Archwood Tree and collect its logs!\n\nDid you know these grow from a single sapling despite being two by two blocks thick? You can revolutionize your wood farm with them!"]
+	quest.1000ACAB35186E9E.title: "Archwood"
+	quest.1000ACAB37DA025E.quest_subtitle: "Casts a spell through a Scry Crystal!"
+	quest.1000ACAB37DA025E.title: "Enchanter's Eye"
+	quest.1000ACAB381EE0FC.quest_subtitle: "uwuuu ^-^"
+	quest.1000ACAB381EE0FC.title: "Starbuncle Plushie"
+	quest.1000ACAB38429C86.quest_desc: ["Instantly drink potions! It's a shame this doesn't display on your player model, it's beautiful..."]
+	quest.1000ACAB38429C86.quest_subtitle: "Their names were to be replaced by shades ascending from scarlet"
+	quest.1000ACAB38429C86.title: "Alchemist's Crown"
+	quest.1000ACAB38850B7B.quest_desc: ["Remote terminal for Scry Crystals, linked to them with Scryer's Scrolls."]
+	quest.1000ACAB38850B7B.title: "Scryer's Oculus"
+	quest.1000ACAB39039664.quest_desc: ["This block allows to quickly load and empty storage cells, exchanging contents between them and the main system."]
+	quest.1000ACAB39039664.title: "ME IO Port"
+	quest.1000ACAB39B0D92C.quest_desc: ["This augments energy storage of the AE2 network, allowing it to, for example, make bigger crafts. Very relevant for Spatial IO. There's also an upgraded dense version."]
+	quest.1000ACAB39B0D92C.title: "Energy Cell"
+	quest.1000ACAB3A43DA01.quest_desc: ["This is a crafting component, but it also has a purpose in itself. You can connect two cable lines through it and it will transfer energy, but not channels, allowing you to power one AE2 network from another."]
+	quest.1000ACAB3A43DA01.title: "Quartz Fiber"
+	quest.1000ACAB3ABD3E63.quest_desc: ["By default, a Wireless Access Point only covers a range of 16 blocks. This range can be extended with boosters up to 528 blocks, at the cost of energy. Alternatively, you can use a Quantum Network Bridge for infinite range, cross-dimensional access."]
+	quest.1000ACAB3ABD3E63.title: "Wireless Booster"
+	quest.1000ACAB3AE4B92D.quest_desc: ["Can be used to return Ars pets into their charms and release mobs out of Containment Jars!"]
+	quest.1000ACAB3AE4B92D.title: "Glyph of Dispel"
+	quest.1000ACAB3BAAB0AD.quest_desc: ["Crafting table on a stick? No, crafting table in a spellbook!"]
+	quest.1000ACAB3BAAB0AD.title: "Glyph of Craft"
+	quest.1000ACAB3BE23F07.quest_desc: ["Fortune for your break spell! Rabbit's feet are mighty annoying to get, though - consider a drygmy farm?"]
+	quest.1000ACAB3BE23F07.title: "Glyph of Luck"
+	quest.1000ACAB3BE6F5D2.quest_desc: ["AE2 networks require energy to run. Any mod that generates energy will work, but AE2 itself also provides some crude solutions."]
+	quest.1000ACAB3BE6F5D2.title: "Energy"
+	quest.1000ACAB3CA61C33.quest_desc: ["Starbuncles can move items between chests and collect Source Berries! To tell one where to deposit the items, use the Dominion Wand, and to obtain a starbuncle token in the first place, give a wild starbuncle a gold nugget.\n\n&oNota Bene:&r if you like the color of a wild starbuncle, nametag it before giving it a gold nugget - this will give you a named token, which when converted into a charm will summon a starbuncle of the same name and color!"]
+	quest.1000ACAB3CA61C33.quest_subtitle: "Cannot evolve into a Sylveon :/"
+	quest.1000ACAB3CA61C33.title: "Starbuncles"
+	quest.1000ACAB3CB82FA9.quest_desc: ["These are the skeleton of your AE2 system, connecting all the parts together! Consider upgrading them to Smart and Dense versions for larger networks.\nPro tip: all cables can be colored. Cables of different color do not connect to one another."]
+	quest.1000ACAB3CB82FA9.title: "Cables"
+	quest.1000ACAB3CE3F9DC.quest_desc: ["These can cast spells for you using Source! To inscribe the parchment, place it on the Scribe's Table and shift-right-click with your spellbook with the spell selected."]
+	quest.1000ACAB3CE3F9DC.title: "Spell Turret"
+	quest.1000ACAB3EE55EB8.quest_desc: ["You can place it on a projectile+break spell and collect blocks from a great distance!"]
+	quest.1000ACAB3EE55EB8.title: "Glyph of Item Pickup"
+	quest.1000ACAB3F5780EB.quest_desc: ["This multiblock can replace all of your Molecular Assemblers with their associated Pattern Providers. Prepare a lot of matter balls!\nIt holds 36 patterns per pattern core, can perform 8 recipes in parallel per craft core, and speed cores are its acceleration cards (you can install no more than 5). It has to be a framed rectangular box with no empty space inside, with the maximum size being 7x7x7 (requiring 5 speed cores, 60 pattern cores, 60 craft cores, 68 frames and 150 walls/glass). This quest asks for a more modest 5x5x5 one, which should be plenty for most uses :D"]
+	quest.1000ACAB3F5780EB.title: "Assembler Matrix"
+	quest.1000ACAB400504B7.title: "Controlling Time and Weather"
+	quest.1000ACAB422BC76A.quest_desc: ["A Storage Bus can be placed on any chest, fluid tank or other modded container, and will provide access to its contents to the system. Can optionally be partitioned (filtered for content types) and set to import or export only."]
+	quest.1000ACAB422BC76A.title: "Storage Bus"
+	quest.1000ACAB42FECAE5.quest_desc: ["Generates a small amount of Create's rotational power."]
+	quest.1000ACAB42FECAE5.title: "Starbuncle Wheel"
+	quest.1000ACAB4357D2F4.quest_desc: ["Infinite bonemeal from your spellbook!"]
+	quest.1000ACAB4357D2F4.title: "Glyph of Grow"
+	quest.1000ACAB446C75C6.quest_desc: ["AE2 can store more things than just items!"]
+	quest.1000ACAB446C75C6.title: "Other types of Cells"
+	quest.1000ACAB448461DB.quest_desc: ["Drygmies and Whirlisprigs have their home blocks, but what about the Starbuncles? Fear not, as you can give them an adorable pet bed! Everbloom, it's so soft I want to sleep in one :D"]
+	quest.1000ACAB448461DB.title: "Magebloom Bed"
+	quest.1000ACAB44E94424.quest_desc: ["You need a place to store items in your AE system. There are two solutions: either store them digitally on storage cells or slap a storage bus on something.\nThere's a priority system for storage that can be configured for both. Items are first put into higher priority storage and first taken from lower priority storage."]
+	quest.1000ACAB44E94424.title: "Storage"
+	quest.1000ACAB48173F10.quest_desc: ["Smelt Certus Quartz Dust to get this. Or smelt Quartz Blend, which is a one to &otwenty-four&r increase on your silicon output at the cost of some charcoal and sand."]
+	quest.1000ACAB48173F10.title: "Silicon"
+	quest.1000ACAB49E2BE4A.quest_desc: ["These are needed for making many of the spell glyphs! All of them are made in an Imbuement Chamber with three adjacent pedestals providing crafting catalysts, which are not consumed."]
+	quest.1000ACAB49E2BE4A.title: "Ars Essences"
+	quest.1000ACAB4AB336B3.quest_desc: ["Put a Certus Quartz Crystal into an Inscriber to get this. Alternatively, it drops from Certus Quartz Buds before they are fully grown."]
+	quest.1000ACAB4AB336B3.title: "Certus Quartz Dust"
+	quest.1000ACAB4B10950F.quest_desc: ["Ars Nouveau utilises a form of substance called source for the functioning of its various apparata. It is not a fluid!\n\nSource is generated by Sourcelinks, stored in Source Jars and used by many things, but for example, Imbuement Chambers run faster when it is provided. All of these components connect together by themselves - you don't need any pipes or linking tools! Magic!\n\nDifferent Sourcelinks generate source from different things. Agronomic Sourcelinks do it from crop growth, Vitalic Sourcelinks from mobs breeding and dying, Mycelial from food, Volcanic from furnace fuel, and Alchemical from potions (you probably won't need that Sourcelink at the start).\n\n&oNota Bene:&o the Mycelial Sourcelink generates extra source from Source Berries, the gathering of which can be automated with Starbuncles, see their quest further on!"]
+	quest.1000ACAB4B10950F.title: "Working with Source"
+	quest.1000ACAB4B5E2709.quest_desc: ["This fella displays the total amount of a filtered item that your system is storing!"]
+	quest.1000ACAB4B5E2709.title: "Storage Monitor"
+	quest.1000ACAB4BBE4002.quest_desc: ["When placed on an Advanced Spell Prism, adds glyphs inscribed on it to passing projectiles, fully escaping the glyph count limit of 10 :D"]
+	quest.1000ACAB4BBE4002.title: "Chaining Prism Lens"
+	quest.1000ACAB4BCD68FE.quest_desc: ["There are two wolves inside of you, and with this glyph you can summon them both to an outside fight!"]
+	quest.1000ACAB4BCD68FE.title: "Glyph of Summon Wolves"
+	quest.1000ACAB4CA009A2.quest_desc: ["This block greatly accelerates certus quartz cluster growth. Place it by the budding block and give it energy (pro tip: this is the perfect use case for the Crystal Resonance Generator).\nIt can accelerate budding amethyst, too, as well as any other modded budding blocks and even crop growth (though for that you'll need to place it adjacent to the crop, not to farmland).\nDoes it stack? Absolutely!!"]
+	quest.1000ACAB4CA009A2.title: "Growth Accelerator"
+	quest.1000ACAB4E5AC92F.quest_desc: ["Drygmy Tokens can be found in loot chests or obtained by giving a wild Drygmy a Wilden Horn. They can then be converted into Drygmy Charms.\nTo summon a Drygmy, use a Charm on a block of Mossy Cobblestone; this will convert the block into a Drygmy Henge. More drygmies can be summoned into said henge.\nWhen provided source and an inventory adjacent to the henge to deposit items into, Drygmies will harmlessly simulate and collect drops from nearby mobs, including those in Containment Jars. The greater the variety of mobs, the happier the Drygmies and greater the output."]
+	quest.1000ACAB4E5AC92F.title: "Drygmies"
+	quest.1000ACAB4E718896.quest_desc: ["Has 36 configuration slots. I used these with Gregtech once :D"]
+	quest.1000ACAB4E718896.title: "Extended Interface"
+	quest.1000ACAB4EEE765F.quest_desc: ["A version of the Wireless Connector that can connect to up to 8 others at once."]
+	quest.1000ACAB4EEE765F.title: "Wireless Hub"
+	quest.1000ACAB53423712.quest_desc: ["The crank provides a small amount of energy to machines while you hold right click on it. An early game solution, e.e., to charge your Meteorite Compass."]
+	quest.1000ACAB53423712.title: "Crank"
+	quest.1000ACAB53B740EE.quest_desc: ["These accelerate AE2 machines! I recommend using your first calculation processors on these to speed up your inscribers."]
+	quest.1000ACAB53B740EE.title: "Acceleration Card"
+	quest.1000ACAB53FAE62D.quest_desc: ["Transforms the spell into a lingering potion-type effect cloud that periodically applies it!"]
+	quest.1000ACAB53FAE62D.title: "Glyph of Linger"
+	quest.1000ACAB548461EC.quest_desc: ["Source Berries grow in taigas and archwood forests! They give Mana Regeneration when eaten and can be crafted into more potent foods, as well as brewed into a Potion of Mana Regeneration."]
+	quest.1000ACAB548461EC.title: "Source Berries"
+	quest.1000ACAB55737573.quest_desc: ["AE2 can store stuff digitally on storage cells. These have a byte limit (roughly corresponds to how many items can be stored in a cell, a byte stores 8 items) and a type limit (how many &odifferent&r item types can be stored). Even a 256k item storage cell will be fully filled with 63 iron axes of different damage values! (fresh iron axes will stack though - AE2 doesn't care about the item's stack size limit).\nCells are made from the Cell Housing, which sets the type of storage (item, fluid, etc.), and a Storage Component, which sets the byte limit.\nFor the system to read from storage cells, they must be placed into a connected ME Drive.\nCells can be formatted in the Cell Workbench to filter what items they accept."]
+	quest.1000ACAB55737573.title: "Digital Storage"
+	quest.1000ACAB575F4E9E.quest_desc: ["Cast Touch -> Conjure Magelight on these to turn them on!"]
+	quest.1000ACAB575F4E9E.title: "Magical lights"
+	quest.1000ACAB575FAC0E.quest_desc: ["Spatial IO allows you to cut and paste parts of the world, with all the blocks and entities in them. To use it, you should have a structure of Spatial Pylons on your AE2 network spanning the length of the box you're planning to cut, plus one block, on all three axes (the quest asks for 6, giving you a 1x1x1 working area to move e.g. a flawless budding certus block); a Spatial IO port; and an empty Spatial Storage Cell of adequate size to store the structure inside. Once everything is ready, place the cell inside the IO port and give the port a redstone signal.\nTo paste, construct a box of pylons of the same dimensions in another location and do the same procedure on a filled cell.\nSpatial IO uses a lot of energy for the larger structures! Bring on your dense energy cells!"]
+	quest.1000ACAB575FAC0E.title: "Spatial IO"
+	quest.1000ACAB57732481.quest_desc: ["This is a somewhat niche tool, but it can turn water into ice, which is nice &o(heh)&r if you need it for some other mod.\nAlso turns logs into charcoal, cobble into stone and lava into obsidian, as well as acts as a flint and steel."]
+	quest.1000ACAB57732481.title: "Entropy Manipulator"
+	quest.1000ACAB586FBD54.quest_desc: ["This block makes 40 FE/t out of thin air! Sadly, you can only have one of them on any AE2 network."]
+	quest.1000ACAB586FBD54.title: "Crystal Resonance Generator"
+	quest.1000ACAB58F0DDB7.quest_desc: ["Spreads potions in an area of effect rather efficiently, at the cost of Source!"]
+	quest.1000ACAB58F0DDB7.title: "Potion Diffuser"
+	quest.1000ACAB5A1BE4A2.quest_desc: ["To obtain this &oadorable&r cutie's token, grow a tree near a wild one!~ You can summon it back by using the charm on any flower, which will convert said flower into a Whirlisprig Blossom - the cutie's new home!\n\nWhirlisprigs duplicate plants (logs, flowers and even lilypads) around their home when provided with source and an output inventory, which should be adjacent to the flower. They are happiest when their home has a great variety of plants, leading to increased outputs!"]
+	quest.1000ACAB5A1BE4A2.quest_subtitle: "aren't they the cutest little florets :3"
+	quest.1000ACAB5A1BE4A2.title: "Whirlisprigs"
+	quest.1000ACAB5A1EB7FA.quest_subtitle: "Transports source long distances"
+	quest.1000ACAB5A1EB7FA.title: "Source Relay"
+	quest.1000ACAB5A973617.quest_desc: ["Ars Nouveau has a lot of different glyphs, so for this and other similar sections I will only provide a handful which were most useful in my experience playing with the mod. In this section I'm showing Tier 1 glyhs that don't require elemental essences - so anything you can craft right out the gate without progressing into Ars further."]
+	quest.1000ACAB5A973617.title: "Simplest glyphs"
+	quest.1000ACAB5B11452F.quest_desc: ["With the power of shoving a variety of iron tools into a book, you are now a sorcerer!\n\nThe default keybind to opening the spellbook is C, then X and Z to switch between the ten spells in the book. Of course, you can change all of these.\n\nSpells are made of several glyphs. Every spell starts with a form glyph, then one or several effect glyphs, optionally with one or several augment glyphs after each.\n\nThe spellbook also has documentation for the mod inside! Consult it if stuck!"]
+	quest.1000ACAB5B11452F.title: "Novice Spell Book"
+	quest.1000ACAB5D56639C.quest_desc: ["This terminal allows you to access pattern storage of all Pattern Providers on your network remotely, so you don't have to go to the provider to place new patterns in."]
+	quest.1000ACAB5D56639C.title: "Pattern Access Terminal"
+	quest.1000ACAB5E0B0BE5.quest_desc: ["Unless you got these from villagers, what you have to work with is Budding Certus Quartz Blocks, which you find in the meteor. These work the same as Budding Amethyst, slowly growing Certus Quartz Buds, that turn into Clusters. Clusters can be broken for Certus Quartz Crystals. Fortune works on them!\n\nAll versions of these budding blocks, except Flawless, degrade over time until they become Certus Quartz Blocks, and all versions degrade one stage if broken to be moved. There is a quest down the line on how to create more of these.\n\nFlawless Budding Certus Quartz grows clusters forever unless you break it. Do not break it! There are other ways to move it depending on the mods installed:\n- AE2 itself provides Spatial IO, which can cut and paste blocks form the world, albeit with a slightly bulky setup.\n- With Create, you can move budding certus on a minecart contraption or train."]
+	quest.1000ACAB5E0B0BE5.title: "Certus Quartz"
+	quest.1000ACAB5F1FB868.quest_desc: ["This is Ars Nouveau's storage system! It's very easy to assemble and use, accessible relatively earlygame!\n\nUse Bookwyrm charms on a Storage Lectern to summon Bookwyrms in; they are the «cables» of the system, in a matter of speaking. Then use the Dominion Wand to link the lectern to inventories; every bookwyrm can support up to eight inventories, which can be chests or any modded containers.\n\n&oNota Bene:&r items in all unlinked containers placed directly against the Storage Lectern will be automagically imported into the system!"]
+	quest.1000ACAB5F1FB868.title: "Bookwyrms and the Storage Lectern"
+	quest.1000ACAB5F285626.quest_desc: ["Put a Certus Quartz Crystal into a Charger to get this."]
+	quest.1000ACAB5F285626.title: "Charged Certus Quartz"
+	quest.1000ACAB5F860C8F.quest_desc: ["These make Interfaces and Export Buses request autocrafting of the items they need if there are none in stock."]
+	quest.1000ACAB5F860C8F.title: "Crafting Card"
+	quest.1000ACAB5F8C1306.quest_desc: ["An AE system would be hard to use if it didn't have a visual interface to it. That's where the Terminal comes in! You can view your items from it, put them in, take them out, search, and in the upgraded version, the Crafting Terminal, you can even craft with all the items at your disposal. (Honestly, why does the regular terminal even exist?)\nYou can place this on any cable that isn't dense."]
+	quest.1000ACAB5F8C1306.title: "Terminal"
+	quest.1000ACAB603D2474.quest_desc: ["The heart of your AE2 system. You can make these into a multiblock if you need more channels than a single controller can provide; the only rules are:\n- All controller blocks must be connected;\n- No controller block should touch four others in a cross shape;\n- The multiblock must fit inside a 7x7x7 cube."]
+	quest.1000ACAB603D2474.title: "Controller"
+	quest.1000ACAB61B5610F.quest_desc: ["Throw Charged Certus Quartz into water together with a Certus Quartz Block to get your own budding blocks. Throwing it back with more charged certus upgrades the stage of the block. You can't get Flawless this way, though :("]
+	quest.1000ACAB61B5610F.title: "Creating your own Budding Certus"
+	quest.1000ACAB628CDC61.quest_desc: ["These are the base for making all sorts of upgrades to your AE2 machines!"]
+	quest.1000ACAB628CDC61.title: "Upgrade Cards"
+	quest.1000ACAB62A18442.quest_desc: ["The four presses are Logic, Calculation, Engineering, and Silicon. You get these from breaking a Mysterious Cube, that spawns at the meteor.\n\nYou can duplicate presses by putting them through an inscriber with an iron block."]
+	quest.1000ACAB62A18442.title: "Inscriber Presses"
+	quest.1000ACAB62DDE840.quest_desc: ["An arcane plant that grows magical fiber!"]
+	quest.1000ACAB62DDE840.title: "Magebloom"
+	quest.1000ACAB636CD1F5.quest_desc: ["Arguably the most powerful part of AE2 is its ability to autocraft. Create patterns for things in a Pattern Encoding Terminal and place them into a Pattern Provider attached to a machine that crafts them, and the provider will insert ingredients into the machine when requested.\nYou can attach several machines at once to different sides of the Pattern Provider and it will use all of them if there are enough co-processing threads (see next quest)."]
+	quest.1000ACAB636CD1F5.title: "The Start of Autocrafting"
+	quest.1000ACAB63F875AD.quest_desc: ["Your first travel spell!"]
+	quest.1000ACAB63F875AD.title: "Glyph of Summon Steed"
+	quest.1000ACAB643F7DB1.quest_desc: ["Some creatures in Ars Nouveau can become your magical familiars! Perform a Ritual of Binding near them: after that you will be able to summon them from your spellbook!"]
+	quest.1000ACAB643F7DB1.title: "Familiars"
+	quest.1000ACAB64C1A1F9.quest_desc: ["This yonic-looking item can be used to summon Amethyst Golems, which can farm Amethyst! The charm drops from the golems upon the use of a Dispel spell. Set their home to a chest with a Dominion Wand, and they will deposit collected amethyst shards there!"]
+	quest.1000ACAB64C1A1F9.title: "Amethyst Golems"
+	quest.1000ACAB653931DC.quest_desc: ["Gives a block legs! It can't do much, but it will try to fight for you :3\n\nIf this entity is dispelled (or killed), the block falls back out, but it reverts to an item if it can't be placed (i'e' if it's within a blockspace of a torch), which allows you to get access to some normally unobtainable items like budding amethyst!"]
+	quest.1000ACAB653931DC.title: "Glyph of Animate Block"
+	quest.1000ACAB667E1E93.quest_desc: ["Smart Cable displays the amount of channels it is transferring! It also looks cool!"]
+	quest.1000ACAB667E1E93.title: "Smart Cable"
+	quest.1000ACAB670DC606.quest_subtitle: "A compact machine!"
+	quest.1000ACAB670DC606.title: "Planarium"
+	quest.1000ACAB6A6A9931.quest_desc: ["With some diamonds and blaze rods you can now cast Tier 2 glyphs!"]
+	quest.1000ACAB6A6A9931.title: "Mage's Spell Book"
+	quest.1000ACAB6CAA3864.quest_desc: ["The Annihilation Plane is an import bus for blocks placed in the world: it breaks them and immediately pulls the drops into the system; it doesn't do this if there's nowhere to store the drops, so you can kinda filter it by only giving it access to storage of certain item types. It can be enchanted with Silk Touch or Fortune!\n\nThe Formation Plane, somewhat confusingly, is a &ostorage bus&r for blocks placed in the world: not an export bus! It places blocks from its filter into the world, but only when these blocks are actively imported into the system! You will probably need a subnet for this."]
+	quest.1000ACAB6CAA3864.title: "Formation and Annihilation Planes"
+	quest.1000ACAB6D80DC77.quest_desc: ["Crafting CPUs are multiblocks that oversee autocrafting; you can't autocraft anything without one on your system. They are composed of Crafting Storage and Crafting Co-Processing Units, and must be built in the shape of a solid box.\nCrafting Storage blocks provide temporary storage for the items for the duration of crafting; you can't craft a recipe that requires two thousand items on a CPU with only 1k crafting storage. Crafting Co-Processing Units provide additional threads to the CPU,allowing the process to use more than one machine at the same time.\nEvery Crafting CPU can only process one crafting request at a time. If you want to craft more things simultaneously, build more CPUs."]
+	quest.1000ACAB6D80DC77.title: "Crafting CPU"
+	quest.1000ACAB6DA8231E.quest_desc: ["This block makes your AE2 system always load all chunks it spans, within a single dimension."]
+	quest.1000ACAB6DA8231E.title: "Spatial Anchor"
+	quest.1000ACAB6E13EA1D.quest_desc: ["Your new Spellbook doesn't have that many glyphs in it, but we can fix it with this new table! Click your spellbook on it, then you can select the glyph you want to craft. Toss the ingredients on the table to satisfy the craft!\n\n&oNota Bene:&o the Scribe's Table can pull items out of nearby inventories to use once the glyph is selected!"]
+	quest.1000ACAB6E13EA1D.title: "Scribe's Table"
+	quest.1000ACAB6E95D373.quest_desc: ["Emits a redstone signal when a spell is cast nearby"]
+	quest.1000ACAB6E95D373.title: "Spell Sensor"
+	quest.1000ACAB6FA6D9C0.quest_desc: ["Mirrorweave can take the appearance of any block, Falseweave is the same but you can walk through it, Ghostweave can make invisible walls and Skyweave mimics the appearance of the sky!"]
+	quest.1000ACAB6FA6D9C0.title: "Mirrorweave"
+	quest.1000ACAB7124DCE2.quest_desc: ["This machine can do all Inscriber Press recipes and processes blocks at a time! With this and a Crystal Assembler you officially don't need inscribers anymore :D"]
+	quest.1000ACAB7124DCE2.title: "Circuit Slicer"
+	quest.1000ACAB716DF279.quest_desc: ["Cuts trees down in like... three casts max :D"]
+	quest.1000ACAB716DF279.title: "Glyph of Fell"
+	quest.1000ACAB71A0A021.quest_desc: ["Using this on a projectile creates an additional projectile, so twice the spell!"]
+	quest.1000ACAB71A0A021.title: "Glyph of Split"
+	quest.1000ACAB721552CB.quest_desc: ["Performing this near Archwood Trees creates Weald Walkers, near Budding Amethyst - Amethyst Golems, and if you augment the ritual with a Book and Quill, you'll get a Bookwyrm charm!"]
+	quest.1000ACAB721552CB.title: "Tablet of Awakening"
+	quest.1000ACAB737817DF.quest_desc: ["A Repository has a double chest worth of storage space in a single block, and a Repository Catalog functions as a controller for all Repositories connected to it - so you can link a wall of them to a Storage Lectern by linking only one inventory!"]
+	quest.1000ACAB737817DF.quest_subtitle: "Version control for your items"
+	quest.1000ACAB737817DF.title: "Repository"
+	quest.1000ACAB73D3688D.quest_desc: ["This block can be used to view contents of one cell at a time."]
+	quest.1000ACAB73D3688D.title: "ME Chest"
+	quest.1000ACAB73EFD21F.quest_desc: ["This can summon wilden mobs if you don't have any of their drops! Alternatively, you can augment it with one of each of Wilden Wing, Horn and Spike to summon a boss - the Wilden Chimera!"]
+	quest.1000ACAB73EFD21F.title: "Tablet of Summon Wilden"
+	quest.1000ACAB745592B0.quest_desc: ["Wixies are tiny with pixies that autocraft! They take items out of inventories linked with the Dominion Wand, and craft them into items placed on Arcane Pedestals adjacent to thieir home cauldron. They can also brew potions with Potion Jars!"]
+	quest.1000ACAB745592B0.quest_subtitle: "Witchy Crafting Service"
+	quest.1000ACAB745592B0.title: "Wixies"
+	quest.1000ACAB77346CEA.quest_desc: ["You can make mage robes out of gold, iron or diamond armor, which give you increased mana reserves and mana regeneration! Higher tier base materials give more protection, but less thread slots (@see Threads and Alteration, also gold is considered a lower material than iron). It can also be directly upgraded with Nether and End materials to get more thread slots, and can be dyed!"]
+	quest.1000ACAB77346CEA.title: "Mage Robes"
+	quest.1000ACAB774418DE.quest_desc: ["Ever wanted to bring more than just the Crafting Terminal on the go with you? Well, not only can you do that now, but you can combine them all into a single device: the Wireless Universal Terminal!"]
+	quest.1000ACAB774418DE.title: "Universal Terminal"
+	quest.1000ACAB77C9460B.quest_desc: ["This handsome gentleman can sift archaeology loot out of regular sand and gravel! Pottery sherds are now renewable!"]
+	quest.1000ACAB77C9460B.title: "Alakarkinos"
+	quest.1000ACAB789663FE.quest_desc: ["Not only can it display items, but you can also link it to an inventory and it will act as a smart comparator!"]
+	quest.1000ACAB789663FE.title: "Display Case"
+	quest.1000ACAB795AA074.quest_desc: ["Hell yeah!"]
+	quest.1000ACAB795AA074.title: "Plushies!"
+	quest.1000ACAB7B068CCA.quest_desc: ["This is a trash can, but it can also condense trashed items into Matter Balls (requires a 1k or larger Storage Part installed) or Singularities (requires a 64k or larger Storage Part)."]
+	quest.1000ACAB7B068CCA.title: "Matter Condenser"
+	quest.1000ACAB7B12A4EB.quest_desc: ["Pairs of these blocks can facilitate wireless connections and are much less bulky than Quantum Network Bridges! Though unlike these, they can't work cross-dimensionally and also eat energy proportional to distance between the pair.\n\nTo link the pair to one another, use the Wireless Setup Kit."]
+	quest.1000ACAB7B12A4EB.title: "Wireless Connector"
+	quest.1000ACAB7B939112.quest_desc: ["Welcome to Extended AE! To start in this mod, you'll need a new type of resource, Entro Crystals. Craft an Entro Seed and click it on a Fluix Block: this will create a Budding Block that grows them. Growth Accelerators work!\n\nThere is no Flawless version of this, unfortunately, but you will get a way to prevent the decay down the line (@see Crystal Fixer)"]
+	quest.1000ACAB7B939112.title: "Entro Crystals"
+	quest.1000ACAB7C680BD9.quest_desc: ["The Vibration Chamber is AE2's coal generator, making 80 FE/t. It accepts Acceleration Cards for increased production speed and Energy Cards for increased fuel efficiency."]
+	quest.1000ACAB7C680BD9.title: "Vibration Chamber"
+	quest.1000ACAB7E080356.quest_desc: ["You can teleport &oyourself&r to the Spatial Storage pocket dimension if you stand inside the box while it's cut! Now how would I get out of here..."]
+	quest.1000ACAB7E080356.title: "Where am I??"
+	quest.1000ACAB7F988118.quest_desc: ["Increases duration and damage of your summons and decreases the summoning cooldown!"]
+	quest.1000ACAB7F988118.title: "Focus of Summoning"
+	quest.1000ACAB7FE2F66D.quest_desc: ["This neat machine pairs great with the Pattern Provider. It can do crafting table, smithing table and stonecutter recipes, and auto-outputs the results."]
+	quest.1000ACAB7FE2F66D.title: "Molecular Assembler"
 	quest.148A7B237AC1FF46.quest_subtitle: "Planes and other simple aerial vehicles"
 	quest.148A7B237AC1FF46.title: "Immersive Aircrafts"
 	quest.14DB2DC890D13F80.quest_desc: [
@@ -212,6 +539,7 @@
 	quest.73E88667F83AD191.title: "Essentials"
 	quest.78755EEFF8D338A4.quest_subtitle: "Niche armors with unique abilities"
 	quest.78755EEFF8D338A4.title: "Immersive Armors"
+	quest.7886448655672A40.quest_desc: ["Recipes are gated behind NTM progression for balance sake"]
 	quest.7886448655672A40.quest_subtitle: "Future-Digital storage mod"
 	quest.7886448655672A40.title: "Applied Energistics 2"
 	quest.7B136381587996A8.quest_subtitle: "Braziers, fences, bars, pallisades, seats, n more"
@@ -226,6 +554,35 @@
 	reward.3C5AD2E67C9B9323.title: "Maybe a gem could lead me somewhere"
 	reward.7AA1B812A8D10DD4.title: "You can press F1 on items with guides"
 	task.075EA05F6CEC6D5E.title: "Yes I read them"
+	task.1000ACAB00DCCE6F.title: "Any Item Storage Cell"
+	task.1000ACAB01F0FD3F.title: "Arcane Pedestal or Platform"
+	task.1000ACAB059864B3.title: "Any Ars Trinket"
+	task.1000ACAB0DB30A8B.title: "Magelight Torch or Sconce"
+	task.1000ACAB12D0C31E.title: "Any Current Elevator"
+	task.1000ACAB1E9A6439.title: "Any Archwood Logs"
+	task.1000ACAB23FAB015.title: "Any Fluid Storage Cell"
+	task.1000ACAB2A76BF91.title: "Any Augment Arrow"
+	task.1000ACAB2CCC64F1.title: "Get all four inscriber presses"
+	task.1000ACAB32953983.title: "Source Berry Roll or Pie"
+	task.1000ACAB34B66365.title: "Any Spell Prism"
+	task.1000ACAB3C6AA513.title: "Any Smart Cable"
+	task.1000ACAB3CC52E4C.title: "Any Mage Hood"
+	task.1000ACAB3FD83329.title: "Any Wilden item drop"
+	task.1000ACAB43C61EE7.title: "Any Tag or Mod Bus"
+	task.1000ACAB4B1D4157.title: "Basic or Advanced Card"
+	task.1000ACAB4FD7174E.title: "Any Sourcelink"
+	task.1000ACAB555293CC.title: "Any Bound Script"
+	task.1000ACAB5587D9A3.title: "Any Mage Robes"
+	task.1000ACAB56C9A692.title: "Any Mage Boots"
+	task.1000ACAB581F6AA7.title: "Any Crafting Storage"
+	task.1000ACAB586571EA.title: "Any Enchanter's Weapon"
+	task.1000ACAB58D94FF3.title: "Any P2P Tunnel"
+	task.1000ACAB5D525140.title: "Assembler Matrix Wall or Glass"
+	task.1000ACAB5ED46BF6.title: "Any Dense Smart Cable"
+	task.1000ACAB74877294.title: "Any Mirrorweave"
+	task.1000ACAB77F1A086.title: "Any Mage Leggings"
+	task.1000ACAB797DFFB2.title: "Any Warp Scroll"
+	task.1000ACAB7C9C2BB3.title: "Any Spatial Storage Cell"
 	task.38BBC439C06DC014.title: "Yes"
 	task.6D095CB923F3FE43.title: "I promise I did"
 	task.75AD795F015F6A83.title: "awa"

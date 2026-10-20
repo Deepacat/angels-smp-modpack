@@ -38,7 +38,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -55,7 +55,7 @@
 				id: "75AD795F015F6A83"
 				type: "checkmark"
 			}]
-			x: -2.25d
+			x: -1.0d
 			y: 0.0d
 		}
 	]

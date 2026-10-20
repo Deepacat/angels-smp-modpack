@@ -36,7 +36,10 @@
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				id: "pastel:villager_head"
+				components: {
+					"ftbquests:missing_item": "pastel:villager_head"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "53B1CE21DAA199BE"
 			tasks: [{
@@ -74,7 +77,10 @@
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				id: "goety:skull_focus"
+				components: {
+					"ftbquests:missing_item": "goety:skull_focus"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "5F8BB12379912F95"
 			min_width: 300

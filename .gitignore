@@ -49,6 +49,7 @@
 /servers.dat
 /servers.dat_old
 /hs_err*
+/command_history.txt
 # Should be updated in defaultcfgs
 /options.txt
 
@@ -88,7 +89,9 @@
 
 ## Client configs that should only be copied over once from default configs 
 /config/*client.*
-/config/emixx/*client.*
+/config/client.*
+/config/**/*client.*
+/config/**/client.*
 /config/worldedit/
 /config/emi.css
 /config/jade/jade.json
@@ -138,8 +141,8 @@
 /config/asyncparticles/
 /config/zfastnoise.mixin.properties
 /config/axiom*
-config/xaeroworldmap.txt
-config/xaerominimap_entities.json
+/config/xaeroworldmap.txt
+/config/xaerominimap_entities.json
 
 ### OS generated files
 
