@@ -14,7 +14,7 @@ attacksUntilPerch = 4
 #Enabled custom Ender Dragon phases
 [enabled_custom_phases]
 	#Specifies if this custom dragon phase should be enabled
-	enableSnatchPlayer = true
+	enableSnatchPlayer = false
 	#Specifies if this custom dragon phase should be enabled
 	enableCrashPlayer = true
 	#Specifies if this custom dragon phase should be enabled

@@ -158,6 +158,16 @@
       "title": "Pastel - Fall from Grace",
       "icon": "pastel:pedestal_onyx",
       "background": "pastel:textures/gui/advancement_background_midgame.png"
+    },
+    "occultism:chalks/root": {
+      "title": "Occultism: Chalks",
+      "icon": "occultism:brush",
+      "background": "occultism:textures/block/otherstone.png"
+    },
+    "occultism:occultism/familiar/root": {
+      "title": "Occultism: Friends",
+      "icon": "occultism:pentacle_possess",
+      "background": "occultism:textures/block/otherplanks.png"
     }
   }
 }

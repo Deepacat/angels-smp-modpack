@@ -107,6 +107,9 @@
     "display.golems": "GOGGLES",
     "display.deconstruction_tables": "GOGGLES"
   },
+  "jadeaddons.computercraft": {
+    "computer_id": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -175,5 +178,8 @@
     "train_to": true,
     "summon_lifespan": true,
     "trainable": true
+  },
+  "golemcore": {
+    "gauges": true
   }
 }

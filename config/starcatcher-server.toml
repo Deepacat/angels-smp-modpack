@@ -1,5 +1,5 @@
 #Award guide when joining the world/server once per player
-give_guide = true
+give_guide = false
 #Award rod & guide the first time a player fishes with a vanilla fishing rod
 give_rod = true
 #Enables/disables the ability to bonemeal block for worms.

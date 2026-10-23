@@ -1,0 +1,17 @@
+{
+  "info": [
+    "Unlike other JSON configs, this one does not use a variable amount of options (like recipes), rather all config options are fixed.",
+    "This means that there is no distinction between template and used config, you can simply edit this file and it will use the new values.",
+    "If you wish to reset one or multiple values to default, simply delete them, the file is re-created every time the game starts (but changed values persist!)",
+    "How this works in detail:",
+    "- Machines have default values on init",
+    "- The config system will try to read the config file. It will replace the default values where applicable, and keep them when an option is missing.",
+    "- The config system will then use the full set of values - configured or default if missing - and re-create the config file to include any missing entries.",
+    "This final step also means that any custom non-config values added to the JSON, while not causing errors, will be deleted when the config is re-created.",
+    "It also means that should an update add more values to an existing machines, those will be retroactively added to the config using the default value."
+  ],
+  "icfLaser": {
+    "I:capacitorPower": 2500000,
+    "I:turboPower": 5000000
+  }
+}

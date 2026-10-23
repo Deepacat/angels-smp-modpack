@@ -2,12 +2,13 @@
 	chapter.1000ACAB01763637.title: "Applied Energistics 2"
 	chapter.1000ACAB0E6FB8E7.title: "Ars Nouveau"
 	chapter.1DDD193639BE7878.title: "Mods info"
+	chapter.24F6798D8F85944D.title: "HBM's NTM"
 	chapter.69C214B6E3DAC40E.title: "Modpack Info"
 	chapter.71593D4901C1666F.title: "Vanilla changes"
-	chapter.7926D8C9008C50C0.title: "Useful n' Tips"
-	chapter_group.1000ACAB055C04B7.title: "Open Quests - Magic"
+	chapter_group.1000ACAB055C04B7.title: "Magic"
 	chapter_group.1000ACAB47047AC7.title: "Open Quests - Exploration"
-	chapter_group.1000ACAB694BB7DF.title: "Open Quests - Tech"
+	chapter_group.1000ACAB694BB7DF.title: "Tech"
+	chapter_group.3957F7981B2FFD8D.title: "Misc"
 	file.0000000000000001.title: "Angel modpack :3"
 	image.05F7A5FB2B0C1DA5.title: "Tech mods"
 	image.37AA5B43CC2F8F86.title: "Alchemy mods\\n← ↓"
@@ -27,6 +28,7 @@
 	quest.0223E1862F8504E8.title: "Pack Info"
 	quest.0246AEA2F755BCB7.quest_subtitle: "Clothes \\& misc gadgets"
 	quest.0246AEA2F755BCB7.title: "Etcetera"
+	quest.05D09AE783CAFB8D.quest_desc: ["Cool potion systems and interesting weapons"]
 	quest.05D09AE783CAFB8D.quest_subtitle: "Medieval Alchemy"
 	quest.05D09AE783CAFB8D.title: "Toxony"
 	quest.060A4E7A5CA4A968.quest_desc: [
@@ -455,6 +457,9 @@
 	quest.1D5D4138CF1C0965.title: "Supplementaries"
 	quest.1FCA6215B8392935.quest_subtitle: "Quirky hostile mobs"
 	quest.1FCA6215B8392935.title: "Creature Feature"
+	quest.261A56A5709935EA.quest_desc: ["You can also marry one or 2 of them I guess."]
+	quest.261A56A5709935EA.quest_subtitle: "Summoning spirits to do your bidding. And mining."
+	quest.261A56A5709935EA.title: "Occultism"
 	quest.272969EC94605041.quest_desc: [
 		"For guides, use /ponder or hold the ponder key on applicable items! (Default \"W\")"
 		""
@@ -466,10 +471,21 @@
 	]
 	quest.272969EC94605041.quest_subtitle: "Doohickey Corporation"
 	quest.272969EC94605041.title: "Create"
+	quest.32CC120D13F736D8.quest_desc: [
+		"Has a dumbed down Noita-style casting system, with glyph crafting for spells"
+		""
+		"alongside alot of helpful companion creatures you can summon to do tasks for you like farming, brewing, collecting logs, and more"
+	]
 	quest.32CC120D13F736D8.quest_subtitle: "Spellcrafting \\& Taming arcane creatures"
 	quest.32CC120D13F736D8.title: "Ars Nouveau"
-	quest.33A649EA7B9BB90F.quest_subtitle: "Discovering magic in colors"
+	quest.33A649EA7B9BB90F.quest_desc: ["Magic discovery mod using experiments and your curiosity to uncover the secrets that lie within natures colors"]
+	quest.33A649EA7B9BB90F.quest_subtitle: "&o&7Descend artist... Descend.&r"
 	quest.33A649EA7B9BB90F.title: "Pastel (Spectrum)"
+	quest.34EB3A05EDA25078.quest_desc: [
+		"A \"port\"/remake of 1.7.10's Thaumcraft 4, combined with elements of 1.12.2's Thaumcraft 6."
+		""
+		"It is a discovery based magic mod, rewarding your curiosities and exploration of the world."
+	]
 	quest.34EB3A05EDA25078.quest_subtitle: "The study of natures mysterious wonders"
 	quest.34EB3A05EDA25078.title: "Thaumaturge"
 	quest.374330D74B10B2D3.quest_desc: [
@@ -483,6 +499,8 @@
 	]
 	quest.374330D74B10B2D3.quest_subtitle: "Info and also books for them if there is one"
 	quest.374330D74B10B2D3.title: "Mods, what they do, what I did"
+	quest.378DB95672BF5968.quest_subtitle: "Decorative markings"
+	quest.378DB95672BF5968.title: "Modern Markings"
 	quest.3F55301FD684D53B.quest_desc: [
 		"Mending will not repair gear! And cannot be applied as an enchant like normal"
 		""
@@ -506,6 +524,7 @@
 	quest.563133E9CEF493F3.title: "Alex's Mobs"
 	quest.59FC7269AC3D980F.quest_subtitle: "World environment overhauls"
 	quest.59FC7269AC3D980F.title: "No mans land"
+	quest.5C0080D026352481.quest_desc: ["Similar to Ae2 however much more limited in capability, still works as a tech style storage mod"]
 	quest.5C0080D026352481.quest_subtitle: "Retro-digital storage mod"
 	quest.5C0080D026352481.title: "Engineered Computation"
 	quest.5DD03A18A2544EC7.quest_desc: [
@@ -539,7 +558,7 @@
 	quest.73E88667F83AD191.title: "Essentials"
 	quest.78755EEFF8D338A4.quest_subtitle: "Niche armors with unique abilities"
 	quest.78755EEFF8D338A4.title: "Immersive Armors"
-	quest.7886448655672A40.quest_desc: ["Recipes are gated behind NTM progression for balance sake"]
+	quest.7886448655672A40.quest_desc: ["Most recipes are gated behind progression in HBM's Nuclear Tech Mod"]
 	quest.7886448655672A40.quest_subtitle: "Future-Digital storage mod"
 	quest.7886448655672A40.title: "Applied Energistics 2"
 	quest.7B136381587996A8.quest_subtitle: "Braziers, fences, bars, pallisades, seats, n more"
@@ -550,7 +569,8 @@
 	quest.7D2F7A86FF9559BE.title: "Changes to vanilla mechanics"
 	quest.7E62D455D48F7EF2.quest_subtitle: "Furniture and vibrant blocks"
 	quest.7E62D455D48F7EF2.title: "Cluttered"
-	reward.04C6866B74459FFA.title: "You gotta figure out this one :)"
+	reward.04C6866B74459FFA.title: "Perhaps a good nights rest could grant you a clue?"
+	reward.2F79527DA47237EE.title: "Maybe a gem could lead me somewhere"
 	reward.3C5AD2E67C9B9323.title: "Maybe a gem could lead me somewhere"
 	reward.7AA1B812A8D10DD4.title: "You can press F1 on items with guides"
 	task.075EA05F6CEC6D5E.title: "Yes I read them"
@@ -561,10 +581,14 @@
 	task.1000ACAB12D0C31E.title: "Any Current Elevator"
 	task.1000ACAB1E9A6439.title: "Any Archwood Logs"
 	task.1000ACAB23FAB015.title: "Any Fluid Storage Cell"
+	task.1000ACAB249B1158.title: "Unknown type: openquests_api:pet"
 	task.1000ACAB2A76BF91.title: "Any Augment Arrow"
 	task.1000ACAB2CCC64F1.title: "Get all four inscriber presses"
 	task.1000ACAB32953983.title: "Source Berry Roll or Pie"
+	task.1000ACAB333561FD.title: "Unknown type: openquests_api:pet"
 	task.1000ACAB34B66365.title: "Any Spell Prism"
+	task.1000ACAB37B7CCEC.title: "Unknown type: openquests_api:pet"
+	task.1000ACAB383B42A3.title: "Unknown type: openquests_api:pet"
 	task.1000ACAB3C6AA513.title: "Any Smart Cable"
 	task.1000ACAB3CC52E4C.title: "Any Mage Hood"
 	task.1000ACAB3FD83329.title: "Any Wilden item drop"
@@ -577,8 +601,11 @@
 	task.1000ACAB581F6AA7.title: "Any Crafting Storage"
 	task.1000ACAB586571EA.title: "Any Enchanter's Weapon"
 	task.1000ACAB58D94FF3.title: "Any P2P Tunnel"
+	task.1000ACAB59DA1C5A.title: "Unknown type: openquests_api:pet"
 	task.1000ACAB5D525140.title: "Assembler Matrix Wall or Glass"
 	task.1000ACAB5ED46BF6.title: "Any Dense Smart Cable"
+	task.1000ACAB5F07CA23.title: "Unknown type: openquests_api:pet"
+	task.1000ACAB712337A7.title: "Unknown type: openquests_api:pet"
 	task.1000ACAB74877294.title: "Any Mirrorweave"
 	task.1000ACAB77F1A086.title: "Any Mage Leggings"
 	task.1000ACAB797DFFB2.title: "Any Warp Scroll"

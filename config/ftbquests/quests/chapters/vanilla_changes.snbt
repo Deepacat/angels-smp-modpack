@@ -36,10 +36,7 @@
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "pastel:villager_head"
-				}
-				id: "ftbquests:missing_item"
+				id: "pastel:villager_head"
 			}
 			id: "53B1CE21DAA199BE"
 			tasks: [{
@@ -78,9 +75,9 @@
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
 				components: {
-					"ftbquests:missing_item": "goety:skull_focus"
+					"ftbquests:icon": "goety:item/focus/soulskull_spell"
 				}
-				id: "ftbquests:missing_item"
+				id: "ftbquests:custom_icon"
 			}
 			id: "5F8BB12379912F95"
 			min_width: 300
@@ -143,7 +140,7 @@
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
 				components: {
-					"ftbquests:icon": "hbm:item/coin_radiation"
+					"ftbquests:icon": "ags_modernmarkings:block/marking_wall_symbol_yellow_radiation"
 				}
 				id: "ftbquests:custom_icon"
 			}

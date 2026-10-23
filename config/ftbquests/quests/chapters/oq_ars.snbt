@@ -533,9 +533,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:amethyst_golem"
 					id: "1000ACAB37B7CCEC"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 6.5d
@@ -562,9 +561,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:bookwyrm"
 					id: "1000ACAB5F07CA23"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 6.5d
@@ -689,9 +687,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:drygmy"
 					id: "1000ACAB59DA1C5A"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 6.0d
@@ -715,9 +712,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:starbuncle"
 					id: "1000ACAB712337A7"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 6.0d
@@ -744,9 +740,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:whirlisprig"
 					id: "1000ACAB383B42A3"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 6.0d
@@ -1301,9 +1296,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:alakarkinos"
 					id: "1000ACAB249B1158"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 9.5d
@@ -1380,9 +1374,8 @@
 					type: "item"
 				}
 				{
-					entity: "ars_nouveau:wixie"
 					id: "1000ACAB333561FD"
-					type: "openquests_api:pet"
+					type: "custom"
 				}
 			]
 			x: 9.5d

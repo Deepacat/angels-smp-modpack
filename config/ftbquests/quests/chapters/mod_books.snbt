@@ -26,7 +26,7 @@
 			image: "pastel:textures/particle/shooting_star.png"
 			rotation: 0.0d
 			width: 0.75d
-			x: -1.95d
+			x: -2.2d
 			y: -3.25d
 		}
 		{
@@ -36,7 +36,7 @@
 			image: "toxony:item/toxin_flask"
 			rotation: 0.0d
 			width: 0.75d
-			x: -3.5d
+			x: -3.75d
 			y: -3.25d
 		}
 		{
@@ -69,7 +69,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: -2.0d
+			x: -2.25d
 			y: -3.25d
 		}
 		{
@@ -81,7 +81,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: -3.5d
+			x: -3.75d
 			y: -3.25d
 		}
 		{
@@ -162,7 +162,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "hbm:nuke_man"
+				components: {
+					"ftbquests:missing_item": "hbm:nuke_man"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "5DD03A18A2544EC7"
 			min_width: 300
@@ -170,8 +173,11 @@
 				{
 					id: "2E95700EC1D2A9BB"
 					item: {
+						components: {
+							"ftbquests:missing_item": "hbm:book_guide_starter"
+						}
 						count: 1
-						id: "hbm:book_guide_starter"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -216,10 +222,7 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "goety:ectoplasm"
-				}
-				id: "ftbquests:missing_item"
+				id: "goety:ectoplasm"
 			}
 			id: "7C3107C4663B69B5"
 			min_width: 300
@@ -238,16 +241,13 @@
 				id: "06E9DA3B709E3B06"
 				type: "checkmark"
 			}]
-			x: -3.25d
+			x: -3.5d
 			y: -1.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "pastel:pedestal_moonstone"
-				}
-				id: "ftbquests:missing_item"
+				id: "pastel:pedestal_moonstone"
 			}
 			id: "33A649EA7B9BB90F"
 			min_width: 300
@@ -260,27 +260,21 @@
 				id: "2F301A86D986ED86"
 				type: "checkmark"
 			}]
-			x: -2.25d
+			x: -2.5d
 			y: -1.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "starcatcher:starcatcher_rod"
-				}
-				id: "ftbquests:missing_item"
+				id: "starcatcher:starcatcher_rod"
 			}
 			id: "72F8937B2BF61BB6"
 			min_width: 300
 			rewards: [{
 				id: "3012F332E3726781"
 				item: {
-					components: {
-						"ftbquests:missing_item": "starcatcher:starcatcher_guide"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "starcatcher:starcatcher_guide"
 				}
 				type: "item"
 			}]
@@ -295,20 +289,15 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "ars_nouveau:creative_spell_book"
-				}
-				id: "ftbquests:missing_item"
+				id: "ars_nouveau:archmage_spell_book"
 			}
 			id: "32CC120D13F736D8"
+			min_width: 300
 			rewards: [{
 				id: "343E334368A0DF8B"
 				item: {
-					components: {
-						"ftbquests:missing_item": "ars_nouveau:worn_notebook"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "ars_nouveau:worn_notebook"
 				}
 				type: "item"
 			}]
@@ -316,16 +305,13 @@
 				id: "7EE92CA10D17EF75"
 				type: "checkmark"
 			}]
-			x: -1.75d
-			y: -2.25d
+			x: -1.5d
+			y: -1.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "thaumaturge:goggles_revealing"
-				}
-				id: "ftbquests:missing_item"
+				id: "thaumaturge:goggles_revealing"
 			}
 			id: "34EB3A05EDA25078"
 			min_width: 300
@@ -338,16 +324,13 @@
 				id: "0DFB6F5004B13231"
 				type: "checkmark"
 			}]
-			x: -2.75d
+			x: -3.0d
 			y: -2.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "create:wrench"
-				}
-				id: "ftbquests:missing_item"
+				id: "create:wrench"
 			}
 			id: "272969EC94605041"
 			min_width: 300
@@ -382,7 +365,7 @@
 				id: "04B296067513D8EA"
 				type: "checkmark"
 			}]
-			x: -3.75d
+			x: -4.0d
 			y: -2.25d
 		}
 		{
@@ -616,10 +599,7 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "ae2:controller"
-				}
-				id: "ftbquests:missing_item"
+				id: "ae2:controller"
 			}
 			id: "7886448655672A40"
 			min_width: 300
@@ -629,6 +609,45 @@
 			}]
 			x: 3.5d
 			y: -1.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ags_modernmarkings:block/marking_danger_yellow"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "378DB95672BF5968"
+			min_width: 300
+			tasks: [{
+				id: "25AE4098C6207251"
+				type: "checkmark"
+			}]
+			x: -1.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/pentacle.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "261A56A5709935EA"
+			min_width: 300
+			rewards: [{
+				id: "2F79527DA47237EE"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "3922E6D21DD51FB3"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.25d
 		}
 	]
 }

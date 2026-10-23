@@ -7,6 +7,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:item_storage_cell_1k"
             }
         ],
+        "name": "precass.1kstorage",
         "order": 570,
         "output_items": [
             {
@@ -41,6 +42,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:item_storage_cell_4k"
             }
         ],
+        "name": "precass.4kstorage",
         "order": 571,
         "output_items": [
             {
@@ -75,6 +77,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:item_storage_cell_16k"
             }
         ],
+        "name": "precass.16kstorage",
         "order": 572,
         "output_items": [
             {
@@ -109,6 +112,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:item_storage_cell_64k"
             }
         ],
+        "name": "precass.64kstorage",
         "order": 573,
         "output_items": [
             {
@@ -143,6 +147,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:item_storage_cell_256k"
             }
         ],
+        "name": "precass.256kstorage",
         "order": 574,
         "output_items": [
             {
@@ -177,6 +182,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:singularity"
             }
         ],
+        "name": "precass.singularity",
         "order": 575,
         "output_items": [
             {
@@ -215,6 +221,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:creative_storage_cell"
             }
         ],
+        "name": "precass.universe",
         "order": 576,
         "output_items": [
             {
@@ -253,6 +260,7 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:quantum_entangled_singularity"
             }
         ],
+        "name": "precass.quantum",
         "order": 577,
         "output_items": [
             {

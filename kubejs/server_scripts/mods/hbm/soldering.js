@@ -2,8 +2,10 @@ ServerEvents.recipes(e => {
     e.remove({ output: "ae2:engineering_processor", type: "ae2:inscriber" })
     e.custom({
         "type": "hbm:soldering",
+        "output": "ae2:engineering_processor",
         "duration": 100,
-        "input_items": [
+        "consumption": 1000,
+        "toppings": [
             {
                 "ingredient": "ae2:printed_silicon"
             },
@@ -14,25 +16,22 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:printed_engineering_processor"
             }
         ],
-        "order": 590,
-        "output_items": [
-            "ae2:engineering_processor"
-        ],
-        "pcb": [],
-        "power": 1000,
         "solder": [
             {
                 "count": 8,
                 "ingredient": "#c:fine_wires/lead"
             }
-        ]
+        ],
+        "order": 590
     }).id("kubejs:mods/ae2/soldering_engineering_processor")
 
     e.remove({ output: "ae2:logic_processor", type: "ae2:inscriber" })
     e.custom({
         "type": "hbm:soldering",
+        "output": "ae2:logic_processor",
         "duration": 100,
-        "input_items": [
+        "consumption": 1000,
+        "toppings": [
             {
                 "ingredient": "ae2:printed_silicon"
             },
@@ -43,25 +42,22 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:printed_logic_processor"
             }
         ],
-        "order": 591,
-        "output_items": [
-            "ae2:logic_processor"
-        ],
-        "pcb": [],
-        "power": 1000,
         "solder": [
             {
                 "count": 8,
                 "ingredient": "#c:fine_wires/lead"
             }
-        ]
+        ],
+        "order": 591
     }).id("kubejs:mods/ae2/soldering_logic_processor")
 
     e.remove({ output: "ae2:calculation_processor", type: "ae2:inscriber" })
     e.custom({
         "type": "hbm:soldering",
+        "output": "ae2:calculation_processor",
         "duration": 100,
-        "input_items": [
+        "consumption": 1000,
+        "toppings": [
             {
                 "ingredient": "ae2:printed_silicon"
             },
@@ -72,17 +68,12 @@ ServerEvents.recipes(e => {
                 "ingredient": "ae2:printed_calculation_processor"
             }
         ],
-        "order": 592,
-        "output_items": [
-            "ae2:calculation_processor"
-        ],
-        "pcb": [],
-        "power": 1000,
         "solder": [
             {
                 "count": 8,
                 "ingredient": "#c:fine_wires/lead"
             }
-        ]
+        ],
+        "order": 592
     }).id("kubejs:mods/ae2/soldering_calculation_processor")
 })

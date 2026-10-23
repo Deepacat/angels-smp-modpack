@@ -72,8 +72,8 @@
 .env
 
 ## VSCode
-!/.vscode/*.code-workspace
 /.vscode/*
+!/.vscode/*.code-workspace
 
 ## ProbeJS
 /.probe/
@@ -88,10 +88,8 @@
 ### Config
 
 ## Client configs that should only be copied over once from default configs 
-/config/*client.*
-/config/client.*
 /config/**/*client.*
-/config/**/client.*
+/config/**/*toml.bak
 /config/worldedit/
 /config/emi.css
 /config/jade/jade.json

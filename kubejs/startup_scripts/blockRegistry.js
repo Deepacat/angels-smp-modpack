@@ -11,12 +11,14 @@ StartupEvents.registry('block', e => {
             .displayName(`${sheetType.charAt(0).toUpperCase() + sheetType.slice(1).replace('_', ' ')} Sheet Metal Block`)
             .soundType('metal')
             .hardness(2)
-            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool', 'kubejs:sheetmetal'])
+            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+            .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_block'])
         e.create(`kubejs:slab_sheetmetal_${sheetType}`, 'slab')
             .displayName(`${sheetType.charAt(0).toUpperCase() + sheetType.slice(1).replace('_', ' ')} Sheet Metal Slab`)
             .soundType('metal')
             .hardness(2)
-            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool', 'kubejs:sheetmetal', 'kubejs:sheetmetal_slab'])
+            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+            .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_slab'])
     }
 
     for (let sheetType of colorTypes) {
@@ -24,11 +26,13 @@ StartupEvents.registry('block', e => {
             .displayName(`${sheetType.charAt(0).toUpperCase() + sheetType.slice(1).replace('_', ' ')} Sheet Metal Block`)
             .soundType('metal')
             .hardness(2)
-            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool', 'kubejs:sheetmetal'])
+            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+            .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_block'])
         e.create(`kubejs:slab_sheetmetal_colored_${sheetType}`, 'slab')
             .displayName(`${sheetType.charAt(0).toUpperCase() + sheetType.slice(1).replace('_', ' ')} Sheet Metal Slab`)
             .soundType('metal')
             .hardness(2)
-            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool', 'kubejs:sheetmetal', 'kubejs:sheetmetal_slab'])
+            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+            .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_slab'])
     }
 })
