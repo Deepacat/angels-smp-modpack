@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_end"
+	group: "3957F7981B2FFD8D"
+	id: "10C03CD2D49CACE2"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

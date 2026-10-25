@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pastel"
+	group: "1000ACAB055C04B7"
+	id: "27E0FA7DEA3DCC02"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,7 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "1000ACAB055C04B7" }
 		{ id: "1000ACAB694BB7DF" }
+		{ id: "1000ACAB055C04B7" }
 		{ id: "3957F7981B2FFD8D" }
 	]
 }

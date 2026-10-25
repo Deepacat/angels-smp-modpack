@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dungeons"
+	group: "3957F7981B2FFD8D"
+	id: "25E702FAFD50A410"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

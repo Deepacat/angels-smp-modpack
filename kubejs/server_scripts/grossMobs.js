@@ -113,18 +113,18 @@ for (let grossMobID of grossMobs) {
 function grossMobTick(mob) {
     try {
         let target = mob.getTarget()
-        // console.log(target?.type)
+        // console.log(target?.type) // debug
 
         if (target?.type != "minecraft:player") return
         if(!target.persistentData.getBoolean("tilles_mode")) return
         
-        // console.log("target is player, removing")
+        // console.log("target is player, removing") // debug
         mob.setTarget(null)
 
         // console.log(`mob goals for: ${mob.type}`)
         mob.targetSelector.getAvailableGoals().forEach(goal => {
             let goalStr = goal.getGoal().toString()
-            // console.log(`goal: ${goalStr}`)
+            // console.log(`goal: ${goalStr}`) // debug
             goal.stop()
         })
 

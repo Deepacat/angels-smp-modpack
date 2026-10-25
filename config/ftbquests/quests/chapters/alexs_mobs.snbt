@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_mobs"
+	group: "3957F7981B2FFD8D"
+	id: "203F4C06AD0CC4C9"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

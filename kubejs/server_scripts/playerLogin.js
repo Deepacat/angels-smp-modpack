@@ -10,7 +10,7 @@ PlayerEvents.loggedIn(e => {
         e.player.tell(`§b${day}\n`)
         e.server.tell(`§e§l${playerName} joined for the first time!`)
     } else {
-        e.player.tell(`\n§bWelcome back ${playerName} !`)
+        e.player.tell(`\n§bWelcome back ${playerName}!`)
         e.player.tell(`§b${day}\n`)
     }
 })

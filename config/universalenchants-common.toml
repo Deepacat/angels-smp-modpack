@@ -1,5 +1,5 @@
 [compatibility_data_packs]
-	#Allows the mace's damage enchantments to be combined with minecraft:density.
+	#Allows the different damage enchantments to be combined with density.
 	#Automatically add the corresponding data pack when creating a new world.
 	#Default Value: true
 	#Requires Restart: World
@@ -9,7 +9,7 @@
 	#Default Value: true
 	#Requires Restart: World
 	crossbow = true
-	#Allows the different damage enchantments to be combined with each other.
+	#Allows the specialized damage enchantments to be combined with sharpness. The specialized enchantments remain mutually exclusive with each other.
 	#Automatically add the corresponding data pack when creating a new world.
 	#Default Value: false
 	#Requires Restart: World
@@ -19,7 +19,7 @@
 	#Default Value: true
 	#Requires Restart: World
 	bow = true
-	#Allows the different protection enchantments to be combined with each other.
+	#Allows the specialized protection enchantments to be combined with protection. The specialized enchantments remain mutually exclusive with each other.
 	#Automatically add the corresponding data pack when creating a new world.
 	#Default Value: false
 	#Requires Restart: World

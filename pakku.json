@@ -1,7 +1,7 @@
 {
-    "name": "Angel sinkgem",
+    "name": "Angelpack",
     "version": "DEV",
-    "description": "Modpack by Deepacat",
+    "description": "Deepacat's custom \"kitchen sink\" pack for friends.",
     "author": "Deepacat",
     "overrides": [
         "config",
@@ -26,13 +26,49 @@
         "README.md"
     ],
     "projects": {
-        "oculus": {
+        "sodium": {
             "side": "CLIENT"
         },
-        "embeddium": {
+        "reeses_sodium_options": {
             "side": "CLIENT"
         },
-        "chloride": {
+        "sodium_extra": {
+            "side": "CLIENT"
+        },
+        "lambdynlights_api": {
+            "side": "CLIENT"
+        },
+        "progresspeek": {
+            "side": "CLIENT"
+        },
+        "fastquit": {
+            "side": "CLIENT"
+        },
+        "crash_assistant": {
+            "side": "CLIENT"
+        },
+        "kerria": {
+            "side": "CLIENT"
+        },
+        "gnetum": {
+            "side": "CLIENT"
+        },
+        "toastcontrol": {
+            "side": "CLIENT"
+        },
+        "betteradvancedtooltips": {
+            "side": "CLIENT"
+        },
+        "musicnotification": {
+            "side": "CLIENT"
+        },
+        "fastipping": {
+            "side": "CLIENT"
+        },
+        "entityculling": {
+            "side": "CLIENT"
+        },
+        "clickadv": {
             "side": "CLIENT"
         },
         "worldedit": {

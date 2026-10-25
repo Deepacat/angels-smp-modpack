@@ -57,7 +57,7 @@
 			image: "hearthandharvest:item/sugar_cubes"
 			rotation: 0.0d
 			width: 0.75d
-			x: -2.75d
+			x: -3.25d
 			y: 1.25d
 		}
 		{
@@ -105,7 +105,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: -2.75d
+			x: -3.25d
 			y: 1.25d
 		}
 		{
@@ -162,10 +162,7 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "hbm:nuke_man"
-				}
-				id: "ftbquests:missing_item"
+				id: "hbm:nuke_man"
 			}
 			id: "5DD03A18A2544EC7"
 			min_width: 300
@@ -173,11 +170,8 @@
 				{
 					id: "2E95700EC1D2A9BB"
 					item: {
-						components: {
-							"ftbquests:missing_item": "hbm:book_guide_starter"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "hbm:book_guide_starter"
 					}
 					type: "item"
 				}
@@ -424,7 +418,7 @@
 				id: "7028FA0D256A2768"
 				type: "checkmark"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 2.25d
 		}
 		{
@@ -438,7 +432,7 @@
 				id: "4EC12CE2B167EC9E"
 				type: "checkmark"
 			}]
-			x: -3.75d
+			x: -1.75d
 			y: 3.25d
 		}
 		{
@@ -472,10 +466,7 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "alexsmobs:warped_muscle"
-				}
-				id: "ftbquests:missing_item"
+				id: "alexsmobs:warped_muscle"
 			}
 			id: "563133E9CEF493F3"
 			min_width: 300
@@ -497,8 +488,8 @@
 				id: "752A50AE24799AD1"
 				type: "checkmark"
 			}]
-			x: -2.75d
-			y: 2.25d
+			x: -4.75d
+			y: 3.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -525,8 +516,8 @@
 				id: "71033EF3BA8DCC3B"
 				type: "checkmark"
 			}]
-			x: -2.75d
-			y: 3.25d
+			x: -1.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -624,7 +615,7 @@
 				id: "25AE4098C6207251"
 				type: "checkmark"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 3.25d
 		}
 		{
@@ -648,6 +639,34 @@
 			}]
 			x: -2.0d
 			y: -2.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "blockbox:brazier"
+			}
+			id: "4D55B43A743CBB89"
+			min_width: 300
+			tasks: [{
+				id: "00DE229A9C8057F0"
+				type: "checkmark"
+			}]
+			x: -4.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "dustydecorations:pumpkin_scarecrow"
+			}
+			id: "06479AB81030B91C"
+			min_width: 300
+			tasks: [{
+				id: "4C327A2CC87C35E5"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 3.25d
 		}
 	]
 }
