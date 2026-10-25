@@ -1,5 +1,5 @@
-const { $BeforeLivingEntityHurtKubeEvent } = require("@package/dev/latvian/mods/kubejs/entity");
-const { $Mob } = require("@package/net/minecraft/world/entity")
+let $BeforeLivingEntityHurtKubeEvent = Java.loadClass("dev.latvian.mods.kubejs.entity.BeforeLivingEntityHurtKubeEvent");
+let $Mob = Java.loadClass("net.minecraft.world.entity.Mob");
 
 let grossMobs = [
     'alexsmobs:tarantula_hawk', 'alexsmobs:crimson_mosquito',
