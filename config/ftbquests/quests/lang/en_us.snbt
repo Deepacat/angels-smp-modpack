@@ -69,6 +69,8 @@
 		"If you care to interact with the mod and it's structures, be careful!"
 		""
 		"(Random bombs you find laying around will not explode randomly however they are slightly radioactive to be around)"
+		""
+		"(Coal, sulfur, and asbestos hazards are disabled)"
 	]
 	quest.0E293D4FBF15AED7.quest_subtitle: "Anyone else hear that clicking"
 	quest.0E293D4FBF15AED7.title: "Dangerous Landmarks!"
