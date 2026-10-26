@@ -12,6 +12,7 @@
 /screenshots/
 /downloads/
 /modernfix/
+/visual_keybinder/
 /fancymenu_data/
 /ESM/
 /xaero/
@@ -25,6 +26,7 @@
 /portable_blueprints/
 /moonlight-global-datapacks/
 /schematics/
+/.cache/
 /.bobby/
 /.pg-native/
 /.mixin.out/
