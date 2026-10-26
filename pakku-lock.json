@@ -1237,6 +1237,45 @@
             ]
         },
         {
+            "pakku_id": "Ddkg60HJb7HuoYOW",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cccbridge"
+            },
+            "name": {
+                "curseforge": "CC:C Bridge"
+            },
+            "id": {
+                "curseforge": "656214"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8232/436/cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+                    "id": "8232436",
+                    "parent_id": "656214",
+                    "hashes": {
+                        "sha1": "2f0df007d6ed849266a505f0854ab07f55a58b41",
+                        "md5": "50f30b3d2e8ef3d37c748f5223f0baa3"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "282001"
+                    ],
+                    "size": 490733,
+                    "date_published": "2026-06-11T16:25:01.480Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "BtAxuvUbM3rp7skh",
             "type": "MOD",
             "slug": {
@@ -7948,6 +7987,45 @@
                     ],
                     "size": 21079,
                     "date_published": "2025-07-10T07:02:27.877Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CT28SEChPSgjfCQV",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "toggle-better-combat"
+            },
+            "name": {
+                "curseforge": "Toggle Better Combat"
+            },
+            "id": {
+                "curseforge": "1750743"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "togglebettercombat-neoforge-1.0.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9236/745/togglebettercombat-neoforge-1.0.0+1.21.1.jar",
+                    "id": "9236745",
+                    "parent_id": "1750743",
+                    "hashes": {
+                        "sha1": "8b9bc53336fd4da0c29a9c26fdedc160e4c0990d",
+                        "md5": "4cd0fbb96b0283d8cb858b4d5a2f5313"
+                    },
+                    "required_dependencies": [
+                        "639842",
+                        "419699"
+                    ],
+                    "size": 89528,
+                    "date_published": "2026-10-18T07:15:44.180Z"
                 }
             ]
         },
