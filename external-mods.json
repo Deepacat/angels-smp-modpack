@@ -1,0 +1,13 @@
+{
+  "mods": [
+    {
+      "name": "Thaumaturge",
+      "filename": "thaumaturge-1.21.1-NeoForge-1.0.6.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.6.jar",
+      "category": "mods",
+      "side": "both",
+      "hash-format": "sha1",
+      "hash": "2b00a5cbe43d33cc1200b3f6d91b81faef88c594"
+    }
+  ]
+}

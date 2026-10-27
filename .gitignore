@@ -175,3 +175,13 @@
 /.DS_Store
 /.AppleDouble
 /.LSOverride
+# Distribution build outputs
+/modpackbuilds/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# External mod jars are downloaded from external-mods.json
+/.pakku/overrides/mods/*.jar
+/.pakku/overrides/mods/*.zip
