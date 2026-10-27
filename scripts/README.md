@@ -70,7 +70,7 @@ Options:
 - `--bootstrap PATH` — use a different
   `packwiz-installer-bootstrap.jar`.
 - `--pack-url URL` — hosted `pack.toml` used by the bootstrap. Default:
-  `https://raw.githubusercontent.com/Deepacat/angels-smp-modpack/packwiz/pack.toml`
+  `https://raw.githubusercontent.com/Deepacat/angels-smp-modpack/packwiz-pack/pack.toml`
 - `--local-pack` — bundle the pack in the instance and run the installer
   directly, for offline testing.
 - `--smoke-projects N` — only include the first N projects (quick test).
@@ -92,6 +92,36 @@ packwiz `[download]` URL metadata. No external jar is copied into it.
 Local-pack mode also contains `.minecraft/packwiz-pack/` and uses the direct
 installer main class instead of the bootstrap.
 
+## upload_packwiz_branch.py
+
+Builds the pack, copies it to the ignored local `packwiz/` folder, and
+optionally publishes it to the generated `packwiz-pack` branch:
+
+```bash
+python scripts/upload_packwiz_branch.py --push
+```
+
+Source branches (`main` and the temporary `packwiz-dev-test`) do not track
+`packwiz/`. The published branch is a fresh one-commit branch, so it contains
+no dev history or jar history.
+
+Options:
+
+- `--no-build` — use the existing generated pack.
+- `--push` — create and force-push the generated pack branch.
+- `--branch NAME` — target another generated pack branch.
+
+The served URL is:
+
+```text
+https://raw.githubusercontent.com/Deepacat/angels-smp-modpack/packwiz-pack/pack.toml
+```
+
+The script sets `core.autocrlf=false` in the temporary publish repo and
+verifies every committed blob against `index.toml` before pushing. This
+prevents Git LF/CRLF conversion from causing `Invalid mod file hash` on
+clients.
+
 ## pakku_to_packwiz.py
 
 Shared converter. It:
@@ -111,6 +141,6 @@ Shared converter. It:
 - The scripts use only the Python standard library.
 - The server script requires Pakku/Java; the client script requires only
   Python (the installer and bootstrap jars are bundled for distribution).
-- The hosted pack source must be uploaded to a static host before the client
-  zip is distributed. The default raw-GitHub URL is not live until the
-  `packwiz` branch is published.
+- The hosted pack source must be published before the client zip is
+  distributed. The default raw-GitHub URL is not live until the
+  `packwiz-pack` branch is pushed.

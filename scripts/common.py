@@ -23,9 +23,21 @@ PRISM_MMC_PACK = REPO_ROOT / ".pakku" / "prism-overrides" / "mmc-pack.json"
 EXTERNAL_MODS_FILE = REPO_ROOT / "external-mods.json"
 EXTERNAL_MODS_CACHE = REPO_ROOT / ".pakku" / "overrides" / "mods"
 
-# Hosted pack location used by the client build. Publish the generated
-# modpackbuilds/client/pack/ folder at this URL (or override --pack-url).
-DEFAULT_PACK_URL = "https://raw.githubusercontent.com/Deepacat/angels-smp-modpack/packwiz/pack.toml"
+# The pack itself is generated, so it is not committed to the dev branch.
+# upload_packwiz_branch.py publishes it to this separate, permanent generated branch.
+PACK_REPO = "Deepacat/angels-smp-modpack"
+PACK_REMOTE = f"https://github.com/{PACK_REPO}.git"
+PACK_BRANCH = "packwiz-pack"
+
+
+def pack_url(branch: str = PACK_BRANCH) -> str:
+    return (
+        f"https://raw.githubusercontent.com/{PACK_REPO}/"
+        f"{branch}/pack.toml"
+    )
+
+
+DEFAULT_PACK_URL = pack_url()
 
 
 def load_external_mods() -> list[dict]:
