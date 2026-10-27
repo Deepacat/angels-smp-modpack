@@ -1,5 +1,17 @@
+#### No guarantee any of these files still exist in the pack lol I keep copying it from pack to pack
+#### with different setups and mod lists :)
+
 ### .Minecraft (Root)
 ## Folders
+# Cynosure readme
+/.cache/
+/.bobby/
+/.pg-native/
+/.mixin.out/
+# Generated packwiz pack (published separately)
+/packwiz/
+# Generated modpack exports from py scripts
+/modpackbuilds/
 /local/
 /saves/
 /mods/
@@ -26,11 +38,6 @@
 /portable_blueprints/
 /moonlight-global-datapacks/
 /schematics/
-/.cache/
-/.bobby/
-/.pg-native/
-/.mixin.out/
-/instanceBuild/
 /data/
 # Fancy toasts cfg (auto updates date, should be updated in defaultcfgs)
 /cache/
@@ -61,6 +68,9 @@
 # Generated files
 /build/
 /.pakku/shelf
+# External mod jars are downloaded from external-mods.json
+/.pakku/overrides/mods/*.jar
+/.pakku/overrides/mods/*.zip
 # Unignore useful files
 /!.pakku/
 /!pakku.jar
@@ -175,13 +185,7 @@
 /.DS_Store
 /.AppleDouble
 /.LSOverride
-# Distribution build outputs
-/modpackbuilds/
 
 # Python bytecode
 __pycache__/
 *.pyc
-
-# External mod jars are downloaded from external-mods.json
-/.pakku/overrides/mods/*.jar
-/.pakku/overrides/mods/*.zip

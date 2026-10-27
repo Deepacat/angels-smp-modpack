@@ -35,6 +35,7 @@ from common import (
     DEFAULT_PACK_URL,
     INSTALLER_JAR,
     OUTPUT_ROOT,
+    PACK_BRANCH,
     PRISM_MMC_PACK,
     REPO_ROOT,
     output_name,
@@ -241,8 +242,8 @@ def main() -> int:
         print("Upload the pack source folder above to that URL before "
               "distributing the zip.")
         if pack_url == DEFAULT_PACK_URL:
-            print("Using the default URL; publish the pack to the 'packwiz' "
-                  "branch or rebuild with --pack-url.")
+            print(f"Using the default URL; publish the pack to the "
+                  f"'{PACK_BRANCH}' branch or rebuild with --pack-url.")
     print("Import the zip into Prism, then launch the instance.")
     return 0
 
