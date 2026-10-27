@@ -5320,7 +5320,7 @@
             ]
         },
         {
-            "pakku_id": "i9mA1q2ENJNGl0Va",
+            "pakku_id": "aT0jozgaZ2EkfPeL",
             "type": "MOD",
             "slug": {
                 "curseforge": "ftb-library-forge"
@@ -5334,7 +5334,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-library-neoforge-2101.1.38.jar",
+                    "file_name": "ftb-library-neoforge-2101.1.37.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5342,18 +5342,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9344/121/ftb-library-neoforge-2101.1.38.jar",
-                    "id": "9344121",
+                    "url": "https://edge.forgecdn.net/files/9008/89/ftb-library-neoforge-2101.1.37.jar",
+                    "id": "9008089",
                     "parent_id": "404465",
                     "hashes": {
-                        "sha1": "dce68b18dd26c390de14acfaec32fb5cdd70f15c",
-                        "md5": "2ef286b52048d7d93d04fd027cea60fa"
+                        "sha1": "b6e503587afcd678ec257e4abdc6362ff18c2fef",
+                        "md5": "26aebcb05d237c98fae141794f5ea2f9"
                     },
                     "required_dependencies": [
                         "419699"
                     ],
-                    "size": 1477837,
-                    "date_published": "2026-10-27T16:03:52.463Z"
+                    "size": 1439881,
+                    "date_published": "2026-09-29T10:39:18.093Z"
                 }
             ]
         },
@@ -5437,7 +5437,7 @@
             ]
         },
         {
-            "pakku_id": "qek8rAXqIJbaaZD8",
+            "pakku_id": "luZ4E1LytCETpteO",
             "type": "MOD",
             "slug": {
                 "curseforge": "ftb-xmod-compat"
@@ -5451,7 +5451,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-xmod-compat-neoforge-21.1.14.jar",
+                    "file_name": "ftb-xmod-compat-neoforge-21.1.13.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5459,18 +5459,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9344/504/ftb-xmod-compat-neoforge-21.1.14.jar",
-                    "id": "9344504",
+                    "url": "https://edge.forgecdn.net/files/9267/870/ftb-xmod-compat-neoforge-21.1.13.jar",
+                    "id": "9267870",
                     "parent_id": "889915",
                     "hashes": {
-                        "sha1": "8dc3db7b8aa93eabac54237c5d53bfea15f92ba5",
-                        "md5": "3b2e3d852cc241bc02a1edb6c9ae9089"
+                        "sha1": "e4a88bb2eae8f98c6d25ca861175aa515e705d28",
+                        "md5": "482268eacd2cd7557c75192411540823"
                     },
                     "required_dependencies": [
                         "404465"
                     ],
-                    "size": 149952,
-                    "date_published": "2026-10-27T16:37:24.247Z"
+                    "size": 148504,
+                    "date_published": "2026-10-20T14:59:02.687Z"
                 }
             ]
         },
