@@ -30,13 +30,13 @@
         "sodium": {
             "side": "CLIENT"
         },
-        "reeses_sodium_options": {
+        "reeses-sodium-options": {
             "side": "CLIENT"
         },
-        "sodium_extra": {
+        "sodium-extra": {
             "side": "CLIENT"
         },
-        "lambdynlights_api": {
+        "lambdynlights-api": {
             "side": "CLIENT"
         },
         "progresspeek": {
@@ -45,7 +45,10 @@
         "fastquit": {
             "side": "CLIENT"
         },
-        "crash_assistant": {
+        "fancy-toasts": {
+            "side": "CLIENT"
+        },
+        "crash-assistant": {
             "side": "CLIENT"
         },
         "kerria": {

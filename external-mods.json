@@ -8,6 +8,24 @@
       "side": "both",
       "hash-format": "sha1",
       "hash": "4c1690ddc668aa379052015932ca1f7951ca7ff9"
+    },
+    {
+      "name": "Creature Feature",
+      "filename": "creaturefeature-1.2.3.3.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/creaturefeature-1.2.3.3.jar",
+      "category": "mods",
+      "side": "both",
+      "hash-format": "sha1",
+      "hash": "e8550e1bae25f437fdaa142877027a0b783c074b"
+    },
+    {
+      "name": "CC-Tweaked",
+      "filename": "cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "category": "mods",
+      "side": "both",
+      "hash-format": "sha1",
+      "hash": "f35d4f636c2eb1b30c5d3f5c08e110c6acb8e02f"
     }
   ]
 }
