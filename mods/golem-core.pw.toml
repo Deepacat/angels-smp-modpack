@@ -1,0 +1,13 @@
+name = "Golem Core"
+filename = "golemcore-neoforge-1.0.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9326/623/golemcore-neoforge-1.0.2+1.21.1.jar"
+hash-format = "sha1"
+hash = "a53dc2531da020753975471428fb8ff99f7577e1"
+
+[update]
+[update.curseforge]
+project-id = 1719361
+file-id = 9326623

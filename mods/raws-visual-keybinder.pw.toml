@@ -1,0 +1,13 @@
+name = "Raw's Visual keybinder"
+filename = "visual_keybinder-1.21.1-0.1.13-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8055/151/visual_keybinder-1.21.1-0.1.13-neoforge.jar"
+hash-format = "sha1"
+hash = "58204c60c8f8b983dcb184b6104193ebf488b79f"
+
+[update]
+[update.curseforge]
+project-id = 1020759
+file-id = 8055151

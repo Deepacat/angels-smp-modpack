@@ -1,0 +1,13 @@
+name = "End Remastered [NeoForge/Fabric]"
+filename = "endrem-neoforge-1.21.1-6.3.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8503/446/endrem-neoforge-1.21.1-6.3.0.jar"
+hash-format = "sha1"
+hash = "d3fca102a9f5aeb108d5118665b86ead1dd30988"
+
+[update]
+[update.curseforge]
+project-id = 404183
+file-id = 8503446

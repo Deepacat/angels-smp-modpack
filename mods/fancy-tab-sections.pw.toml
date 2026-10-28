@@ -1,0 +1,13 @@
+name = "Fancy Tab Sections"
+filename = "fancytabsections-6.2.1-NEOFORGE-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8800/690/fancytabsections-6.2.1-NEOFORGE-1.21.1.jar"
+hash-format = "sha1"
+hash = "bdc9738d9ea84276569bbd6f7ae7f06143755194"
+
+[update]
+[update.curseforge]
+project-id = 1537163
+file-id = 8800690

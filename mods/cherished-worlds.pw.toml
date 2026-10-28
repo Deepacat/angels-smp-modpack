@@ -1,0 +1,13 @@
+name = "Cherished Worlds"
+filename = "cherishedworlds-neoforge-10.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6353/949/cherishedworlds-neoforge-10.1.1+1.21.1.jar"
+hash-format = "sha1"
+hash = "aefc8c79ba62606a71f509a9b3c881f3fc4cad5c"
+
+[update]
+[update.curseforge]
+project-id = 308240
+file-id = 6353949

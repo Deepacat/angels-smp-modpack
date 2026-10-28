@@ -1,0 +1,13 @@
+name = "Configurable"
+filename = "configurable-3.5.3+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9191/7/configurable-3.5.3+1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "694e68c671dacf418c8ed7ab543f62c80fdd0f95"
+
+[update]
+[update.curseforge]
+project-id = 1092048
+file-id = 9191007

@@ -1,0 +1,13 @@
+name = "Reliable Backpacks"
+filename = "reliable_backpacks-neoforge-1.21.1-1.9.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8827/551/reliable_backpacks-neoforge-1.21.1-1.9.1.jar"
+hash-format = "sha1"
+hash = "0a6656ff8eb12eec04cd9ead6e0e135bfbb711c3"
+
+[update]
+[update.curseforge]
+project-id = 1484454
+file-id = 8827551

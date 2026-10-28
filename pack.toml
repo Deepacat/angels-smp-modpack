@@ -1,0 +1,13 @@
+name = "Angelpack"
+author = "Deepacat"
+version = "DEV"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "853b0b2f81492760bfc96f04a5b3769b567d07e6a4daeee5de29eb1a58e6c40f"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.262"

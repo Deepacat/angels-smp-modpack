@@ -1,0 +1,13 @@
+name = "Databank"
+filename = "databank-1.3.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9124/108/databank-1.3.2.jar"
+hash-format = "sha1"
+hash = "6e2a33fd90a3e262c6b6872f9dc50df3918de318"
+
+[update]
+[update.curseforge]
+project-id = 1181408
+file-id = 9124108

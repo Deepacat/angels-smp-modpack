@@ -1,0 +1,13 @@
+name = "Stylish Effects"
+filename = "StylishEffects-v21.1.3-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8319/771/StylishEffects-v21.1.3-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "83f764d776e2093d4e822fe784d4b17bc76c1815"
+
+[update]
+[update.curseforge]
+project-id = 543661
+file-id = 8319771

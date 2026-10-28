@@ -1,0 +1,13 @@
+name = "Ixeris"
+filename = "Ixeris-4.6.10+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9254/50/Ixeris-4.6.10+1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "0635de4635d2d5cd784eaba62a17d2544e1cf4dd"
+
+[update]
+[update.curseforge]
+project-id = 1285307
+file-id = 9254050

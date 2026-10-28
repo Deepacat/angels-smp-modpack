@@ -1,0 +1,13 @@
+name = "Hephaestus Tools"
+filename = "hephaestus_tools-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9065/912/hephaestus_tools-neoforge-1.21.1-1.0.3.jar"
+hash-format = "sha1"
+hash = "bf6f49360d9a5668760ed1f2642004ced930d6a6"
+
+[update]
+[update.curseforge]
+project-id = 1725286
+file-id = 9065912

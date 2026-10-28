@@ -1,0 +1,13 @@
+name = "FTB XMod Compat"
+filename = "ftb-xmod-compat-neoforge-21.1.13.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9267/870/ftb-xmod-compat-neoforge-21.1.13.jar"
+hash-format = "sha1"
+hash = "e4a88bb2eae8f98c6d25ca861175aa515e705d28"
+
+[update]
+[update.curseforge]
+project-id = 889915
+file-id = 9267870

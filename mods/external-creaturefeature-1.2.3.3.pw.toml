@@ -1,0 +1,8 @@
+name = "Creature Feature"
+filename = "creaturefeature-1.2.3.3.jar"
+side = "both"
+
+[download]
+url = "https://mods.deepa.cat/angel/packmods/creaturefeature-1.2.3.3.jar"
+hash-format = "sha1"
+hash = "e8550e1bae25f437fdaa142877027a0b783c074b"

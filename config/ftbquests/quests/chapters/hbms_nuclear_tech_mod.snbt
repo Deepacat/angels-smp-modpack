@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hbms_nuclear_tech_mod"
+	group: "1000ACAB694BB7DF"
+	icon: {
+		id: "hbm:nuke_man"
+	}
+	id: "24F6798D8F85944D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

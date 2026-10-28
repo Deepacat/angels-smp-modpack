@@ -1,0 +1,13 @@
+name = "Modonomicon"
+filename = "modonomicon-1.21.1-neoforge-1.120.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9344/423/modonomicon-1.21.1-neoforge-1.120.8.jar"
+hash-format = "sha1"
+hash = "4e583ae1a05a1aaac442fda7f6db7b0c20149d69"
+
+[update]
+[update.curseforge]
+project-id = 538392
+file-id = 9344423

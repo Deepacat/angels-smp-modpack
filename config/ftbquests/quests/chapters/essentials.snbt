@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "essentials"
+	group: "1000ACAB694BB7DF"
+	id: "582B86B763B5C767"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

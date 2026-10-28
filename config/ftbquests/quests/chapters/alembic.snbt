@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alembic"
+	group: "1000ACAB055C04B7"
+	id: "6EC11ED9C57DE451"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

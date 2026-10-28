@@ -1,0 +1,13 @@
+name = "Hbm's Nuclear Tech Mod: Continuum"
+filename = "hbm-neoforge-1.0.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9326/773/hbm-neoforge-1.0.2+1.21.1.jar"
+hash-format = "sha1"
+hash = "0bb4eb4728a3439530392374c05c215d05550b45"
+
+[update]
+[update.curseforge]
+project-id = 1719328
+file-id = 9326773

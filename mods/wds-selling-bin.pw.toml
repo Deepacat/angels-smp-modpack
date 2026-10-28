@@ -1,0 +1,13 @@
+name = "wd's Selling Bin"
+filename = "selling_bin-1.6-NEOFORGE-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8780/570/selling_bin-1.6-NEOFORGE-1.21.1.jar"
+hash-format = "sha1"
+hash = "6c67b55385cb029e77b96144a0ed530896450c79"
+
+[update]
+[update.curseforge]
+project-id = 1483881
+file-id = 8780570

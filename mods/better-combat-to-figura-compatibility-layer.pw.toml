@@ -1,0 +1,13 @@
+name = "Better Combat to Figura Compatibility Layer"
+filename = "figura_bettercombatpal_compat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8589/6/figura_bettercombatpal_compat-1.0.0.jar"
+hash-format = "sha1"
+hash = "c5fc90d19ec4a37c151176bce09e64615a93b720"
+
+[update]
+[update.curseforge]
+project-id = 1630988
+file-id = 8589006

@@ -1,0 +1,13 @@
+name = "AsyncParticles"
+filename = "AsyncParticles-21.1.4.10+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9256/646/AsyncParticles-21.1.4.10+1.21.1.jar"
+hash-format = "sha1"
+hash = "ebc10f9aafc284df334e7cc2e986013c027d9450"
+
+[update]
+[update.curseforge]
+project-id = 1215753
+file-id = 9256646

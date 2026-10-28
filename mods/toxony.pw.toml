@@ -1,0 +1,13 @@
+name = "Toxony"
+filename = "toxony-0.10.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8234/893/toxony-0.10.7.jar"
+hash-format = "sha1"
+hash = "d92e0d0ae2ece85c353f22463fbc7c61595fca20"
+
+[update]
+[update.curseforge]
+project-id = 1236984
+file-id = 8234893

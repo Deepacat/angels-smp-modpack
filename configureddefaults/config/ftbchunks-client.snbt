@@ -1,0 +1,578 @@
+# Client-specific configuration for FTB Chunks
+# Modpack defaults should be defined in <instance>/config/ftbchunks-client.snbt
+#   (may be overwritten on modpack update)
+# Players may locally override this by copying into <instance>/local/ftbchunks-client.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	advanced: {
+		# Enables debug info
+		# Default: false
+		debug_info: false
+		
+		# Advanced option. Change how often the minimap will refresh icons
+		# Default: 500
+		# Range: 0 ~ 10000
+		minimap_icon_update_timer: 500
+		
+		# Advanced option. How often map render update will be queued
+		# Default: 60
+		# Range: 1 ~ 600
+		rerender_queue_ticks: 60
+		
+		# Advanced option. Max tasks that can queue up
+		# Default: 100
+		# Range: 1 ~ 10000
+		task_queue_max: 100
+		
+		# Advanced option. How often queued tasks will run
+		# Default: 4
+		# Range: 1 ~ 300
+		task_queue_ticks: 4
+		memory: {
+			# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
+			# Default: 32
+			# Range: 0 ~ 2147483647
+			autorelease_on_map_close: 32
+			
+			# Constrain maximum map zoom-out based on number of explored regions and available memory
+			# Default: true
+			max_zoom_constraint: true
+			
+			# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
+			# Default: 300
+			# Range: 0 ~ 2147483647
+			region_release_time: 300
+		}
+	}
+	appearance: {
+		# Biome blend
+		# Default: "blend_5x5"
+		# Valid values: "none", "blend_3x3", "blend_5x5", "blend_7x7", "blend_9x9", "blend_11x11", "blend_13x13", "blend_15x15"
+		biome_blend: "blend_5x5"
+		
+		# Chunk grid overlay in large map
+		# Default: false
+		chunk_grid: false
+		
+		# Claim mode for the chunk claiming screen
+		# Default: "freehand"
+		# Valid values: "freehand", "rectangle", "circle"
+		claim_mode: "freehand"
+		
+		# Show claimed chunks on the map
+		# Default: true
+		claimed_chunks_on_map: true
+		
+		# Advanced option. Foliage darkness
+		# Default: 50
+		# Range: 0 ~ 255
+		foliage_darkness: 50
+		
+		# Advanced option. Grass darkness
+		# Default: 50
+		# Range: 0 ~ 255
+		grass_darkness: 50
+		
+		# Different ways to render map
+		# Default: "none"
+		# Valid values: "none", "night", "topography", "blocks", "light_sources"
+		map_mode: "none"
+		
+		# Noise added to map to make it look less plastic
+		# Default: 0.05
+		# Range: 0.0 ~ 0.5
+		noise: 0.05d
+		
+		# Only show entities that are on the surface
+		# Default: true
+		only_surface_entities: true
+		
+		# Show your own claimed chunks on the map
+		# Default: true
+		own_claimed_chunks_on_map: true
+		
+		# Reduces color palette to 256 colors
+		# Default: false
+		reduced_color_palette: false
+		
+		# Color intensity
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		saturation: 1.0d
+		
+		# Shadow intensity
+		# Default: 0.1
+		# Range: 0.0 ~ 0.3
+		shadows: 0.1d
+		
+		# How many blocks should height checks skip in water. 0 means flat water, ignoring terrain
+		# Default: 8
+		# Range: 0 ~ 128
+		water_height_factor: 8
+		
+		# Advanced option. Water visibility
+		# Default: 220
+		# Range: 0 ~ 255
+		water_visibility: 220
+	}
+	minimap: {
+		# Blurs minimap
+		# Default: "auto"
+		# Valid values: "auto", "on", "off"
+		blur_mode: "auto"
+		
+		# Adds NWSE compass inside minimap
+		# Default: true
+		compass: true
+		
+		# Enable minimap
+		# Default: true
+		enabled: true
+		
+		# Show entities on minimap
+		# Default: true
+		entities: true
+		
+		# Show entity heads on minimap
+		# Default: true
+		entity_heads: true
+		entity_icon: {
+			"hybrid_aquatic:squirrelfish": true
+			"hybrid_aquatic:parrotfish": true
+			"alexsmobs:mimic_octopus": true
+			"minecraft:ravager": true
+			"alexsmobs:grizzly_bear": true
+			"minecraft:mule": true
+			"thaumaturge:firebat": true
+			"upgrade_aquatic:lionfish": true
+			"ars_elemental:flashjack_entity": true
+			"minecraft:bogged": true
+			"hybrid_aquatic:corydora": true
+			"minecraft:salmon": false
+			"thaumaturge:brainy_zombie": true
+			"friendsandfoes:glare": true
+			"upgrade_aquatic:thrasher": true
+			"hybrid_aquatic:trevally": true
+			"alexsmobs:seagull": true
+			"alexsmobs:centipede_tail": true
+			"creaturefeature:stained_glass": true
+			"hybrid_aquatic:lions_mane_jellyfish": true
+			"hybrid_aquatic:orca": true
+			"hybrid_aquatic:shrimp": true
+			"alexsmobs:fly": true
+			"alexsmobs:terrapin": true
+			"minecraft:wolf": true
+			"hybrid_aquatic:herring": true
+			"upgrade_aquatic:flare": true
+			"creaturefeature:cannonball_crab": true
+			"friendsandfoes:mauler": true
+			"minecraft:vindicator": true
+			"minecraft:warden": true
+			"alexsmobs:triops": true
+			"alexsmobs:mantis_shrimp": true
+			"hybrid_aquatic:horseshoe_crab": true
+			"minecraft:cod": false
+			"hybrid_aquatic:manta_ray": true
+			"hybrid_aquatic:triggerfish": true
+			"upgrade_aquatic:goose": true
+			"hybrid_aquatic:ghost_crab": true
+			"hybrid_aquatic:danio": true
+			"minecraft:hoglin": true
+			"hybrid_aquatic:starfish": true
+			"hybrid_aquatic:blowfish": true
+			"alexsmobs:murmur_head": true
+			"thaumaturge:taint_spore": true
+			"hybrid_aquatic:sea_slug": true
+			"hybrid_aquatic:tetra": true
+			"hbm:entity_mob_mask_man": true
+			"thaumaturge:pech": true
+			"ars_nouveau:drygmy": true
+			"minecraft:pufferfish": false
+			"alexsmobs:moose": true
+			"minecraft:rabbit": true
+			"creaturefeature:beauty": true
+			"hybrid_aquatic:crayfish": true
+			"hybrid_aquatic:blue_jellyfish": true
+			"hybrid_aquatic:sea_cucumber": true
+			"ars_nouveau:whirlisprig": true
+			"alexsmobs:hammerhead_shark": true
+			"minecraft:cave_spider": true
+			"ars_elemental:siren_entity": true
+			"goety:icy_spider": true
+			"nomansland:frienderman": true
+			"alexsmobs:blue_jay": true
+			"hybrid_aquatic:barracuda": true
+			"alexsmobs:laviathan": true
+			"hybrid_aquatic:piranha": true
+			"occultism:devil_familiar": true
+			"minecraft:piglin": true
+			"alexsmobs:rattlesnake": true
+			"hybrid_aquatic:betta": true
+			"hybrid_aquatic:discus": true
+			"creaturefeature:canary": true
+			"hybrid_aquatic:cichlid": true
+			"alexsmobs:raccoon": true
+			"hybrid_aquatic:decorator_crab": true
+			"hybrid_aquatic:seahorse": true
+			"goety:wraith": true
+			"friendsandfoes:barnacle": true
+			"alexsmobs:bone_serpent_part": true
+			"hybrid_aquatic:flashlight_fish": true
+			"minecraft:squid": true
+			"creaturefeature:friend": true
+			"hybrid_aquatic:otter": true
+			"hybrid_aquatic:bull_shark": true
+			"minecraft:sheep": true
+			"nomansland:billhook_bass": true
+			"minecraft:ocelot": true
+			"alexsmobs:centipede_body": true
+			"minecraft:camel_husk": true
+			"alexsmobs:shoebill": true
+			"alexsmobs:cockroach": true
+			"minecraft:parrot": true
+			"alexsmobs:toucan": true
+			"alexsmobs:murmur": true
+			"hbm:entity_elder_one": true
+			"hybrid_aquatic:dugong": true
+			"hybrid_aquatic:tiger_barb": true
+			"minecraft:parched": true
+			"hybrid_aquatic:seadragon": true
+			"alexsmobs:bison": true
+			"alexsmobs:seal": true
+			"goety:prisoner": true
+			"goety:grave_golem": true
+			"thaumaturge:cultist_portal_lesser": true
+			"friendsandfoes:crab": true
+			"minecraft:zombie_horse": true
+			"hybrid_aquatic:sunfish": true
+			"alexsmobs:flutter": true
+			"minecraft:tropical_fish": false
+			"goety:heretic": true
+			"minecraft:villager": true
+			"alexsmobs:snow_leopard": true
+			"hybrid_aquatic:sea_bass": true
+			"minecraft:cat": true
+			"hybrid_aquatic:whale_shark": true
+			"alexsmobs:platypus": true
+			"upgrade_aquatic:perch": true
+			"hybrid_aquatic:cuttlefish": true
+			"hybrid_aquatic:pearlfish": true
+			"minecraft:pig": true
+			"goety:reaper": true
+			"ars_nouveau:gift_starby": true
+			"minecraft:spider": true
+			"alexsmobs:hummingbird": true
+			"alexsmobs:centipede_head": true
+			"goety:sorcerer": true
+			"minecraft:horse": true
+			"minecraft:drowned": true
+			"alexsmobs:lobster": true
+			"hbm:entity_plastic_bag": true
+			"minecraft:zombified_piglin": true
+			"hybrid_aquatic:shiner": true
+			"minecraft:trader_llama": true
+			"hybrid_aquatic:coconut_crab": true
+			"hybrid_aquatic:damselfish": true
+			"alexsmobs:bone_serpent": true
+			"hbm:entity_mob_nuclear_creeper": true
+			"hbm:entity_cyber_crab": true
+			"alexsmobs:tarantula_hawk": true
+			"thaumaturge:wisp": true
+			"alexsmobs:crocodile": true
+			"hybrid_aquatic:barrel_jellyfish": true
+			"occultism:demonic_wife": true
+			"occultism:demonic_husband": true
+			"hybrid_aquatic:mackerel": true
+			"hybrid_aquatic:hound_shark": true
+			"minecraft:witch": true
+			"minecraft:bee": true
+			"quark:crab": true
+			"minecraft:glow_squid": true
+			"goety:warlock": true
+			"creaturefeature:canary_part": true
+			"minecraft:bat": true
+			"hearthandharvest:crow": true
+			"nomansland:tortoise": true
+			"upgrade_aquatic:nautilus": true
+			"minecraft:dolphin": true
+			"ars_nouveau:alakarkinos": true
+			"goety:wartling": true
+			"creaturefeature:pathogen": true
+			"hybrid_aquatic:manatee": true
+			"hybrid_aquatic:dungeness_crab": true
+			"minecraft:enderman": true
+			"hybrid_aquatic:rockfish": true
+			"minecraft:fox": true
+			"minecraft:phantom": true
+			"hybrid_aquatic:pupfish": true
+			"hbm:entity_mob_phosgene_creeper": true
+			"hybrid_aquatic:moray_eel": true
+			"alexsmobs:flying_fish": true
+			"quark:wraith": true
+			"alexsmobs:crow": true
+			"minecraft:nautilus": true
+			"hybrid_aquatic:stingray": true
+			"alexsmobs:roadrunner": true
+			"alexsmobs:elephant": true
+			"hybrid_aquatic:box_jellyfish": true
+			"creaturefeature:coat_of_arms": true
+			"hbm:entity_mob_volatile_creeper": true
+			"alexsmobs:tasmanian_devil": true
+			"hybrid_aquatic:golden_dorado": true
+			"alexsmobs:anaconda": true
+			"hybrid_aquatic:garden_eel": true
+			"minecraft:turtle": true
+			"alexsmobs:emu": true
+			"thaumaturge:cultist_knight": true
+			"hybrid_aquatic:cepheidae_jellyfish": true
+			"hbm:entity_fucc_a_ducc": true
+			"hybrid_aquatic:needlefish": true
+			"hybrid_aquatic:pleco": true
+			"hybrid_aquatic:sea_nettle": true
+			"alexsmobs:capuchin_monkey": true
+			"quark:foxhound": true
+			"minecraft:sulfur_cube": true
+			"minecraft:wither_skeleton": true
+			"hbm:entity_mob_gold_creeper": true
+			"alexsmobs:cachalot_whale": true
+			"minecraft:pillager": true
+			"alexsmobs:orca": true
+			"alexsmobs:crimson_mosquito": true
+			"minecraft:ghast": true
+			"minecraft:iron_golem": true
+			"hybrid_aquatic:boxfish": true
+			"quark:shiba": true
+			"alexsmobs:gazelle": true
+			"etcetera:weaver": true
+			"hybrid_aquatic:hammerhead_shark": true
+			"nomansland:goose": true
+			"goety:haunt": true
+			"minecraft:zombie_villager": true
+			"goety:obsidian_monolith": true
+			"creaturefeature:vertigo": true
+			"minecraft:creeper": true
+			"thaumaturge:taint_spore_swarmer": true
+			"friendsandfoes:illusioner": true
+			"hybrid_aquatic:basking_shark": true
+			"minecraft:skeleton": true
+			"quark:forgotten": true
+			"goety:web_spider": true
+			"minecraft:donkey": true
+			"minecraft:silverfish": true
+			"hbm:entity_glyphid": true
+			"hybrid_aquatic:lionfish": true
+			"nomansland:deer": true
+			"ars_nouveau:starbuncle": true
+			"hybrid_aquatic:wrasse": true
+			"hybrid_aquatic:flying_fish": true
+			"hybrid_aquatic:african_butterflyfish": true
+			"hybrid_aquatic:nomura_jellyfish": true
+			"alexsmobs:leafcutter_ant": true
+			"hybrid_aquatic:moon_jellyfish": true
+			"minecraft:mooshroom": true
+			"goety:reprobate": true
+			"hybrid_aquatic:surgeonfish": true
+			"thaumaturge:cultist_cleric": true
+			"hybrid_aquatic:sea_urchin": true
+			"alexsmobs:rocky_roller": true
+			"minecraft:cow": true
+			"alexsmobs:anteater": true
+			"hybrid_aquatic:arrow_squid": true
+			"alexsmobs:kangaroo": true
+			"alexsmobs:underminer": true
+			"creaturefeature:detritus": true
+			"hybrid_aquatic:flower_crab": true
+			"alexsmobs:sunbird": true
+			"alexsmobs:sugar_glider": true
+			"alexsmobs:soul_vulture": true
+			"alexsmobs:catfish": true
+			"hbm:entity_pigeon": true
+			"hybrid_aquatic:giant_isopod": true
+			"alexsmobs:skunk": true
+			"quark:toretoise": true
+			"alexsmobs:jerboa": true
+			"hybrid_aquatic:shell_beast": true
+			"goety:ravaged": true
+			"alexsmobs:gorilla": true
+			"goety:necromancer": true
+			"goety:maverick": true
+			"hybrid_aquatic:gourami": true
+			"hybrid_aquatic:vampire_crab": true
+			"minecraft:chicken": true
+			"hybrid_aquatic:octopus": true
+			"hybrid_aquatic:lobster": true
+			"hybrid_aquatic:spider_crab": true
+			"thaumaturge:taintacle": true
+			"hybrid_aquatic:sand_tiger_shark": true
+			"minecraft:slime": true
+			"minecraft:strider": true
+			"hbm:entity_tesla_crab": true
+			"hybrid_aquatic:hermit_crab": true
+			"minecraft:zombie": true
+			"hybrid_aquatic:fiddler_crab": true
+			"minecraft:axolotl": true
+			"hybrid_aquatic:trout": true
+			"alexsmobs:tiger": true
+			"minecraft:camel": true
+			"minecraft:skeleton_horse": true
+			"minecraft:wandering_trader": true
+			"hybrid_aquatic:stonefish": true
+			"goety:piker": true
+			"hybrid_aquatic:carp": true
+			"hybrid_aquatic:clownfish": true
+			"minecraft:husk": true
+			"creaturefeature:sinister": true
+			"alexsmobs:rain_frog": true
+			"quark:stoneling": true
+		}
+		
+		# Minimap font scaling (values not a multiple of 0.5 may look bad)
+		# Default: 0.5
+		# Range: 0.1 ~ 5.0
+		font_scale: 0.5d
+		
+		# Info hidden under minimap
+		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_hidden: [
+			"ftbchunks:fps"
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		
+		# Info displayed under minimap
+		# Default: ["ftbchunks:player_pos", "ftbchunks:biome", "ftbchunks:zone", "ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_order: [
+			"ftbchunks:player_pos"
+			"ftbchunks:biome"
+			"ftbchunks:zone"
+			"ftbchunks:fps"
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		info_settings: { }
+		
+		# Entities in minimap will be larger
+		# Default: false
+		large_entities: false
+		
+		# Minimap will not rotate
+		# Default: true
+		locked_north: true
+		
+		# Show player heads on minimap
+		# Default: true
+		player_heads: true
+		
+		# Mode for the pointer icon to render on full screen minimap
+		# Default: "both"
+		# Valid values: "face", "pointer", "both"
+		pointer_icon_mode: "both"
+		
+		# Mode for the pointer icon to render on minimap
+		# Default: "both"
+		# Valid values: "face", "pointer", "both"
+		pointer_icon_mode_minimap: "both"
+		
+		# Enables minimap to show up in corner
+		# Default: "top_right"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
+		position: "top_right"
+		
+		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
+		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
+		# Default: "none"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right", "none"
+		position_offset_condition: "none"
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_x: 0
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_y: 0
+		
+		# Size minimap proportional to screen width (and scale)
+		# Default: true
+		proportional: true
+		
+		# Draw reticle lines on minimap
+		# Default: true
+		reticle: true
+		
+		# Scale of minimap
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		scale: 1.5d
+		
+		# Always show player on minimap, even when rotation not locked
+		# Default: true
+		show_player_when_unlocked: true
+		
+		# Draw a square minimap instead of a circular one
+		# Default: false
+		square: false
+		
+		# Show text above minimap
+		# Default: false
+		text_above_minimap: false
+		
+		# Minimap visibility
+		# Default: 255
+		# Range: 0 ~ 255
+		visibility: 255
+		
+		# Show waypoints on minimap
+		# Default: true
+		waypoints: true
+		
+		# Zoom distance of the minimap
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		zoom: 2.0d
+	}
+	waypoints: {
+		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		death_waypoint_autoremove_distance: 3
+		
+		# Enables creation of death waypoints
+		# Default: true
+		death_waypoints: true
+		
+		# Show waypoints in world
+		# Default: true
+		in_world_waypoints: true
+		
+		# Minimum distance before waypoint dots start to fade
+		# Default: 1.0
+		# Range: 1.0 ~ 200.0
+		waypoint_dot_fade_distance: 1.0d
+		
+		# Minimum distance before waypoint beacons start to fade
+		# Default: 12.0
+		# Range: 1.0 ~ 200.0
+		waypoint_fade_distance: 12.0d
+		
+		# How close player crosshair needs to be to in-world waypoints to show waypoint labels
+		# Default: 1.0
+		# Range: 1.0 ~ 10.0
+		waypoint_focus_distance: 1.0d
+		
+		# How much do in-world waypoints enlarge when the player crosshair is close
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		waypoint_focus_scale: 2.0d
+		
+		# Maximum distance at which waypoints are drawn
+		# Default: 5000.0
+		# Range: 1.0 ~ 2.147483647E9
+		waypoint_max_distance: 250.0d
+	}
+}

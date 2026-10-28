@@ -1,0 +1,13 @@
+name = "Hearth and Harvest"
+filename = "hearthandharvest-1.21.1-1.4.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9339/685/hearthandharvest-1.21.1-1.4.3.jar"
+hash-format = "sha1"
+hash = "5e67ba0a79a4a85be9ba608fc53d24eb02427017"
+
+[update]
+[update.curseforge]
+project-id = 1212197
+file-id = 9339685

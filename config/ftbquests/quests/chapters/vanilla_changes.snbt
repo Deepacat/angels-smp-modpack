@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla_changes"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbquests:textures/gui/editor.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "71593D4901C1666F"
+	images: [
+		{
+			height: 1.0d
+			id: "153D5EECC3B58A88"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			height: 1.0d
+			id: "194BE34B1C753D96"
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.25d
+			y: -0.25d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "pastel:villager_head"
+			}
+			id: "53B1CE21DAA199BE"
+			tasks: [{
+				id: "742162462A800223"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "supplementaries:enderman_head"
+			}
+			id: "421AE66C9844B948"
+			tasks: [{
+				id: "344D8BD4BA787A78"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			id: "1B633BB97BC85CA4"
+			min_width: 350
+			tasks: [{
+				id: "3E149D2C65099B37"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "goety:item/focus/soulskull_spell"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5F8BB12379912F95"
+			min_width: 300
+			tasks: [{
+				id: "29BCF4B4121C9CB6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7D2F7A86FF9559BE"
+			size: 1.5d
+			tasks: [{
+				id: "723B11F2CAD48DF4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.375d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "060A4E7A5CA4A968"
+			min_width: 350
+			tasks: [{
+				id: "370629ABAB02FE4D"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:impaling": 1
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+			}
+			id: "3F55301FD684D53B"
+			min_width: 300
+			tasks: [{
+				id: "380BDA40CC265847"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ags_modernmarkings:block/marking_wall_symbol_yellow_radiation"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0E293D4FBF15AED7"
+			min_width: 300
+			tasks: [{
+				id: "23C9D737C85FEA74"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "14DB2DC890D13F80"
+			min_width: 350
+			tasks: [{
+				id: "030E0E1B6DD3E689"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "hbm:block_meteor_molten"
+			}
+			id: "197D3104C962DC8F"
+			min_width: 300
+			tasks: [
+				{
+					id: "17452658DBA94C43"
+					type: "checkmark"
+				}
+				{
+					id: "7A32310052054A93"
+					item: { count: 1, id: "hbm:meteor_charm" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.25d
+		}
+	]
+}

@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "tabs": {
+    "hbm:root": {
+      "positions": {
+        "hbm:slimeball": [
+          32,
+          675
+        ]
+      }
+    }
+  },
+  "deleted_advancements": {},
+  "derived_presentation": {
+    "minecraft:adventure/root": {
+      "title": "Adventure",
+      "icon": "minecraft:map",
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "minecraft:husbandry/root": {
+      "title": "Husbandry",
+      "icon": "minecraft:hay_block",
+      "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
+    },
+    "alexsmobs:alexsmobs/root": {
+      "title": "Alex\u0027s Mobs",
+      "icon": "alexsmobs:animal_dictionary",
+      "background": "alexsmobs:textures/advancement_background.png"
+    },
+    "ars_nouveau:root": {
+      "title": "Ars Nouveau",
+      "icon": "ars_nouveau:worn_notebook",
+      "background": "ars_nouveau:textures/gui/advancements/backgrounds/sourcestone.png"
+    },
+    "betterend:root": {
+      "title": "BetterEnd",
+      "icon": "betterend:end_mycelium",
+      "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+    },
+    "create:root": {
+      "title": "Welcome to Create",
+      "icon": "create:brass_hand",
+      "background": "create:textures/gui/advancements.png"
+    },
+    "create_enchantment_industry:root": {
+      "title": "Welcome to Create: Enchantment Industry",
+      "icon": "create_enchantment_industry:experience_bucket",
+      "background": "create_enchantment_industry:textures/block/super_experience_block.png"
+    },
+    "creaturefeature:root": {
+      "title": "Creature Feature.",
+      "icon": "creaturefeature:sleeping_powder",
+      "background": "creaturefeature:textures/gui/eeper_advancement.png"
+    },
+    "farmersdelight:main/root": {
+      "title": "Farmer\u0027s Delight",
+      "icon": "farmersdelight:cooking_pot",
+      "background": "minecraft:textures/block/bricks.png"
+    },
+    "goety:goety/root": {
+      "title": "The Dark Arts",
+      "icon": "goety:dark_wand",
+      "background": "goety:textures/block/shade_bricks.png"
+    },
+    "hearthandharvest:main/root": {
+      "title": "Hearth and Harvest",
+      "icon": "hearthandharvest:blueberries",
+      "background": "minecraft:textures/block/spruce_planks.png"
+    },
+    "hybrid_aquatic:root": {
+      "title": "Hybrid Aquatic",
+      "icon": "hybrid_aquatic:tuna",
+      "background": "hybrid_aquatic:textures/block/coralstone.png"
+    },
+    "idas:idas_root": {
+      "title": "Integrated Dungeons and Structures",
+      "icon": "minecraft:filled_map",
+      "background": "minecraft:textures/block/purple_terracotta.png"
+    },
+    "lootr:root": {
+      "title": "Lootr",
+      "icon": "minecraft:chest",
+      "background": "lootr:textures/block/gold_planks.png"
+    },
+    "powergrid:root": {
+      "title": "Welcome to Power Grid",
+      "icon": "powergrid:electric_motor",
+      "background": "powergrid:textures/gui/advancements.png"
+    },
+    "minecraft:story/root": {
+      "title": "Minecraft",
+      "icon": "minecraft:grass_block",
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "hbm:root": {
+      "title": "Nuclear Tech",
+      "icon": "hbm:nuke_man",
+      "background": "minecraft:textures/block/dirt.png"
+    },
+    "pastel:pastel": {
+      "title": "Pastel - Start of a Journey",
+      "icon": "pastel:pedestal_basic_amethyst",
+      "background": "pastel:textures/gui/advancement_background.png"
+    },
+    "vanillatweaks:root": {
+      "title": "Vanilla Tweaks",
+      "icon": "minecraft:player_head",
+      "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "minecraft:nether/root": {
+      "title": "Nether",
+      "icon": "minecraft:red_nether_bricks",
+      "background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+    },
+    "minecraft:end/root": {
+      "title": "The End",
+      "icon": "minecraft:end_stone",
+      "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+    },
+    "ae2:main/root": {
+      "title": "Applied Energistics",
+      "icon": "ae2:certus_quartz_crystal",
+      "background": "ae2:textures/block/sky_stone_brick.png"
+    },
+    "endrem:main/root": {
+      "title": "The Beginning of An Adventure",
+      "icon": "endrem:ancient_portal_frame",
+      "background": "minecraft:textures/block/blackstone.png"
+    },
+    "estrogen:root": {
+      "title": "Estrogen",
+      "icon": "estrogen:estrogen_pill",
+      "background": "estrogen:textures/block/dream_block/particle.png"
+    },
+    "pastel:endgame/pastel_endgame": {
+      "title": "Pastel - A Final Encore",
+      "icon": "pastel:mysterious_locket",
+      "background": "pastel:textures/gui/advancement_background_endgame.png"
+    },
+    "pastel:lategame/break_budding_block_with_resonance_tool": {
+      "title": "Budding Friendship",
+      "icon": "minecraft:budding_amethyst"
+    },
+    "pastel:lategame/break_infested_block_with_resonance_tool": {
+      "title": "Not today, old friend",
+      "icon": "minecraft:infested_cracked_stone_bricks"
+    },
+    "pastel:lategame/break_spawner_with_resonance_tool": {
+      "title": "The Evil Within",
+      "icon": "minecraft:spawner"
+    },
+    "pastel:lategame/pastel_lategame": {
+      "title": "Pastel - Turn to Purity",
+      "icon": "pastel:pedestal_moonstone",
+      "background": "pastel:textures/gui/advancement_background_lategame.png"
+    },
+    "pastel:midgame/pastel_midgame": {
+      "title": "Pastel - Fall from Grace",
+      "icon": "pastel:pedestal_onyx",
+      "background": "pastel:textures/gui/advancement_background_midgame.png"
+    },
+    "occultism:chalks/root": {
+      "title": "Occultism: Chalks",
+      "icon": "occultism:brush",
+      "background": "occultism:textures/block/otherstone.png"
+    },
+    "occultism:occultism/familiar/root": {
+      "title": "Occultism: Friends",
+      "icon": "occultism:pentacle_possess",
+      "background": "occultism:textures/block/otherplanks.png"
+    },
+    "cccbridge:place_redrouter": {
+      "title": "EMOTIONAL DAMAGE",
+      "icon": "cccbridge:redrouter_block",
+      "background": "cccbridge:textures/gui/advancements/backgrounds/luarocks.png"
+    }
+  }
+}

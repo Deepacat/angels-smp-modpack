@@ -1,0 +1,13 @@
+name = "Alex's Mobs Continued"
+filename = "alexsmobs-2.2.2-neoforge+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8915/544/alexsmobs-2.2.2-neoforge+1.21.1.jar"
+hash-format = "sha1"
+hash = "60fdf6379ff891aa1bbff541787cb8d40a8d227a"
+
+[update]
+[update.curseforge]
+project-id = 1635121
+file-id = 8915544
