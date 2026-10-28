@@ -36,16 +36,25 @@
         "sodium-extra": {
             "side": "CLIENT"
         },
+        "certain-questing-additions": {
+            "side": "CLIENT"
+        },
         "lambdynlights-api": {
             "side": "CLIENT"
         },
         "progresspeek": {
             "side": "CLIENT"
         },
-        "fastquit": {
+        "fastquit-forge": {
             "side": "CLIENT"
         },
         "fancy-toasts": {
+            "side": "CLIENT"
+        },
+        "figura": {
+            "side": "CLIENT"
+        },
+        "better-combat-to-figura-compatibility-layer": {
             "side": "CLIENT"
         },
         "crash-assistant": {
