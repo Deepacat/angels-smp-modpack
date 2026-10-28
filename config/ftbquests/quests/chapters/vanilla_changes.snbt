@@ -68,7 +68,7 @@
 				item: { count: 1, id: "minecraft:enchanting_table" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 2.25d
 		}
 		{
@@ -133,7 +133,7 @@
 				id: "380BDA40CC265847"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 2.25d
 		}
 		{
@@ -164,7 +164,28 @@
 				id: "030E0E1B6DD3E689"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 0.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7D2F7A86FF9559BE"]
+			icon: {
+				id: "hbm:block_meteor_molten"
+			}
+			id: "197D3104C962DC8F"
+			min_width: 300
+			tasks: [
+				{
+					id: "17452658DBA94C43"
+					type: "checkmark"
+				}
+				{
+					id: "7A32310052054A93"
+					item: { count: 1, id: "hbm:meteor_charm" }
+					type: "item"
+				}
+			]
+			x: 1.5d
 			y: 2.25d
 		}
 	]

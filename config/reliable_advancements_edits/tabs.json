@@ -168,6 +168,11 @@
       "title": "Occultism: Friends",
       "icon": "occultism:pentacle_possess",
       "background": "occultism:textures/block/otherplanks.png"
+    },
+    "cccbridge:place_redrouter": {
+      "title": "EMOTIONAL DAMAGE",
+      "icon": "cccbridge:redrouter_block",
+      "background": "cccbridge:textures/gui/advancements/backgrounds/luarocks.png"
     }
   }
 }
