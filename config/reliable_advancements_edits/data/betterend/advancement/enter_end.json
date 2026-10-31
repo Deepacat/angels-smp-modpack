@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "betterend:cave_moss",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.betterend.enter_end.title"
+    },
+    "description": {
+      "translate": "advancements.betterend.enter_end.description"
+    }
+  },
+  "parent": "betterend:root",
+  "parents": [
+    "betterend:root"
+  ]
+}

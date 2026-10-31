@@ -49,7 +49,10 @@
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				id: "supplementaries:enderman_head"
+				components: {
+					"ftbquests:missing_item": "supplementaries:enderman_head"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "421AE66C9844B948"
 			tasks: [{
@@ -170,7 +173,10 @@
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				id: "hbm:block_meteor_molten"
+				components: {
+					"ftbquests:missing_item": "hbm:block_meteor_molten"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "197D3104C962DC8F"
 			min_width: 300
@@ -181,7 +187,7 @@
 				}
 				{
 					id: "7A32310052054A93"
-					item: { count: 1, id: "hbm:meteor_charm" }
+					item: { components: { "ftbquests:missing_item": "hbm:meteor_charm" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

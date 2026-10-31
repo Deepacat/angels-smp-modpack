@@ -4,7 +4,10 @@
 	filename: "hbms_nuclear_tech_mod"
 	group: "1000ACAB694BB7DF"
 	icon: {
-		id: "hbm:nuke_man"
+		components: {
+			"ftbquests:missing_item": "hbm:nuke_man"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "24F6798D8F85944D"
 	images: [ ]

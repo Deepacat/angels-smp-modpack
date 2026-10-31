@@ -298,7 +298,7 @@
 		"Ignore Anti Overlap" = false
 
 	[management.easy_transferring]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true

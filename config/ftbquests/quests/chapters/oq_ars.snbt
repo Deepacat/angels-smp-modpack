@@ -1205,7 +1205,7 @@
 				}
 				{
 					id: "1000ACAB28022B96"
-					item: { count: 1, id: "ars_elemental:curio_bag" }
+					item: { components: { "ftbquests:missing_item": "ars_elemental:curio_bag" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1392,7 +1392,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "1000ACAB0C62866D"
-				item: { count: 1, id: "ars_elemental:chaining_prism_lens" }
+				item: { components: { "ftbquests:missing_item": "ars_elemental:chaining_prism_lens" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -1402,7 +1402,10 @@
 			dependencies: ["1000ACAB1C24D9FE"]
 			hide_dependency_lines: true
 			icon: {
-				id: "ars_elemental:air_upstream"
+				components: {
+					"ftbquests:missing_item": "ars_elemental:air_upstream"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1000ACAB2CFD4E2E"
 			optional: true
@@ -1423,7 +1426,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "1000ACAB6E519908"
-				item: { count: 1, id: "ars_elemental:spell_horn" }
+				item: { components: { "ftbquests:missing_item": "ars_elemental:spell_horn" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -1436,7 +1439,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "1000ACAB37C4D6D5"
-				item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+				item: { components: { "ftbquests:missing_item": "ars_creo:starbuncle_wheel" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d

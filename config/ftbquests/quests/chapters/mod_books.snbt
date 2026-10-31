@@ -162,7 +162,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "hbm:nuke_man"
+				components: {
+					"ftbquests:missing_item": "hbm:nuke_man"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "5DD03A18A2544EC7"
 			min_width: 300
@@ -170,8 +173,11 @@
 				{
 					id: "2E95700EC1D2A9BB"
 					item: {
+						components: {
+							"ftbquests:missing_item": "hbm:book_guide_starter"
+						}
 						count: 1
-						id: "hbm:book_guide_starter"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -191,7 +197,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "essentials:candle_lilypad"
+				components: {
+					"ftbquests:missing_item": "essentials:candle_lilypad"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "73E88667F83AD191"
 			min_width: 300
@@ -199,10 +208,10 @@
 				id: "1F491F79215D5EFC"
 				item: {
 					components: {
-						"patchouli:book": "essentials:manual"
+						"ftbquests:missing_item": "essentials:guide_book"
 					}
 					count: 1
-					id: "essentials:guide_book"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -260,15 +269,21 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "starcatcher:starcatcher_rod"
+				components: {
+					"ftbquests:missing_item": "starcatcher:starcatcher_rod"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "72F8937B2BF61BB6"
 			min_width: 300
 			rewards: [{
 				id: "3012F332E3726781"
 				item: {
+					components: {
+						"ftbquests:missing_item": "starcatcher:starcatcher_guide"
+					}
 					count: 1
-					id: "starcatcher:starcatcher_guide"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -305,7 +320,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "thaumaturge:goggles_revealing"
+				components: {
+					"ftbquests:missing_item": "thaumaturge:goggles_revealing"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "34EB3A05EDA25078"
 			min_width: 300
@@ -324,7 +342,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "create:wrench"
+				components: {
+					"ftbquests:missing_item": "create:wrench"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "272969EC94605041"
 			min_width: 300
@@ -382,7 +403,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "farmersdelight:hamburger"
+				components: {
+					"ftbquests:missing_item": "farmersdelight:hamburger"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "4903C12B4405962C"
 			min_width: 300
@@ -396,7 +420,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "quark:diamond_heart"
+				components: {
+					"ftbquests:missing_item": "quark:diamond_heart"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "0CFB7EE0C1D30874"
 			min_width: 300
@@ -410,7 +437,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "etcetera:bouquet"
+				components: {
+					"ftbquests:missing_item": "etcetera:bouquet"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "0246AEA2F755BCB7"
 			min_width: 300
@@ -424,7 +454,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "supplementaries:hourglass"
+				components: {
+					"ftbquests:missing_item": "supplementaries:hourglass"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1D5D4138CF1C0965"
 			min_width: 300
@@ -452,7 +485,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "betterend:eternal_crystal"
+				components: {
+					"ftbquests:missing_item": "betterend:eternal_crystal"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "6D3A6BEB04E55EE1"
 			min_width: 300
@@ -466,7 +502,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "alexsmobs:warped_muscle"
+				components: {
+					"ftbquests:missing_item": "alexsmobs:warped_muscle"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "563133E9CEF493F3"
 			min_width: 300
@@ -480,7 +519,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "industrialhellscape:job_application"
+				components: {
+					"ftbquests:missing_item": "industrialhellscape:job_application"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1B725F2A2C1B60C2"
 			min_width: 300
@@ -494,7 +536,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "nomansland:no_mans_globe"
+				components: {
+					"ftbquests:missing_item": "nomansland:no_mans_globe"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "59FC7269AC3D980F"
 			min_width: 300
@@ -508,7 +553,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "cluttered:animated_flag_transgender"
+				components: {
+					"ftbquests:missing_item": "cluttered:animated_flag_transgender"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "7E62D455D48F7EF2"
 			min_width: 300
@@ -522,7 +570,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "creaturefeature:sleeping_powder"
+				components: {
+					"ftbquests:missing_item": "creaturefeature:sleeping_powder"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1FCA6215B8392935"
 			min_width: 300
@@ -576,7 +627,10 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "engineered_computation:era5_terminal"
+				components: {
+					"ftbquests:missing_item": "engineered_computation:era5_terminal"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "5C0080D026352481"
 			min_width: 300

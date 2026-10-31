@@ -8,6 +8,132 @@
           675
         ]
       }
+    },
+    "betterend:root": {
+      "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+      "index": 5,
+      "roots": [
+        "betterend:root",
+        "betterend:enter_end"
+      ],
+      "positions": {
+        "betterend:all_the_templates": [
+          64,
+          54
+        ],
+        "betterend:root": [
+          0,
+          74
+        ],
+        "betterend:terminite_tool": [
+          192,
+          67
+        ],
+        "betterend:portal_on": [
+          96,
+          148
+        ],
+        "betterend:infusion": [
+          64,
+          114
+        ],
+        "betterend:thallasium_plate": [
+          128,
+          94
+        ],
+        "betterend:terminite_plate": [
+          160,
+          40
+        ],
+        "betterend:all_elytras": [
+          64,
+          0
+        ],
+        "betterend:aeternium_tool_head": [
+          256,
+          27
+        ],
+        "betterend:thallasium_tool": [
+          160,
+          121
+        ],
+        "betterend:aeternium_plate": [
+          256,
+          0
+        ],
+        "betterend:hammer": [
+          64,
+          81
+        ],
+        "betterend:thallasium_tool_head": [
+          128,
+          121
+        ],
+        "betterend:portal": [
+          64,
+          148
+        ],
+        "betterend:terminite_armor": [
+          192,
+          40
+        ],
+        "betterend:thallasium_anvil": [
+          96,
+          81
+        ],
+        "betterend:thallasium_armor": [
+          160,
+          94
+        ],
+        "betterend:infusion_finished": [
+          96,
+          114
+        ],
+        "betterend:enter_end": [
+          32,
+          74
+        ],
+        "betterend:village": [
+          96,
+          27
+        ],
+        "betterend:aeternium_anvil": [
+          160,
+          13
+        ],
+        "betterend:terminite_tool_head": [
+          160,
+          67
+        ],
+        "betterend:terminite_anvil": [
+          128,
+          40
+        ],
+        "betterend:all_the_biomes": [
+          64,
+          27
+        ],
+        "betterend:aeternium_armor": [
+          288,
+          0
+        ],
+        "betterend:aeternium_hammer_head": [
+          192,
+          13
+        ],
+        "betterend:portal_travel": [
+          128,
+          148
+        ],
+        "betterend:aeternium_tool": [
+          288,
+          27
+        ],
+        "betterend:aeternium_hammer": [
+          224,
+          13
+        ]
+      }
     }
   },
   "deleted_advancements": {},
