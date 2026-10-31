@@ -1,5 +1,3 @@
-// hi deepacat here I got really tired of trying to make this work without duping items so yes I used ai to for making the break queue system (still my idea on how to do it, never let it cook on its own oh my god)
-
 // Classes
 const { $DataComponents } = require("@package/net/minecraft/core/component")
 const { $CompoundTag, $Tag } = require("@package/net/minecraft/nbt")
@@ -9,6 +7,7 @@ const { $ItemStack } = require("@package/net/minecraft/world/item")
 const { $ArmorItem, $TieredItem } = require("@package/net/minecraft/world/item")
 const { $Ingredient } = require("@package/net/minecraft/world/item/crafting")
 const { $ItemStackedOnOtherEvent } = require("@package/net/neoforged/neoforge/event")
+
 // Consts
 const BROKEN_ITEM_ID = 'kubejs:broken_item'
 const BROKEN_TOOL_ID = 'kubejs:broken_tool'
@@ -16,8 +15,18 @@ const BROKEN_ARMOR_ID = 'kubejs:broken_armor'
 const HELD_ITEM_KEY = 'held_item'
 const BROKEN_ITEMS = ['kubejs:broken_item', 'kubejs:broken_tool', 'kubejs:broken_armor']
 
+/** 
+ * Full scoped server var, since ItemStackedOnOtherEvent has issues obtaining server reference in its context
+ * @type {$MinecraftServer || null}
+ */
+let gserver = null
+ServerEvents.tick(e => { // sets the server reference once
+    if (gserver) return
+    gserver = e.server 
+})
+
 /*
-    Events  below
+    Events below
 */
 
 // Item click in inventory (Note this event runs on clients and server)
@@ -38,14 +47,14 @@ NativeEvents.onEvent($ItemStackedOnOtherEvent, (e) => {
     // Remove 1 item from cursor held stack
     cursorHeldStack.setCount(cursorHeldStack.getCount() - 1)
 
+
     // Only run this on server, so client doesn't crash
     // Rest of the code should run normal for syncing modified slot behavior
-    let server = player.getServer()
-    if (server != null) {
+    let server = gserver
+    if (server) {
         let restoredItem = getStoredItem(clickedItem, server)
         clickedSlot.set(restoredItem)
     }
-
     e.setCanceled(true)
 })
 
