@@ -19,7 +19,14 @@ StartupEvents.registry('block', e => {
             .hardness(2)
             .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
             .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_slab'])
-    }
+        e.create(`kubejs:stair_sheetmetal_${sheetType}`, 'stairs')
+            .displayName(`${sheetType.charAt(0).toUpperCase() + sheetType.slice(1).replace('_', ' ')} Sheet Metal Stairs`)
+            .soundType('metal')
+            .hardness(2)
+            .texture(`kubejs:block/metal/sheetmetal_${sheetType}`)
+            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+            .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_stairs'])
+        }
 
     for (let sheetType of colorTypes) {
         e.create(`kubejs:sheetmetal_colored_${sheetType}`)
@@ -34,5 +41,12 @@ StartupEvents.registry('block', e => {
             .hardness(2)
             .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
             .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_slab'])
+        e.create(`kubejs:stair_sheetmetal_colored_${sheetType}`, 'stairs')
+            .displayName(`${sheetType.charAt(0).toUpperCase() + sheetType.slice(1).replace('_', ' ')} Sheet Metal Stairs`)
+            .soundType('metal')
+            .hardness(2)
+            .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
+            .tagBoth(['kubejs:sheetmetal', 'kubejs:sheetmetal_stairs'])
+            .texture(`kubejs:block/metal/sheetmetal_${sheetType}`)
     }
 })
