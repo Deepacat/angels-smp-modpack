@@ -43,24 +43,21 @@
 				id: "742162462A800223"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "supplementaries:enderman_head"
-				}
-				id: "ftbquests:missing_item"
+				id: "supplementaries:enderman_head"
 			}
 			id: "421AE66C9844B948"
 			tasks: [{
 				id: "344D8BD4BA787A78"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 4.75d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
@@ -71,8 +68,8 @@
 				item: { count: 1, id: "minecraft:enchanting_table" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.25d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
@@ -88,7 +85,7 @@
 				id: "29BCF4B4121C9CB6"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -109,13 +106,12 @@
 				id: "minecraft:diamond_sword"
 			}
 			id: "060A4E7A5CA4A968"
-			min_width: 350
+			min_width: 375
 			tasks: [{
-				id: "370629ABAB02FE4D"
-				item: { count: 1, id: "minecraft:iron_sword" }
-				type: "item"
+				id: "3721126CE792E9EA"
+				type: "checkmark"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -136,8 +132,8 @@
 				id: "380BDA40CC265847"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 2.25d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
@@ -153,7 +149,7 @@
 				id: "23C9D737C85FEA74"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -167,32 +163,40 @@
 				id: "030E0E1B6DD3E689"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 2.25d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D2F7A86FF9559BE"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "hbm:block_meteor_molten"
-				}
-				id: "ftbquests:missing_item"
+				id: "hbm:block_meteor_molten"
 			}
 			id: "197D3104C962DC8F"
 			min_width: 300
-			tasks: [
+			rewards: [
 				{
-					id: "17452658DBA94C43"
-					type: "checkmark"
+					id: "4451270CCB754F1D"
+					item: {
+						count: 1
+						id: "ntmadditions:meteor_charm_curio"
+					}
+					type: "item"
 				}
 				{
-					id: "7A32310052054A93"
-					item: { components: { "ftbquests:missing_item": "hbm:meteor_charm" }, count: 1, id: "ftbquests:missing_item" }
+					id: "187FE80FDC998A05"
+					item: {
+						count: 1
+						id: "ntmadditions:protection_charm_curio"
+					}
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 2.25d
+			tasks: [{
+				id: "17452658DBA94C43"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 }

@@ -108,6 +108,7 @@
     "display.alembics": "GOGGLES",
     "display.infernal_furnaces": "GOGGLES",
     "display.golems": "GOGGLES",
+    "display.potion_sprayers": "GOGGLES",
     "display.deconstruction_tables": "GOGGLES",
     "machine_icon": true
   },

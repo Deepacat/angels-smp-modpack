@@ -1387,6 +1387,9 @@
 				"1000ACAB1C24D9FE"
 			]
 			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:chaining_prism_lens"
+			}
 			id: "1000ACAB4BBE4002"
 			optional: true
 			shape: "diamond"
@@ -1402,10 +1405,7 @@
 			dependencies: ["1000ACAB1C24D9FE"]
 			hide_dependency_lines: true
 			icon: {
-				components: {
-					"ftbquests:missing_item": "ars_elemental:air_upstream"
-				}
-				id: "ftbquests:missing_item"
+				id: "ars_elemental:air_upstream"
 			}
 			id: "1000ACAB2CFD4E2E"
 			optional: true
@@ -1421,6 +1421,9 @@
 		{
 			dependencies: ["1000ACAB1C24D9FE"]
 			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:spell_horn"
+			}
 			id: "1000ACAB2C09A926"
 			optional: true
 			shape: "diamond"
@@ -1431,19 +1434,6 @@
 			}]
 			x: -2.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1000ACAB3CA61C33"]
-			id: "1000ACAB42FECAE5"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "1000ACAB37C4D6D5"
-				item: { components: { "ftbquests:missing_item": "ars_creo:starbuncle_wheel" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
 		}
 	]
 }

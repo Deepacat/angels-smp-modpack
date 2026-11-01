@@ -1,5 +1,3 @@
-// const { $MobSpawnEvent, $MobSpawnEvent$SpawnPlacementCheck } = require("@package/net/neoforged/neoforge/event/entity/living");
-
 let $BeforeLivingEntityHurtKubeEvent = Java.loadClass("dev.latvian.mods.kubejs.entity.BeforeLivingEntityHurtKubeEvent");
 let $Mob = Java.loadClass("net.minecraft.world.entity.Mob");
 

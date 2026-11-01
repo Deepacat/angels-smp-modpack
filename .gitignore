@@ -161,11 +161,15 @@
 /config/konkrete/locals*
 /config/defaultsettings.json
 /config/embeddium-options.json
-/config/xaerominimap.txt
 /config/tunnelyrefab.json
 /config/zfastnoise.mixin.properties
 /config/axiom*
+/config/xaerohud.txt
+/config/xaeropatreon.txt
+/config/xaeroplus.txt
+/config/xaerominimap.txt
 /config/xaeroworldmap.txt
+/config/xaero/
 /config/xaerominimap_entities.json
 
 ### OS generated files
@@ -189,3 +193,6 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Backups produced by scripts/client_config_copier.py
+/scripts/client_config_copier_backup/

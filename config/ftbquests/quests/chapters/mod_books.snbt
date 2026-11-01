@@ -16,8 +16,8 @@
 			image: "etcetera:item/wrench"
 			rotation: 0.0d
 			width: 0.75d
-			x: 2.5d
-			y: -3.25d
+			x: 2.75d
+			y: -3.5d
 		}
 		{
 			click_action: "custom_event:"
@@ -26,8 +26,8 @@
 			image: "pastel:textures/particle/shooting_star.png"
 			rotation: 0.0d
 			width: 0.75d
-			x: -2.2d
-			y: -3.25d
+			x: -1.9500000000000002d
+			y: -3.5d
 		}
 		{
 			click_action: "custom_event:"
@@ -36,8 +36,8 @@
 			image: "toxony:item/toxin_flask"
 			rotation: 0.0d
 			width: 0.75d
-			x: -3.75d
-			y: -3.25d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			click_action: "custom_event:"
@@ -47,8 +47,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 0.75d
-			x: 2.5d
-			y: 1.25d
+			x: 0.0d
+			y: 2.25d
 		}
 		{
 			click_action: "custom_event:"
@@ -57,8 +57,8 @@
 			image: "hearthandharvest:item/sugar_cubes"
 			rotation: 0.0d
 			width: 0.75d
-			x: -3.25d
-			y: 1.25d
+			x: -4.75d
+			y: -0.25d
 		}
 		{
 			click_action: "none:"
@@ -69,8 +69,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: -2.25d
-			y: -3.25d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			click_action: "none:"
@@ -81,8 +81,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: -3.75d
-			y: -3.25d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			click_action: "none:"
@@ -93,8 +93,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: 2.5d
-			y: -3.25d
+			x: 2.75d
+			y: -3.5d
 		}
 		{
 			click_action: "none:"
@@ -105,8 +105,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: -3.25d
-			y: 1.25d
+			x: -4.75d
+			y: -0.25d
 		}
 		{
 			click_action: "none:"
@@ -117,8 +117,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 1.5d
-			x: 2.5d
-			y: 1.25d
+			x: 0.0d
+			y: 2.25d
 		}
 		{
 			click_action: "none:"
@@ -131,9 +131,37 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			click_action: "custom_event:"
+			height: 0.75d
+			id: "54D1F2FF95B3B198"
+			image: "pastel:item/multitool"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 5.0d
+			y: -0.25d
+		}
+		{
+			click_action: "none:"
+			color: 16758019
+			height: 1.5d
+			id: "3B00D50F451A22BC"
+			image: "goety:textures/particle/spiralling.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.0d
+			y: -0.25d
+		}
 	]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "1D2D58C0DA1EB2FC"
+		linked_quest: "060A4E7A5CA4A968"
+		x: 6.5d
+		y: 0.75d
+	}]
 	quests: [
 		{
 			hide_dependency_lines: true
@@ -162,10 +190,7 @@
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "hbm:nuke_man"
-				}
-				id: "ftbquests:missing_item"
+				id: "hbm:nuke_man"
 			}
 			id: "5DD03A18A2544EC7"
 			min_width: 300
@@ -173,11 +198,8 @@
 				{
 					id: "2E95700EC1D2A9BB"
 					item: {
-						components: {
-							"ftbquests:missing_item": "hbm:book_guide_starter"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "hbm:book_guide_starter"
 					}
 					type: "item"
 				}
@@ -191,16 +213,13 @@
 				id: "2713FF6AD5ECC1B8"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -2.25d
+			x: 1.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "essentials:candle_lilypad"
-				}
-				id: "ftbquests:missing_item"
+				id: "essentials:candle_lilypad"
 			}
 			id: "73E88667F83AD191"
 			min_width: 300
@@ -208,10 +227,10 @@
 				id: "1F491F79215D5EFC"
 				item: {
 					components: {
-						"ftbquests:missing_item": "essentials:guide_book"
+						"patchouli:book": "essentials:manual"
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "essentials:guide_book"
 				}
 				type: "item"
 			}]
@@ -219,8 +238,8 @@
 				id: "5CC9B6ECF11994E6"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -1.25d
+			x: 1.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -244,8 +263,8 @@
 				id: "06E9DA3B709E3B06"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -1.25d
+			x: -3.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -263,27 +282,21 @@
 				id: "2F301A86D986ED86"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: -1.25d
+			x: -2.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "starcatcher:starcatcher_rod"
-				}
-				id: "ftbquests:missing_item"
+				id: "starcatcher:starcatcher_rod"
 			}
 			id: "72F8937B2BF61BB6"
 			min_width: 300
 			rewards: [{
 				id: "3012F332E3726781"
 				item: {
-					components: {
-						"ftbquests:missing_item": "starcatcher:starcatcher_guide"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "starcatcher:starcatcher_guide"
 				}
 				type: "item"
 			}]
@@ -292,8 +305,8 @@
 				id: "512827E0DBA4A700"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 2.25d
+			x: -1.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -314,16 +327,13 @@
 				id: "7EE92CA10D17EF75"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -1.25d
+			x: -1.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "thaumaturge:goggles_revealing"
-				}
-				id: "ftbquests:missing_item"
+				id: "thaumaturge:goggles_revealing"
 			}
 			id: "34EB3A05EDA25078"
 			min_width: 300
@@ -336,16 +346,13 @@
 				id: "0DFB6F5004B13231"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -2.25d
+			x: -2.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "create:wrench"
-				}
-				id: "ftbquests:missing_item"
+				id: "create:wrench"
 			}
 			id: "272969EC94605041"
 			min_width: 300
@@ -358,8 +365,8 @@
 				id: "5E952A1BFD311879"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.25d
+			x: 2.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -380,8 +387,8 @@
 				id: "04B296067513D8EA"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -2.25d
+			x: -3.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -397,16 +404,13 @@
 				id: "2C2237DFF100A098"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -2.25d
+			x: 2.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "farmersdelight:hamburger"
-				}
-				id: "ftbquests:missing_item"
+				id: "farmersdelight:hamburger"
 			}
 			id: "4903C12B4405962C"
 			min_width: 300
@@ -414,16 +418,13 @@
 				id: "1FAEC0D714D0C791"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 3.25d
+			x: -1.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "quark:diamond_heart"
-				}
-				id: "ftbquests:missing_item"
+				id: "quark:diamond_heart"
 			}
 			id: "0CFB7EE0C1D30874"
 			min_width: 300
@@ -431,16 +432,13 @@
 				id: "09A1535386FEF76D"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 3.25d
+			x: -0.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "etcetera:bouquet"
-				}
-				id: "ftbquests:missing_item"
+				id: "etcetera:bouquet"
 			}
 			id: "0246AEA2F755BCB7"
 			min_width: 300
@@ -448,16 +446,13 @@
 				id: "7028FA0D256A2768"
 				type: "checkmark"
 			}]
-			x: -2.75d
-			y: 2.25d
+			x: -4.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "supplementaries:hourglass"
-				}
-				id: "ftbquests:missing_item"
+				id: "supplementaries:hourglass"
 			}
 			id: "1D5D4138CF1C0965"
 			min_width: 300
@@ -465,8 +460,8 @@
 				id: "4EC12CE2B167EC9E"
 				type: "checkmark"
 			}]
-			x: -1.75d
-			y: 3.25d
+			x: -4.75d
+			y: 2.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -479,16 +474,13 @@
 				id: "05C0AE77F36B23D1"
 				type: "checkmark"
 			}]
-			x: -3.75d
-			y: 2.25d
+			x: -5.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "betterend:eternal_crystal"
-				}
-				id: "ftbquests:missing_item"
+				id: "betterend:eternal_crystal"
 			}
 			id: "6D3A6BEB04E55EE1"
 			min_width: 300
@@ -496,33 +488,35 @@
 				id: "34E5F308B0221ABA"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 2.25d
-		}
-		{
-			dependencies: ["374330D74B10B2D3"]
-			icon: {
-				components: {
-					"ftbquests:missing_item": "alexsmobs:warped_muscle"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "563133E9CEF493F3"
-			min_width: 300
-			tasks: [{
-				id: "674AF754C7D93815"
-				type: "checkmark"
-			}]
-			x: 2.5d
+			x: -0.5d
 			y: 3.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "industrialhellscape:job_application"
+				id: "alexsmobs:warped_muscle"
+			}
+			id: "563133E9CEF493F3"
+			min_width: 300
+			rewards: [{
+				id: "1DDE6DEF565E1DEE"
+				item: {
+					count: 1
+					id: "alexsmobs:animal_dictionary"
 				}
-				id: "ftbquests:missing_item"
+				type: "item"
+			}]
+			tasks: [{
+				id: "674AF754C7D93815"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "industrialhellscape:inhell_haven_device"
 			}
 			id: "1B725F2A2C1B60C2"
 			min_width: 300
@@ -530,16 +524,13 @@
 				id: "752A50AE24799AD1"
 				type: "checkmark"
 			}]
-			x: -4.75d
-			y: 3.25d
+			x: -6.25d
+			y: 1.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "nomansland:no_mans_globe"
-				}
-				id: "ftbquests:missing_item"
+				id: "nomansland:no_mans_globe"
 			}
 			id: "59FC7269AC3D980F"
 			min_width: 300
@@ -547,16 +538,13 @@
 				id: "7D33FC7FA1489A12"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: 2.25d
+			x: 0.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "cluttered:animated_flag_transgender"
-				}
-				id: "ftbquests:missing_item"
+				id: "cluttered:animated_flag_transgender"
 			}
 			id: "7E62D455D48F7EF2"
 			min_width: 300
@@ -564,16 +552,13 @@
 				id: "71033EF3BA8DCC3B"
 				type: "checkmark"
 			}]
-			x: -1.75d
-			y: 2.25d
+			x: -3.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "creaturefeature:sleeping_powder"
-				}
-				id: "ftbquests:missing_item"
+				id: "creaturefeature:sleeping_powder"
 			}
 			id: "1FCA6215B8392935"
 			min_width: 300
@@ -581,8 +566,8 @@
 				id: "7B3C0438C45098ED"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 2.25d
+			x: 1.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -594,8 +579,8 @@
 				id: "3D5051EACDDA1D55"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 2.25d
+			x: 5.5d
+			y: 1.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -607,8 +592,8 @@
 				id: "46522ADEE7CE7D62"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 3.25d
+			x: 1.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -622,15 +607,12 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: 3.25d
+			y: 1.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "engineered_computation:era5_terminal"
-				}
-				id: "ftbquests:missing_item"
+				id: "engineered_computation:era5_terminal"
 			}
 			id: "5C0080D026352481"
 			min_width: 300
@@ -638,8 +620,8 @@
 				id: "705B797F61863975"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -2.25d
+			x: 3.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -648,12 +630,20 @@
 			}
 			id: "7886448655672A40"
 			min_width: 300
+			rewards: [{
+				id: "7140B4D1D3044B94"
+				item: {
+					count: 1
+					id: "ae2:guide"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E0C7A3A8FB8577E"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -1.25d
+			x: 3.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -669,8 +659,8 @@
 				id: "25AE4098C6207251"
 				type: "checkmark"
 			}]
-			x: -2.75d
-			y: 3.25d
+			x: -5.25d
+			y: 1.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -691,8 +681,8 @@
 				id: "3922E6D21DD51FB3"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -2.25d
+			x: -1.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
@@ -705,13 +695,13 @@
 				id: "00DE229A9C8057F0"
 				type: "checkmark"
 			}]
-			x: -4.75d
-			y: 2.25d
+			x: -6.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["374330D74B10B2D3"]
 			icon: {
-				id: "dustydecorations:pumpkin_scarecrow"
+				id: "dustydecorations:corrugated_metal_block"
 			}
 			id: "06479AB81030B91C"
 			min_width: 300
@@ -719,8 +709,186 @@
 				id: "4C327A2CC87C35E5"
 				type: "checkmark"
 			}]
+			x: -3.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "abyssal_decor:fresnel_lamp"
+			}
+			id: "068B0E5771A2228C"
+			min_width: 300
+			tasks: [{
+				id: "103C4288A031E6A3"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "factory_blocks:hazard"
+			}
+			id: "11FAEB57E5857EF7"
+			min_width: 300
+			tasks: [{
+				id: "61641A4C1BF4CDBC"
+				type: "checkmark"
+			}]
+			x: -4.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "chisel:chisel"
+			}
+			id: "6671A51C79A37D2C"
+			min_width: 300
+			tasks: [{
+				id: "0C0365F80531446C"
+				type: "checkmark"
+			}]
 			x: -3.75d
-			y: 3.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "shrink:shrinking_device"
+			}
+			id: "117C5B1C8E23D2F2"
+			min_width: 300
+			tasks: [{
+				id: "082A633FCFF79535"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/jump_boost.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47802CEC8C2511E6"
+			min_width: 300
+			tasks: [{
+				id: "433BEB7887AC77BC"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "estrogen:estrogen_pill"
+			}
+			id: "4181C1D94F13A4F5"
+			min_width: 300
+			tasks: [{
+				id: "2D8C8A4DEBB6ABE4"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						wand_options: { }
+					}
+				}
+				id: "constructionwand:diamond_wand"
+			}
+			id: "43CE9C749AD8267D"
+			min_width: 300
+			tasks: [{
+				id: "38AF2EFF42A4B4B5"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "clutternomore:vertical_oak_stairs"
+			}
+			id: "14AE9A49559AE5F4"
+			min_width: 300
+			tasks: [{
+				id: "12B29D4AF5DD2AC0"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "friendsandfoes:crab_claw"
+			}
+			id: "090F5BD0ECD45428"
+			tasks: [{
+				id: "1B89A01A42542041"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "morphtool:tool"
+			}
+			id: "543E1A30E910FE75"
+			min_width: 300
+			tasks: [{
+				id: "4F1B3EBA288120C6"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "toxony:item/magnifying_glass"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47E80FE83A150678"
+			min_width: 300
+			tasks: [{
+				id: "35AD7C59A970EB63"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["374330D74B10B2D3"]
+			icon: {
+				id: "computercraft:computer_advanced"
+			}
+			id: "5FFB1EFE29368E47"
+			min_width: 300
+			tasks: [{
+				id: "1B8DB80F4702B0F9"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: -2.5d
 		}
 	]
 }

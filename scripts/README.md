@@ -135,6 +135,32 @@ Shared converter. It:
 - for the client build, writes `side = "both"` for every non-export project,
   matching Pakku's `export_server_side_projects_to_client` behavior
 
+## client_config_copier.py
+
+Syncs locally changed client config from the instance root into
+`configureddefaults/`:
+
+```bash
+python scripts/client_config_copier.py
+```
+
+For every file in `configureddefaults/`, it looks for the same relative path
+in `.minecraft` (for example `configureddefaults/config/ftbchunks-client.snbt`
+and `config/ftbchunks-client.snbt`). If the root file exists and differs, the
+current default is copied to
+`scripts/client_config_copier_backup/<timestamp>/` and then replaced with the
+root version. Each run appends the replaced files to
+`scripts/client_config_copier_backup/copier.log`.
+
+Options:
+
+- `--dry-run` — list the files that would be copied without changing anything.
+- `--root PATH` — instance root to copy from.
+- `--defaults PATH` — defaults folder to scan and update.
+- `--backup PATH` — folder for backups and the log.
+
+The backup folder is gitignored.
+
 ## Notes
 
 - `modpackbuilds/` and `build/` are gitignored.
