@@ -1,7 +1,6 @@
 {
   "options": {
     "COMPUTED_IS_DARK_MODE_ENABLED": false,
-    "USE_V2_UI": false,
     "SHOW_JUKEBOX_MENU_BUTTON": true,
     "SHOW_AUTHOR": true,
     "SHOW_ALBUM_NAME": false,
@@ -12,6 +11,7 @@
     ],
     "MAX_COUNT_HISTORY": 20,
     "DEBUG_MOD": false,
+    "SHOW_MUTE": false,
     "NOTIFICATION_STYLE": "LEGACY_TOAST",
     "NOTIFICATION_STYLE_FALLBACK": [
       "COMPACT",
@@ -21,7 +21,8 @@
     "STYLE_LEGACY_TOAST_SCALE": false,
     "STYLE_COMPACT_ALPHA": 179,
     "STYLE_COMPACT_TIME": 60,
-    "WIP_FILTER_IN_JUKEBOX": false,
+    "WIP_NAMESPACE_FILTER": false,
+    "SHOW_FILTER_PANEL": true,
     "MUSIC_FREQUENCY": "DEFAULT"
   }
 }

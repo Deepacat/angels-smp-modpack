@@ -194,5 +194,5 @@
 __pycache__/
 *.pyc
 
-# Backups produced by scripts/client_config_copier.py
+# Temp files made inside of scripts folder
 /scripts/client_config_copier_backup/

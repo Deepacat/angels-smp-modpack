@@ -149,8 +149,9 @@ in `.minecraft` (for example `configureddefaults/config/ftbchunks-client.snbt`
 and `config/ftbchunks-client.snbt`). If the root file exists and differs, the
 current default is copied to
 `scripts/client_config_copier_backup/<timestamp>/` and then replaced with the
-root version. Each run appends the replaced files to
-`scripts/client_config_copier_backup/copier.log`.
+root version. Defaults with no root counterpart are reported as
+`missing in root` and skipped. Each run appends the replaced and missing
+files to `scripts/client_config_copier_backup/copier.log`.
 
 Options:
 

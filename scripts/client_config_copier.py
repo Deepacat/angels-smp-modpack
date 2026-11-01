@@ -11,7 +11,8 @@ instance root:
 
 Files that exist in both places but differ are backed up under
 `scripts/client_config_copier_backup/<timestamp>/` and then replaced with the
-root version. Every replaced file is printed to the terminal and appended to
+root version. Every replaced file, and every default that has no root
+counterpart, is printed to the terminal and appended to
 `scripts/client_config_copier_backup/copier.log`.
 
 Usage (from the repository root, `.minecraft`):
@@ -139,6 +140,9 @@ def main(argv: list[str] | None = None) -> int:
 
         if not root_path.is_file():
             missing += 1
+            line = f"missing in root: {label}"
+            print(line)
+            log_lines.append(line)
             continue
         if not files_differ(root_path, default_path):
             unchanged += 1
@@ -174,7 +178,8 @@ def main(argv: list[str] | None = None) -> int:
     if log_lines and not args.dry_run:
         log_lines.append(summary)
         append_log(backup_root / LOG_FILENAME, stamp, log_lines)
-        print(f"backups: {display(run_backup)}")
+        if copied:
+            print(f"backups: {display(run_backup)}")
         print(f"log: {display(backup_root / LOG_FILENAME)}")
 
     return 1 if errors else 0
