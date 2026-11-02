@@ -12,6 +12,7 @@
         "!kubejs/probe/",
         "!kubejs/modpackData/**",
         "kubejs/modpackData/*.txt",
+        "servers.dat",
         "!resourcepacks"
     ],
     "server_overrides": [
