@@ -9,7 +9,6 @@
         "configureddefaults",
         "kubejs",
         "ldlib",
-        "pakku.jar",
         "!kubejs/probe/",
         "!kubejs/modpackData/**",
         "kubejs/modpackData/*.txt",
