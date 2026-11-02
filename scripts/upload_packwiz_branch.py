@@ -26,11 +26,11 @@ import sys
 from pathlib import Path
 
 from common import (
-    BUILD_ROOT,
     OUTPUT_ROOT,
     PACK_BRANCH,
     PACK_REMOTE,
     REPO_ROOT,
+    WORK_ROOT,
     pack_url,
 )
 
@@ -139,7 +139,7 @@ def main() -> int:
 
     print(f"Publishing to {remote} branch {branch}")
 
-    publish_repo = BUILD_ROOT / "publish-pack-repo"
+    publish_repo = WORK_ROOT / "publish-pack-repo"
     force_rmtree(publish_repo)
     copy_tree(src, publish_repo)
     # Initialize after copying so we do not delete the new .git directory.

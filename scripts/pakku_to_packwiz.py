@@ -281,6 +281,7 @@ def add_manual_overrides(
     limit: int | None,
     summary: dict,
     skip_categories: set[str] | None = None,
+    include_client_overrides: bool = True,
 ) -> None:
     """Copy or URL-link .pakku manual overrides.
 
@@ -290,8 +291,9 @@ def add_manual_overrides(
     """
     roots: list[tuple[Path, str]] = [
         (minecraft_dir / ".pakku" / "overrides", "both"),
-        (minecraft_dir / ".pakku" / "client-overrides", "client"),
     ]
+    if include_client_overrides:
+        roots.append((minecraft_dir / ".pakku" / "client-overrides", "client"))
     if include_server:
         roots.append((minecraft_dir / ".pakku" / "server-overrides", "server"))
 
@@ -505,6 +507,7 @@ def build_pack(
     force_client_all: bool = True,
     external_mods_path: Path | None = None,
     skip_manual_categories: set[str] | None = None,
+    include_client_overrides: bool = True,
 ) -> dict:
     minecraft_dir = minecraft_dir.resolve()
     out_dir = out_dir.resolve()
@@ -587,6 +590,7 @@ def build_pack(
         smoke_overrides,
         summary,
         skip_categories=skip_manual_categories,
+        include_client_overrides=include_client_overrides,
     )
 
     if external_mods_path and Path(external_mods_path).is_file():

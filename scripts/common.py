@@ -14,7 +14,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 INSTANCE_ROOT = REPO_ROOT.parent
-BUILD_ROOT = REPO_ROOT / "build"
+# Pakku's export owns ./build. Our scripts must not write there.
+PAKKU_BUILD_ROOT = REPO_ROOT / "build"
+# Scratch space for our scripts; gitignored via modpackbuilds/.
+WORK_ROOT = REPO_ROOT / "modpackbuilds" / ".work"
 OUTPUT_ROOT = REPO_ROOT / "modpackbuilds"
 PAKKU_JAR = REPO_ROOT / "pakku.jar"
 INSTALLER_JAR = REPO_ROOT / "scripts" / "vendor" / "packwiz-installer.jar"

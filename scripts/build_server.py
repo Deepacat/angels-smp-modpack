@@ -3,7 +3,8 @@
 
 Uses Pakku's normal `pakku export` command. The serverpack profile writes a
 zip containing the server-side mod jars, server overrides, and manual
-overrides. Only the serverpack output is copied to the build directory.
+overrides. Only the serverpack output is copied to the output directory.
+The scripts never write to ./build; Pakku's export owns that directory.
 """
 
 from __future__ import annotations
@@ -15,8 +16,8 @@ import zipfile
 from pathlib import Path
 
 from common import (
-    BUILD_ROOT,
     OUTPUT_ROOT,
+    PAKKU_BUILD_ROOT,
     PAKKU_JAR,
     REPO_ROOT,
     find_java,
@@ -28,7 +29,7 @@ from common import (
 
 
 def newest_server_zip() -> Path | None:
-    folder = BUILD_ROOT / "serverpack"
+    folder = PAKKU_BUILD_ROOT / "serverpack"
     if not folder.is_dir():
         return None
     zips = sorted(folder.glob("*.zip"), key=lambda p: p.stat().st_mtime, reverse=True)
@@ -47,9 +48,6 @@ def main() -> int:
     parser.add_argument("--java", default=None, help="Java executable (default: JAVA/JAVA_HOME/PATH)")
     parser.add_argument("--output", default=None, type=Path,
                         help="Output zip path (default: modpackbuilds/server/<pack>.zip)")
-    parser.add_argument("--clean-build", action="store_true",
-                        help="Remove Pakku's build/curseforge, build/modrinth, "
-                             "and build/serverpack after copying the server zip")
     args = parser.parse_args()
 
     if not PAKKU_JAR.is_file():
@@ -109,11 +107,6 @@ def main() -> int:
     else:
         print("Warning: thaumaturge override jar was not found in the server zip.",
               file=sys.stderr)
-
-    if args.clean_build:
-        for folder in ("curseforge", "modrinth", "serverpack"):
-            shutil.rmtree(BUILD_ROOT / folder, ignore_errors=True)
-        print("Removed Pakku build/ profile outputs.")
 
     return 0
 

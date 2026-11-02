@@ -31,17 +31,17 @@ from pathlib import Path
 
 from common import (
     BOOTSTRAP_JAR,
-    BUILD_ROOT,
     DEFAULT_PACK_URL,
     INSTALLER_JAR,
     OUTPUT_ROOT,
     PACK_BRANCH,
     PRISM_MMC_PACK,
     REPO_ROOT,
+    WORK_ROOT,
     output_name,
     pack_info,
 )
-from pakku_to_packwiz import build_pack
+from pakku_to_packwiz import build_pack, generate_index
 
 
 def ini_quote(value: str) -> str:
@@ -83,6 +83,36 @@ def copy_tree(src: Path, dst: Path) -> None:
     if dst.exists():
         shutil.rmtree(dst)
     shutil.copytree(src, dst)
+
+
+def client_override_paths() -> list[Path]:
+    root = REPO_ROOT / ".pakku" / "client-overrides"
+    if not root.is_dir():
+        return []
+    return [
+        path.relative_to(root)
+        for path in root.rglob("*")
+        if path.is_file()
+    ]
+
+
+def remove_pack_paths(pack_dir: Path, relative_paths: list[Path]) -> int:
+    removed = 0
+    for rel in relative_paths:
+        target = pack_dir / rel
+        if target.is_file():
+            target.unlink()
+            removed += 1
+    return removed
+
+
+def copy_client_overrides(staging: Path) -> int:
+    root = REPO_ROOT / ".pakku" / "client-overrides"
+    if not root.is_dir():
+        return 0
+    count = sum(1 for path in root.rglob("*") if path.is_file())
+    shutil.copytree(root, staging / ".minecraft", dirs_exist_ok=True)
+    return count
 
 
 def make_zip(staging: Path, output: Path) -> None:
@@ -157,7 +187,7 @@ def main() -> int:
     display_name = args.display_name or f"{name} {version}".strip()
     pack_url = args.pack_url
 
-    work = BUILD_ROOT / "client"
+    work = WORK_ROOT / "client"
     pack_dir = work / "pack"
     staging = work / "instance"
     if work.exists():
@@ -181,7 +211,20 @@ def main() -> int:
         # external-mods.json as packwiz URL downloads.
         external_mods_path=REPO_ROOT / "external-mods.json",
         skip_manual_categories={"mods"},
+        # client-overrides are shipped as static files in the client instance
+        # zip, not in the published packwiz pack.
+        include_client_overrides=False,
     )
+
+    # If a client-override collides with a pack file, remove it from the pack
+    # so packwiz cannot update/overwrite the static client copy.
+    client_overrides = client_override_paths()
+    removed = remove_pack_paths(pack_dir, client_overrides)
+    if removed:
+        summary["index_entries"] = generate_index(pack_dir)
+        summary["pack_bytes"] = sum(
+            path.stat().st_size for path in pack_dir.rglob("*") if path.is_file()
+        )
 
     # Always keep a copy of the pack source outside the instance zip so it can
     # be uploaded to a static host (raw GitHub, GitHub Pages, object storage).
@@ -192,10 +235,12 @@ def main() -> int:
     print(f"Projects: {len(summary['projects'])}")
     print(f"Embedded overrides: {len(summary['manual_overrides'])}")
     print(f"External URL mods: {summary['external_mod_count']}")
+    print(f"Static client overrides: {len(client_overrides)}")
     print(f"Index entries: {summary['index_entries']}")
     print(f"Pack size: {summary['pack_bytes'] / 1024 / 1024:.1f} MiB")
 
     (staging / ".minecraft").mkdir(parents=True, exist_ok=True)
+    copy_client_overrides(staging)
     if args.local_pack:
         prelaunch = (
             '"$INST_JAVA" -cp packwiz-installer.jar '

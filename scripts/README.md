@@ -53,8 +53,6 @@ Options:
 
 - `--java PATH` — use a specific Java executable.
 - `--output PATH` — override the output zip path.
-- `--clean-build` — remove Pakku's `build/curseforge`, `build/modrinth`,
-  and `build/serverpack` after copying the server zip.
 
 ## build_client.py
 
@@ -84,7 +82,13 @@ instance.cfg
 mmc-pack.json
 .minecraft/packwiz-installer.jar
 .minecraft/packwiz-installer-bootstrap.jar
+.minecraft/... (static .pakku/client-overrides files)
 ```
+
+`.pakku/client-overrides/` is copied into the client zip at the
+`.minecraft` root. Those files are excluded from the published packwiz pack,
+so packwiz does not auto-update them. They are only refreshed by rebuilding
+and re-importing the client zip.
 
 The pack source in `modpackbuilds/client/pack/` contains external mods as
 packwiz `[download]` URL metadata. No external jar is copied into it.
@@ -165,6 +169,8 @@ The backup folder is gitignored.
 ## Notes
 
 - `modpackbuilds/` and `build/` are gitignored.
+- `build/` belongs exclusively to Pakku's export command. The custom scripts
+  use `modpackbuilds/.work/` for scratch files and never write to `build/`.
 - The scripts use only the Python standard library.
 - The server script requires Pakku/Java; the client script requires only
   Python (the installer and bootstrap jars are bundled for distribution).
