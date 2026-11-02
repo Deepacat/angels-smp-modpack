@@ -1,10 +1,12 @@
 // Classes
 let $DataComponents = Java.loadClass("net.minecraft.core.component.DataComponents");
-const { $CompoundTag, $Tag } = require("@package/net/minecraft/nbt")
+let $CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
+let $Tag = Java.loadClass("net.minecraft.nbt.Tag");
 let $MinecraftServer = Java.loadClass("net.minecraft.server.MinecraftServer");
 let $CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData");
 let $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack");
-const { $ArmorItem, $TieredItem } = require("@package/net/minecraft/world/item")
+let $$TieredItem = Java.loadClass("net.minecraft.world.item.$TieredItem");
+let $ArmorItem = Java.loadClass("net.minecraft.world.item.ArmorItem");
 let $Ingredient = Java.loadClass("net.minecraft.world.item.crafting.Ingredient");
 let $ItemStackedOnOtherEvent = Java.loadClass("net.neoforged.neoforge.event.ItemStackedOnOtherEvent");
 
