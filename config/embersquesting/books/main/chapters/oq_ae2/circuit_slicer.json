@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.circuit_slicer.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.circuit_slicer.description.0>"
+  ],
+  "icon": "extendedae:circuit_cutter",
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:circuit_cutter",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

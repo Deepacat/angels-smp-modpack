@@ -1,0 +1,56 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.title>",
+  "icon": "hbm:machine_fel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.6>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:laser_crystal_co2",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 18.5,
+  "y": 6.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/desh",
+      "oq_ntm_early_game/dense_wires"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_fel",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_silex",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

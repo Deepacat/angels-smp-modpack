@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.mage_s_spell_book.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.mage_s_spell_book.description.0>"
+  ],
+  "icon": "ars_nouveau:apprentice_spell_book",
+  "x": 7,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ars/scribe_s_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:apprentice_spell_book",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

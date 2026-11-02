@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.multi_fluid_identifier.title>",
+  "icon": "hbm:fluid_identifier_multi",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.multi_fluid_identifier.description.0.1>"
+  ],
+  "x": 18,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/burner_press"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.title>",
+  "icon": "hbm:machine_pyrooven",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.description.0.3>"
+  ],
+  "x": 14.5,
+  "y": 20,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_pyrooven",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

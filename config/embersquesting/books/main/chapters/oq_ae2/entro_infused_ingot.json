@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.entro_infused_ingot.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.entro_infused_ingot.description.0>"
+  ],
+  "icon": "extendedae:entro_ingot",
+  "x": 1,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/entro_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:entro_ingot",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

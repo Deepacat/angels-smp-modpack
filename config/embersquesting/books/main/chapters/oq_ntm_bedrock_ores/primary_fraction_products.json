@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.primary_fraction_products.title>",
+  "icon": "hbm:scraps{\"hbm:material\":\"tungsten\",\"hbm:mat_amount\":576}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.primary_fraction_products.description.0.1>"
+  ],
+  "x": 0,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/primary_function_adjustable_wheights"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

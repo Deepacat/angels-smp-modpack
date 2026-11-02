@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.technetium_99.title>",
+  "icon": "hbm:ingot_technetium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.technetium_99.description.0.1>"
+  ],
+  "x": 6,
+  "y": 11.5,
+  "deps": {
+    "any": [
+      "oq_ntm_bedrock_ores/cleaned_byproduct_products",
+      "oq_ntm_fission/nuclear_fuel_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_technetium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

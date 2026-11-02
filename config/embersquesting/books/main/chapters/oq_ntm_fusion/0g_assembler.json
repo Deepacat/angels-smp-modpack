@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.0g_assembler.title>",
+  "icon": "hbm:satellite_science_assembler",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.0g_assembler.description.0.1>"
+  ],
+  "x": 5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/space_laboratory",
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:satellite_science_assembler",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

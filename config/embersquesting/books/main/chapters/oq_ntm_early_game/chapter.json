@@ -1,0 +1,11 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_early_game.title>",
+  "icon": "hbm:machine_wood_burner",
+  "order": 7,
+  "scope": "team",
+  "world_reveal": false,
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

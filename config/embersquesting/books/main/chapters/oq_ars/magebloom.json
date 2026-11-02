@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.magebloom.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.magebloom.description.0>"
+  ],
+  "icon": "ars_nouveau:magebloom",
+  "x": 8,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:magebloom_crop",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:magebloom",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_out": "hover"
+}

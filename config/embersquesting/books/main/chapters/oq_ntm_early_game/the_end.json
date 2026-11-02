@@ -1,0 +1,43 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.the_end.title>",
+  "icon": "minecraft:end_portal_frame",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_end.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_end.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_end.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_end.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_end.description.0.5>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_end.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "adventurebackpack:adventurebackpack",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 15,
+  "y": 0,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

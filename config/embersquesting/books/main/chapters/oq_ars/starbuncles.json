@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.starbuncles.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.starbuncles.description.0>",
+    "<lang key=eqpack.quest.oq_ars.starbuncles.description.1.1>\n\n<lang key=eqpack.quest.oq_ars.starbuncles.description.1.2>"
+  ],
+  "icon": "ars_nouveau:starbuncle_charm",
+  "x": 9,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:starbuncle_shards",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab712337a7",
+      "type": "custom",
+      "title": "<lang key=eqpack.quest.oq_ars.starbuncles.task.2.title>"
+    }
+  ],
+  "shape": "circle"
+}

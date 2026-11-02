@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.bedrock_ore_crumps.title>",
+  "icon": "hbm:bedrock_ore_crumbs_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.bedrock_ore_crumps.description.0.1>"
+  ],
+  "x": 2.5,
+  "y": 19,
+  "deps": {
+    "any": [
+      "oq_ntm_bedrock_ores/sulfuric_byproduct_products",
+      "oq_ntm_bedrock_ores/cleaned_byproduct_products",
+      "oq_ntm_bedrock_ores/primary_fraction_products",
+      "oq_ntm_bedrock_ores/dissolved_byproducts_products"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.source_berries.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.source_berries.description.0>"
+  ],
+  "icon": "ars_nouveau:sourceberry_bush",
+  "x": 2,
+  "y": 4,
+  "tasks": [
+    {
+      "item": "ars_nouveau:sourceberry_bush",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(ars_nouveau:source_berry_roll) item(ars_nouveau:source_berry_pie))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.source_berries.task.1.title>"
+    }
+  ],
+  "shape": "circle"
+}

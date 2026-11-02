@@ -74,9 +74,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "ftbquests": {
-    "barrier": true
-  },
   "thaumaturge": {
     "display.everfull_urns": "GOGGLES",
     "display.crystalizers": "GOGGLES",
@@ -161,6 +158,9 @@
   },
   "jadeaddons.lootr": {
     "info": true
+  },
+  "embersquesting": {
+    "quest_block": true
   },
   "betterend": {
     "plant_growth": true

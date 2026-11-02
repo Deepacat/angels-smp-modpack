@@ -1,0 +1,10 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ae2.title>",
+  "icon": "ae2:controller",
+  "order": 3,
+  "scope": "team",
+  "group": "tech_info",
+  "defaults": {
+    "progression": "linear"
+  }
+}

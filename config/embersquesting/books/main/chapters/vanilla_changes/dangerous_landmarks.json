@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.0>",
+    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.1>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.3>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.5>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.7>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.9>"
+  ],
+  "icon": "ags_modernmarkings:textures/block/marking_wall_symbol_yellow_radiation.png",
+  "x": 1.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

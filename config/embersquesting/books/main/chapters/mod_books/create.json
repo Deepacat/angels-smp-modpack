@@ -1,0 +1,33 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.create.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.create.description.0>",
+    "<lang key=eqpack.quest.mod_books.create.description.1>",
+    "",
+    "<lang key=eqpack.quest.mod_books.create.description.3>",
+    "<lang key=eqpack.quest.mod_books.create.description.4>",
+    "<lang key=eqpack.quest.mod_books.create.description.5>",
+    "<lang key=eqpack.quest.mod_books.create.description.6>",
+    "<lang key=eqpack.quest.mod_books.create.description.7>"
+  ],
+  "icon": "create:wrench",
+  "x": 9.75,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "points": 1,
+      "type": "xp"
+    }
+  ],
+  "shape": "circle"
+}

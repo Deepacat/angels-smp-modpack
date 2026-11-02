@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.reformate_gas.title>",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:reformgas\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.reformate_gas.description.0.1>"
+  ],
+  "x": 12.5,
+  "y": 18,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/vacuum_refinery",
+      "oq_ntm_fission/advanced_oil_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

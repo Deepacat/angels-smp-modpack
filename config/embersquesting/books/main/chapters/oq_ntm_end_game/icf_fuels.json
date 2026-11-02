@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.icf_fuels.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.icf_fuels.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.icf_fuels.description.0.2>"
+  ],
+  "icon": "hbm:icf_pellet_depleted",
+  "x": 2.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/icf"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_icf_press",
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_pellet_empty",
+      "type": "item"
+    }
+  ]
+}

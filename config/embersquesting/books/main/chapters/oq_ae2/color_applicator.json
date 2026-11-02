@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.color_applicator.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.color_applicator.description.0>"
+  ],
+  "icon": "ae2:color_applicator",
+  "x": 5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/energy_cell"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:color_applicator",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

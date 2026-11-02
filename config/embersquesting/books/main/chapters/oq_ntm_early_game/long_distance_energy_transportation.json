@@ -1,0 +1,40 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.title>",
+  "icon": "hbm:substation",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.description.0.3>"
+  ],
+  "x": 18.5,
+  "y": 24.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/chemical_plant",
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:red_pylon_large",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:substation",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "hbm:wiring_red_copper",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

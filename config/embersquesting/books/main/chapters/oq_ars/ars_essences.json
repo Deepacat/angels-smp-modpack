@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.ars_essences.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.ars_essences.description.0>"
+  ],
+  "icon": "ars_nouveau:manipulation_essence",
+  "x": 7,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/arcane_pedestals"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:water_essence) item(ars_nouveau:earth_essence) item(ars_nouveau:fire_essence) item(ars_nouveau:air_essence) item(ars_nouveau:manipulation_essence) item(ars_nouveau:abjuration_essence) item(sauce:anima_essence))",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

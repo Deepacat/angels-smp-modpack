@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.analog_circuit.title>",
+  "icon": "hbm:circuit_analog",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.analog_circuit.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.analog_circuit.description.0.2>"
+  ],
+  "x": 12.5,
+  "y": 24.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/soldering_station"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_analog",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -131,6 +131,14 @@
 !/config/create-client.toml
 !/config/botania-client.toml
 !/config/defaultsettings/Default/options.txt
+# ember questing 
+/config/embersquesting/**
+!/config/embersquesting/pack/
+!/config/embersquesting/pack/**
+!/config/embersquesting/books/
+!/config/embersquesting/books/**
+!/config/embersquesting/book.json
+!/config/embersquesting/changes.log
 
 ## General Configs (mostly ones that tend to edit the date on launch)
 /config/fml.toml

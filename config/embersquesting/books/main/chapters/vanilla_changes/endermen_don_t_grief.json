@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.endermen_don_t_grief.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.endermen_don_t_grief.description.0>"
+  ],
+  "icon": "supplementaries:enderman_head",
+  "x": 1.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

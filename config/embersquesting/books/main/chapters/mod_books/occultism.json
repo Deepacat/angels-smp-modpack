@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.occultism.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.occultism.description.0>",
+    "<lang key=eqpack.quest.mod_books.occultism.description.1>"
+  ],
+  "icon": "occultism:textures/gui/book/pentacle.png",
+  "x": 5.25,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "title": "<lang key=eqpack.quest.mod_books.occultism.reward.0.title>",
+      "points": 1,
+      "type": "xp"
+    }
+  ],
+  "shape": "circle"
+}

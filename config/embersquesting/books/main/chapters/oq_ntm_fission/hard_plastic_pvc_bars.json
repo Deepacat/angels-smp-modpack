@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.hard_plastic_pvc_bars.title>",
+  "icon": "hbm:ingot_pvc",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.hard_plastic_pvc_bars.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.hard_plastic_pvc_bars.description.0.2>"
+  ],
+  "x": 18.5,
+  "y": 16,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/cadmium",
+      "oq_ntm_fission/btx"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_pc",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

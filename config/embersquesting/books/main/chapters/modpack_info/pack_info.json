@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.modpack_info.pack_info.title>",
+  "description": [
+    "<lang key=eqpack.quest.modpack_info.pack_info.description.0>",
+    "<lang key=eqpack.quest.modpack_info.pack_info.description.1>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.pack_info.description.3>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.pack_info.description.5>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.pack_info.description.7>"
+  ],
+  "icon": "jei:textures/gui/sprites/icons/info.png",
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "<lang key=eqpack.quest.modpack_info.pack_info.task.0.title>"
+    }
+  ],
+  "shape": "circle",
+  "size": 2.0
+}

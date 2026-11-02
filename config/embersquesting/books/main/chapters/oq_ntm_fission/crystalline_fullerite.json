@@ -1,0 +1,44 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.title>",
+  "icon": "hbm:ingot_cft",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.description.0.2>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:upgrade_effect_3",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 18.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/industrial_mixer",
+      "oq_ntm_fission/fel_and_silex",
+      "oq_ntm_fission/high_performance_solvent",
+      "oq_ntm_fission/btx",
+      "oq_ntm_oil/ore_acidizer",
+      "oq_ntm_early_game/ashpit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_cft",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

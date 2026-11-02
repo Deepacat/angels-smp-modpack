@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.threads_and_alteration.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.threads_and_alteration.description.0>",
+    "<lang key=eqpack.quest.oq_ars.threads_and_alteration.description.1>"
+  ],
+  "icon": "ars_nouveau:blank_thread",
+  "x": 13.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ars/mage_robes"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:alteration_table",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:blank_thread",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

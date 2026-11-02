@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.automatic_crafting_table.title>",
+  "icon": "hbm:machine_autocrafter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.automatic_crafting_table.description.0.1>"
+  ],
+  "x": 1.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_autocrafter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

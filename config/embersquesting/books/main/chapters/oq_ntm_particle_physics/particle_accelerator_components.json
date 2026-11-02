@@ -1,0 +1,34 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.title>",
+  "icon": "hbm:pa_coil_gold",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.6>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.7>"
+  ],
+  "x": 4.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/particle_accelerator"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

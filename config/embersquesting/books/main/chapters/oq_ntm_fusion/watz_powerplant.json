@@ -1,0 +1,62 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.watz_powerplant.title>",
+  "icon": "hbm:watz",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.watz_powerplant.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.watz_powerplant.description.0.2>"
+  ],
+  "x": 16.5,
+  "y": 5.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_oil/desh",
+      "oq_ntm_oil/military_grade_circuit_board",
+      "oq_ntm_early_game/industrial_mixer",
+      "oq_ntm_fission/saturnite",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:bolt_dura_steel",
+      "count": 192,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_casing",
+      "count": 48,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_element",
+      "count": 36,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_cooler",
+      "count": 26,
+      "type": "item"
+    },
+    {
+      "item": "hbm:struct_watz_core",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_pump",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:boltgun",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

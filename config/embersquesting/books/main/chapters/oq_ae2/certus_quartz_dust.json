@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.certus_quartz_dust.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.certus_quartz_dust.description.0>"
+  ],
+  "icon": "ae2:certus_quartz_dust",
+  "x": 5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:certus_quartz_dust",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

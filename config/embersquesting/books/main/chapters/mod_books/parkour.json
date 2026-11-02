@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.parkour.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.parkour.description.0>",
+    "<lang key=eqpack.quest.mod_books.parkour.description.1>",
+    "",
+    "<lang key=eqpack.quest.mod_books.parkour.description.3>",
+    "",
+    "<lang key=eqpack.quest.mod_books.parkour.description.5>",
+    "<lang key=eqpack.quest.mod_books.parkour.description.6>",
+    "<lang key=eqpack.quest.mod_books.parkour.description.7>",
+    "  <lang key=eqpack.quest.mod_books.parkour.description.8>",
+    "<lang key=eqpack.quest.mod_books.parkour.description.9>",
+    "<lang key=eqpack.quest.mod_books.parkour.description.10>"
+  ],
+  "icon": "minecraft:textures/mob_effect/jump_boost.png",
+  "x": 12.5,
+  "y": 3.75,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

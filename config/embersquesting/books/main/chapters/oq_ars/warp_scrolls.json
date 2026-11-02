@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.warp_scrolls.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.warp_scrolls.description.0>"
+  ],
+  "icon": "ars_nouveau:stable_warp_scroll",
+  "x": 12,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:warp_scroll) item(ars_nouveau:stable_warp_scroll))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.warp_scrolls.task.0.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

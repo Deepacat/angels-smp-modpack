@@ -1,0 +1,41 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.title>",
+  "icon": "hbm:radio_torch_sender",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.description.0.2>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:radio_torch_receiver",
+          "count": 1
+        },
+        {
+          "item": "hbm:radio_torch_sender",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

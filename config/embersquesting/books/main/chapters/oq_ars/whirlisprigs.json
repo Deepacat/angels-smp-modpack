@@ -1,0 +1,32 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.whirlisprigs.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.whirlisprigs.description.0>",
+    "<lang key=eqpack.quest.oq_ars.whirlisprigs.description.1.1>\n\n<lang key=eqpack.quest.oq_ars.whirlisprigs.description.1.2>"
+  ],
+  "icon": "ars_nouveau:whirlisprig_charm",
+  "x": 9,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus",
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:whirlisprig_shards",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:whirlisprig_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab383b42a3",
+      "type": "custom",
+      "title": "<lang key=eqpack.quest.oq_ars.whirlisprigs.task.2.title>"
+    }
+  ],
+  "shape": "circle"
+}

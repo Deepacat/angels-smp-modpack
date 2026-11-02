@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.sulfuric_byproduct.title>",
+  "icon": "hbm:bedrock_ore_sulfuric_byproduct_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.sulfuric_byproduct.description.0.1>"
+  ],
+  "x": 1.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/second_bedrock_ore_centrifuging"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.tablet_of_harvest.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.tablet_of_harvest.description.0>"
+  ],
+  "icon": "ars_nouveau:ritual_harvest",
+  "x": 6.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_harvest",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

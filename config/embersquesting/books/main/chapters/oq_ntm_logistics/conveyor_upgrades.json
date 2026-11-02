@@ -1,0 +1,37 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.title>",
+  "icon": "hbm:upgrade_ejector_3",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.description.0.3>"
+  ],
+  "x": 14.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:upgrade_stack_1",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:upgrade_ejector_1",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

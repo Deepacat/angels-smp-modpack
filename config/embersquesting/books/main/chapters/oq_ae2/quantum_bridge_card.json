@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.quantum_bridge_card.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.quantum_bridge_card.description.0>"
+  ],
+  "icon": "ae2wtlib:quantum_bridge_card",
+  "x": 2,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/universal_terminal",
+      "oq_ae2/quantum_network_bridge"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2wtlib:quantum_bridge_card",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

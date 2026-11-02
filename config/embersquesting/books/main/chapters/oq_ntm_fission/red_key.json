@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.red_key.title>",
+  "icon": "hbm:key_red",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.red_key.description.0.1>"
+  ],
+  "x": 12,
+  "y": 23.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/dense_wires",
+      "oq_ntm_fission/starmetal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:key_red",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

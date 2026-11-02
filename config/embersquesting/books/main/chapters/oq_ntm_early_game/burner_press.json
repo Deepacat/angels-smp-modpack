@@ -1,0 +1,38 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.burner_press.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.burner_press.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.burner_press.description.0.2>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.burner_press.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:press_preheater",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "icon": "hbm:machine_press",
+  "x": 15,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_press",
+      "type": "item"
+    }
+  ]
+}

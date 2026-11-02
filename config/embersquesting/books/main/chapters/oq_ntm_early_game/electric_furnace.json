@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.electric_furnace.title>",
+  "icon": "hbm:machine_electric_furnace_off",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.electric_furnace.description.0.1>"
+  ],
+  "x": 8,
+  "y": 24.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates",
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_electric_furnace_off",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

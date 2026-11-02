@@ -1,0 +1,37 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.electric_tools.title>",
+  "icon": "hbm:elec_pickaxe",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.electric_tools.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.electric_tools.description.0.2>"
+  ],
+  "x": 7.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:elec_pickaxe",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:elec_axe",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:elec_shovel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

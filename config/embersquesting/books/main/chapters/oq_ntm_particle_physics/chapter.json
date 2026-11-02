@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_particle_physics.title>",
+  "icon": "hbm:particle_lutece",
+  "order": 11,
+  "scope": "team",
+  "links": [
+    {
+      "quest": "oq_ntm_oil/antimatter",
+      "x": 3.0,
+      "y": 6.0
+    },
+    {
+      "quest": "oq_ntm_fusion/particle_accelerator",
+      "x": 3.0,
+      "y": 0.0
+    }
+  ],
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

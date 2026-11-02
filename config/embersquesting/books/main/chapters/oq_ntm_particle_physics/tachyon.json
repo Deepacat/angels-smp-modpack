@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.tachyon.title>",
+  "icon": "hbm:particle_tachyon",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.tachyon.description.0.1>"
+  ],
+  "x": 1.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/muon",
+      "oq_ntm_particle_physics/higgs_boson"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_tachyon",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

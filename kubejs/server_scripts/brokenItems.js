@@ -1,12 +1,12 @@
 // Classes
-const { $DataComponents } = require("@package/net/minecraft/core/component")
+let $DataComponents = Java.loadClass("net.minecraft.core.component.DataComponents");
 const { $CompoundTag, $Tag } = require("@package/net/minecraft/nbt")
-const { $MinecraftServer } = require("@package/net/minecraft/server")
-const { $CustomData } = require("@package/net/minecraft/world/item/component")
-const { $ItemStack } = require("@package/net/minecraft/world/item")
+let $MinecraftServer = Java.loadClass("net.minecraft.server.MinecraftServer");
+let $CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData");
+let $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack");
 const { $ArmorItem, $TieredItem } = require("@package/net/minecraft/world/item")
-const { $Ingredient } = require("@package/net/minecraft/world/item/crafting")
-const { $ItemStackedOnOtherEvent } = require("@package/net/neoforged/neoforge/event")
+let $Ingredient = Java.loadClass("net.minecraft.world.item.crafting.Ingredient");
+let $ItemStackedOnOtherEvent = Java.loadClass("net.neoforged.neoforge.event.ItemStackedOnOtherEvent");
 
 // Consts
 const BROKEN_ITEM_ID = 'kubejs:broken_item'

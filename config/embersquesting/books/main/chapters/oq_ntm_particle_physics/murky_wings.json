@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.murky_wings.title>",
+  "icon": "hbm:wings_murk",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.murky_wings.description.0.1>"
+  ],
+  "x": 1.5,
+  "y": 12,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/murky_anvil",
+      "oq_ntm_particle_physics/tachyon"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:wings_murk",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

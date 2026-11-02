@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.0>",
+    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.1>",
+    "",
+    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.3>",
+    "",
+    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.5>",
+    "",
+    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.7>"
+  ],
+  "icon": "minecraft:knowledge_book",
+  "x": 7,
+  "y": 3,
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "akashictome:tome",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_in": "hover",
+  "lines_out": "hover"
+}

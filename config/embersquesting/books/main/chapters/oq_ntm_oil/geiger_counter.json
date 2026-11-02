@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.title>",
+  "icon": "hbm:geiger_counter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.4>"
+  ],
+  "x": 5,
+  "y": 16,
+  "deps": {
+    "any": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_early_game/structure_looting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:geiger_counter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

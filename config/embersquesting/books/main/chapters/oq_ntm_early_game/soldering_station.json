@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.soldering_station.title>",
+  "icon": "hbm:machine_soldering_station",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.soldering_station.description.0.1>"
+  ],
+  "x": 10,
+  "y": 24.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates",
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_soldering_station",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

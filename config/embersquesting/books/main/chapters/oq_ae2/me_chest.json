@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.me_chest.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.me_chest.description.0>"
+  ],
+  "icon": "ae2:chest",
+  "x": 8,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/terminal",
+      "oq_ae2/storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:chest",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

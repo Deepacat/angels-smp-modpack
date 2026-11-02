@@ -1,0 +1,32 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.lamda_rockets.title>",
+  "icon": "hbm:launchpad_lambda",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.lamda_rockets.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.lamda_rockets.description.0.2>"
+  ],
+  "x": 3,
+  "y": 15.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/flight_data"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:launchpad_lambda",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:missile_lambda",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

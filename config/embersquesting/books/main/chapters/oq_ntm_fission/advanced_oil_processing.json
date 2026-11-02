@@ -1,0 +1,60 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.title>",
+  "icon": "hbm:machine_catalytic_reformer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.0.3>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_catalytic_reformer",
+          "count": 1
+        },
+        {
+          "item": "hbm:catalytic_converter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_hydrotreater",
+          "count": 1
+        },
+        {
+          "item": "hbm:catalytic_converter",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 12.5,
+  "y": 16,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/technetium_cadmium_steel",
+      "oq_ntm_early_game/compressor"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

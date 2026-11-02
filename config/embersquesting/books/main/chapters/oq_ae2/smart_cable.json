@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.smart_cable.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.smart_cable.description.0>"
+  ],
+  "icon": "ae2:fluix_smart_cable",
+  "x": 8,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/cables"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "ae2:smart_cable",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ae2.smart_cable.task.0.title>"
+    },
+    {
+      "tag": "ae2:smart_dense_cable",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ae2.smart_cable.task.1.title>"
+    }
+  ],
+  "shape": "circle"
+}

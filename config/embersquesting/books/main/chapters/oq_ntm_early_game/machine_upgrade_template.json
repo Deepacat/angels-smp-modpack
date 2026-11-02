@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.machine_upgrade_template.title>",
+  "icon": "hbm:upgrade_template",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.machine_upgrade_template.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.machine_upgrade_template.description.0.2>"
+  ],
+  "x": 12,
+  "y": 26.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:upgrade_template",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

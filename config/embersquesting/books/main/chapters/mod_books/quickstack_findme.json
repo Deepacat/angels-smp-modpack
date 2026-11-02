@@ -1,0 +1,34 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.quickstack_findme.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.0>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.2>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.4>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.6>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.8>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.10>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.12>",
+    "",
+    "<lang key=eqpack.quest.mod_books.quickstack_findme.description.14>"
+  ],
+  "icon": "toxony:textures/item/magnifying_glass.png",
+  "x": 10.5,
+  "y": 3.75,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

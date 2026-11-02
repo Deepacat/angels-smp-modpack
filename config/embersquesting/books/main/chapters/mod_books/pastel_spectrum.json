@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.pastel_spectrum.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.pastel_spectrum.description.0>",
+    "<lang key=eqpack.quest.mod_books.pastel_spectrum.description.1>"
+  ],
+  "icon": "pastel:pedestal_moonstone",
+  "x": 4.75,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "title": "<lang key=eqpack.quest.mod_books.pastel_spectrum.reward.0.title>",
+      "points": 1,
+      "type": "xp"
+    }
+  ],
+  "shape": "circle"
+}

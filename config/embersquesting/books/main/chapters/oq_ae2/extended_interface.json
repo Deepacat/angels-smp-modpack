@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.extended_interface.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.extended_interface.description.0>"
+  ],
+  "icon": "extendedae:ex_interface",
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:ex_interface",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

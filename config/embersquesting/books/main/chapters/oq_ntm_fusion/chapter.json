@@ -1,0 +1,10 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_fusion.title>",
+  "icon": "hbm:fusion_torus",
+  "order": 10,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

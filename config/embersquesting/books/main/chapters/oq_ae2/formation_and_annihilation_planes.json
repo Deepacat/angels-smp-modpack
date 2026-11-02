@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.formation_and_annihilation_planes.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.formation_and_annihilation_planes.description.0.1>\n\n<lang key=eqpack.quest.oq_ae2.formation_and_annihilation_planes.description.0.2>"
+  ],
+  "icon": "ae2:formation_plane",
+  "x": 10,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ae2/io"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:formation_plane",
+      "type": "item"
+    },
+    {
+      "item": "ae2:annihilation_plane",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,188 @@
+{
+  "title": "<lang key=eqpack.chapter.mod_books.title>",
+  "icon": "minecraft:knowledge_book",
+  "order": 2,
+  "scope": "team",
+  "links": [
+    {
+      "quest": "vanilla_changes/better_combat",
+      "x": 13.5,
+      "y": 3.75
+    }
+  ],
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "locked": true,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#3682FF",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 6.857143,
+      "y": 5.107143
+    },
+    {
+      "locked": true,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#FFB503",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 11.857142,
+      "y": 2.607143
+    },
+    {
+      "locked": true,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#B61CFF",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 4.857143,
+      "y": -0.6428571
+    },
+    {
+      "locked": true,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#50B71C",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 3.357143,
+      "y": -0.6428571
+    },
+    {
+      "locked": true,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#FF4C13",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 9.607142,
+      "y": -0.6428571
+    },
+    {
+      "locked": true,
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#FF29EE",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 2.107143,
+      "y": 2.607143
+    },
+    {
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 6.642857,
+      "y": 2.642857
+    },
+    {
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "etcetera:textures/item/wrench.png",
+        "type": "image"
+      },
+      "x": 9.928572,
+      "y": -0.32142854
+    },
+    {
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "pastel:textures/particle/shooting_star.png",
+        "type": "image"
+      },
+      "x": 5.2285714,
+      "y": -0.32142854
+    },
+    {
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "toxony:textures/item/toxin_flask.png",
+        "type": "image"
+      },
+      "x": 3.6785715,
+      "y": -0.32142854
+    },
+    {
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "hearthandharvest:textures/item/sugar_cubes.png",
+        "type": "image"
+      },
+      "x": 2.4285715,
+      "y": 2.9285715
+    },
+    {
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "color": "#000000",
+        "texture": "embersquesting:textures/gui/icons/pencil.png",
+        "type": "image"
+      },
+      "x": 7.174402,
+      "y": 5.4722557
+    },
+    {
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "embersquesting:textures/gui/icons/pencil.png",
+        "type": "image"
+      },
+      "x": 7.178571,
+      "y": 5.428571
+    },
+    {
+      "tooltip": [
+        "Utility & Mechanic mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "color": "#000000",
+        "texture": "embersquesting:textures/gui/icons/hand.png",
+        "type": "image"
+      },
+      "x": 12.205444,
+      "y": 2.9385207
+    },
+    {
+      "tooltip": [
+        "Utility & Mechanic mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "embersquesting:textures/gui/icons/hand.png",
+        "type": "image"
+      },
+      "x": 12.178572,
+      "y": 2.9285715
+    }
+  ]
+}

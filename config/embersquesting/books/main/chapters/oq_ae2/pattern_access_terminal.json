@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.pattern_access_terminal.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.pattern_access_terminal.description.0>"
+  ],
+  "icon": "ae2:pattern_access_terminal",
+  "x": 9,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/the_start_of_autocrafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:pattern_access_terminal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

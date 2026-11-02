@@ -1,0 +1,10 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_end_game.title>",
+  "icon": "hbm:machine_battery_redd",
+  "order": 12,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

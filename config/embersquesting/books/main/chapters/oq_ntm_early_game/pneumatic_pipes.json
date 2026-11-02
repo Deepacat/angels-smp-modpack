@@ -1,0 +1,47 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.pneumatic_pipes.title>",
+  "icon": "hbm:pneumatic_tube",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.pneumatic_pipes.description.0.1>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.pneumatic_pipes.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:pneumatic_tube_paintable",
+          "count": 1
+        },
+        {
+          "item": "hbm:pipe_anchor_pneumatic",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 13,
+  "y": 28,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/air_intake",
+      "oq_ntm_early_game/compressor"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/air_intake": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:pneumatic_tube",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.molecular_assembler.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.molecular_assembler.description.0>"
+  ],
+  "icon": "ae2:molecular_assembler",
+  "x": 9,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/the_start_of_autocrafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:molecular_assembler",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

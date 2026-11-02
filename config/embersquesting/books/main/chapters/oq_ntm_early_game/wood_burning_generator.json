@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.wood_burning_generator.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.wood_burning_generator.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.wood_burning_generator.description.0.2>"
+  ],
+  "icon": "hbm:machine_wood_burner",
+  "x": 12.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_wood_burner",
+      "type": "item"
+    }
+  ]
+}

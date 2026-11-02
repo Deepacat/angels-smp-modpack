@@ -1,0 +1,65 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.title>",
+  "icon": "hbm:machine_turbofan",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.6>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.7>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_combustion_engine",
+          "count": 1
+        },
+        {
+          "item": "hbm:machine_turbofan",
+          "count": 1
+        },
+        {
+          "item": "hbm:machine_turbine_gas",
+          "count": 1
+        },
+        {
+          "item": "hbm:machine_flare",
+          "count": 1
+        },
+        {
+          "item": "hbm:heater_oilburner",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 6.5,
+  "y": 19.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_early_game/dense_wires"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

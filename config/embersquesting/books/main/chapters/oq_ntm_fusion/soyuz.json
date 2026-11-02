@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.soyuz.title>",
+  "icon": "hbm:launchpad_soyuz",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.soyuz.description.0.1>"
+  ],
+  "x": 3,
+  "y": 7.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/flash_drives",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:launchpad_soyuz",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:missile_soyuz_0",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

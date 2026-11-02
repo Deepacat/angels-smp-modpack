@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.storage_bus.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.storage_bus.description.0>"
+  ],
+  "icon": "ae2:storage_bus",
+  "x": 8,
+  "deps": {
+    "all": [
+      "oq_ae2/storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:storage_bus",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

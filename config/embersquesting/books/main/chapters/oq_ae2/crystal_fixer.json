@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.crystal_fixer.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.crystal_fixer.description.0.1>\n\n<lang key=eqpack.quest.oq_ae2.crystal_fixer.description.0.2>"
+  ],
+  "icon": "extendedae:crystal_fixer",
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:crystal_fixer",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

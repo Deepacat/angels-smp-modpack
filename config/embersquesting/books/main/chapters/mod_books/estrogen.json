@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.estrogen.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.estrogen.description.0>"
+  ],
+  "icon": "estrogen:estrogen_pill",
+  "x": 6.5,
+  "y": 8.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

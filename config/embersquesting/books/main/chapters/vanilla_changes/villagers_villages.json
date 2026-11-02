@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.villagers_villages.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.villagers_villages.description.0>",
+    "<lang key=eqpack.quest.vanilla_changes.villagers_villages.description.1>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.villagers_villages.description.3>"
+  ],
+  "icon": "pastel:villager_head",
+  "x": 2.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.title>",
+  "icon": "hbm:gun_light_revolver",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.0.3>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_weapon_table",
+          "count": 1
+        },
+        {
+          "item": "hbm:casing_bag",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 9.5,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_ammo_press",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.matter_condenser.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.matter_condenser.description.0>"
+  ],
+  "icon": "ae2:condenser",
+  "x": 6,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/fluix_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:condenser",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

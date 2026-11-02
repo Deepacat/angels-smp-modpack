@@ -1,0 +1,34 @@
+{
+  "groups": {
+    "open_quests_exploration": {
+      "title": "<lang key=eqpack.book.main.group.open_quests_exploration.title>"
+    },
+    "ntm": {
+      "title": "<lang key=eqpack.book.main.group.ntm.title>",
+      "order": 7
+    },
+    "open_quests_exploration_2": {
+      "title": "<lang key=eqpack.book.main.group.open_quests_exploration_2.title>"
+    },
+    "open_quests_tech": {
+      "title": "<lang key=eqpack.book.main.group.open_quests_tech.title>",
+      "order": 4
+    },
+    "open_quests_magic_2": {
+      "title": "<lang key=eqpack.book.main.group.open_quests_magic_2.title>"
+    },
+    "open_quests_tech_2": {
+      "title": "<lang key=eqpack.book.main.group.open_quests_tech_2.title>"
+    },
+    "open_quests_magic": {
+      "title": "<lang key=eqpack.book.main.group.open_quests_magic.title>",
+      "order": 1
+    },
+    "tech_info": {
+      "title": "<lang key=eqpack.book.main.group.tech_info.title>"
+    },
+    "magic_info": {
+      "title": "<lang key=eqpack.book.main.group.magic_info.title>"
+    }
+  }
+}

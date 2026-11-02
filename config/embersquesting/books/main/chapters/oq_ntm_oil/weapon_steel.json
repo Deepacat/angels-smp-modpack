@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.weapon_steel.title>",
+  "icon": "hbm:ingot_weaponsteel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.weapon_steel.description.0.1>"
+  ],
+  "x": 17.5,
+  "y": 19.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/coker_unit",
+      "oq_ntm_early_game/rotary_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_weaponsteel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.multi_lane_conveyor_belts.title>",
+  "icon": "hbm:conveyor_wand_double",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.multi_lane_conveyor_belts.description.0.1>"
+  ],
+  "x": 13,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

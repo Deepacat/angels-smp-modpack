@@ -1,0 +1,36 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.title>",
+  "icon": "hbm:wire_dense_red_copper",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.4>"
+  ],
+  "x": 10,
+  "y": 18.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/arc_welder"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:wire_dense_gold",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:wire_dense_red_copper",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

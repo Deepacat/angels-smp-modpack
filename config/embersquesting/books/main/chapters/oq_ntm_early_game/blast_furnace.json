@@ -1,0 +1,43 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.5>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.optional>",
+    {
+      "items": [
+        "hbm:steel_pickaxe"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:machine_blast_furnace",
+  "x": 14.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/anvil",
+      "oq_ntm_early_game/burner_press"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_blast_furnace",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

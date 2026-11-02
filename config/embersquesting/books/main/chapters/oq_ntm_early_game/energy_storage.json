@@ -1,0 +1,46 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.4>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:capacitor_copper",
+          "count": 1
+        },
+        {
+          "item": "hbm:battery_redstone",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "icon": "hbm:machine_battery_socket",
+  "x": 4,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/energy_cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_battery_socket",
+      "type": "item"
+    }
+  ]
+}

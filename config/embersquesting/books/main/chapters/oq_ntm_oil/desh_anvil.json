@@ -1,0 +1,33 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.desh_anvil.title>",
+  "icon": "hbm:anvil_desh",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.desh_anvil.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.desh_anvil.description.0.2>"
+  ],
+  "x": 13,
+  "y": 9.5,
+  "deps": {
+    "any": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/ferrouranium_anvil"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:anvil_desh",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:anvil_ferrouranium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

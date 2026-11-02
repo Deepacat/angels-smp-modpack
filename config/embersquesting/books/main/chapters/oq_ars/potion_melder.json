@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.potion_melder.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.potion_melder.description.0>"
+  ],
+  "icon": "ars_nouveau:potion_melder",
+  "x": 13,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ars/potion_jar"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:potion_melder",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

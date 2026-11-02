@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.title>",
+  "icon": "hbm:machine_steam_engine",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.description.0.3>"
+  ],
+  "x": 2,
+  "y": 23.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/boiler_and_steam_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_steam_engine",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

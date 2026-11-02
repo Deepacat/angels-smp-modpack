@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.extended_pattern_access_terminal.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.extended_pattern_access_terminal.description.0>"
+  ],
+  "icon": "extendedae:ex_pattern_access_part",
+  "x": 2,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:ex_pattern_access_part",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

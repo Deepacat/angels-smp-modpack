@@ -1,0 +1,90 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.title>",
+  "icon": "hbm:red_pylon_medium_steel_transformer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.0.3>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon_steel",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon_medium_wood",
+          "count": 1
+        },
+        {
+          "item": "hbm:red_pylon_medium_wood_transformer",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon_medium_steel",
+          "count": 1
+        },
+        {
+          "item": "hbm:red_pylon_medium_steel_transformer",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 0,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/energy_cables"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

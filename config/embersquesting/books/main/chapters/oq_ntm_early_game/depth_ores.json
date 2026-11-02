@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.depth_ores.title>",
+  "icon": "hbm:ore_depth_borax",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.depth_ores.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.depth_ores.description.0.2>"
+  ],
+  "x": 19.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/mining_charge"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

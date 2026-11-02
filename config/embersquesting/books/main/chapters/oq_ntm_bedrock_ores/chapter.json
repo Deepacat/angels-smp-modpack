@@ -1,0 +1,17 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_bedrock_ores.title>",
+  "icon": "hbm:machine_ore_slopper",
+  "order": 14,
+  "scope": "team",
+  "links": [
+    {
+      "quest": "oq_ntm_oil/bedrock_ore_extracting",
+      "x": 2.5,
+      "y": 2.0
+    }
+  ],
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.runes.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.runes.description.0>"
+  ],
+  "icon": "ars_nouveau:runic_chalk",
+  "x": 12,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_rune",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:runic_chalk",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

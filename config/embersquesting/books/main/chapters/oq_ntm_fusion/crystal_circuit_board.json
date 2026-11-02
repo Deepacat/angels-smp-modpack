@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.crystal_circuit_board.title>",
+  "icon": "hbm:circuit_crystal",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.crystal_circuit_board.description.0.1>"
+  ],
+  "x": 5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/crystalline_fullerite",
+      "oq_ntm_fusion/0g_assembler",
+      "oq_ntm_oil/precision_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:sat_dock",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:circuit_crystal",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

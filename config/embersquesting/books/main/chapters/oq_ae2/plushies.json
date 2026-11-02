@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.plushies.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.plushies.description.0>"
+  ],
+  "icon": "extendedae:mddyue",
+  "x": 1,
+  "y": 6,
+  "tasks": [
+    {
+      "item": "extendedae:fishbig",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:mddyue",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

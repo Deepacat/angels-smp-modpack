@@ -1,0 +1,67 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.0>",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.1>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.3>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.5>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.7>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.9>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.11>",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.13>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.15>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.17>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.19>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.21>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.23>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.25>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.27>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.29>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.31>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.33>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.35>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.37>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.39>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.41>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.enchanting_overhaul.description.43>"
+  ],
+  "icon": "minecraft:enchanting_table",
+  "x": 1,
+  "y": 3,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:enchanting_table",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

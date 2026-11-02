@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.acceleration_card.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.acceleration_card.description.0>"
+  ],
+  "icon": "ae2:speed_card",
+  "x": 5.5,
+  "deps": {
+    "all": [
+      "oq_ae2/upgrade_cards"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:speed_card",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

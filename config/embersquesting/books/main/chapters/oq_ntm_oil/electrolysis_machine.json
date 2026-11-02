@@ -1,0 +1,42 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.electrolysis_machine.title>",
+  "icon": "hbm:machine_electrolyser",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.electrolysis_machine.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.electrolysis_machine.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.electrolysis_machine.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.electrolysis_machine.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.electrolysis_machine.description.0.5>"
+  ],
+  "x": 20,
+  "y": 9,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/integrated_circuit_board"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/rubber": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/integrated_circuit_board": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_electrolyser",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.factory_blocks.title>",
+  "icon": "factory_blocks:hazard",
+  "x": 2.75,
+  "y": 4.75,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

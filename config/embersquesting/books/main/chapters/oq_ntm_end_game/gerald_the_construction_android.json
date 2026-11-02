@@ -1,0 +1,52 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.6>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.7>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.optional>",
+    {
+      "items": [
+        "hbm:missile_soyuz_lander"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:sat_gerald",
+  "x": 2,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/icf_fuels",
+      "oq_ntm_fusion/fusion_reactor_plasma_coupler",
+      "oq_ntm_fusion/crystal_circuit_board",
+      "oq_ntm_end_game/quantum_computer",
+      "oq_ntm_fusion/orbital_data",
+      "oq_ntm_end_game/icf_laser",
+      "oq_ntm_fission/tungsten_carbide"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:sat_gerald",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

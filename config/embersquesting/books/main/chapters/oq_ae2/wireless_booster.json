@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.wireless_booster.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.wireless_booster.description.0>"
+  ],
+  "icon": "ae2:wireless_booster",
+  "x": 3,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/going_wireless"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:wireless_booster",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

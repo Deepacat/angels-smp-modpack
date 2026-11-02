@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.space_laboratory.title>",
+  "icon": "hbm:satellite_science",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.space_laboratory.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.space_laboratory.description.0.2>"
+  ],
+  "x": 3,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/drive_enclosure_and_disk_drives",
+      "oq_ntm_fusion/satellite_id_manager"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:satellite_science",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

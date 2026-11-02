@@ -1,0 +1,32 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.boiler_and_steam_condenser.title>",
+  "icon": "hbm:machine_boiler_off",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.boiler_and_steam_condenser.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.boiler_and_steam_condenser.description.0.2>"
+  ],
+  "x": 5,
+  "y": 24.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_boiler_off",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_condenser",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

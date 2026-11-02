@@ -1,0 +1,44 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.title>",
+  "icon": "hbm:furnace_iron",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.description.0.3>"
+  ],
+  "x": 13,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:machine_furnace_brick_off",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:furnace_iron",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:smoker",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:blast_furnace",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

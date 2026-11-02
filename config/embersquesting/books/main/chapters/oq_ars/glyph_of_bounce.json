@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_bounce.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.glyph_of_bounce.description.0>"
+  ],
+  "icon": "ars_nouveau:glyph_bounce",
+  "x": 6,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_bounce",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

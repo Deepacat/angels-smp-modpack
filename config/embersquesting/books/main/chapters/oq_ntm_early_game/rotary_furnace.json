@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.rotary_furnace.title>",
+  "icon": "hbm:machine_rotary_furnace",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.rotary_furnace.description.0.1>"
+  ],
+  "x": 5,
+  "y": 27,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/boiler_and_steam_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_rotary_furnace",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

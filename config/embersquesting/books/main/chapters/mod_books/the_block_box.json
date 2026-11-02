@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.the_block_box.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.the_block_box.description.0>"
+  ],
+  "icon": "blockbox:brazier",
+  "x": 0.75,
+  "y": 3.75,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

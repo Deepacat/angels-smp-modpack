@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.archmage_s_spell_book.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.archmage_s_spell_book.description.0>"
+  ],
+  "icon": "ars_nouveau:archmage_spell_book",
+  "x": 10,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/wilden_tribute"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:archmage_spell_book",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

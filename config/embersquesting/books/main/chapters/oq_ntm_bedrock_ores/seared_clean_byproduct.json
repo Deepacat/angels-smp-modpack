@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.seared_clean_byproduct.title>",
+  "icon": "hbm:bedrock_ore_rad_arc_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.seared_clean_byproduct.description.0.1>"
+  ],
+  "x": 5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/roasted_cleaned_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

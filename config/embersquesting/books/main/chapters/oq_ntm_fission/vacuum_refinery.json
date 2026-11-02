@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.vacuum_refinery.title>",
+  "icon": "hbm:machine_vacuum_distill",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.vacuum_refinery.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.vacuum_refinery.description.0.2>"
+  ],
+  "x": 12.5,
+  "y": 9.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/technetium_cadmium_steel",
+      "oq_ntm_fission/versatile_integrated_circuit",
+      "oq_ntm_early_game/compressor"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_vacuum_distill",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

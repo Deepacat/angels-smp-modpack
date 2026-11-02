@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_sorter.title>",
+  "icon": "hbm:crane_router",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_sorter.description.0.1>"
+  ],
+  "x": 11.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crane_router",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

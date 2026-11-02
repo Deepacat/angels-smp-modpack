@@ -1,0 +1,37 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_logistics.title>",
+  "icon": "hbm:radio_autocal",
+  "order": 13,
+  "scope": "team",
+  "links": [
+    {
+      "quest": "oq_ntm_early_game/conveyor_belt",
+      "x": 13.0,
+      "y": 3.5
+    },
+    {
+      "quest": "oq_ntm_early_game/flow_control_pump",
+      "x": 1.5,
+      "y": 5.0
+    },
+    {
+      "quest": "oq_ntm_early_game/pneumatic_pipes",
+      "x": 1.5,
+      "y": 2.0
+    },
+    {
+      "quest": "oq_ntm_fusion/satellite_ground_station",
+      "x": 0.0,
+      "y": 2.0
+    },
+    {
+      "quest": "oq_ntm_oil/transport_drones",
+      "x": 3.0,
+      "y": 2.0
+    }
+  ],
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

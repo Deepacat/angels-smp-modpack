@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser_turbocharger.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser_turbocharger.description.0.1>"
+  ],
+  "icon": "hbm:icf_laser_component_turbo",
+  "x": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/dineutronium",
+      "oq_ntm_end_game/icf"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:icf_laser_component_turbo",
+      "type": "item"
+    }
+  ]
+}

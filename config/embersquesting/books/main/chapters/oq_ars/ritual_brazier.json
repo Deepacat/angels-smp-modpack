@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.ritual_brazier.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.ritual_brazier.description.0>"
+  ],
+  "icon": "ars_nouveau:ritual_brazier",
+  "x": 7,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ars/arcane_pedestals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_brazier",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

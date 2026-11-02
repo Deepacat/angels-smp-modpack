@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.satellite_ground_station.title>",
+  "icon": "hbm:machine_satlink",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.satellite_ground_station.description.0.1>"
+  ],
+  "x": 0,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/microchip",
+      "oq_ntm_oil/tantalum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_satlink",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

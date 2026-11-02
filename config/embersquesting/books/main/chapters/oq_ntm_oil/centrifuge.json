@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.centrifuge.title>",
+  "icon": "hbm:machine_centrifuge",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.centrifuge.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.centrifuge.description.0.2>"
+  ],
+  "x": 6.5,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit",
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_centrifuge",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.water_washed_bedrock_ore.title>",
+  "icon": "hbm:bedrock_ore_base_washed_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.water_washed_bedrock_ore.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.water_washed_bedrock_ore.description.0.2>"
+  ],
+  "x": 4,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/roasted_bedrock_ore",
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

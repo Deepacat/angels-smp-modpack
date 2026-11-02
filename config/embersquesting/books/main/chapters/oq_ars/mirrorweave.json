@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.mirrorweave.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.mirrorweave.description.0>"
+  ],
+  "icon": "ars_nouveau:sky_block",
+  "x": 13,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:mirrorweave) item(ars_nouveau:falseweave) item(ars_nouveau:ghostweave) item(ars_nouveau:sky_block))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.mirrorweave.task.0.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

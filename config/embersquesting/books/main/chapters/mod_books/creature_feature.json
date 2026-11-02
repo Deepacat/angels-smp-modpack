@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.creature_feature.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.creature_feature.description.0>"
+  ],
+  "icon": "creaturefeature:sleeping_powder",
+  "x": 8.5,
+  "y": 6.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

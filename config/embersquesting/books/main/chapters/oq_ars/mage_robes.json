@@ -1,0 +1,38 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.mage_robes.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.mage_robes.description.0>"
+  ],
+  "icon": "ars_nouveau:arcanist_hood",
+  "x": 12.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_hood) item(ars_nouveau:arcanist_hood) item(ars_nouveau:battlemage_hood))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.mage_robes.task.0.title>"
+    },
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_robes) item(ars_nouveau:arcanist_robes) item(ars_nouveau:battlemage_robes))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.mage_robes.task.1.title>"
+    },
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_leggings) item(ars_nouveau:arcanist_leggings) item(ars_nouveau:battlemage_leggings))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.mage_robes.task.2.title>"
+    },
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_boots) item(ars_nouveau:arcanist_boots) item(ars_nouveau:battlemage_boots))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ars.mage_robes.task.3.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

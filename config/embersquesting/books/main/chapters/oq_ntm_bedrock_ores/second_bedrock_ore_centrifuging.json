@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.second_bedrock_ore_centrifuging.title>",
+  "icon": "hbm:centrifuge_element",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.second_bedrock_ore_centrifuging.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.second_bedrock_ore_centrifuging.description.0.2>"
+  ],
+  "x": 2.5,
+  "y": 9,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/solvent_washed_bedrock_ore"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

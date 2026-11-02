@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.roasted_bedrock_ore.title>",
+  "icon": "hbm:bedrock_ore_base_roasted_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.roasted_bedrock_ore.description.0.1>"
+  ],
+  "x": 2.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/combination_oven",
+      "oq_ntm_bedrock_ores/raw_bedrock_ore"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

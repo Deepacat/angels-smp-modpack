@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.starbuncle_plushie.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.starbuncle_plushie.description.0>"
+  ],
+  "icon": "ars_nouveau:starbuncle_plush",
+  "x": 10,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/starbuncles"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:starbuncle_plush",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

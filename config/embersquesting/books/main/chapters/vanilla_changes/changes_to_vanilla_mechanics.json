@@ -1,0 +1,17 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.description.0.1>\n\n<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.description.0.2>\n<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.description.0.3>"
+  ],
+  "x": 2,
+  "y": 0.625,
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle",
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 1.5
+}

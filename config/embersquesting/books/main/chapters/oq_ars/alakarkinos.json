@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.alakarkinos.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.alakarkinos.description.0>"
+  ],
+  "icon": "ars_nouveau:alakarkinos_charm",
+  "x": 12.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:alakarkinos_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab249b1158",
+      "type": "custom",
+      "title": "<lang key=eqpack.quest.oq_ars.alakarkinos.task.1.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.creating_your_own_budding_certus.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.creating_your_own_budding_certus.description.0>"
+  ],
+  "icon": "ae2:flawed_budding_quartz",
+  "x": 3,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/charged_certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:flawed_budding_quartz",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

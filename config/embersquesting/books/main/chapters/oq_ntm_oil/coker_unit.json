@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.coker_unit.title>",
+  "icon": "hbm:machine_coker",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.coker_unit.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.coker_unit.description.0.2>"
+  ],
+  "x": 15.5,
+  "y": 19.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_coker",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

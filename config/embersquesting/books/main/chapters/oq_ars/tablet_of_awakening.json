@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.tablet_of_awakening.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.tablet_of_awakening.description.0>"
+  ],
+  "icon": "ars_nouveau:ritual_awakening",
+  "x": 8.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_awakening",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

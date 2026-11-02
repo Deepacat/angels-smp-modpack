@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.electricity_connectors.title>",
+  "icon": "hbm:red_connector",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_connectors.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_connectors.description.0.2>"
+  ],
+  "x": 0,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/energy_cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:wiring_red_copper",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:red_connector",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

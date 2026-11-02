@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.saturnite.title>",
+  "icon": "hbm:ingot_saturnite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.saturnite.description.0.1>"
+  ],
+  "x": 12.5,
+  "y": 20,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/rotary_furnace",
+      "oq_ntm_fission/reformate_gas"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_saturnite",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

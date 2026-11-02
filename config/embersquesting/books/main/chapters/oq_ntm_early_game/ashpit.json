@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.title>",
+  "icon": "hbm:machine_ashpit",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.description.0.3>"
+  ],
+  "x": 11.5,
+  "y": 16.5,
+  "deps": {
+    "any": [
+      "oq_ntm_early_game/heating_oven_firebox",
+      "oq_ntm_early_game/smokestack"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_ashpit",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

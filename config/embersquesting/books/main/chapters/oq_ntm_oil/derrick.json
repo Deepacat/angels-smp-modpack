@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.derrick.title>",
+  "icon": "hbm:machine_well",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.derrick.description.0.1>"
+  ],
+  "x": 11,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/high_speed_steel",
+      "oq_ntm_early_game/assembly_machine"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_well",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

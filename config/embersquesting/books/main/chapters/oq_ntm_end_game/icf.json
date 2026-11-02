@@ -1,0 +1,73 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.icf.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.0.3>",
+    {
+      "buttons": [
+        {
+          "label": "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.6.button.0>",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Inertial_Confinement_Fusion_Reactor"
+          }
+        }
+      ],
+      "type": "button"
+    }
+  ],
+  "icon": "hbm:icf",
+  "x": 2,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/crystalline_fullerite",
+      "oq_ntm_fusion/ferric_schrabidate",
+      "oq_ntm_fusion/plasma_forge",
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:bolt_dura_steel",
+      "count": 960,
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_component_vessel",
+      "count": 240,
+      "type": "item"
+    },
+    {
+      "item": "hbm:plate_cast_steel",
+      "count": 240,
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_component_structure",
+      "count": 117,
+      "type": "item"
+    },
+    {
+      "item": "hbm:plate_cast_bismuth_bronze",
+      "count": 117,
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_component",
+      "count": 50,
+      "type": "item"
+    },
+    {
+      "item": "hbm:struct_icf_core",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

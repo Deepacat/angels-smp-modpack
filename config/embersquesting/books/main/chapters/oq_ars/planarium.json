@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.planarium.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.planarium.description.0>"
+  ],
+  "icon": "ars_nouveau:planarium",
+  "x": 13,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/warp_scrolls"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:planarium",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

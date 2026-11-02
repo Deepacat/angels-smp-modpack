@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.other_types_of_cells.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.other_types_of_cells.description.0>"
+  ],
+  "icon": "ae2:fluid_storage_cell_4k",
+  "x": 9,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/digital_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ae2:fluid_storage_cell_1k) item(ae2:fluid_storage_cell_4k) item(ae2:fluid_storage_cell_16k) item(ae2:fluid_storage_cell_64k) item(ae2:fluid_storage_cell_256k))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ae2.other_types_of_cells.task.0.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

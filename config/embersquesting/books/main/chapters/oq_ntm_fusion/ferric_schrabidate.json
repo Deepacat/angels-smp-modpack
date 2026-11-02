@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.ferric_schrabidate.title>",
+  "icon": "hbm:ingot_schrabidate",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.ferric_schrabidate.description.0.1>"
+  ],
+  "x": 14.5,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/schrabidium",
+      "oq_ntm_fusion/ionized_particles"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_schrabidate",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.title>",
+  "icon": "hbm:fusion_torus",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.6>",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.12.button.0>",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Fusion_Reactor"
+          }
+        }
+      ]
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.7>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.0.8>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_reactor.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:acetylene_torch",
+          "count": 1
+        },
+        {
+          "item": "hbm:blowtorch",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 10.5,
+  "y": 5.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_early_game/dense_wires",
+      "oq_ntm_oil/military_grade_circuit_board",
+      "oq_ntm_fusion/flash_drives",
+      "oq_ntm_early_game/air_intake",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate",
+      "oq_ntm_early_game/compressor"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:fusion_component",
+      "count": 484,
+      "type": "item"
+    },
+    {
+      "item": "hbm:plate_cast_steel",
+      "count": 484,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_component_motor",
+      "count": 280,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_component_bscco_welded",
+      "count": 160,
+      "type": "item"
+    },
+    {
+      "item": "hbm:struct_torus_core",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_klystron",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

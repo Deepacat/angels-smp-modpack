@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.where_am_i.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.where_am_i.description.0>"
+  ],
+  "icon": "minecraft:black_concrete",
+  "x": 11,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/spatial_io"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "ae2:spatial_storage",
+      "type": "location"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

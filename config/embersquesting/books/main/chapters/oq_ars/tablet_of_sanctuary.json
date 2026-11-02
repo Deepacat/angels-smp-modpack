@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.tablet_of_sanctuary.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.tablet_of_sanctuary.description.0>"
+  ],
+  "icon": "ars_nouveau:ritual_sanctuary",
+  "x": 7.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_sanctuary",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

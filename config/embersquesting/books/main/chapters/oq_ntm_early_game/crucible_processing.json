@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.crucible_processing.title>",
+  "icon": "hbm:stone_resource_hematite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.crucible_processing.description.0.1>"
+  ],
+  "x": 5.5,
+  "y": 15,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

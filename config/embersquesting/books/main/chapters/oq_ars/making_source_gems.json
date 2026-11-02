@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.making_source_gems.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.making_source_gems.description.0>"
+  ],
+  "icon": "ars_nouveau:source_gem",
+  "x": 4,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/archwood"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:imbuement_chamber",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:source_gem",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

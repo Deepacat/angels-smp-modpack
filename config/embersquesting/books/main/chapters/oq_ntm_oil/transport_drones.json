@@ -1,0 +1,49 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.title>",
+  "icon": "hbm:drone_patrol",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.description.0.2>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:drone_patrol",
+          "count": 1
+        },
+        {
+          "item": "hbm:drone_crate",
+          "count": 2
+        },
+        {
+          "item": "hbm:drone_linker",
+          "count": 1
+        },
+        {
+          "item": "hbm:drone_waypoint",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 17.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

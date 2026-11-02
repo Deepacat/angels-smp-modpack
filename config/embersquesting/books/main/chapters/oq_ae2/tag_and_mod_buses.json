@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.tag_and_mod_buses.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.tag_and_mod_buses.description.0>"
+  ],
+  "icon": "extendedae:mod_storage_bus",
+  "x": 10,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ae2/io"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(extendedae:tag_storage_bus) item(extendedae:tag_export_bus) item(extendedae:mod_storage_bus) item(extendedae:mod_export_bus))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ae2.tag_and_mod_buses.task.0.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.additional_fusion_attachments.title>",
+  "icon": "hbm:fusion_breeder",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.additional_fusion_attachments.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.additional_fusion_attachments.description.0.2>"
+  ],
+  "x": 9.5,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/fusion_reactor"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:fusion_breeder",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_collector",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.automatic_thresher.title>",
+  "icon": "hbm:machine_thresher",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.automatic_thresher.description.0.1>",
+    "",
+    "<lang key=eqpack.common.press_f1_for_info>"
+  ],
+  "x": 5.5,
+  "y": 18.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/combination_oven"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_thresher",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

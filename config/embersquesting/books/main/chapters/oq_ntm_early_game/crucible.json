@@ -1,0 +1,58 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.crucible.title>",
+  "icon": "hbm:machine_crucible",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.crucible.description.0.1>",
+    "",
+    "<lang key=eqpack.common.press_f1_for_info>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.crucible.description.0.3>",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "<lang key=eqpack.quest.oq_ntm_early_game.crucible.description.6.button.0>",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Crucible"
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.crucible.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:foundry_mold",
+          "count": 1
+        },
+        {
+          "item": "hbm:mold_ingot",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 16,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/heating_oven_firebox"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_crucible",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

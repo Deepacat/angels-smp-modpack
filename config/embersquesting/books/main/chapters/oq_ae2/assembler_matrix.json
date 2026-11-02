@@ -1,0 +1,43 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.assembler_matrix.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.assembler_matrix.description.0.1>\n<lang key=eqpack.quest.oq_ae2.assembler_matrix.description.0.2>"
+  ],
+  "icon": "extendedae:assembler_matrix_frame",
+  "x": 1,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/extended_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:assembler_matrix_frame",
+      "count": 44,
+      "type": "item"
+    },
+    {
+      "filter": "or(item(extendedae:assembler_matrix_wall) item(extendedae:assembler_matrix_glass))",
+      "count": 54,
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ae2.assembler_matrix.task.1.title>"
+    },
+    {
+      "item": "extendedae:assembler_matrix_pattern",
+      "count": 11,
+      "type": "item"
+    },
+    {
+      "item": "extendedae:assembler_matrix_crafter",
+      "count": 11,
+      "type": "item"
+    },
+    {
+      "item": "extendedae:assembler_matrix_speed",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

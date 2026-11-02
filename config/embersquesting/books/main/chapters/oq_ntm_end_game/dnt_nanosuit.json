@@ -1,0 +1,39 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.dnt_nanosuit.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.dnt_nanosuit.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.dnt_nanosuit.description.0.2>"
+  ],
+  "icon": "hbm:dns_helmet",
+  "x": 2,
+  "y": 16,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/yharonite_billet",
+      "oq_ntm_end_game/balls_o_tron",
+      "oq_ntm_oil/weapon_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:dns_helmet",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dns_plate",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dns_legs",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dns_boots",
+      "type": "item"
+    }
+  ]
+}

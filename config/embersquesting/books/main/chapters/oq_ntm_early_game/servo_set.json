@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.servo_set.title>",
+  "icon": "hbm:servo_set",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.servo_set.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.servo_set.description.0.2>"
+  ],
+  "x": 19.5,
+  "y": 10,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/armor_modifications"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:servo_set",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

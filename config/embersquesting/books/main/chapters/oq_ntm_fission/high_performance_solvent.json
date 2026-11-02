@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.high_performance_solvent.title>",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:radiosolvent\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.high_performance_solvent.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.high_performance_solvent.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.high_performance_solvent.description.0.3>"
+  ],
+  "x": 21,
+  "y": 9.5,
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

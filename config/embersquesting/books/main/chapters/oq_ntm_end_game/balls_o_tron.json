@@ -1,0 +1,72 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.balls_o_tron.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.balls_o_tron.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.balls_o_tron.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.balls_o_tron.description.0.3>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.balls_o_tron.description.optional>",
+    {
+      "items": [
+        "hbm:coin_worm"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        {
+          "item": "hbm:ingot_rubber",
+          "count": 64
+        },
+        {
+          "item": "hbm:motor",
+          "count": 64
+        },
+        {
+          "item": "hbm:wire_dense_gold",
+          "count": 64
+        },
+        {
+          "item": "hbm:plate_welded_titanium",
+          "count": 32
+        },
+        {
+          "item": "hbm:block_u238",
+          "count": 10
+        },
+        "hbm:det_nuke"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:coin_worm",
+  "x": -0.5,
+  "y": 16,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/tantalum",
+      "oq_ntm_fission/nuclear_fuel_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "hbm:coin_worm",
+      "type": "item"
+    }
+  ],
+  "repeat": {
+    "cooldown": 60
+  }
+}

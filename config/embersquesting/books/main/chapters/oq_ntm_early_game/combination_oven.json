@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.combination_oven.title>",
+  "icon": "hbm:machine_furnace_combination",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.combination_oven.description.0.1>"
+  ],
+  "x": 5,
+  "y": 20.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_furnace_combination",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

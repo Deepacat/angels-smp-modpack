@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.better_combat.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.0>",
+    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.1>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.3>",
+    "",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.6> ",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.8>"
+  ],
+  "icon": "minecraft:diamond_sword",
+  "x": 2.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

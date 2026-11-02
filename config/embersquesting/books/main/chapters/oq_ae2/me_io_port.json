@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.me_io_port.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.me_io_port.description.0>"
+  ],
+  "icon": "ae2:io_port",
+  "x": 11,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/io"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:io_port",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

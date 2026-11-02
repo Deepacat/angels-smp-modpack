@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.toxony.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.toxony.description.0>",
+    "<lang key=eqpack.quest.mod_books.toxony.description.1>"
+  ],
+  "icon": "toxony:alembic",
+  "x": 3.25,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "toxony:lost_journal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.technetium_cadmium_steel.title>",
+  "icon": "hbm:ingot_tcalloy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.technetium_cadmium_steel.description.0.1>"
+  ],
+  "x": 6,
+  "y": 13.5,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/technetium_99",
+      "oq_ntm_fission/cadmium"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/cadmium": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_tcalloy",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_grabber.title>",
+  "icon": "hbm:crane_grabber",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_grabber.description.0.1>"
+  ],
+  "x": 14.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crane_grabber",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.0>",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.1>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.3>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.5>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.7>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.9>",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.10>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.12>"
+  ],
+  "icon": "goety:textures/item/focus/soulskull_spell.png",
+  "x": 3.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

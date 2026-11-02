@@ -1,0 +1,65 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.title>",
+  "icon": "hbm:pa_dipole",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.2>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa1.png"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.3>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa2.png"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.6>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.7>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.8>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa3.png"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.9>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.10>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa4.png"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.11>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa5.png"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_looping.description.0.12>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa6.png"
+    }
+  ],
+  "x": 3,
+  "y": 4,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/particle_accelerator_components",
+      "oq_ntm_particle_physics/additional_particle_accelerator_information"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

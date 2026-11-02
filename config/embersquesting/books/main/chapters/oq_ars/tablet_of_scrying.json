@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.tablet_of_scrying.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.tablet_of_scrying.description.0>"
+  ],
+  "icon": "ars_nouveau:ritual_scrying",
+  "x": 8,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_scrying",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

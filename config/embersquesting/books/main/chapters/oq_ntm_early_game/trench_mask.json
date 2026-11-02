@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.trench_mask.title>",
+  "icon": "hbm:mask_piss",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.trench_mask.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.trench_mask.description.0.2>"
+  ],
+  "x": 13,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:mask_piss",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.ferrouranium_anvil.title>",
+  "icon": "hbm:anvil_ferrouranium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.ferrouranium_anvil.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.ferrouranium_anvil.description.0.2>"
+  ],
+  "x": 0,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/ferrouranium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:anvil_ferrouranium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

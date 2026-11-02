@@ -1,0 +1,10 @@
+{
+  "title": "<lang key=eqpack.chapter.oq_ntm_fission.title>",
+  "icon": "hbm:rbmk_console",
+  "order": 9,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

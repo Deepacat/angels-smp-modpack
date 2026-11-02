@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.potion_jar.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.potion_jar.description.0>"
+  ],
+  "icon": "ars_nouveau:potion_jar",
+  "x": 12.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:potion_jar",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

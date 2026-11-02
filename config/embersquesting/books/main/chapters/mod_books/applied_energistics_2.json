@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.applied_energistics_2.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.applied_energistics_2.description.0>",
+    "<lang key=eqpack.quest.mod_books.applied_energistics_2.description.1>"
+  ],
+  "icon": "ae2:controller",
+  "x": 10.75,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ae2:guide",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

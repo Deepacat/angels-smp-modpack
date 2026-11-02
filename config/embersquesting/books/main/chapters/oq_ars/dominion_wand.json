@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.dominion_wand.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.dominion_wand.description.0>",
+    "<lang key=eqpack.quest.oq_ars.dominion_wand.description.1>"
+  ],
+  "icon": "ars_nouveau:dominion_wand",
+  "x": 8,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:dominion_wand",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_out": "hover"
+}

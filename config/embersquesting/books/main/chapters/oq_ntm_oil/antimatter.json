@@ -1,0 +1,38 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.antimatter.title>",
+  "icon": "hbm:particle_amat",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.antimatter.description.0.1>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.antimatter.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:barrel_antimatter",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 0,
+  "y": 9,
+  "deps": {
+    "any": [
+      "oq_ntm_oil/cyclotron",
+      "oq_ntm_particle_physics/particle_accelerator_looping"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:item.cell_antimatter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

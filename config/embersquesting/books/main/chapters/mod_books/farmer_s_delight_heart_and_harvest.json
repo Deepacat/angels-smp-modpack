@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.0>",
+    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.1>",
+    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.2>",
+    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.3>",
+    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.4>"
+  ],
+  "icon": "farmersdelight:hamburger",
+  "x": 5.5,
+  "y": 7.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

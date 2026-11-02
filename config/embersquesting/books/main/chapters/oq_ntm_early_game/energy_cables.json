@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.energy_cables.title>",
+  "icon": "hbm:red_cable",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.energy_cables.description.0.1>"
+  ],
+  "x": 2,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:red_cable",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

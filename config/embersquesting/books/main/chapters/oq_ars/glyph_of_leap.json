@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_leap.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.glyph_of_leap.description.0>"
+  ],
+  "icon": "ars_nouveau:glyph_leap",
+  "x": 6.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences",
+      "oq_ars/wilden_drops"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_leap",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

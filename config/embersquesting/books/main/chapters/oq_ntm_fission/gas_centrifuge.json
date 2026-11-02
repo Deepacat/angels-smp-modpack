@@ -1,0 +1,45 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.title>",
+  "icon": "hbm:machine_gascent",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.0.3>",
+    "",
+    "<lang key=eqpack.common.press_f1_for_info>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:upgrade_gc_speed",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 4,
+  "y": 6.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_oil/military_grade_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_gascent",
+      "count": 2,
+      "type": "item"
+    }
+  ]
+}

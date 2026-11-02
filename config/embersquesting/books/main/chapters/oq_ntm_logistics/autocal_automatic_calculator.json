@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.autocal_automatic_calculator.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.autocal_automatic_calculator.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_logistics.autocal_automatic_calculator.description.0.2>"
+  ],
+  "icon": "hbm:radio_autocal",
+  "x": 7.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit",
+      "oq_ntm_logistics/redstone_over_radio"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:radio_autocal",
+      "type": "item"
+    }
+  ],
+  "size": 2
+}

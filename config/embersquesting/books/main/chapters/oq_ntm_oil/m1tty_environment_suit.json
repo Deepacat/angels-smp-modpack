@@ -1,0 +1,40 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.m1tty_environment_suit.title>",
+  "icon": "hbm:envsuit_helmet",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.m1tty_environment_suit.description.0.1>"
+  ],
+  "x": 11,
+  "y": 13,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/microchip"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:envsuit_helmet",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:envsuit_plate",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:envsuit_legs",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:envsuit_boots",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

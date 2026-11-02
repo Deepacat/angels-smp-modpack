@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.display_case.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.display_case.description.0>"
+  ],
+  "icon": "ars_nouveau:item_detector",
+  "x": 13.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ars/archwood"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:item_detector",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

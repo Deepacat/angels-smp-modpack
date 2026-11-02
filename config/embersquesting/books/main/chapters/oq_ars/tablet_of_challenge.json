@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.tablet_of_challenge.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.tablet_of_challenge.description.0>"
+  ],
+  "icon": "ars_nouveau:ritual_challenge",
+  "x": 7,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_challenge",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

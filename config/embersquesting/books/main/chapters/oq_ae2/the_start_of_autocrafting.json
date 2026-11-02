@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.the_start_of_autocrafting.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.the_start_of_autocrafting.description.0.1>\n<lang key=eqpack.quest.oq_ae2.the_start_of_autocrafting.description.0.2>"
+  ],
+  "icon": "ae2:blank_pattern",
+  "x": 8,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/terminal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:blank_pattern",
+      "type": "item"
+    },
+    {
+      "item": "ae2:pattern_provider",
+      "type": "item"
+    },
+    {
+      "item": "ae2:pattern_encoding_terminal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

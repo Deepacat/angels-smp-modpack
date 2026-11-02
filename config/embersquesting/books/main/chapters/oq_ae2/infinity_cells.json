@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.infinity_cells.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.infinity_cells.description.0>"
+  ],
+  "icon": "extendedae:infinity_water_cell",
+  "x": 9,
+  "deps": {
+    "all": [
+      "oq_ae2/digital_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:infinity_water_cell",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:infinity_cobblestone_cell",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

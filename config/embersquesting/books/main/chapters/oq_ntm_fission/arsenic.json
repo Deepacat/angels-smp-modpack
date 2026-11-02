@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.arsenic.title>",
+  "icon": "hbm:ingot_arsenic",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.arsenic.description.0.1>"
+  ],
+  "x": 22.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/high_performance_solvent",
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_arsenic",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

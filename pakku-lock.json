@@ -1258,46 +1258,6 @@
             ]
         },
         {
-            "pakku_id": "59QLU65RLtjbrhB5",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "certain-questing-additions"
-            },
-            "name": {
-                "curseforge": "Certain Questing Additions"
-            },
-            "id": {
-                "curseforge": "1372051"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "certain_questing_additions-neoforge-1.2.0.5+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9223/254/certain_questing_additions-neoforge-1.2.0.5+mc1.21.1.jar",
-                    "id": "9223254",
-                    "parent_id": "1372051",
-                    "hashes": {
-                        "sha1": "4f21b0b6ecdcac7ed2e870a86f37def5dbd75873",
-                        "md5": "758c15284302143fa4fe33a639ecbf35"
-                    },
-                    "required_dependencies": [
-                        "419699",
-                        "289412"
-                    ],
-                    "size": 592003,
-                    "date_published": "2026-10-17T13:15:35.890Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "jmdh76NSR1J5KOEf",
             "type": "MOD",
             "slug": {
@@ -2852,6 +2812,42 @@
             ]
         },
         {
+            "pakku_id": "wuZtEX3eqmlh00Qa",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "embers-questing"
+            },
+            "name": {
+                "curseforge": "Ember's Questing"
+            },
+            "id": {
+                "curseforge": "1752806"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "embersquesting-neoforge-1.21.1-1.3.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9399/157/embersquesting-neoforge-1.21.1-1.3.1.jar",
+                    "id": "9399157",
+                    "parent_id": "1752806",
+                    "hashes": {
+                        "sha1": "9200de552b0155a85f9502ca94e6baf65abb1aef",
+                        "md5": "db1da1650839826e8da764bbe764668e"
+                    },
+                    "required_dependencies": [],
+                    "size": 12865898,
+                    "date_published": "2026-11-01T20:26:46.217Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oDO0aktnMSgx88Bn",
             "type": "MOD",
             "slug": {
@@ -3373,45 +3369,6 @@
             ]
         },
         {
-            "pakku_id": "2cjFMawqHmUlHzBD",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "extraquests"
-            },
-            "name": {
-                "curseforge": "ExtraQuests [FTB Quests]"
-            },
-            "id": {
-                "curseforge": "964194"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ExtraQuests-1.7.0-1.21.1-NeoForge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8004/488/ExtraQuests-1.7.0-1.21.1-NeoForge.jar",
-                    "id": "8004488",
-                    "parent_id": "964194",
-                    "hashes": {
-                        "sha1": "f8e0c0b83010430216428052b6bf436d92f3d1a3",
-                        "md5": "6e5c65cf92bc59f994c45f5bde92fc9b"
-                    },
-                    "required_dependencies": [
-                        "289412",
-                        "1083780"
-                    ],
-                    "size": 37332,
-                    "date_published": "2026-04-28T09:54:38.950Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ajy2iKR5u2r2YwvL",
             "pakku_links": [
                 "9PsynDAe8JENGngg"
@@ -3608,46 +3565,6 @@
                     ],
                     "size": 1477833,
                     "date_published": "2026-10-28T09:03:54.897Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "nAXNhrqVfMtRWhNy",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ftb-quests-forge"
-            },
-            "name": {
-                "curseforge": "FTB Quests (NeoForge)"
-            },
-            "id": {
-                "curseforge": "289412"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ftb-quests-neoforge-2101.1.37.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9298/629/ftb-quests-neoforge-2101.1.37.jar",
-                    "id": "9298629",
-                    "parent_id": "289412",
-                    "hashes": {
-                        "sha1": "770938e5907cc91be2f89ac00aea2e87b51e1c87",
-                        "md5": "e421344bc7654f25138aed961b9dbead"
-                    },
-                    "required_dependencies": [
-                        "404465",
-                        "404468",
-                        "419699"
-                    ],
-                    "size": 1635351,
-                    "date_published": "2026-10-23T14:29:54.303Z"
                 }
             ]
         },

@@ -1,0 +1,59 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.title>",
+  "icon": "hbm:machine_refinery",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.description.0.4>",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.description.8.button.0>",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Guide:_Petroleum_Processing"
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.basic_oil_processing.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_fraction_tower",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 11,
+  "y": 6.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit",
+      "oq_ntm_early_game/boiler_and_steam_condenser",
+      "oq_ntm_oil/derrick",
+      "oq_ntm_early_game/arc_welder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_refinery",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.murky_anvil.title>",
+  "icon": "hbm:anvil_murky",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.murky_anvil.description.0.1>"
+  ],
+  "x": 1.5,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/the_digamma_particle",
+      "oq_ntm_oil/balefire"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:anvil_murky",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

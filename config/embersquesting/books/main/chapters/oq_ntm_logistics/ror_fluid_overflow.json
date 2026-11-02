@@ -1,0 +1,41 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.title>",
+  "icon": "hbm:machine_fluidtank",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.3>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_fluid1.png"
+    },
+    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.4>",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_fluid2.png"
+    }
+  ],
+  "x": 6,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ntm_logistics/ror_logic_receiver"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:fluid_switch",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

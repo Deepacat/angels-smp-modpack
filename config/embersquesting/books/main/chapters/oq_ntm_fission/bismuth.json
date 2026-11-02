@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.bismuth.title>",
+  "icon": "hbm:ingot_bismuth",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.bismuth.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.bismuth.description.0.2>"
+  ],
+  "x": 14.5,
+  "y": 8,
+  "deps": {
+    "any": [
+      "oq_ntm_bedrock_ores/cleaned_byproduct_products",
+      "oq_ntm_fission/rbmk_fuel_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_bismuth",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

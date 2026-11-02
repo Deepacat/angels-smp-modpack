@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.industrial_boiler.title>",
+  "icon": "hbm:machine_industrial_boiler",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.industrial_boiler.description.0.1>"
+  ],
+  "x": 9,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer",
+      "oq_ntm_oil/desh_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_industrial_boiler",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.purex.title>",
+  "icon": "hbm:machine_purex",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.purex.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.purex.description.0.2>"
+  ],
+  "x": 8,
+  "y": 9.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/desh"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_purex",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

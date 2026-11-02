@@ -1,0 +1,39 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.fissile_materials.title>",
+  "icon": "hbm:weapon_mod_test_override_10",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.fissile_materials.description.0.1>"
+  ],
+  "x": 18.5,
+  "y": 0.5,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/chicago_pile",
+      "oq_ntm_fission/gas_centrifuge",
+      "oq_ntm_fission/nuclear_fuel_processing",
+      "oq_ntm_fission/rbmk_fuel_processing"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/chicago_pile": {
+      "style": "hidden"
+    },
+    "oq_ntm_fission/gas_centrifuge": {
+      "style": "hidden"
+    },
+    "oq_ntm_fission/nuclear_fuel_processing": {
+      "style": "hidden"
+    },
+    "oq_ntm_fission/rbmk_fuel_processing": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

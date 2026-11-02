@@ -1,0 +1,40 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.title>",
+  "icon": "minecraft:obsidian",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.6>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.7>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.8>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.9>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.the_nether.description.0.10>"
+  ],
+  "x": 14,
+  "y": 0,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.enchanter_s_horn.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.enchanter_s_horn.description.0>"
+  ],
+  "icon": "ars_elemental:spell_horn",
+  "x": 0.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_elemental:spell_horn",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

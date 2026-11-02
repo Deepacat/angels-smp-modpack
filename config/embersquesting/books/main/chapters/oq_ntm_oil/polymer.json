@@ -1,0 +1,33 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.polymer.title>",
+  "icon": "hbm:ingot_polymer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.polymer.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.polymer.description.0.2>"
+  ],
+  "x": 6.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/chemical_plant",
+      "oq_ntm_oil/basic_oil_processing"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:ingot_polymer",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:ingot_bakelite",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.dark_matter.title>",
+  "icon": "hbm:particle_dark",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.dark_matter.description.0.1>"
+  ],
+  "x": 4.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/antischrabidium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_dark",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

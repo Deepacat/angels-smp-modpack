@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.redstone_relay.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.redstone_relay.description.0>"
+  ],
+  "icon": "ars_nouveau:redstone_relay",
+  "x": 13.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:redstone_relay",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

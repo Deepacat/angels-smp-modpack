@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.latex.title>",
+  "icon": "hbm:ingot_biorubber",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.latex.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.latex.description.0.2>"
+  ],
+  "x": 13,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_biorubber",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

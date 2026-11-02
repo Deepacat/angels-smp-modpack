@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.microchip.title>",
+  "icon": "hbm:circuit_chip",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.microchip.description.0.1>"
+  ],
+  "x": 6.5,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/electric_arc_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_chip",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

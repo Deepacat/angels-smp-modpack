@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.quartz_fiber.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.quartz_fiber.description.0>"
+  ],
+  "icon": "ae2:quartz_fiber",
+  "x": 6,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:quartz_fiber",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

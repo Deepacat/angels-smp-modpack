@@ -1,0 +1,36 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.deuterium_extractor_tower.title>",
+  "icon": "hbm:machine_deuterium_tower",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.deuterium_extractor_tower.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.deuterium_extractor_tower.description.0.2>"
+  ],
+  "x": 10.5,
+  "y": 0,
+  "size": 2,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/vacuum_refinery",
+      "oq_ntm_fission/advanced_oil_processing"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/vacuum_refinery": {
+      "style": "hidden"
+    },
+    "oq_ntm_fission/advanced_oil_processing": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_deuterium_tower",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

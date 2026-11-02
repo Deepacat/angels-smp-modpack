@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_amplify.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.glyph_of_amplify.description.0>"
+  ],
+  "icon": "ars_nouveau:glyph_amplify",
+  "x": 4,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/simplest_glyphs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_amplify",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

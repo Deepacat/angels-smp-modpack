@@ -1,0 +1,41 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.solar_tower_boiler.title>",
+  "icon": "hbm:machine_solar_boiler",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.solar_tower_boiler.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.solar_tower_boiler.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.solar_tower_boiler.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.solar_tower_boiler.description.0.4>"
+  ],
+  "x": 2,
+  "y": 25.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/boiler_and_steam_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_solar_boiler",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:solar_mirror",
+      "count": 13,
+      "type": "item"
+    },
+    {
+      "item": "hbm:mirror_tool",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

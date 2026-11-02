@@ -1,0 +1,43 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.teleporter.title>",
+  "icon": "hbm:machine_teleporter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.0.3>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_teleporter",
+          "count": 1
+        },
+        {
+          "item": "hbm:linker",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 10,
+  "y": 17.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/military_grade_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

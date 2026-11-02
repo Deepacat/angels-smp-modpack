@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.crystal_assembler.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.crystal_assembler.description.0>"
+  ],
+  "icon": "extendedae:crystal_assembler",
+  "x": 1,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/entro_infused_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:crystal_assembler",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

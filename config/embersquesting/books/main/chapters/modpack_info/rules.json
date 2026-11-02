@@ -1,0 +1,36 @@
+{
+  "title": "<lang key=eqpack.quest.modpack_info.rules.title>",
+  "description": [
+    "<lang key=eqpack.quest.modpack_info.rules.description.0>",
+    "<lang key=eqpack.quest.modpack_info.rules.description.1>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.rules.description.3>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.rules.description.5>",
+    "",
+    "",
+    "<lang key=eqpack.quest.modpack_info.rules.description.8>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.rules.description.10>",
+    "",
+    "<lang key=eqpack.quest.modpack_info.rules.description.12>"
+  ],
+  "icon": "minecraft:textures/item/cherry_sign.png",
+  "x": 2,
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "<lang key=eqpack.quest.modpack_info.rules.task.0.title>"
+    },
+    {
+      "type": "checkmark",
+      "title": "<lang key=eqpack.quest.modpack_info.rules.task.1.title>"
+    },
+    {
+      "type": "checkmark",
+      "title": "<lang key=eqpack.quest.modpack_info.rules.task.2.title>"
+    }
+  ],
+  "shape": "circle",
+  "size": 2.0
+}

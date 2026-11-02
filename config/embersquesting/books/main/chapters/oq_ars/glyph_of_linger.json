@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_linger.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.glyph_of_linger.description.0>"
+  ],
+  "icon": "ars_nouveau:glyph_linger",
+  "x": 9.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/archmage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_linger",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

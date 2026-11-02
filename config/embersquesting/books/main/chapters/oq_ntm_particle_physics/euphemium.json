@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.euphemium.title>",
+  "icon": "hbm:ingot_euphemium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.euphemium.description.0.1>"
+  ],
+  "x": 6.5,
+  "y": 9,
+  "deps": {
+    "any": [
+      "oq_ntm_particle_physics/dark_matter",
+      "oq_ntm_fusion/schrabidium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_euphemium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

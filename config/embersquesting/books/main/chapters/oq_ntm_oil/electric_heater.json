@@ -1,0 +1,39 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.electric_heater.title>",
+  "icon": "hbm:heater_electric",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.electric_heater.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.electric_heater.description.0.2>"
+  ],
+  "x": 20,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_oil/desh_anvil"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/integrated_circuit_board": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/desh_anvil": {
+      "style": "hidden"
+    }
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:heater_electric",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

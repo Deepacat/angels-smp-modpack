@@ -1,0 +1,69 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.title>",
+  "icon": "hbm:machine_ore_slopper",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.4>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.5>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.6>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.7>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.0.8>",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.16.button.0>",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Bedrock_Ore"
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.bedrock_ore_extracting.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:ore_density_scanner",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 6.5,
+  "y": 0,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/centrifuge"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_excavator",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_ore_slopper",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

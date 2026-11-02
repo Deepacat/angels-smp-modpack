@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.big_ass_tank.title>",
+  "icon": "hbm:machine_bigasstank",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.big_ass_tank.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.big_ass_tank.description.0.2>"
+  ],
+  "x": 4,
+  "y": 20,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_bigasstank",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

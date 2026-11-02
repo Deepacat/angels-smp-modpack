@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.vanilla_changes.mending_rework.title>",
+  "description": [
+    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.0>",
+    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.1>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.3>",
+    "",
+    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.5>"
+  ],
+  "icon": "minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:impaling\":1}}}",
+  "x": 2,
+  "y": 3,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

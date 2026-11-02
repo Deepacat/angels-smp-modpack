@@ -1,0 +1,32 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.anvil.title>",
+  "icon": "hbm:anvil_iron",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.anvil.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.anvil.description.0.2>"
+  ],
+  "x": 14,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:anvil_iron",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:anvil_lead",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

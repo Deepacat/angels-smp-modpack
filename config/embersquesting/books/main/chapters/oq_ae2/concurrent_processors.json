@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.concurrent_processors.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.concurrent_processors.description.0>"
+  ],
+  "icon": "extendedae:concurrent_processor",
+  "x": 1,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:concurrent_processor_press",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:concurrent_processor",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

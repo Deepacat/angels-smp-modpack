@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.the_book_of_boxcars.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.the_book_of_boxcars.description.0.1>"
+  ],
+  "icon": "hbm:book_of_",
+  "x": 4.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:book_of_",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

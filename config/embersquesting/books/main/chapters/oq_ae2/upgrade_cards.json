@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.upgrade_cards.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.upgrade_cards.description.0>"
+  ],
+  "icon": "ae2:basic_card",
+  "x": 6,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ae2:basic_card) item(ae2:advanced_card))",
+      "type": "item",
+      "title": "<lang key=eqpack.quest.oq_ae2.upgrade_cards.task.0.title>"
+    }
+  ],
+  "shape": "circle"
+}

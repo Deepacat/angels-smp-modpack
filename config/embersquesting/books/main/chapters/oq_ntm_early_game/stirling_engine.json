@@ -1,0 +1,32 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.stirling_engine.title>",
+  "icon": "hbm:machine_stirling",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.stirling_engine.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_early_game.stirling_engine.description.0.2>"
+  ],
+  "x": 6.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/heating_oven_firebox"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:machine_stirling",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_stirling_steel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

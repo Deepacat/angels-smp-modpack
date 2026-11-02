@@ -1,0 +1,26 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.ionized_particles.title>",
+  "icon": "hbm:pellet_charged",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.ionized_particles.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fusion.ionized_particles.description.0.2>"
+  ],
+  "x": 14.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/fusion_reactor"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:pellet_charged",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.cast_plates.title>",
+  "icon": "hbm:mold_plate_cast",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.cast_plates.description.0.1>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.cast_plates.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:foundry_mold",
+          "count": 1
+        },
+        {
+          "item": "hbm:mold_plate_cast",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:foundry_basin",
+          "count": 1
+        },
+        {
+          "item": "hbm:mold_plates_cast",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 22.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

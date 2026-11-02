@@ -1,0 +1,20 @@
+{
+  "title": "<lang key=eqpack.quest.mod_books.immersive_armors.title>",
+  "description": [
+    "<lang key=eqpack.quest.mod_books.immersive_armors.description.0>"
+  ],
+  "icon": "immersive_armors:wooden_chestplate",
+  "x": 10.5,
+  "y": 4.75,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

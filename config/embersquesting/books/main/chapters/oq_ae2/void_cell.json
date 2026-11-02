@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.void_cell.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.void_cell.description.0>"
+  ],
+  "icon": "extendedae:void_cell",
+  "x": 7,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/matter_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:void_cell",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

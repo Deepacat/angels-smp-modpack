@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.dowsing_rod.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.dowsing_rod.description.0>"
+  ],
+  "icon": "ars_nouveau:dowsing_rod",
+  "x": 4,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ars/archwood"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:dowsing_rod",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

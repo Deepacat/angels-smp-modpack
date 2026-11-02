@@ -1,0 +1,22 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.primary_function_adjustable_wheights.title>",
+  "icon": "hbm:bedrock_ore_primary_first_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.primary_function_adjustable_wheights.description.0.1>"
+  ],
+  "x": 0,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/seperated_clean_primary_fraction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

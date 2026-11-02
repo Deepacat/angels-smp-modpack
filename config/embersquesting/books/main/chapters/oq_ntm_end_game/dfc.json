@@ -1,0 +1,78 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.dfc.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.dfc.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.dfc.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.dfc.description.0.3>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.dfc.description.0.4>",
+    {
+      "buttons": [
+        {
+          "label": "<lang key=eqpack.quest.oq_ntm_end_game.dfc.description.8.button.0>",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/DFC"
+          }
+        }
+      ],
+      "type": "button"
+    },
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.dfc.description.optional>",
+    {
+      "items": [
+        "hbm:dfc_receiver"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:dfc_emitter",
+  "x": 2,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/spark_singularity",
+      "oq_ntm_oil/cyclotron",
+      "oq_ntm_fission/starmetal",
+      "oq_ntm_fusion/chlorophyte",
+      "oq_ntm_end_game/welded_osmiridium_plate",
+      "oq_ntm_end_game/high_energy_field_jammer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:dfc_emitter",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dfc_injector",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dfc_stabilizer",
+      "type": "item"
+    },
+    {
+      "item": "hbm:ams_lens",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dfc_core",
+      "type": "item"
+    },
+    {
+      "item": "hbm:ams_catalyst_blank",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.heat_exchanger_powered_steel_furnace.title>",
+  "icon": "hbm:furnace_steel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.heat_exchanger_powered_steel_furnace.description.0.1>"
+  ],
+  "x": 6,
+  "y": 0,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/heat_exchanging_heater"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

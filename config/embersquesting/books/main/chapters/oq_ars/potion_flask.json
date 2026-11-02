@@ -1,0 +1,23 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.potion_flask.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.potion_flask.description.0>"
+  ],
+  "icon": "ars_nouveau:potion_flask",
+  "x": 12,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:potion_flask",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

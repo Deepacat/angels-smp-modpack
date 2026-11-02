@@ -1,0 +1,28 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ars.wixies.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ars.wixies.description.0>",
+    "<lang key=eqpack.quest.oq_ars.wixies.description.1>"
+  ],
+  "icon": "ars_nouveau:wixie_charm",
+  "x": 12.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:wixie_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab333561fd",
+      "type": "custom",
+      "title": "<lang key=eqpack.quest.oq_ars.wixies.task.1.title>"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

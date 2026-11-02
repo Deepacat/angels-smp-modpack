@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.industrial_mixer.title>",
+  "icon": "hbm:machine_mixer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.industrial_mixer.description.0.1>"
+  ],
+  "x": 4,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/high_speed_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_mixer",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

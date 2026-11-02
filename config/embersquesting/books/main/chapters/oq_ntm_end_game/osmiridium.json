@@ -1,0 +1,30 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.title>",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.description.0.2>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.description.0.3>"
+  ],
+  "icon": "hbm:ingot_osmiridium",
+  "x": 2,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/spark_laser_crystal",
+      "oq_ntm_fission/bismuth",
+      "oq_ntm_fusion/utility_satellites",
+      "oq_ntm_end_game/gerald_the_construction_android"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_osmiridium",
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fusion.quantum_processing_unit.title>",
+  "icon": "hbm:circuit_quantum",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fusion.quantum_processing_unit.description.0.1>"
+  ],
+  "x": 7.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/solid_state_quantum_processor",
+      "oq_ntm_fusion/helium_4"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_quantum",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

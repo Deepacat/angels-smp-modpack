@@ -1,0 +1,31 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_early_game.assembly_machine.title>",
+  "icon": "hbm:machine_assembly_machine",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_early_game.assembly_machine.description.0.1>"
+  ],
+  "x": 18.5,
+  "y": 14,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/early_game_power",
+      "oq_ntm_early_game/steel_anvil"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_assembly_machine",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

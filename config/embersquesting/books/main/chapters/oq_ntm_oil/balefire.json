@@ -1,0 +1,39 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.balefire.title>",
+  "icon": "hbm:egg_balefire_shard",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.balefire.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.balefire.description.0.2>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.balefire.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:defuser",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:egg_balefire_shard",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

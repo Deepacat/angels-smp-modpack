@@ -1,0 +1,25 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.muon.title>",
+  "icon": "hbm:particle_muon",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_particle_physics.muon.description.0.1>"
+  ],
+  "x": 3,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/particle_accelerator_looping",
+      "oq_ntm_oil/antimatter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_muon",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

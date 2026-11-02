@@ -1,0 +1,37 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.pumpjack.title>",
+  "icon": "hbm:machine_pumpjack",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.pumpjack.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_oil.pumpjack.description.0.2>",
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.pumpjack.description.optional>",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_pumpjack",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 17,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

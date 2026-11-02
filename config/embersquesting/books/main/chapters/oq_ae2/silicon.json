@@ -1,0 +1,21 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ae2.silicon.title>",
+  "description": [
+    "<lang key=eqpack.quest.oq_ae2.silicon.description.0>"
+  ],
+  "icon": "ae2:silicon",
+  "x": 5.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:silicon",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

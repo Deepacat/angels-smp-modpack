@@ -1,0 +1,27 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_fission.spent_fuel_pool_drum.title>",
+  "icon": "hbm:machine_waste_drum",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_fission.spent_fuel_pool_drum.description.0.1>",
+    "",
+    "<lang key=eqpack.quest.oq_ntm_fission.spent_fuel_pool_drum.description.0.2>"
+  ],
+  "x": 6,
+  "y": 4.5,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/zirnox",
+      "oq_ntm_fission/pwr"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_waste_drum",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

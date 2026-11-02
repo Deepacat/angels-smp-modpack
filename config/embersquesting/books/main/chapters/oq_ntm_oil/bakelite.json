@@ -1,0 +1,24 @@
+{
+  "title": "<lang key=eqpack.quest.oq_ntm_oil.bakelite.title>",
+  "icon": "hbm:ingot_bakelite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "<lang key=eqpack.quest.oq_ntm_oil.bakelite.description.0.1>"
+  ],
+  "x": 17.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/catalytic_cracking_tower"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_bakelite",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}
