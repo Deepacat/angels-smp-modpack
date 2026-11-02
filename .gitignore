@@ -142,8 +142,12 @@
 !/config/embersquesting/changes.log
 
 ## General Configs (mostly ones that tend to edit the date on launch)
-/config/fml.toml
+/config/asyncparticles/
 /config/jei/world/local/*
+/config/ars_nouveau/search_index/
+/config/ichunutil/themes/
+/config/defaultworldtype/world-presets.txt
+/config/fml.toml
 /config/fabric/indigo-renderer.properties
 /config/roughlyenoughitems/pinyin*.properties
 /config/trofers/general.json5
@@ -157,21 +161,19 @@
 /config/roughlyenoughitems/hints.json
 /config/voicechat/username-cache.json
 /config/minihud/*
-/config/ars_nouveau/search_index/
 /config/embeddium-fingerprint.json
 /config/chiselsandbits-common.toml
-/config/defaultworldtype/world-presets.txt
 /config/jecalculation/record.json
 /config/jei*
 /config/embeddium++.toml
 /config/darkmodeeverywhereshaders*
-/config/ichunutil/themes/
 /config/konkrete/locals*
 /config/defaultsettings.json
 /config/embeddium-options.json
 /config/tunnelyrefab.json
 /config/zfastnoise.mixin.properties
 /config/axiom*
+# Xaero
 /config/xaerohud.txt
 /config/xaeropatreon.txt
 /config/xaeroplus.txt

@@ -25,6 +25,12 @@
         "README.md"
     ],
     "projects": {
+        "c2me": {
+            "side": "CLIENT"
+        },
+        "scalablelux": {
+            "side": "CLIENT"
+        },
         "sodium": {
             "side": "CLIENT"
         },
