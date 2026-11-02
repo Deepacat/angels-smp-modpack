@@ -2,12 +2,12 @@
   "mods": [
     {
       "name": "Thaumaturge",
-      "filename": "thaumaturge-1.21.1-NeoForge-1.0.9.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.9.jar",
+      "filename": "thaumaturge-1.21.1-NeoForge-1.0.12.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.12.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "4c1690ddc668aa379052015932ca1f7951ca7ff9"
+      "hash": "6c66cae1620b3258f47ac7fb40230d52ebbc43e1"
     },
     {
       "name": "Creature Feature",
