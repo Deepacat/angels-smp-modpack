@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.title>",
+  "title": "Better Furnaces",
   "icon": "hbm:furnace_iron",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.description.0.1>",
+    "The &3Bricked Furnace&r is almost the same as the vanilla furnace, but it can smelt construction materials faster, such as &6Sand&r and &6Cobblestone&r being smelted at double the speed. &6Clay&r and &6Fire Clay&r can be smelted at &e&rquadruple&r the speed, which means that making a full brick block can be done within a vanilla furnace operation. It can also make &6Charcoal&r at double the speed. It can also collect Ashes from burnt fuel.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.description.0.2>",
+    "The &3Iron Furnace&r has the base smelting speed &e20%&r faster than the vanilla furnace, which means it can complete an operation within 8 seconds instead of 10 seconds. Besides being able to smelt faster, it consumes fuel only during operation, so the fuel is never wasted. It also has burn time bonuses for various kinds of fuel, ranging from &e+25%&r for lignite to &e+100%&r for solid fuel.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.better_furnaces.description.0.3>"
+    "&dEt Futurum Requiem&r also backports modern furnaces, such as the &3Smoker&r, which cooks food faster, and the &3Blast Furnace&r, which smelts ores faster."
   ],
   "x": 13,
   "y": 1.5,

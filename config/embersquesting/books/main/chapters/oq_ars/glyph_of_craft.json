@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_craft.title>",
+  "title": "Glyph of Craft",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_craft.description.0>"
+    "Crafting table on a stick? No, crafting table in a spellbook!"
   ],
   "icon": "ars_nouveau:glyph_craft",
   "x": 3.5,

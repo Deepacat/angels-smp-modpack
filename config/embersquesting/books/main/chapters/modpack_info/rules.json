@@ -1,34 +1,34 @@
 {
-  "title": "<lang key=eqpack.quest.modpack_info.rules.title>",
+  "title": "Rules",
+  "subtitle": "Must Read!!!!",
   "description": [
-    "<lang key=eqpack.quest.modpack_info.rules.description.0>",
-    "<lang key=eqpack.quest.modpack_info.rules.description.1>",
+    "§nGeneral rules:§r",
     "",
-    "<lang key=eqpack.quest.modpack_info.rules.description.3>",
+    "1. Be nice do not the killing eachother unless you know for sure they won't be upset",
     "",
-    "<lang key=eqpack.quest.modpack_info.rules.description.5>",
+    "2. Be reasonable with chunk claims, don't claim things you aren't using and don't forceload unessecary chunks",
     "",
     "",
-    "<lang key=eqpack.quest.modpack_info.rules.description.8>",
+    "§nNTM specific Rules:§r",
     "",
-    "<lang key=eqpack.quest.modpack_info.rules.description.10>",
+    "1. Do NOT nuke ANYWHERE within like 5k blocks of spawn I beg.",
     "",
-    "<lang key=eqpack.quest.modpack_info.rules.description.12>"
+    "2. If I ever add NTM: Space, DO NOT modify the atmosphere of earth. Not even for a second."
   ],
-  "icon": "minecraft:textures/item/cherry_sign.png",
+  "icon": "ftbquests:textures/gui/alert.png",
   "x": 2,
   "tasks": [
     {
       "type": "checkmark",
-      "title": "<lang key=eqpack.quest.modpack_info.rules.task.0.title>"
+      "title": "Yes"
     },
     {
       "type": "checkmark",
-      "title": "<lang key=eqpack.quest.modpack_info.rules.task.1.title>"
+      "title": "Yes I read them"
     },
     {
       "type": "checkmark",
-      "title": "<lang key=eqpack.quest.modpack_info.rules.task.2.title>"
+      "title": "I promise I did"
     }
   ],
   "shape": "circle",

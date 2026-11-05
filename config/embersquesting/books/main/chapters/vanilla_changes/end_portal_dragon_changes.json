@@ -1,14 +1,14 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.end_portal_dragon_changes.title>",
+  "title": "End Portal & Dragon changes",
+  "subtitle": "Try speedrunning it anyways",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.end_portal_dragon_changes.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.end_portal_dragon_changes.description.1>",
+    "End remastered is present, requiring the end portal to have 12 different unique ender eyes obtained from various structures to activate.",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.end_portal_dragon_changes.description.3>",
+    "This should hopefully delay access to the end and make it a group effort!",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.end_portal_dragon_changes.description.5> ",
+    "Alongside this, ender trigon is installed making the dragon fight much more difficult. ",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.end_portal_dragon_changes.description.7>"
+    "So you'd want multiple people fairly geared up to take this on (especially since dying will do alot to your gear durability)"
   ],
   "icon": "minecraft:end_portal_frame",
   "x": 3,

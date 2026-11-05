@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.title>",
+  "title": "Conveyor Upgrades",
   "icon": "hbm:upgrade_ejector_3",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.description.0.1>",
+    "Conveyors blocks can be equiped with two different types of upgrades.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.description.0.2>",
+    "&6Stack Ejection&r, which outputs more items at once.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_logistics.conveyor_upgrades.description.0.3>"
+    "&6Speed Ejection&r, which outputs items at a faster rate."
   ],
   "x": 14.5,
   "y": 5,

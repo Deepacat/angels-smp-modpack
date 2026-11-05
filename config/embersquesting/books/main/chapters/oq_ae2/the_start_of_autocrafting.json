@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.the_start_of_autocrafting.title>",
+  "title": "The Start of Autocrafting",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.the_start_of_autocrafting.description.0.1>\n<lang key=eqpack.quest.oq_ae2.the_start_of_autocrafting.description.0.2>"
+    "Arguably the most powerful part of AE2 is its ability to autocraft. Create patterns for things in a Pattern Encoding Terminal and place them into a Pattern Provider attached to a machine that crafts them, and the provider will insert ingredients into the machine when requested.\nYou can attach several machines at once to different sides of the Pattern Provider and it will use all of them if there are enough co-processing threads (see next quest)."
   ],
   "icon": "ae2:blank_pattern",
   "x": 8,

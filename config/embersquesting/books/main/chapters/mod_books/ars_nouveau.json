@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.ars_nouveau.title>",
+  "title": "Ars Nouveau",
+  "subtitle": "Spellcrafting & Taming arcane creatures",
   "description": [
-    "<lang key=eqpack.quest.mod_books.ars_nouveau.description.0>",
-    "<lang key=eqpack.quest.mod_books.ars_nouveau.description.1>",
+    "Has a dumbed down Noita-style casting system, with glyph crafting for spells",
     "",
-    "<lang key=eqpack.quest.mod_books.ars_nouveau.description.3>"
+    "alongside alot of helpful companion creatures you can summon to do tasks for you like farming, brewing, collecting logs, and more"
   ],
   "icon": "ars_nouveau:archmage_spell_book",
   "x": 5.75,

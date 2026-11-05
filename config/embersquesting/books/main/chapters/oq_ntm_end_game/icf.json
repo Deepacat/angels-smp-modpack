@@ -1,18 +1,18 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.icf.title>",
+  "title": "ICF",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.0.1>",
+    "The &3ICF&r reactor is a very expensive and powerful reactor, which can produce a substantial amount of energy. Apart from the multiblock itself, &3ICF Lasers&r must be constructed for the reactor to work. &bStellar Flux&r will be produced during its operation which is needed to craft &6Gerald&r. Consider making use of &bLiquid Lead&r as it is a very efficient coolant for the ICF.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.0.2>",
+    "&2A Plasma Forge with a plasma input energy of 1MTU/t is required.&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.0.3>",
+    "It is recommended that the wiki is checked out as it has built-in calculators for the laser power consumption and the amount of hot coolant it produces.",
     {
       "buttons": [
         {
-          "label": "<lang key=eqpack.quest.oq_ntm_end_game.icf.description.6.button.0>",
+          "label": "https://nucleartech.wiki/wiki/Inertial_Confinement_Fusion_Reactor",
           "click": {
             "action": "open_url",
             "value": "https://nucleartech.wiki/wiki/Inertial_Confinement_Fusion_Reactor"

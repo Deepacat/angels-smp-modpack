@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.circuit_slicer.title>",
+  "title": "Circuit Slicer",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.circuit_slicer.description.0>"
+    "This machine can do all Inscriber Press recipes and processes blocks at a time! With this and a Crystal Assembler you officially don't need inscribers anymore :D"
   ],
   "icon": "extendedae:circuit_cutter",
   "y": 4,

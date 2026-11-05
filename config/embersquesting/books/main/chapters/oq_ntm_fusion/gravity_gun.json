@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.gravity_gun.title>",
+  "title": "Gravity Gun",
   "icon": "gravigun:gravigun",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.gravity_gun.description.0.1>",
+    "The &6Gravity Gun&r is an advanced tool which can lift and throw blocks. It is particularly useful for moving highly hazardous blocks, such as corium from a reactor meltdown, or throwing explosives.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.gravity_gun.description.0.2>"
+    "&2The gravity gun can be supercharged in a Fusion Reactor Breeding Chamber, further increasing its range and power."
   ],
   "x": 16.5,
   "y": 15,

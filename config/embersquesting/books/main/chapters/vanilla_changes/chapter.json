@@ -1,6 +1,6 @@
 {
-  "title": "<lang key=eqpack.chapter.vanilla_changes.title>",
-  "icon": "minecraft:textures/item/cherry_sign.png",
+  "title": "! Vanilla changes !",
+  "icon": "ftbquests:textures/gui/editor.png",
   "order": 1,
   "scope": "team",
   "defaults": {

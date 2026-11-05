@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.chapter.oq_ntm_oil.title>",
+  "title": "Oil",
   "icon": "hbm:machine_refinery",
-  "order": 8,
+  "order": 3,
   "scope": "team",
   "group": "ntm",
   "defaults": {

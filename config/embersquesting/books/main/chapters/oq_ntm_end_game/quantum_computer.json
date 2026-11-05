@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.quantum_computer.title>",
+  "title": "Quantum Computer",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.quantum_computer.description.0.1>"
+    "The &6Quantum Computer&r is the most powerful out of any other control unit. It  used to build &6Gerald&r and the &3DFC&r."
   ],
   "icon": "hbm:circuit_controller_quantum",
   "x": 4.5,

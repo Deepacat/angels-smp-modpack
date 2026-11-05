@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.additional_fluid_tools.title>",
+  "title": "Additional Fluid Tools",
   "icon": "hbm:siphon",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.additional_fluid_tools.description.0.1>",
+    "The &6Siphon&r is a tool used to extract input fluids from a machine. Right-clicking a machine with content in it's input tanks will fill any fluid barrels, universal tanks or pipettes (if the fluid amount cannot fill any of the previous options).",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.additional_fluid_tools.description.0.2>",
+    "&6Pipettes&r can be used to input specific amounts of fluids. Right-clicking or Shift-Right-clicking will increase or decrease the fluid amount.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.additional_fluid_tools.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

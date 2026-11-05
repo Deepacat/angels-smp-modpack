@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.deuterium_extractor_tower.title>",
+  "title": "Deuterium Extractor Tower",
   "icon": "hbm:machine_deuterium_tower",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.deuterium_extractor_tower.description.0.1>",
+    "The &3Deuterium Extractor Tower&r is a much larger version of the Deuterium Extractor, making it an easy and viable way of making cheap fuel for the &b&r&3Fusion Reactor&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.deuterium_extractor_tower.description.0.2>"
+    "&2A Ferrouranium Anvil is required.&r"
   ],
   "x": 10.5,
   "y": 0,

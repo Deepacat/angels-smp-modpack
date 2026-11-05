@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.dusty_decorations.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.dusty_decorations.description.0>"
-  ],
+  "title": "Dusty Decorations",
+  "subtitle": "Lots of decorations and blocks for more realistic environments (not all industrial)",
   "icon": "dustydecorations:corrugated_metal_block",
   "x": 3.75,
   "y": 4.75,

@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.automatic_buzz_saw.title>",
+  "title": "Automatic Buzz Saw",
   "icon": "hbm:machine_autosaw",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.automatic_buzz_saw.description.0.1>",
+    "With the &6&3Automatic Buzz Saw&r one can automatically farm trees for their &6Wood&r. If jungle trees are farmed, &6Latex&r automation is also possible.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.automatic_buzz_saw.description.0.2>",
+    "&3Fans&r, when powered by redstone, can be used to push the dropped items into hoppers or conveyors for storage. Use a &6Drill&r on them to remove the diminishing pushing range.",
     "",
-    "<lang key=eqpack.common.press_f1_for_info>",
+    "Press [F1] for more info on applicable items",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.automatic_buzz_saw.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

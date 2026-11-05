@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.ferrouranium_anvil.title>",
+  "title": "Ferrouranium Anvil",
   "icon": "hbm:anvil_ferrouranium",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.ferrouranium_anvil.description.0.1>",
+    "An upgraded version of the &3Anvil&r, [T4], which unlocks additional recipes. Important unlocks of this tier are wires being able to be crafted in the anvil.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.ferrouranium_anvil.description.0.2>"
+    "&2For quests that need the Desh Anvil simply hold the Ferrouranium Anvil in your hand press Detect/Submit on the Desh Anvil quest to complete it.&r"
   ],
   "x": 0,
   "y": 9.5,

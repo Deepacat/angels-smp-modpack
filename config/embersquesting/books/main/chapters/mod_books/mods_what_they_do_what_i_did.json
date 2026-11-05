@@ -1,14 +1,14 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.title>",
+  "title": "Mods, what they do, what I did",
+  "subtitle": "Info and also books for them if there is one",
   "description": [
-    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.0>",
-    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.1>",
+    "This page is a collection of the mods that add meaningful content",
     "",
-    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.3>",
+    "It is here for you to see what mods the pack includes, and what might interest you!",
     "",
-    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.5>",
+    "The quests for the mods will give you books or hints on how to start them if applicable",
     "",
-    "<lang key=eqpack.quest.mod_books.mods_what_they_do_what_i_did.description.7>"
+    "And this quests reward gives you a book that you can craft with any other mod books to combine them all into one book! (The akahsic tome)"
   ],
   "icon": "minecraft:knowledge_book",
   "x": 7,

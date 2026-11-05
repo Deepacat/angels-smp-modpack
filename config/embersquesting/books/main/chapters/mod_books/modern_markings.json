@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.modern_markings.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.modern_markings.description.0>"
-  ],
+  "title": "Modern Markings",
+  "subtitle": "Decorative markings for OSHA compliance",
   "icon": "ags_modernmarkings:textures/block/marking_danger_yellow.png",
   "x": 1.75,
   "y": 4.75,

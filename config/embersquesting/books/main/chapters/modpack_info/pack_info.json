@@ -1,20 +1,20 @@
 {
-  "title": "<lang key=eqpack.quest.modpack_info.pack_info.title>",
+  "title": "Pack Info",
+  "subtitle": "hai :3 read me!",
   "description": [
-    "<lang key=eqpack.quest.modpack_info.pack_info.description.0>",
-    "<lang key=eqpack.quest.modpack_info.pack_info.description.1>",
+    "There is no /tpa or /sethome, or waystones! All of the stronger travel methods are gated by mods.",
     "",
-    "<lang key=eqpack.quest.modpack_info.pack_info.description.3>",
+    "Create an FTB team to use FTB chunks to claim your land (Top left of inventory)",
     "",
-    "<lang key=eqpack.quest.modpack_info.pack_info.description.5>",
+    "If you have any questions, issues or suggestions please lmk!",
     "",
-    "<lang key=eqpack.quest.modpack_info.pack_info.description.7>"
+    "-Deepacat"
   ],
   "icon": "jei:textures/gui/sprites/icons/info.png",
   "tasks": [
     {
       "type": "checkmark",
-      "title": "<lang key=eqpack.quest.modpack_info.pack_info.task.0.title>"
+      "title": "awa"
     }
   ],
   "shape": "circle",

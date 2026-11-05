@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.creature_feature.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.creature_feature.description.0>"
-  ],
+  "title": "Creature Feature",
+  "subtitle": "Quirky hostile mobs",
   "icon": "creaturefeature:sleeping_powder",
   "x": 8.5,
   "y": 6.25,

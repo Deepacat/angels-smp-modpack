@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.rubber.title>",
+  "title": "Rubber",
   "icon": "hbm:ingot_rubber",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.rubber.description.0.1>",
+    "&6Rubber&r is an essential material used in many crafting recipes. It is created in a &3Chemical Plant&r with &bUnsaturated Hydrocarbons&r obtained from a &3Catalytic Cracking Tower&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.rubber.description.0.2>",
+    "&6Latex&r is a rubber alternative which can be used in some recipes instead of normal rubber. It can be created early on using a &3Burner Press&r by processing dandelions or jungle wood.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.rubber.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

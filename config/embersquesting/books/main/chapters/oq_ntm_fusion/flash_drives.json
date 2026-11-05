@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.flash_drives.title>",
+  "title": "Flash Drives",
   "icon": "hbm:drive_flash_empty",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.flash_drives.description.0.1>"
+    "Flash Drives are inserted into the &3Supercomputer&r and can be made into &eFlight Simulation Data&r, used in making the &6Soyuz&r and &6Orbital Module&r, or &eParticle Simulation Data&r used in the &3Fusion Reactor&r."
   ],
   "x": 3,
   "y": 5.5,

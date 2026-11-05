@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.purex.title>",
+  "title": "PUREX",
   "icon": "hbm:machine_purex",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.purex.description.0.1>",
+    "The &3PUREX&r is a machine that can reprocess depleted nuclear fuel into various materials. Most recipes require both &bNitric Acid&r and &bKerosene&r to function.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.purex.description.0.2>"
+    "&6Schrabidium&r can also be extracted from certain recipes, which require &bSchrabidic Acid&r. The schrabidium extracted yields double the schrabidium used to make the acid."
   ],
   "x": 8,
   "y": 9.5,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.enchanter_s_horn.title>",
+  "title": "Enchanter's Horn",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.enchanter_s_horn.description.0>"
+    "Casts the inscribed spell on everything in a large radius!"
   ],
   "icon": "ars_elemental:spell_horn",
   "x": 0.5,

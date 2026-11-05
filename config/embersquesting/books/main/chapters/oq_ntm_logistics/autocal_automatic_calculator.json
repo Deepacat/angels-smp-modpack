@@ -1,12 +1,12 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_logistics.autocal_automatic_calculator.title>",
+  "title": "AUTOCAL Automatic Calculator",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.autocal_automatic_calculator.description.0.1>",
+    "The &3AUTOCAL Automatic Calculator&r is a basic machine that reads a script, line by line, and performs actions based on those lines. This means it can be programmed with behavior, doing math, and handling signals. It communicates with the outside world exclusively using ROR signals, allowing RoR to supply it with values to be processed, and returning RoR signals to be displayed or for controlling RoR receiving devices.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_logistics.autocal_automatic_calculator.description.0.2>"
+    "&2A documentation button exists inside the machine for people that want to learn how to use it.&r"
   ],
   "icon": "hbm:radio_autocal",
   "x": 7.5,

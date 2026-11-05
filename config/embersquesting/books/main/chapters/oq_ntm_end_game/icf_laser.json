@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser.title>",
+  "title": "ICF Laser",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser.description.0.1>",
+    "&2This quest provides an optional retrieval task for two small lasers capable of running Helium-4 - Deuterium Fuel at 15MHE, producing up to 537 MHE/s.&r",
     {
       "texture": "eqpack:textures/quest/bq_icflaser.png",
       "type": "image"
@@ -12,7 +12,7 @@
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser.description.optional>",
+    "Optional items (not required):",
     {
       "items": [
         {

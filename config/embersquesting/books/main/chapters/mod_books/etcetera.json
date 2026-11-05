@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.etcetera.title>",
+  "title": "Etcetera",
+  "subtitle": "Clothes & misc gadgets",
   "description": [
-    "<lang key=eqpack.quest.mod_books.etcetera.description.0>",
-    "<lang key=eqpack.quest.mod_books.etcetera.description.1>",
+    "It also adds a spider for some reason",
     "",
-    "<lang key=eqpack.quest.mod_books.etcetera.description.3>"
+    "(It's part of the gross mobs list you can disable)"
   ],
   "icon": "etcetera:bouquet",
   "x": 2.75,

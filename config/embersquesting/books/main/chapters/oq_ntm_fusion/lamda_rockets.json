@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.lamda_rockets.title>",
+  "title": "Lamda Rockets",
   "icon": "hbm:launchpad_lambda",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.lamda_rockets.description.0.1>",
+    "The &6Lamda-98 Rocket&r is a rocket which can be used to launch satellites for cheaper and faster.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.lamda_rockets.description.0.2>"
+    "The launch pad consumes &e200kHE/s&r constantly and each launch consumes 16000mb of &bLeaded Gasoline&r and &bHydrogen Peroxide&r. The launches can be set to automatic if fuel and materials are supplied."
   ],
   "x": 3,
   "y": 15.5,

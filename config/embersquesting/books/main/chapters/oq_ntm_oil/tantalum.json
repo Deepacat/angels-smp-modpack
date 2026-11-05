@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.tantalum.title>",
+  "title": "Tantalum",
   "icon": "hbm:gem_tantalium",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.tantalum.description.0.1>",
+    "&6Tantalum&r is a material needed for the creation of some items, most importantly &6Capacitor Boards&r. Tantalum Polycrystal production requires &6Coltan&r which can be located by the use of a &6Coltass&r. It points to the center of a large area where coltan ore can spawn. Tantalum can be obtained from using &bHigh-Performance Solvent&r on &eHeavy Metal Bedrock Ore&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.tantalum.description.0.2>",
+    "&2Coltan Processing at its early stage can provide Niobium needed for Catalytic Cracking Towers.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.tantalum.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

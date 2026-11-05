@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.powered_drill.title>",
+  "title": "Powered Drill",
   "icon": "hbm:gun_drill",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.powered_drill.description.0.1>",
+    "The &6Powered Drill&r is a modular mining device which can make resource gathering and excavation much faster than normal pickaxes.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.powered_drill.description.0.2>"
+    "Various modifications can be attached in the &3Weapon Modification Table&r, such as new drillbits for a larger mining radious or even new engines, which let it run on electricity."
   ],
   "x": 11,
   "y": 8.5,

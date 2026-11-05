@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.certus_quartz_dust.title>",
+  "title": "Certus Quartz Dust",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.certus_quartz_dust.description.0>"
+    "Put a Certus Quartz Crystal into an Inscriber to get this. Alternatively, it drops from Certus Quartz Buds before they are fully grown."
   ],
   "icon": "ae2:certus_quartz_dust",
   "x": 5,

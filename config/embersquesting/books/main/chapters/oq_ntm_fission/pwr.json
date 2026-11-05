@@ -1,18 +1,18 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.pwr.title>",
+  "title": "PWR",
   "icon": "hbm:pwr_controller",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.pwr.description.0.1>",
+    "The &2&3PWR&r is a modular fission reactor. It is more limited than the &3RBMK&r in terms of capability and fuel types but it is much safer and easier to use due to it melting down more gently and being far more stable in its operation.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.pwr.description.0.2>",
+    "Due to the complex and expansive nature of the PWR, it is highly recommend that the wiki is checked out as it provides more information.",
     {
       "type": "button",
       "buttons": [
         {
-          "label": "<lang key=eqpack.quest.oq_ntm_fission.pwr.description.4.button.0>",
+          "label": "https://nucleartech.wiki/wiki/PWR",
           "click": {
             "action": "open_url",
             "value": "https://nucleartech.wiki/wiki/PWR"
@@ -20,7 +20,7 @@
         }
       ]
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.pwr.description.0.3>"
+    "&2This quest demands the most essential parts of a PWR, and does not represent the amount needed for a functioning reactor. There are also many other types of PWR Components that can be used."
   ],
   "x": 8,
   "y": 2.5,

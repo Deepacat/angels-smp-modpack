@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.spell_prism.title>",
+  "title": "Spell Prism",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.spell_prism.description.0>"
+    "Spell Prisms redirect spell projectiles passing through them. Advanced Spell Prisms can aim at a specific block."
   ],
   "icon": "ars_nouveau:spell_prism",
   "x": 12,
@@ -15,7 +15,7 @@
     {
       "filter": "or(item(ars_nouveau:spell_prism) item(ars_elemental:advanced_prism))",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ars.spell_prism.task.0.title>"
+      "title": "Any Spell Prism"
     }
   ],
   "optional": true,

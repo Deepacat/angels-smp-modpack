@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.extended_drive.title>",
+  "title": "Extended Drive",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.extended_drive.description.0>"
+    "Can hold 20 Storage Cells compared to the normal Drive's 10."
   ],
   "icon": "extendedae:ex_drive",
   "x": 2,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.wireless_connector.title>",
+  "title": "Wireless Connector",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.wireless_connector.description.0.1>\n\n<lang key=eqpack.quest.oq_ae2.wireless_connector.description.0.2>"
+    "Pairs of these blocks can facilitate wireless connections and are much less bulky than Quantum Network Bridges! Though unlike these, they can't work cross-dimensionally and also eat energy proportional to distance between the pair.\n\nTo link the pair to one another, use the Wireless Setup Kit."
   ],
   "icon": "extendedae:wireless_tool",
   "x": 2,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.pattern_access_terminal.title>",
+  "title": "Pattern Access Terminal",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.pattern_access_terminal.description.0>"
+    "This terminal allows you to access pattern storage of all Pattern Providers on your network remotely, so you don't have to go to the provider to place new patterns in."
   ],
   "icon": "ae2:pattern_access_terminal",
   "x": 9,

@@ -1,23 +1,23 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.title>",
+  "title": "Raw Bedrock Ore",
   "icon": "hbm:bedrock_ore_base",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.1>",
+    "The first step to processing &eRaw Bedrock Ore&r straight out of the ground is to run it through a &3Bedrock Ore Processor&r. This will split the raw ore into general types, with amounts depending on the location the ore was extracted and any effectiveness upgrades. These types are:",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.2>",
+    "&eLight Metal&r - common metals including &6Iron/Copper&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.3>",
+    "&eHeavy Metal&r - heavier metals including &6Tungsten/Lead&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.4>",
+    "&eRare Earth&r - rare earth metals including &6Cobalt/Rare Earth&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.5>",
+    "&eActinide&r - radioactive heavy metals including &6Uranium/Thorium&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.6>",
+    "&eNon-Metal&r - non-metallic ores including &6Coal/Sulfur&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.raw_bedrock_ore.description.0.7>"
+    "&eCrystalline&r - crystals including &6Redstone/Cinnabar&r"
   ],
   "x": 1,
   "y": 4,

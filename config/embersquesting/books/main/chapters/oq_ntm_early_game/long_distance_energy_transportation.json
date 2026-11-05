@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.title>",
+  "title": "Long Distance Energy Transportation",
   "icon": "hbm:substation",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.description.0.1>",
+    "For greater distances, and improved aesthetics, a new distribution node is available, the &3Large Electricity Pylon&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.description.0.2>",
+    "&3Substations&r are needed to step up/down the voltage that the line carries.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.long_distance_energy_transportation.description.0.3>"
+    "These Pylons can prove useful as favorable &eBedrock Ore&r or &eOil deposits&r may be located far away from the main base."
   ],
   "x": 18.5,
   "y": 24.5,

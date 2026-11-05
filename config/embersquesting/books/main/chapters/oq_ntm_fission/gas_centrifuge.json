@@ -1,21 +1,21 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.title>",
+  "title": "Gas Centrifuge",
   "icon": "hbm:machine_gascent",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.0.1>",
+    "The &3Gas Centrifuge&r is used to centrifuge &bUranium/Plutonium Hexafluoride&r to obtain enriched fuel for bombs and reactor fuel.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.0.2>",
+    "Two gas centrifuges in a row will yield &6Uranium-238&r and &6Uranium Fuel&r used in reactors. The uranium hexafluoride processing line does not consume the &6Sulfur&r and &6Fluorite&r, so loops are recommended.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.0.3>",
+    "The &6Gas Centrifuge Overclocking Upgrade&r is needed to obtain &6Uranium-235&r. Four gas centrifuges will have to be placed in a row and the upgrade on the last of them to obtain uranium-235 nuggets.",
     "",
-    "<lang key=eqpack.common.press_f1_for_info>",
+    "Press [F1] for more info on applicable items",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.gas_centrifuge.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.essentials.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.essentials.description.0>"
-  ],
+  "title": "Essentials",
+  "subtitle": "Vanilla style redstone blocks & circuits",
   "icon": "essentials:candle_lilypad",
   "x": 8.75,
   "y": 1.5,

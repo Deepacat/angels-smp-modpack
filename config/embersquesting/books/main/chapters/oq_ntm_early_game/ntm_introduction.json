@@ -1,20 +1,20 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.ntm_introduction.title>",
+  "title": "NTM: Introduction",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.ntm_introduction.description.0.1>",
+    "This is the begining of the tech tree of &dHBM's Nuclear Tech Mod&r. Before proceeding it is recommended that you stock up on materials such as &6Iron&r, &6Coal&r, &6Copper&r and &6Redstone&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ntm_introduction.description.0.2>",
+    "&a&2Some advanced machinery can be obtained by salvaging them from structures scattered across the world, such as Centrifuges from abandoned nuclear powerplants found in deserts, or by rare mob drops such as a Geiger Counter.&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ntm_introduction.description.0.3>",
+    "Most of the information in this quest book was derived from the official NTM wiki and Qmaw entries, with additional information being added.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ntm_introduction.description.0.4>",
+    "The NTM Wiki link can be found here:",
     {
       "buttons": [
         {
-          "label": "<lang key=eqpack.quest.oq_ntm_early_game.ntm_introduction.description.8.button.0>",
+          "label": "https://nucleartech.wiki/wiki/Main_Page",
           "click": {
             "action": "open_url",
             "value": "https://nucleartech.wiki/wiki/Main_Page"

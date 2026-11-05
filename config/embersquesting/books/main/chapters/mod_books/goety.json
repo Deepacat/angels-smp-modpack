@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.goety.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.goety.description.0>"
-  ],
+  "title": "Goety",
+  "subtitle": "Dark arts of necromancy and rituals",
   "icon": "goety:ectoplasm",
   "x": 3.75,
   "y": 1.5,

@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.additional_particle_accelerator_information.title>",
+  "title": "Additional Particle Accelerator information",
   "icon": "hbm:particle_empty",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.additional_particle_accelerator_information.description.0.1>",
+    "&3Particle Accelerators&r are either two types; linear (straight) or circular (synchronous) accelerators. Since circles do not exist in Minecraft, synchronous accelerators are square in design. They are both modular and can be built to any size, with the only restriction being resources, intended byproduct, and energy costs.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.additional_particle_accelerator_information.description.0.2>",
+    "Most of the components within particle accelerators require cooling via &bCold Perfluoromethyl&r. The hot perfluoromethyl can be redirected to a &3Compressor&r for re-cooling, creating a feedback loop despite energy loss.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.additional_particle_accelerator_information.description.0.3>",
+    "Particles start slowly and accelerate. Particles only do 1 component per tick, which increases by 1 every 1,000 momentum",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.additional_particle_accelerator_information.description.0.4>",
+    "Using a &6Screwdriver&r on a beamline toggles a window which flashes if a particle passes.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.additional_particle_accelerator_information.description.0.5>"
+    "The particle accelerator requires couple &eMHEs&r to function properly. Fission reactors or fusion can be used to meet these power needs."
   ],
   "x": 1.5,
   "y": 2,

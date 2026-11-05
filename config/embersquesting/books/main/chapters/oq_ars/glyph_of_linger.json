@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_linger.title>",
+  "title": "Glyph of Linger",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_linger.description.0>"
+    "Transforms the spell into a lingering potion-type effect cloud that periodically applies it!"
   ],
   "icon": "ars_nouveau:glyph_linger",
   "x": 9.5,

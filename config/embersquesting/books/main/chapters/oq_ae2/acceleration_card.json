@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.acceleration_card.title>",
+  "title": "Acceleration Card",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.acceleration_card.description.0>"
+    "These accelerate AE2 machines! I recommend using your first calculation processors on these to speed up your inscribers."
   ],
   "icon": "ae2:speed_card",
   "x": 5.5,

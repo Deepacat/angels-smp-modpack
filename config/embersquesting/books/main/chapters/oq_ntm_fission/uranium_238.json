@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.uranium_238.title>",
+  "title": "Uranium-238",
   "icon": "hbm:ingot_u238",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.uranium_238.description.0.1>",
+    "&6Uranium-238&r is the most common uranium isotope in the game.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.uranium_238.description.0.2>"
+    "This material has many uses, some of which are: &6Ferrouranium&r, MOX fuel, depleted uranium ammunition, absorber Pellets for the &3Watz&r powerplant and can also be turned into &6Schrabidium&r later on in the &3Exposure Chamber&r."
   ],
   "x": 4,
   "y": 9.5,

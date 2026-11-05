@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.desh.title>",
+  "title": "Desh",
   "icon": "hbm:ingot_desh",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.desh.description.0.1>",
+    "&6Desh&r is an alloy made up of 9 rare earth metals to make its blend form, which is solidified and refined using &bMercury&r and &bLight oil&r in the &3Chemical Plant&r. Desh is an almost unbreakable material and as such its tools have infinite durability.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.desh.description.0.2>",
+    "The most efficient way of obtaining &6Desh Blend&r is to place rare earth in a &3Shredder&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.desh.description.0.3>",
+    "&a&2Desh can also be made using DeshReady™ in a Rotary Furnace, or later on, in an Ore Acidizer.&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.desh.description.0.4>",
+    "Mercury at this stage of the game can be obtained from centrifuging &eRedstone Ore&r or putting &eCinnabar&r in a &3Combination Oven&r. Large cinnabar veins can be found as depth ore.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.desh.description.0.5>"
+    "Later on, mercury can be obtained from processing &bOre Slop&r or &bVitriol&r in an &3Electrolyzer&r."
   ],
   "x": 15.5,
   "y": 6.5,

@@ -5,7 +5,7 @@ PlayerEvents.loggedIn(e => {
 
     if (!firstJoin) {
         e.player.stages.add('firstJoin')
-        e.player.give('ftbquests:book')
+        e.player.give('embersquesting:quest_book')
         e.player.tell(`\n§bWelcome! Read your questbook for rules and modpack information.`)
         e.player.tell(`§b${day}\n`)
         e.server.tell(`§e§l${playerName} joined for the first time!`)

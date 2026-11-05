@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.drive_enclosure_and_disk_drives.title>",
+  "title": "Drive Enclosure and Disk Drives",
   "icon": "hbm:machine_tape_drive",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.drive_enclosure_and_disk_drives.description.0.1>",
+    "Attaching a &3Drive Enclosure&r to one of the ports of a &3Satellite Ground Station&r which is linked to a satellite will allow it to receive data.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.drive_enclosure_and_disk_drives.description.0.2>"
+    "&2A linked satellite ground station, when looking at it, will reveal information about the satellite.&r"
   ],
   "x": 1.5,
   "y": 11.5,

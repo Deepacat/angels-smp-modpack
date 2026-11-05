@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.scribe_s_table.title>",
+  "title": "Scribe's Table",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.scribe_s_table.description.0.1>\n\n<lang key=eqpack.quest.oq_ars.scribe_s_table.description.0.2>"
+    "Your new Spellbook doesn't have that many glyphs in it, but we can fix it with this new table! Click your spellbook on it, then you can select the glyph you want to craft. Toss the ingredients on the table to satisfy the craft!\n\n§oNota Bene:§o the Scribe's Table can pull items out of nearby inventories to use once the glyph is selected!"
   ],
   "icon": "ars_nouveau:scribes_table",
   "x": 4,

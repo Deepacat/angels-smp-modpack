@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.reformate.title>",
+  "title": "Reformate",
   "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:reformate\"}",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.reformate.description.0.1>",
+    "&bReformate&r is a product of &bCrude Oil&r obtained via a &3Vacuum Refinery&r or from processing &bNaptha&r in a &3Hydrotreater&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.reformate.description.0.2>"
+    "&2This step can be skipped if making Jet Fuel and BTX using a Hydrotreater."
   ],
   "x": 12.5,
   "y": 13.5,

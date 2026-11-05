@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.toxony.title>",
+  "title": "Toxony",
+  "subtitle": "Medieval Alchemy",
   "description": [
-    "<lang key=eqpack.quest.mod_books.toxony.description.0>",
-    "<lang key=eqpack.quest.mod_books.toxony.description.1>"
+    "Cool potion systems and interesting weapons"
   ],
   "icon": "toxony:alembic",
   "x": 3.25,

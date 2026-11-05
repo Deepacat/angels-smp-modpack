@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.current_elevators.title>",
+  "title": "Current Elevators",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.current_elevators.description.0>"
+    "These blocks allow for vertical movement similar to bubble columns, but both ways (depends on if you shift) and not just in water: the Bubble one works in water, the Slipstream in air (needs source to work) and the Magmatic in lava (this last one also gives fire resistance!)"
   ],
   "icon": "ars_elemental:air_upstream",
   "x": 1,
@@ -15,7 +15,7 @@
     {
       "filter": "or(item(ars_elemental:air_upstream) item(ars_elemental:water_upstream) item(ars_elemental:magma_upstream))",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ars.current_elevators.task.0.title>"
+      "title": "Any Current Elevator"
     }
   ],
   "optional": true,

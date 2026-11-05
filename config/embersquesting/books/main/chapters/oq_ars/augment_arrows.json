@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.augment_arrows.title>",
+  "title": "Augment Arrows",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.augment_arrows.description.0>"
+    "These can be used in an Enchanter's Bow!"
   ],
   "icon": "ars_nouveau:pierce_arrow",
   "x": 12,
@@ -15,7 +15,7 @@
     {
       "filter": "or(item(ars_nouveau:amplify_arrow) item(ars_nouveau:split_arrow) item(ars_nouveau:pierce_arrow))",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ars.augment_arrows.task.0.title>"
+      "title": "Any Augment Arrow"
     }
   ],
   "optional": true,

@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.digamma_laser_crystal.title>",
+  "title": "Digamma Laser Crystal",
   "icon": "hbm:laser_crystal_digamma",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.digamma_laser_crystal.description.0.1>",
+    "The &6Digamma Laser Crystal&r is the fastest and final laser crystal which can be used in a SILEX.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.digamma_laser_crystal.description.0.2>"
+    "&2If the laser touches any block, the surrounding area will be atomized."
   ],
   "x": 1.5,
   "y": 15.5,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.storage_bus.title>",
+  "title": "Storage Bus",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.storage_bus.description.0>"
+    "A Storage Bus can be placed on any chest, fluid tank or other modded container, and will provide access to its contents to the system. Can optionally be partitioned (filtered for content types) and set to import or export only."
   ],
   "icon": "ae2:storage_bus",
   "x": 8,

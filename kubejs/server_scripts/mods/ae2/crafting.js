@@ -192,7 +192,7 @@ ServerEvents.recipes(e => {
         "PGP"
     ], {
         "P": "#c:plates/steel",
-        "G": "ae2:fluix_crystal",
+        "G": "#c:ingots/red_copper",
         "S": "#c:ingots/steel"
     }).id("kubejs:mods/ae2/charger")
 

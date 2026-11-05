@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.friends_foes.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.friends_foes.description.0>"
-  ],
+  "title": "Friends & Foes",
+  "subtitle": "Adds back some scrapped minecraft mob vote and other content",
   "icon": "friendsandfoes:crab_claw",
   "x": 7.5,
   "y": 8.25,

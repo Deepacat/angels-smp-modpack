@@ -1,26 +1,26 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.title>",
+  "title": "Gerald the Construction Android",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.1>",
+    "&6Gerald the Construction Android&r is the most powerful weapon in the mod. Using this has the side effect of setting the world on fire but also getting tektite, which contains &6Osmiridium&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.2>",
+    "Gerald is the hardest recipe of the mod requiring hundreds of thousands of items, mainly circuit related.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.3>",
+    "Vast quantities of &6Bismuth&r, &6Tantalum&r and &6Silicon&r are needed, so dont hold back on bedrock ore processing and parallelisation of many processes. If you havent already used &dAE2&r, it is highly recommended at this stage of the game.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.4>",
+    "Launching Gerald will result in a global firestorm that will decimate all life, including all trees and grass. Make sure to keep a backup of your world before launching him. Gerald can also be launched in the &eNether&r or &eEnd&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.5>",
+    "Alternatively, the modpack introduces a &3Chemical Plant&r recipe for &6Osmiridium Infused Tektite&r to avoid the performance issues with launching gerald.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.6>",
+    "&2A Plasma Forge with a plasma input energy of 25MTU/t is required.&r &2DHC or Stellar Flux plasma is needed.&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.0.7>",
+    "&2Blueprints can be found in structures, purchased from Bobmazon or made in a Precision Assembler.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.gerald_the_construction_android.description.optional>",
+    "Optional items (not required):",
     {
       "items": [
         "hbm:missile_soyuz_lander"

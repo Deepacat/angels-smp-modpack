@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.jars_of_containment.title>",
+  "title": "Jars of Containment",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.jars_of_containment.description.0.1>\n\n<lang key=eqpack.quest.oq_ars.jars_of_containment.description.0.2>"
+    "A Tablet of Containment can be used to pick mobs up into Containment Jars! It needs source for every activation after the first. To release the mob, cast Dispel on the jar.\n\n§oNota Bene:§r Containment Jars are not limited to mobs - they can contain pretty much any entity, including dropped items and even lightning bolts!"
   ],
   "icon": "ars_nouveau:mob_jar",
   "x": 9,

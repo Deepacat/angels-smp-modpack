@@ -1,12 +1,12 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.mending_rework.title>",
+  "title": "Mending rework",
+  "subtitle": "(It doesn't repair)",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.1>",
+    "Mending will not repair gear! And cannot be applied as an enchant like normal",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.3>",
+    "It will instead reset the cost of combining/adding levels to the item, making it cheaper to continue enchanting it",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.mending_rework.description.5>"
+    "If you get a mending \"Ancient Tome\", and combine it with a mending book, you can get mending 2 which acts like the vanilla mending enchant"
   ],
   "icon": "minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:impaling\":1}}}",
   "x": 2,

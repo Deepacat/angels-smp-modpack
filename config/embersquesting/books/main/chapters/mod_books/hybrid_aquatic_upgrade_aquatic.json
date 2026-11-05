@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.hybrid_aquatic_upgrade_aquatic.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.hybrid_aquatic_upgrade_aquatic.description.0>"
-  ],
+  "title": "Hybrid Aquatic & Upgrade Aquatic",
+  "subtitle": "Lots of water mobs and content!",
   "icon": "hybrid_aquatic:comically_large_nautilus_shell",
   "x": 8.5,
   "y": 7.25,

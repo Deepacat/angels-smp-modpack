@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.repository.title>",
+  "title": "Repository",
+  "subtitle": "Version control for your items",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.repository.description.0>",
-    "<lang key=eqpack.quest.oq_ars.repository.description.1>"
+    "A Repository has a double chest worth of storage space in a single block, and a Repository Catalog functions as a controller for all Repositories connected to it - so you can link a wall of them to a Storage Lectern by linking only one inventory!"
   ],
   "icon": "ars_nouveau:repository",
   "x": 10.5,

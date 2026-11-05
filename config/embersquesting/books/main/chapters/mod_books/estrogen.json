@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.estrogen.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.estrogen.description.0>"
-  ],
+  "title": "Estrogen.",
+  "subtitle": "Yeah.",
   "icon": "estrogen:estrogen_pill",
   "x": 6.5,
   "y": 8.25,

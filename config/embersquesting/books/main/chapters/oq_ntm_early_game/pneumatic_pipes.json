@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.pneumatic_pipes.title>",
+  "title": "Pneumatic Pipes",
   "icon": "hbm:pneumatic_tube",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.pneumatic_pipes.description.0.1>",
+    "&3Pneumatic Pipes&r are an instant form of item transportation which can cover large distances. The pipes must have &bCompressed Pressurised Air&r, which can be created from taking compressed air from an &3Air Intake&r and compressing it in a &3Compressor.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.pneumatic_pipes.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

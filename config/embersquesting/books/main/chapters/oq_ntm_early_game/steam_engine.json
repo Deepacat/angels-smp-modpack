@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.title>",
+  "title": "Steam Engine",
   "icon": "hbm:machine_steam_engine",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.description.0.1>",
+    "The &3Steam Engine&r is an early game method of turning &bSteam&r into energy. It requires an external source to provide steam and a way to dump or reprocess the &bLow-Pressure Steam&r it produces.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.description.0.2>",
+    "The Steam Engine has an energy efficiency of &e85%&r, making it better than the &3Stirling Engine&r. However, it still has a throughput limit as it can only hold up to 2000 mB of steam. Its maximum processing rate is 2000 mB/t, producing a considerable &e3400 HE/t&r or &e68 kHE/s&r. It is therefore the best generator available before &3Steam Turbines&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.steam_engine.description.0.3>"
+    "A boiler being heated up by a heating oven using coal will produce &e17kHE/s&r."
   ],
   "x": 2,
   "y": 23.5,

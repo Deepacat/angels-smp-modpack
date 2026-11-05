@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.charged_certus_quartz.title>",
+  "title": "Charged Certus Quartz",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.charged_certus_quartz.description.0>"
+    "Put a Certus Quartz Crystal into a Charger to get this."
   ],
   "icon": "ae2:charged_certus_quartz_crystal",
   "x": 4,

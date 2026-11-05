@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.balefire.title>",
+  "title": "Balefire",
   "icon": "hbm:egg_balefire_shard",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.balefire.description.0.1>",
+    "&6Balefire&r is an extremely radioactive substance which can be used to make powerful fuels for the &3RBMK&r, aswell as &bBF Rocket Fuel&r for power production. High radiation resistant equipment is needed to hold the item. &6Thermonuclear Ashes&r can be produced sustainably as a byproduct from &bAntimatter - BF Rocket Fuel&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.balefire.description.0.2>",
+    "The High-Tech Bomb Defusing Device can extract balefire shards from duds.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.balefire.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

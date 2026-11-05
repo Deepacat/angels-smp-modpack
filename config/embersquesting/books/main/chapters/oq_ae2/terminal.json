@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.terminal.title>",
+  "title": "Terminal",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.terminal.description.0.1>\n<lang key=eqpack.quest.oq_ae2.terminal.description.0.2>"
+    "An AE system would be hard to use if it didn't have a visual interface to it. That's where the Terminal comes in! You can view your items from it, put them in, take them out, search, and in the upgraded version, the Crafting Terminal, you can even craft with all the items at your disposal. (Honestly, why does the regular terminal even exist?)\nYou can place this on any cable that isn't dense."
   ],
   "icon": "ae2:crafting_terminal",
   "x": 7,

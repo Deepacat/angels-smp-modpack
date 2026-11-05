@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_extract.title>",
+  "title": "Glyph of Extract",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_extract.description.0>"
+    "Silk Touch for your break spell!"
   ],
   "icon": "ars_nouveau:glyph_extract",
   "x": 8,

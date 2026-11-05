@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.better_end.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.better_end.description.0>"
-  ],
+  "title": "Better End",
+  "subtitle": "End upgrade with mobs, biomes, and mechanics",
   "icon": "betterend:eternal_crystal",
   "x": 6.5,
   "y": 6.25,

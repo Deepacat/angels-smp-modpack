@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_animate_block.title>",
+  "title": "Glyph of Animate Block",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_animate_block.description.0.1>\n\n<lang key=eqpack.quest.oq_ars.glyph_of_animate_block.description.0.2>"
+    "Gives a block legs! It can't do much, but it will try to fight for you :3\n\nIf this entity is dispelled (or killed), the block falls back out, but it reverts to an item if it can't be placed (i'e' if it's within a blockspace of a torch), which allows you to get access to some normally unobtainable items like budding amethyst!"
   ],
   "icon": "ars_nouveau:glyph_animate_block",
   "x": 6.5,

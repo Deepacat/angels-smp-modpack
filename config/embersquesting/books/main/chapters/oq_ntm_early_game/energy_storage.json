@@ -1,20 +1,20 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.title>",
+  "title": "Energy Storage",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.1>",
+    "The &3Battery Socket&r is used to hold &6Batteries&r or &6Capacitors&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.2>",
+    "Batteries have more energy storage, but a slower discharge time, meaning that only a small amount of stored power can be outputted to the grid.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.3>",
+    "Capacitors on the other hand, have less energy storage, but a faster discharge time.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.0.4>",
+    "&2Tools and armor pieces can be charged inside a battery socket if power is supplied.&r",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.energy_storage.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

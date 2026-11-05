@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.chapter.oq_ntm_bedrock_ores.title>",
+  "title": "Bedrock Ores",
   "icon": "hbm:machine_ore_slopper",
-  "order": 14,
+  "order": 9,
   "scope": "team",
   "links": [
     {

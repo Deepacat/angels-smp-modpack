@@ -1,12 +1,12 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.fensu.title>",
+  "title": "FEnSU",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.fensu.description.0.1>",
+    "The &3FenSU&r is the ultimate energy storage block, being able to unlimited amounts of energy. It requires &e300GHE&r of power, or &e75GHE&r with isotope boosting.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.fensu.description.0.2>"
+    "&2A Plasma Forge with a plasma input energy of 50MTU/t is required. Stellar Flux plasma is needed.&r"
   ],
   "icon": "hbm:machine_battery_redd",
   "x": 4.5,

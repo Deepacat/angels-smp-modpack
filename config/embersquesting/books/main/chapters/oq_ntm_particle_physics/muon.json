@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.muon.title>",
+  "title": "Muon",
   "icon": "hbm:particle_muon",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.muon.description.0.1>"
+    "&6Muon&r particles are created by colliding &bAntimatter&r and &bHydrogen&r. A second loop with &6NbTi Coils&r are required."
   ],
   "x": 3,
   "y": 10.5,

@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.polymer.title>",
+  "title": "Polymer",
   "icon": "hbm:ingot_polymer",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.polymer.description.0.1>",
+    "&6Polymer&r is a basic plastic material needed for many recipes. Important early uses of it are the &3Centrifuge&r and the &3Electric Arc Furnace&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.polymer.description.0.2>"
+    "&2Polymer can be skipped if one decides to make bakelite instead through further oil processing.&r"
   ],
   "x": 6.5,
   "y": 6.5,

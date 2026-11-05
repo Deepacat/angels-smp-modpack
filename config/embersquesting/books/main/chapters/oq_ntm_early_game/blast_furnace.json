@@ -1,22 +1,22 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.title>",
+  "title": "Blast Furnace",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.1>",
+    "The &3Blast Furnace&r is a solid fuel-powered furnace used to create different alloys out of two inputs. The main starter alloys are: &6Minecraft Grade Copper&r and &6Steel&r. Inserting &bHot Air Blast&r, made by putting &bCompressed Air&r in a &3Boiler&r, grants all recipes a &e5x&r boost.\n&bFlue Gas&r produced from operating the machine can be burnt for energy or vented into the atmosphere.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.2>",
+    "The Blast Furnace also comes with more efficient recipes to make &6Firebricks&r, by reducing item cost and skipping the smelting part.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.3>",
+    "At this stage of the game, the most efficient way of producing steel is by combining &6Iron Ore&r and &6Flux&r, giving 3 steel ingots.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.4>",
+    "Steel tools come equiped with vein mining, making them an excellent early-game tool.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.0.5>",
+    "&2For more advanced tools later on, pressing the ALT key will bring up a menu from which one can select multiple abilities at once.&r",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.blast_furnace.description.optional>",
+    "Optional items (not required):",
     {
       "items": [
         "hbm:steel_pickaxe"

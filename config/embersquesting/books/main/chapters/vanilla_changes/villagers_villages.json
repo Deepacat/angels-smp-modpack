@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.villagers_villages.title>",
+  "title": "Villagers & Villages",
+  "subtitle": "Halls are immoral!!",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.villagers_villages.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.villagers_villages.description.1>",
+    "Villages only generate >750 blocks from spawn",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.villagers_villages.description.3>"
+    "Villagers often reroll their trades, so no specific enchant trading halls!"
   ],
   "icon": "pastel:villager_head",
   "x": 2.5,

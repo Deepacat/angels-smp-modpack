@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.title>",
+  "title": "Ammo Press and Guns",
   "icon": "hbm:gun_light_revolver",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.0.1>",
+    "With casting available through the &3Crucible&r, many gun parts can now be created such as &6Barrels&r and &6Grips&r. An &3Ammo Press&r is used to create the various ammunitions guns use.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.0.2>",
+    "A &3Weapon Modification Table&r can be used to install weapon mods, such as &6Silencers&r and &6Scopes&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.0.3>",
+    "The &6Bullet Casing Bag&r will retrieve some of the casings when guns are fired.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.ammo_press_and_guns.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.hephaestus.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.hephaestus.description.0>"
-  ],
+  "title": "Hephaestus",
+  "subtitle": "Like if COFH made tinkers",
   "icon": "hephaestus_tools:large_plate{\"hephaestus_tools:part_material\":\"hephaestus_tools:copper\"}",
   "x": 9.25,
   "y": 0.5,

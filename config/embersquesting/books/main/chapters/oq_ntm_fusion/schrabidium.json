@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.schrabidium.title>",
+  "title": "Schrabidium",
   "icon": "hbm:nugget_schrabidium",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.schrabidium.description.0.1>",
+    "&6Schrabidium&r is a dangerous material, but one which is needed for the creation of other items, such as &6Magnetized Tungsten&r and &6Ferric Schrabidate&r. It also makes for great reactor fuel. It can be created from exposing uranium ore to radiation using either a nuclear weapon or, more easily, by exploding radioactive barrels found in the abandoned nuclear powerplants in deserts.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.schrabidium.description.0.2>"
+    "&2When holding Schrabidium, the player will receive the blindness effect, so it is recommended that a Suit which provides protection from both Bright Lights and Radiation is used."
   ],
   "x": 16.5,
   "y": 13.5,

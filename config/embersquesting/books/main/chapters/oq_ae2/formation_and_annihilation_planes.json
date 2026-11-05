@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.formation_and_annihilation_planes.title>",
+  "title": "Formation and Annihilation Planes",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.formation_and_annihilation_planes.description.0.1>\n\n<lang key=eqpack.quest.oq_ae2.formation_and_annihilation_planes.description.0.2>"
+    "The Annihilation Plane is an import bus for blocks placed in the world: it breaks them and immediately pulls the drops into the system; it doesn't do this if there's nowhere to store the drops, so you can kinda filter it by only giving it access to storage of certain item types. It can be enchanted with Silk Touch or Fortune!\n\nThe Formation Plane, somewhat confusingly, is a §ostorage bus§r for blocks placed in the world: not an export bus! It places blocks from its filter into the world, but only when these blocks are actively imported into the system! You will probably need a subnet for this."
   ],
   "icon": "ae2:formation_plane",
   "x": 10,

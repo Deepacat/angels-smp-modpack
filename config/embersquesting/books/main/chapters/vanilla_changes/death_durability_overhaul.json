@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.title>",
+  "title": "Death & Durability Overhaul",
+  "subtitle": "A little less annoying and cheesy",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.1>",
+    "Gear does not lose durability normally when mining with tools, hitting with weapons, or being hit with armor",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.3>",
+    "And on death you won't lose any items!",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.5>",
+    "Instead, §4§lon death§r you will lose:§r",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.7>",
+    "- §n25 §oflat§r durability, AND §n15% §ototal§r durability",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.9>",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.10>",
+    "on §l§4all items§r in your inventory",
+    "(Including worn and NOT including cosmetic slots)",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.death_durability_overhaul.description.12>"
+    "If an item breaks, it will become a \"broken item\" which can be repaired with a \"Repair Scrap\"."
   ],
   "icon": "goety:textures/item/focus/soulskull_spell.png",
   "x": 3.5,

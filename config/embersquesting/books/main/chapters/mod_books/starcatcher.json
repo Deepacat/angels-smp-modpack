@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.starcatcher.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.starcatcher.description.0>"
-  ],
+  "title": "Starcatcher",
+  "subtitle": "Huge fishing expansion, catch em all!... ... ...?",
   "icon": "starcatcher:starcatcher_rod",
   "x": 5.5,
   "y": 6.25,

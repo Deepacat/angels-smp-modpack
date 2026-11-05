@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.occultism.title>",
+  "title": "Occultism",
+  "subtitle": "Summoning spirits to do your bidding. And mining.",
   "description": [
-    "<lang key=eqpack.quest.mod_books.occultism.description.0>",
-    "<lang key=eqpack.quest.mod_books.occultism.description.1>"
+    "You can also marry one or 2 of them I guess."
   ],
   "icon": "occultism:textures/gui/book/pentacle.png",
   "x": 5.25,
@@ -19,7 +19,7 @@
   ],
   "rewards": [
     {
-      "title": "<lang key=eqpack.quest.mod_books.occultism.reward.0.title>",
+      "title": "Maybe a gem could lead me somewhere",
       "points": 1,
       "type": "xp"
     }

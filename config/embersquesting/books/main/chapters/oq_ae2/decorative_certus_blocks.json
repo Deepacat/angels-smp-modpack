@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.decorative_certus_blocks.title>",
+  "title": "Decorative Certus Blocks",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.decorative_certus_blocks.description.0>"
+    "Certus quartz blocks can be stonecut into a variety of decorative blocks!"
   ],
   "icon": "ae2:quartz_block",
   "x": 3,

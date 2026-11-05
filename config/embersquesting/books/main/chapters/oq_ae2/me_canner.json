@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.me_canner.title>",
+  "title": "ME Canner",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.me_canner.description.0>"
+    "This machine can put fluids into buckets and take them back out."
   ],
   "icon": "extendedae:caner",
   "y": 3,

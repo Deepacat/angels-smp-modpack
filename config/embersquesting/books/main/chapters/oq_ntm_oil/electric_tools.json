@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.electric_tools.title>",
+  "title": "Electric Tools",
   "icon": "hbm:elec_pickaxe",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.electric_tools.description.0.1>",
+    "The &6Impact Drill&r is an electric pickaxe which has prebuilt enchantments and abilities on it. It is a very useful tool which will make mining way more efficient.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.electric_tools.description.0.2>"
+    "Similar electric tools exist for the axe and shovel."
   ],
   "x": 7.5,
   "y": 4.5,

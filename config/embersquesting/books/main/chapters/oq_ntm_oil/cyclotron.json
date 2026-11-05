@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.cyclotron.title>",
+  "title": "Cyclotron",
   "icon": "hbm:machine_cyclotron",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.cyclotron.description.0.1>",
+    "The &3Cyclotron&r is a machine that bombards element powders with element boxes to get heavier elements. Operating the machine will consume&e 20MHE/s&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.cyclotron.description.0.2>",
+    "It can also create &bAntimatter&r as a byproduct for certain operations, which makes it a reliable but expensive method of large-scale advanced material production.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.cyclotron.description.0.3>"
+    "&2Consider installing the highest level of Power Saving and Speed upgrades to reduce both recipe time and power consumption.&r"
   ],
   "x": 2,
   "y": 9,

@@ -1,39 +1,30 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.title>",
-  "icon": "hbm:drone_patrol",
+  "title": "Transport Drones",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.description.0.1>",
+    "&3Transport Drones&r are flying machines which will transport items and fluids between different containers. The drones require no power, and can transport both up and down. &3Waypoints&r can be used to make a better path for the transport drones to move around.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.description.0.2>",
+    "<c value=#ff5555>Drones may be buggy.</c>",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.transport_drones.description.optional>",
+    "Optional items (not required):",
     {
-      "type": "item",
       "items": [
-        {
-          "item": "hbm:drone_patrol",
-          "count": 1
-        },
+        "hbm:drone_patrol",
         {
           "item": "hbm:drone_crate",
           "count": 2
         },
-        {
-          "item": "hbm:drone_linker",
-          "count": 1
-        },
-        {
-          "item": "hbm:drone_waypoint",
-          "count": 1
-        }
-      ]
+        "hbm:drone_linker",
+        "hbm:drone_waypoint"
+      ],
+      "type": "item"
     }
   ],
+  "icon": "hbm:drone_patrol",
   "x": 7.5,
   "y": 17.5,
   "deps": {

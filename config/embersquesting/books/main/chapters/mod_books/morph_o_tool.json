@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.morph_o_tool.title>",
+  "title": "Morph-O-Tool",
+  "subtitle": "Dynamic wrench",
   "description": [
-    "<lang key=eqpack.quest.mod_books.morph_o_tool.description.0>",
-    "<lang key=eqpack.quest.mod_books.morph_o_tool.description.1>",
+    "Can be crafted together with any other wrench to add to it, can swap to any wrench whenever you want.",
     "",
-    "<lang key=eqpack.quest.mod_books.morph_o_tool.description.3>"
+    "(Alot of magic \"wrenches\" work too!)"
   ],
   "icon": "morphtool:tool",
   "x": 13.5,

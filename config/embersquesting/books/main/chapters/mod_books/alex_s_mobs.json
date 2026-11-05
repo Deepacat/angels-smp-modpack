@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.alex_s_mobs.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.alex_s_mobs.description.0>"
-  ],
+  "title": "Alex's Mobs",
+  "subtitle": "Unique mobs with fun toys",
   "icon": "alexsmobs:warped_muscle",
   "x": 7.5,
   "y": 7.25,

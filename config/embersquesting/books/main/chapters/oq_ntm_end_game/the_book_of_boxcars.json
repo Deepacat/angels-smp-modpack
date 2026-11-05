@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.the_book_of_boxcars.title>",
+  "title": "The Book of Boxcars",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.the_book_of_boxcars.description.0.1>"
+    "The &6Book of Boxcars&r is an item which allows the crafting of many special items. The book can be found inside &eMeteorite Dungeons&r found randomly in the wilderness, indicated by either skulls on the ground of a black pillar, or in &eRed Rooms&r."
   ],
   "icon": "hbm:book_of_",
   "x": 4.5,

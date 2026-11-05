@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.zirnox.title>",
+  "title": "ZIRNOX",
   "icon": "hbm:machine_zirnox",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.zirnox.description.0.1>",
+    "The &3ZIRNOX&r is the first and cheapest nuclear reactor that one can make. Unlike the &3PWR&r and &3RBMK&r, it is a fully assembled reactor which requires &bWater&r and &bCarbon Dioxide&r to operate.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.zirnox.description.0.2>"
+    "A ZIRNOX running on &6Natural Uranium Fuel Rods&r, at 14000mb of carbon dioxide and on 3 &3Industrial Turbines&r can produce up to &e285.6kHE/s&r."
   ],
   "x": 4,
   "y": 2.5,

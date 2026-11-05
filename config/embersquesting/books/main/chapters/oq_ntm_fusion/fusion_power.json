@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.fusion_power.title>",
+  "title": "Fusion Power",
   "icon": "hbm:fusion_boiler",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_power.description.0.1>",
+    "The &3Fusion Reactor Boiler&r is simplest method of extracting power from a fusion reactor, outputting &bSuper Dense Steam&r to be run through normal turbines.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.fusion_power.description.0.2>"
+    "Due to using plasma energy, both the MHDT and the boiler are affected by port sharing rules, meaning that having multiple connected MHTDs, or boilers, decreases the amount of energy each turbine gets, but overall increases the total amount of extracted from the torus."
   ],
   "x": 11.5,
   "y": 2.5,

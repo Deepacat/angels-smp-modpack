@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.quantum_network_bridge.title>",
+  "title": "Quantum Network Bridge",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.quantum_network_bridge.description.0>"
+    "The Quantum Network Bridge is a multiblock that allows infinite-range crossdimensional connection to your AE2 system. Build two rings with a Quantum Link Chamber in the center - one connected to your controller with cables, the other one anywhere - and place two Quantum Entangled Singularities of the same pair in the chambers. Now you have access to the system from the second ring!"
   ],
   "icon": "ae2:quantum_link",
   "x": 8,

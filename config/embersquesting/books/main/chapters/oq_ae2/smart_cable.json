@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.smart_cable.title>",
+  "title": "Smart Cable",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.smart_cable.description.0>"
+    "Smart Cable displays the amount of channels it is transferring! It also looks cool!"
   ],
   "icon": "ae2:fluix_smart_cable",
   "x": 8,
@@ -15,12 +15,12 @@
     {
       "tag": "ae2:smart_cable",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ae2.smart_cable.task.0.title>"
+      "title": "Any Smart Cable"
     },
     {
       "tag": "ae2:smart_dense_cable",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ae2.smart_cable.task.1.title>"
+      "title": "Any Dense Smart Cable"
     }
   ],
   "shape": "circle"

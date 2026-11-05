@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_logistics.ror_displays_and_buttons.title>",
+  "title": "ROR Displays and Buttons",
   "icon": "hbm:rbmk_display_blank",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.ror_displays_and_buttons.description.0.1>"
+    "ROR &3Panels&r can be used to craft useful ROR components such as Gauges, Switches, Graphs and more. Shift-Click with a screwdriver to configure them once placed."
   ],
   "x": 9,
   "y": 2,

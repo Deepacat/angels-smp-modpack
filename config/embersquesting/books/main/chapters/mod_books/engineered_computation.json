@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.engineered_computation.title>",
+  "title": "Engineered Computation",
+  "subtitle": "Retro-Digital storage mod",
   "description": [
-    "<lang key=eqpack.quest.mod_books.engineered_computation.description.0>",
-    "<lang key=eqpack.quest.mod_books.engineered_computation.description.1>"
+    "Similar to Ae2 however much more limited in capability, still works as a tech style storage mod"
   ],
   "icon": "engineered_computation:era5_terminal",
   "x": 10.25,

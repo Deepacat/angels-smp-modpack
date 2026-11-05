@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_item_pickup.title>",
+  "title": "Glyph of Item Pickup",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_item_pickup.description.0>"
+    "You can place it on a projectile+break spell and collect blocks from a great distance!"
   ],
   "icon": "ars_nouveau:glyph_pickup",
   "x": 5,

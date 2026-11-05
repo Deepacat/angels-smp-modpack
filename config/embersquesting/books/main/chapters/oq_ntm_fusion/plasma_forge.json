@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.plasma_forge.title>",
+  "title": "Plasma Forge",
   "icon": "hbm:fusion_plasma_forge",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.plasma_forge.description.0.1>",
+    "The &3Plasma Forge&r is a large and advanced assembler that requires a running fusion reactor to work. It can weld plates at twice the speed of a normal welder. It does not accept upgrades, however, it can use up otherwise useless fission fragments and unstable isotopes to gain a temporary &ex4&r speed bonus with no penalty.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.plasma_forge.description.0.2>",
+    "Plasma Forges pass on 75% of the thermal energy, meaning that with a simple Deuterium - Oxygen fusion reactor, up to 4 can be chained for welding purposes.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.plasma_forge.description.0.3>"
+    "&2With 3MTU/t plasma energy input, one can make pre-assembled fusion reactors with a discount.&r&r"
   ],
   "x": 11.5,
   "y": 9,

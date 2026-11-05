@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.storage_monitor.title>",
+  "title": "Storage Monitor",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.storage_monitor.description.0>"
+    "This fella displays the total amount of a filtered item that your system is storing!"
   ],
   "icon": "ae2:storage_monitor",
   "x": 9,

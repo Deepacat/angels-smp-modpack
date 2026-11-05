@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.title>",
+  "title": "Electricity Pylons",
   "icon": "hbm:red_pylon_medium_steel_transformer",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.0.1>",
+    "&3Electricity Pylons&r are used to transport power more easily between larger distances. There are two variants, going from 25 blocks per pylon to 45 respectively.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.0.2>",
+    "The 45 block pylon variants require the ones with transformers to input and output energy.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.0.3>",
+    "&2These cables can be dyed.&r",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_pylons.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

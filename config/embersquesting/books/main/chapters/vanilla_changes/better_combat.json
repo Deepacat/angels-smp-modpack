@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.better_combat.title>",
+  "title": "Better Combat",
+  "subtitle": "DON'T RUN AWAY YET JUST READ ME !!",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.1>",
+    "First of all you can §n§ltoggle off§r better combat swinging for yourself!",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.3>",
+    "Check the controls for the keybind \"Toggle better combat\" (Default B)",
     "",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.6> ",
+    "However, Better combat is tweaked to not be annoyingly sluggish! ",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.better_combat.description.8>"
+    "It will not slow you when swinging, and there is no delay from your click to the swing happening."
   ],
   "icon": "minecraft:diamond_sword",
   "x": 2.5,

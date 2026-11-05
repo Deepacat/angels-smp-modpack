@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.chapter.oq_ntm_particle_physics.title>",
+  "title": "Particle Physics",
   "icon": "hbm:particle_lutece",
-  "order": 11,
+  "order": 6,
   "scope": "team",
   "links": [
     {

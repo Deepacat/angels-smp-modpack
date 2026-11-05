@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.going_wireless.title>",
+  "title": "Going Wireless",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.going_wireless.description.0.1>\n<lang key=eqpack.quest.oq_ae2.going_wireless.description.0.2>"
+    "Tired of running to your terminals every time you need to craft something? Luckily, we have a wireless version!\nYou need to click the terminal into the Wireless Access Point to link it."
   ],
   "icon": "ae2:wireless_access_point",
   "x": 4,

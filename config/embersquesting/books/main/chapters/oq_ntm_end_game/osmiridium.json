@@ -1,14 +1,14 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.title>",
+  "title": "Osmiridium",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.description.0.1>",
+    "&6Osmiridium&r is the second most expensive material and is used primarely in the &3DFC&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.description.0.2>",
+    "The ratio is 9 Osmiridium-Infused Tektite to one ingot.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_end_game.osmiridium.description.0.3>"
+    "&2Installing an effectiveness upgrade on the ore acidizer is recommended.&r"
   ],
   "icon": "hbm:ingot_osmiridium",
   "x": 2,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_fell.title>",
+  "title": "Glyph of Fell",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_fell.description.0>"
+    "Cuts trees down in like... three casts max :D"
   ],
   "icon": "ars_nouveau:glyph_fell",
   "x": 7,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_split.title>",
+  "title": "Glyph of Split",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_split.description.0>"
+    "Using this on a projectile creates an additional projectile, so twice the spell!"
   ],
   "icon": "ars_nouveau:glyph_split",
   "x": 10,

@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.alchemist_s_crown.title>",
+  "title": "Alchemist's Crown",
+  "subtitle": "Their names were to be replaced by shades ascending from scarlet",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.alchemist_s_crown.description.0>",
-    "<lang key=eqpack.quest.oq_ars.alchemist_s_crown.description.1>"
+    "Instantly drink potions! It's a shame this doesn't display on your player model, it's beautiful..."
   ],
   "icon": "ars_nouveau:alchemists_crown",
   "x": 13,

@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.parkour.title>",
+  "title": "Parkour",
+  "subtitle": "NOT \"Parcool\"",
   "description": [
-    "<lang key=eqpack.quest.mod_books.parkour.description.0>",
-    "<lang key=eqpack.quest.mod_books.parkour.description.1>",
+    "Simple parkour is present but is disabled alongside it's keybinds by default, if you want to try the mod you can rebind them.",
     "",
-    "<lang key=eqpack.quest.mod_books.parkour.description.3>",
+    "(It's really fun mostly unobtrusive movement stuff unlike parcool)",
     "",
-    "<lang key=eqpack.quest.mod_books.parkour.description.5>",
-    "<lang key=eqpack.quest.mod_books.parkour.description.6>",
-    "<lang key=eqpack.quest.mod_books.parkour.description.7>",
-    "  <lang key=eqpack.quest.mod_books.parkour.description.8>",
-    "<lang key=eqpack.quest.mod_books.parkour.description.9>",
-    "<lang key=eqpack.quest.mod_books.parkour.description.10>"
+    "Features:",
+    "- Sliding",
+    "- Wall mantles (lets you hold a ledge and shimmy",
+    "  across/around it)",
+    "- Wall jumps",
+    "- Breakfalls (rolls out of fall damage)"
   ],
   "icon": "minecraft:textures/mob_effect/jump_boost.png",
   "x": 12.5,

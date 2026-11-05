@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.welded_osmiridium_plate.title>",
+  "title": "Welded Osmiridium Plate",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.welded_osmiridium_plate.description.0.1>"
+    "&6Welded Osmiridium Plates&r cost 300 Billion &eHE&r to produce, so good energy generation and storage infrastructure is needed."
   ],
   "icon": "hbm:plate_welded_osmiridium",
   "x": 2,

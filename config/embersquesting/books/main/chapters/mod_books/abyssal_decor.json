@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.abyssal_decor.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.abyssal_decor.description.0>"
-  ],
+  "title": "Abyssal Decor",
+  "subtitle": "Awesome blocks & decor objects",
   "icon": "abyssal_decor:fresnel_lamp",
   "x": 1.25,
   "y": 5.75,

@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.hazmat_suits.title>",
+  "title": "Hazmat Suits",
   "icon": "hbm:hazmat_helmet",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.hazmat_suits.description.0.1>",
+    "&6Hazmat Suits&r provide protection against many hazards, mainly radiation. &6Hazmat Cloth&r can be further strengthened to create more resistant hazmat suits.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.hazmat_suits.description.0.2>"
+    "To provide additional protection against environmental dangers, a &6Gas Mask Filter&r is needed, which can be equiped by right-clicking while holding it."
   ],
   "x": 19.5,
   "y": 22.5,

@@ -1,25 +1,25 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.title>",
+  "title": "Chicago Pile",
   "icon": "hbm:pile_brick",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.description.0.1>",
+    "The &3Chicago Pile&r is a low-tech reactor used for breeding nuclear materials, such as &6Plutonium-239&r and &6Reactor Grade Plutonium&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.description.0.2>",
+    "The Pile is constructed out of Chicago Pile Graphite Bricks, with a minimum size of 5x5 and a maximum of 15x15. The box does not need to be a perfect cube, so shapes like 5x7x9 are valid as long as the shape is filled.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.description.0.3>",
+    "To assemble it, right-click with a &6Hand Drill&r. Using the hand drill on other sides will create holes needed for the various mechanisms of the reactor.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.description.0.4>",
+    "The front side of the reactor houses the fuel inputs, and at the opposite side the fuel outputs. On the other sides of the reactor is where air inlets are created, which need to be supplied with &bCompressed Air&r at &e1PU&r. Drilling at the top of the reactor creates control rods which are useful for more precise fuel breeding. It is important to mention that none of the above mechanisms can intersect with eachother.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.description.0.5>",
+    "Chicago Pile &3Fuel Loaders&r, &3Vents&r and &3Control Rods&r can be controlled using Redstone-Over-Radio for automation purposes.",
     "",
-    "<lang key=eqpack.common.press_f1_for_info>",
+    "Press [F1] for more info on applicable items",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.chicago_pile.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

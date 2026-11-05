@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.magebloom.title>",
+  "title": "Magebloom",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.magebloom.description.0>"
+    "An arcane plant that grows magical fiber!"
   ],
   "icon": "ars_nouveau:magebloom",
   "x": 8,

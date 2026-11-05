@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.immersive_armors.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.immersive_armors.description.0>"
-  ],
+  "title": "Immersive Armors",
+  "subtitle": "Niche armors with unique abilities",
   "icon": "immersive_armors:wooden_chestplate",
   "x": 10.5,
   "y": 4.75,

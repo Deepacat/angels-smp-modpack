@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.applied_energistics_2.title>",
+  "title": "Applied Energistics 2",
+  "subtitle": "Future-Alien-Digital storage mod",
   "description": [
-    "<lang key=eqpack.quest.mod_books.applied_energistics_2.description.0>",
-    "<lang key=eqpack.quest.mod_books.applied_energistics_2.description.1>"
+    "Most recipes are gated behind progression in HBM's Nuclear Tech Mod"
   ],
   "icon": "ae2:controller",
   "x": 10.75,

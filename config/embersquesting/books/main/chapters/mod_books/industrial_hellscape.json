@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.industrial_hellscape.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.industrial_hellscape.description.0>"
-  ],
+  "title": "Industrial Hellscape",
+  "subtitle": "Industrial style blocks and furniture",
   "icon": "industrialhellscape:inhell_haven_device",
   "x": 0.75,
   "y": 4.75,

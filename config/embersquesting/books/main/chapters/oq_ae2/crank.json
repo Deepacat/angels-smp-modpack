@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.crank.title>",
+  "title": "Crank",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.crank.description.0>"
+    "The crank provides a small amount of energy to machines while you hold right click on it. An early game solution, e.e., to charge your Meteorite Compass."
   ],
   "icon": "ae2:crank",
   "x": 3.5,

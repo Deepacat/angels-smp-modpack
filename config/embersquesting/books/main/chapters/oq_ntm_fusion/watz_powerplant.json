@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fusion.watz_powerplant.title>",
+  "title": "Watz Powerplant",
   "icon": "hbm:watz",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fusion.watz_powerplant.description.0.1>",
+    "The &3Watz&r powerplant is a fission reactor which can produce &bPoisonous Mud&r, an important component of &6CMB Steel&r. Although the reactor is not really powerful in terms of energy output, it can be stacked ontop of eachother for increased mud and power production.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fusion.watz_powerplant.description.0.2>"
+    "If the poisonous mud buffer reaches its maximum, the reactor will melt down and explode, irradiating a wide area around it and causing fallout to fall in a small area around it. As well as this, it will spew poisonous mud in a very wide area which will then corrode any blocks that it comes in contact with, similar to corium."
   ],
   "x": 16.5,
   "y": 5.5,

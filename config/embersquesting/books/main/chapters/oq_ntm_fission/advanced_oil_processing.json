@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.title>",
+  "title": "Advanced Oil Processing",
   "icon": "hbm:machine_catalytic_reformer",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.0.1>",
+    "The &3Catalytic Reformer&r is an optional late-game oil processing machine. It converts certain oil products into more valuable ones.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.0.2>",
+    "The &3Hydrotreater&r is another optional late-game oil processing machine that allows for easier production of &bSour Gas&r, which can also turn &bCrude Oil&r into &bDesulfurized crude Oil&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.0.3>",
+    "&2The Hydrotreater requires pressurized Liquid Hydrogen in all its recipes, requiring the use of a Compressor.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.advanced_oil_processing.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

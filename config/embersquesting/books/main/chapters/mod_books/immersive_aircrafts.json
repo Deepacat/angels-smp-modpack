@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.immersive_aircrafts.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.immersive_aircrafts.description.0>"
-  ],
+  "title": "Immersive Aircrafts",
+  "subtitle": "Planes and other simple aerial vehicles",
   "icon": "immersive_aircraft:biplane",
   "x": 12.5,
   "y": 4.75,

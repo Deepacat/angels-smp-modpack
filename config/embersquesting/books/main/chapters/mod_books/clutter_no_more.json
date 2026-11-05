@@ -1,12 +1,12 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.clutter_no_more.title>",
+  "title": "Clutter No More",
+  "subtitle": "No more slab/stair/variant annoyance",
   "description": [
-    "<lang key=eqpack.quest.mod_books.clutter_no_more.description.0>",
-    "<lang key=eqpack.quest.mod_books.clutter_no_more.description.1>",
+    "Clutter No More adds a scrollable variant menu for blocks",
     "",
-    "<lang key=eqpack.quest.mod_books.clutter_no_more.description.3>",
+    "This lets you easily swap between full block, slab, stairs",
     "",
-    "<lang key=eqpack.quest.mod_books.clutter_no_more.description.5>"
+    "It even adds new variants of tons of blocks, for vertical slabs/stairs and more"
   ],
   "icon": "clutternomore:vertical_oak_stairs",
   "x": 11.5,

@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.supplementaries.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.supplementaries.description.0>"
-  ],
+  "title": "Supplementaries",
+  "subtitle": "Many interactive decor & redstone blocks",
   "icon": "supplementaries:hourglass",
   "x": 2.25,
   "y": 5.75,

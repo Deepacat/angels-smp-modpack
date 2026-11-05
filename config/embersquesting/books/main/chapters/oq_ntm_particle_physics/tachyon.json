@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.tachyon.title>",
+  "title": "Tachyon",
   "icon": "hbm:particle_tachyon",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.tachyon.description.0.1>"
+    "&6Tachyon&r particles are created by colliding &6Higgs Boson&r and &6Muon particles&r."
   ],
   "x": 1.5,
   "y": 10.5,

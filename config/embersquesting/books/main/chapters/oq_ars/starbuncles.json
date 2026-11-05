@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.starbuncles.title>",
+  "title": "Starbuncles",
+  "subtitle": "Cannot evolve into a Sylveon :/",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.starbuncles.description.0>",
-    "<lang key=eqpack.quest.oq_ars.starbuncles.description.1.1>\n\n<lang key=eqpack.quest.oq_ars.starbuncles.description.1.2>"
+    "Starbuncles can move items between chests and collect Source Berries! To tell one where to deposit the items, use the Dominion Wand, and to obtain a starbuncle token in the first place, give a wild starbuncle a gold nugget.\n\n§oNota Bene:§r if you like the color of a wild starbuncle, nametag it before giving it a gold nugget - this will give you a named token, which when converted into a charm will summon a starbuncle of the same name and color!"
   ],
   "icon": "ars_nouveau:starbuncle_charm",
   "x": 9,
@@ -24,7 +24,7 @@
     {
       "id": "ftbquests:1000acab712337a7",
       "type": "custom",
-      "title": "<lang key=eqpack.quest.oq_ars.starbuncles.task.2.title>"
+      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "shape": "circle"

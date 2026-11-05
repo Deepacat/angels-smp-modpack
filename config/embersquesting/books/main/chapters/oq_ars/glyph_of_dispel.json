@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_dispel.title>",
+  "title": "Glyph of Dispel",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_dispel.description.0>"
+    "Can be used to return Ars pets into their charms and release mobs out of Containment Jars!"
   ],
   "icon": "ars_nouveau:glyph_dispel",
   "x": 7.5,

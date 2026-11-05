@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_conjure_magelight.title>",
+  "title": "Glyph of Conjure Magelight",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_conjure_magelight.description.0>"
+    "Now you can shoot infinite magical torches! And applied to self, this gives night vision for a short time."
   ],
   "icon": "ars_nouveau:glyph_light",
   "x": 3,

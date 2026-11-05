@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.industrial_steam_turbine.title>",
+  "title": "Industrial Steam Turbine",
   "icon": "hbm:machine_industrial_turbine",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.industrial_steam_turbine.description.0.1>",
+    "The &3Industrial Steam Turbine&r is a multiblock machine that is a more powerful version of the &3Steam Engine&r. It has an efficiency of &e100%&r and energy output slowly ramps up as &bSteam&r is supplied and slowly goes down as steam cuts out. Additionally, it can process more dense versions of steam for more powerful reactor designs. It can process up to &e6MHE/s&r on normal steam.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.industrial_steam_turbine.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

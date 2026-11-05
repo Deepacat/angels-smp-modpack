@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.potion_diffuser.title>",
+  "title": "Potion Diffuser",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.potion_diffuser.description.0>"
+    "Spreads potions in an area of effect rather efficiently, at the cost of Source!"
   ],
   "icon": "ars_nouveau:potion_diffuser",
   "x": 12.5,

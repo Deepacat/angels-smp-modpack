@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.title>",
+  "title": "Redstone-Over Radio",
   "icon": "hbm:radio_torch_sender",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.description.0.1>",
+    "&dNTM&r introduces &eRedstone-Over Radio&r, which is a system of sending redstone signals wirelessly. There are many ROR components which serve different purposes, from maintaining a certain amount of fluid in a tank to reading item amounts in containers.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.description.0.2>",
+    "The foundational components of this system are the ROR &6Transmitter&r and &6Receiver&r. As their name suggests, they can send and receive redstone signals. For them to be linked together, both need the same &eID&r.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.redstone_over_radio.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

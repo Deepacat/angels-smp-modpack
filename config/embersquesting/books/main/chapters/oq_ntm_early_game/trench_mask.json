@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.trench_mask.title>",
+  "title": "Trench Mask",
   "icon": "hbm:mask_piss",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.trench_mask.description.0.1>",
+    "The &6Trench Mask&r is a basic mask that will protect the user from some dangerous airborne particles while mining. To craft one you must first obtain &6Cloth&r and then piss on it by right clicking while holding it.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.trench_mask.description.0.2>"
+    "&2String can be easily obtained by harvesting Hemp, found in the wild."
   ],
   "x": 13,
   "y": 3.5,

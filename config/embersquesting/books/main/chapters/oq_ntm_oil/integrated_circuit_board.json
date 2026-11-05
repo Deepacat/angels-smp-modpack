@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.integrated_circuit_board.title>",
+  "title": "Integrated Circuit Board",
   "icon": "hbm:circuit_basic",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.integrated_circuit_board.description.0.1>",
+    "The &6Integrated Circuit Board&r is the first circuit board to use &6Silicon&r, being used extensively in mid game machines, automation devices, missiles, and various small tools such as the &6Geiger Counter&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.integrated_circuit_board.description.0.2>"
+    "&2If a Blueprint is found, the circuit can be manufactured using Rubber.&r"
   ],
   "x": 6.5,
   "y": 16,

@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.title>",
+  "title": "Geiger Counter",
   "icon": "hbm:geiger_counter",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.1>",
+    "The &6Geiger counter&r is a device used to measure &eRAD/s&r, in order to inform the player of any eventual radiation. It is an upgrade to the &6Dosimeter&r. It can measure three different types of radiation, those types being chunk radiation, environmental radiation and player contamination.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.2>",
+    "It can be used in one of two forms, either as a hand-held item or in its block form.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.3>",
+    "Holding it in the inventory will show a meter on the bottom left of the screen, and right clicking while holding it will send a message in chat showing the various doses of radiation.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.geiger_counter.description.0.4>"
+    "It will also click whenever it reads any kind of radiation, a signature function of any dosimeter."
   ],
   "x": 5,
   "y": 16,

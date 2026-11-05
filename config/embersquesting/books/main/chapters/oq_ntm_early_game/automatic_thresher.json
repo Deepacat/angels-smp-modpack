@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.automatic_thresher.title>",
+  "title": "Automatic Thresher",
   "icon": "hbm:machine_thresher",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.automatic_thresher.description.0.1>",
+    "The &3Automatic Thresher&r harvests crops such as &6Wheat&r, &6Hemp&r, &6Sugarcane&r, ect in a 7x7 area when supplied with fuel. It will eject all items from the back.",
     "",
-    "<lang key=eqpack.common.press_f1_for_info>"
+    "Press [F1] for more info on applicable items"
   ],
   "x": 5.5,
   "y": 18.5,

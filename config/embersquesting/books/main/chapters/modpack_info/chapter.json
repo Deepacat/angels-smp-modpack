@@ -1,5 +1,5 @@
 {
-  "title": "<lang key=eqpack.chapter.modpack_info.title>",
+  "title": "Modpack Info",
   "icon": "jei:textures/gui/sprites/icons/info.png",
   "scope": "team",
   "defaults": {

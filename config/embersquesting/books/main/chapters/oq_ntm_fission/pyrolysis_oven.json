@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.title>",
+  "title": "Pyrolysis Oven",
   "icon": "hbm:machine_pyrooven",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.description.0.1>",
+    "The &3Pyrolysis Oven&r is a mid-to-late game oil processing machine that allows easier production pf &6Crystalline Fullerite&r, which is needed in bulk for late-game machines onwards.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.description.0.2>",
+    "It can process an item with an optional fluid to produce another item and/or fluid. Functionally, it works similar to the &3Combination Oven&r, mostly in bedrock ore processing.\nIts main use however is in production of &6Fullerene&r, as it can turn &6Tar&r into &6Fine Soot&r, eliminating the RNG of a &3Smokestack&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.pyrolysis_oven.description.0.3>"
+    "Operating the pyrolysis oven will consume &e200kHE/s&r.\n&2\nConsider installing a Power Saving upgrade as it will significantly reduce the power consumption without speed penalty.&. At lvl 3 the power consumption goes down to 50kHE/s.&r"
   ],
   "x": 14.5,
   "y": 20,

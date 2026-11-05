@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.archwood.title>",
+  "title": "Archwood",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.archwood.description.0.1>\n\n<lang key=eqpack.quest.oq_ars.archwood.description.0.2>"
+    "Find a colorful Archwood Tree and collect its logs!\n\nDid you know these grow from a single sapling despite being two by two blocks thick? You can revolutionize your wood farm with them!"
   ],
   "icon": "ars_nouveau:red_archwood_sapling",
   "x": 3,
@@ -10,7 +10,7 @@
     {
       "tag": "c:logs/archwood",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ars.archwood.task.0.title>"
+      "title": "Any Archwood Logs"
     }
   ],
   "shape": "circle"

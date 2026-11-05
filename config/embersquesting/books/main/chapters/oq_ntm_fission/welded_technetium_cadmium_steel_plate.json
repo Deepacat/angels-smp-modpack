@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.welded_technetium_cadmium_steel_plate.title>",
+  "title": "Welded Technetium/Cadmium Steel Plate",
   "icon": "hbm:plate_welded_tcalloy",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.welded_technetium_cadmium_steel_plate.description.0.1>",
+    "The &6Welded Technetium/Cadmium Steel Plate&r is the welded varient of the cast technetium/cadmium steel plate and is used in some recipes that require strong materials.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.welded_technetium_cadmium_steel_plate.description.0.2>"
+    "&2Make sure to have good energy generation and storage infrastructure as each plate costs 1.2 Billion HE."
   ],
   "x": 6,
   "y": 20,

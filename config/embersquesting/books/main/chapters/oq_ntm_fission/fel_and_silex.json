@@ -1,25 +1,25 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.title>",
+  "title": "FEL and SILEX",
   "icon": "hbm:machine_fel",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.1>",
+    "The &3FEL&r or Free Electron Laser is a large multiblock utilized with the SILEX to produce various laser wavelengths needed for all SILEX recipes.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.2>",
+    "A single FEL can power up to 5 SILEX'es. In order to stop the laser any concrete block can be in the its path.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.3>",
+    "The lower the wavelength of the crystal, the faster recipes will be completed.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.4>",
+    "The &6&3SILEX&r is a machine that separates isotopes and elements from compounds or other materials via the SILEX (Separation of Isotopes by Laser Exitation) process. It allows for easier enrichment of &6Uranium&r, &6Plutonium&r, and &6Australium&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.5>",
+    "The SILEX can also process &6Lapis Lazuli&r into &6Sulfur&r, &6Aluminium&r, and most importantly &6Cobalt&r. It can use &bHydrogen Peroxide&r to liquify any material to be processed, the material may even be in a powder state. The processed items come out into the right side collection of slots.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.0.6>",
+    "The SILEX must be placed at least 2 blocks away from activated FEL laser, or else its going to melt.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.fel_and_silex.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

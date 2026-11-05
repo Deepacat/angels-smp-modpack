@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.trinkets.title>",
+  "title": "Trinkets",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.trinkets.description.0>"
+    "Ars Nouveau has a variety of trinkets providing boosts to things like mana regeneration! A Trinket Pouch can hold multiple of them and provide all the effects!"
   ],
   "icon": "ars_nouveau:ring_of_greater_discount",
   "x": 13,
@@ -15,7 +15,7 @@
     {
       "filter": "or(item(ars_nouveau:ring_of_lesser_discount) item(ars_nouveau:ring_of_greater_discount) item(ars_nouveau:jump_ring) item(ars_nouveau:amulet_of_mana_boost) item(ars_nouveau:amulet_of_mana_regen) item(ars_nouveau:belt_of_levitation) item(ars_nouveau:belt_of_unstable_gifts) item(ars_nouveau:jar_of_light) item(ars_nouveau:void_jar))",
       "type": "item",
-      "title": "<lang key=eqpack.quest.oq_ars.trinkets.task.0.title>"
+      "title": "Any Ars Trinket"
     },
     {
       "item": "ars_elemental:curio_bag",

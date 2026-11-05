@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.crystal_resonance_generator.title>",
+  "title": "Crystal Resonance Generator",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.crystal_resonance_generator.description.0>"
+    "This block makes 40 FE/t out of thin air! Sadly, you can only have one of them on any AE2 network."
   ],
   "icon": "ae2:crystal_resonance_generator",
   "x": 4.5,

@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.scry_crystal.title>",
-  "description": [
-    "<lang key=eqpack.quest.oq_ars.scry_crystal.description.0>"
-  ],
+  "title": "Scry Crystal",
+  "subtitle": "Access the world remotely!",
   "icon": "ars_nouveau:scryers_crystal",
   "x": 13,
   "y": 3,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.channels.title>",
+  "title": "Channels",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.channels.description.0.1>\n\n<lang key=eqpack.quest.oq_ae2.channels.description.0.2>\n<lang key=eqpack.quest.oq_ae2.channels.description.0.3>\n<lang key=eqpack.quest.oq_ae2.channels.description.0.4>\n\n<lang key=eqpack.quest.oq_ae2.channels.description.0.5>"
+    "An infamous part of AE2 is its channel system. You can only connect so much with a simple cable before you run out of channels.\n\nControllers §oprovide§r channels: 32 from every side of the block. Controllerless networks are limited to 8 channels per network.\nCables §otransfer§r channels: standard cables have a throughput of 8 channels, while dense ones support all 32.\nBuses, pattern providers and other network parts §orequire§r one channel each to run. To have this channel, a line of cables must transfer it all the way from a controller face.\n\nThe command /ae2 channelmode can change channel settings to multiply the amount of channels cables fit (x2, x3, x4) or turn the system off completely (/ae2 channelmode infinite)"
   ],
   "x": 3,
   "y": 2,

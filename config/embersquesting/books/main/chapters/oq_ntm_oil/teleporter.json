@@ -1,19 +1,19 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.teleporter.title>",
+  "title": "Teleporter",
   "icon": "hbm:machine_teleporter",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.0.1>",
+    "The &3Teleporter&r can be used to teleport players, and entities in general, to a specific location.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.0.2>",
+    "Right-click a block with the &6Telelinker&r to set the desired exit position, then shift-click the teleporter with the telelinker to configure the teleporter.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.0.3>",
+    "&2The teleporter is a one way trip so it is advised that multiple are made.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.teleporter.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

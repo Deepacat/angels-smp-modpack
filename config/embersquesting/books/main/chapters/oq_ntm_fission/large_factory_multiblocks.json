@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.large_factory_multiblocks.title>",
+  "title": "Large Factory Multiblocks",
   "icon": "hbm:machine_chemical_factory",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.large_factory_multiblocks.description.0.1>",
+    "The &3Chemical Factory&r is a large version of the &3Chemical Plant&r, capable of performing 4 recipes in parallel. It has double the speed of the chemical plant but consumes twice as much power. Additionally, it consumes &bWater&r as a coolant, and produces &bLow-Pressure Steam&r, so a closed water cycle is recommended.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.large_factory_multiblocks.description.0.2>"
+    "The &3Assembly Factory&r is a large version of the &3Assembly Machine&r, capable of performing 4 recipes in parallel. It functions the same as the chemical factory."
   ],
   "x": 2,
   "y": 12.5,

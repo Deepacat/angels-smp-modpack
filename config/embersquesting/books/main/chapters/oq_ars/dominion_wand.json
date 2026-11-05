@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.dominion_wand.title>",
+  "title": "Dominion Wand",
+  "subtitle": "Domain expansion!",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.dominion_wand.description.0>",
-    "<lang key=eqpack.quest.oq_ars.dominion_wand.description.1>"
+    "I know I just said Ars blocks all magically connect to each other, but that's only true of the simple blocks like Source Jars. More advanced sourcery requires the use of a Dominion Wand"
   ],
   "icon": "ars_nouveau:dominion_wand",
   "x": 8,

@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.title>",
+  "title": "Dense Wires",
   "icon": "hbm:wire_dense_red_copper",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.1>",
+    "&6Dense Wires&r are another crafting component used in many recipes. The first one must be made in a &3Welder&r and the recipe consumes &e10kHE/t&r. After its made, it can be used to make a casting mold for the &3Crucible&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.2>",
+    "&2It is recommended that the recipe is attempted only after good enough energy generation is achieved or a sufficiently large amount of energy storage is obtained.&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.3>",
+    "&6Dense Minecraft Grade Wires&r unlock a cheaper and easier way of producing Motors.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.dense_wires.description.0.4>"
+    "&6Dense Gold Wires&r unlock the next tier of &3Capacitors&r."
   ],
   "x": 10,
   "y": 18.5,

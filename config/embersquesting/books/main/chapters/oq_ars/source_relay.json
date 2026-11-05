@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.source_relay.title>",
-  "description": [
-    "<lang key=eqpack.quest.oq_ars.source_relay.description.0>"
-  ],
+  "title": "Source Relay",
+  "subtitle": "Transports source long distances",
   "icon": "ars_nouveau:relay",
   "x": 11.5,
   "y": 3.5,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.where_am_i.title>",
+  "title": "Where am I??",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.where_am_i.description.0>"
+    "You can teleport §oyourself§r to the Spatial Storage pocket dimension if you stand inside the box while it's cut! Now how would I get out of here..."
   ],
   "icon": "minecraft:black_concrete",
   "x": 11,

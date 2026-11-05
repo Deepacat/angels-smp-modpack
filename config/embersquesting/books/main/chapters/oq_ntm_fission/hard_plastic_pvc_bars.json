@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.hard_plastic_pvc_bars.title>",
+  "title": "Hard Plastic/PVC Bars",
   "icon": "hbm:ingot_pvc",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.hard_plastic_pvc_bars.description.0.1>",
+    "&6Hard Plastic/PVC Bars&r are very durable plastics needed for many late game recipes.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.hard_plastic_pvc_bars.description.0.2>"
+    "&2Both can be used in the same recipes."
   ],
   "x": 18.5,
   "y": 16,

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.enchanting_apparatus.title>",
+  "title": "Enchanting Apparatus",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.enchanting_apparatus.description.0>"
+    "This multiblock crafts most unique items in Ars Nouveau. It is made of an Arcane Core with an Enchanting Apparatus on top of it and eight Arcane Pedestals surrounding the core."
   ],
   "icon": "ars_nouveau:enchanting_apparatus",
   "x": 7,

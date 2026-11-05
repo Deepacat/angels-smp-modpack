@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.servo_set.title>",
+  "title": "Servo Set",
   "icon": "hbm:servo_set",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.servo_set.description.0.1>",
+    "The &6Servo Set&r is an armor modification which grants various buffs, such as &eHaste&r, &eStrength&r, &eSpeed&r and &eJump Boost&r. It can be equiped both for the chestplate and leggings.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.servo_set.description.0.2>"
+    "It can later be upgraded with &6Desh&r to further boost its buffs."
   ],
   "x": 19.5,
   "y": 10,

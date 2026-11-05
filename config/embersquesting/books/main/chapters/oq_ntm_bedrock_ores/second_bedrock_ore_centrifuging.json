@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.second_bedrock_ore_centrifuging.title>",
+  "title": "Second Bedrock Ore Centrifuging",
   "icon": "hbm:centrifuge_element",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.second_bedrock_ore_centrifuging.description.0.1>",
+    "Centrifuge your Solvent Washed Bedrock ores to seperate primary and secondary products.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.second_bedrock_ore_centrifuging.description.0.2>"
+    "&2The following quests will assume that High-Performance Solvent is used."
   ],
   "x": 2.5,
   "y": 9,

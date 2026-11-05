@@ -1,21 +1,21 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.nuclear_waste_disposal_drum.title>",
+  "title": "Nuclear Waste Disposal Drum",
   "icon": "hbm:machine_storage_drum",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_waste_disposal_drum.description.0.1>",
+    "The &3Nuclear Waste Disposal Drum&r is used to decay &3RBMK&r nuclear waste. The decayed nuclear waste can then be used with a &3FEL&r and &3SILEX&r to obtain some rare elements, such as &6Bismuth&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_waste_disposal_drum.description.0.2>",
+    "&2The drum also emmits radiation when theres fuel inside it.&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_waste_disposal_drum.description.0.3>",
+    "Later on, the &3Radiation-Powered Engine&r is a more reliable way of decaying rbmk fuel as you get guaranteed consistent decay times. Additionally it also provides power and doesnt emmit radiation.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_waste_disposal_drum.description.0.4>",
+    "&2Blueprints can be found in structures, purchased through Bobmazon or made in a Precision Assembler.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_waste_disposal_drum.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

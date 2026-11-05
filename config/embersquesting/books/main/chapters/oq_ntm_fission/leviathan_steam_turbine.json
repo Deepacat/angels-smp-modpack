@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.leviathan_steam_turbine.title>",
+  "title": "Leviathan Steam Turbine",
   "icon": "hbm:machine_chungus",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.leviathan_steam_turbine.description.0.1>"
+    "The &3Leviathan Steam Turbine&r is a massive turbine capable of processing gargantuan amounts of &bSteam&r at once, only hindered by the fluid system's transfer rate. It is significantly more powerful than even the &3Industrial Steam Turbine&r in terms of raw steam processing power. This turbine runs on &e85%&r Efficiency, so it is recommended that only 1-2 are used for very large reactors."
   ],
   "x": 2,
   "y": 14.5,

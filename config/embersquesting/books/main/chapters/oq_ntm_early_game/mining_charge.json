@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.mining_charge.title>",
+  "title": "Mining Charge",
   "icon": "hbm:det_miner",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.mining_charge.description.0.1>",
+    "The &3Mining Charge&r is an explosive made with the express purpose of mining, as such it's commonly used to mine depth ores, since it dosen't destroy drops, before getting a pickaxe that can do the same.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.mining_charge.description.0.2>",
+    "It has an explosion radius of about 3 blocks and explodes instantly upon being powered by redstone, while exploding it does no damage to entities.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.mining_charge.description.0.3>"
+    "There are two other variants of this, being the &3Timed Mining Charge&r and the &b&3Semtex Mining Charge&r, they are both timed explosives with the semtex one being stronger than the regular one and having &eFortune 3&r, meanwhile the timed mining charge does not seem to have enhanced capabilities, other than being timed and thus more convinient to use."
   ],
   "x": 18,
   "y": 5.5,

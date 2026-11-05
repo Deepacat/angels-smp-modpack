@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.title>",
-  "description": [
-    "<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.description.0.1>\n\n<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.description.0.2>\n<lang key=eqpack.quest.vanilla_changes.changes_to_vanilla_mechanics.description.0.3>"
-  ],
+  "title": "Changes to vanilla mechanics",
+  "subtitle": "Or just generally good to know info.\\n\\n§nTop to bottom most important to know!\\n§r(Like you should really read the top ones)",
   "x": 2,
   "y": 0.625,
   "tasks": [

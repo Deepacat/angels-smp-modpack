@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.quark.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.quark.description.0>"
-  ],
+  "title": "Quark",
+  "subtitle": "SO many little things",
   "icon": "quark:diamond_heart",
   "x": 6.5,
   "y": 7.25,

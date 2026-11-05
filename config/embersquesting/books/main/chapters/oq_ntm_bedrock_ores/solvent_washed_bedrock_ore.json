@@ -1,23 +1,23 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.title>",
+  "title": "Solvent Washed Bedrock Ore",
   "icon": "hbm:bedrock_ore_primary_rad_heavy",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.1>",
+    "After the first centrifuging stage, ores can be washed with various fluids to increase primary products or add byproducts, these include:",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.2>",
+    "&s&bSulfuric Acid&r - adds the first tier of byproducts to your outputs",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.3>",
+    "&bSolvent&r - adds the second tier of byproducts",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.4>",
+    "&bHigh-Performance Solvent&r - adds the final tier of byproducts",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.5>",
+    "&bLiquid Hydrogen&r - increases the yield of the first primary product",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.6>",
+    "&bChlorine Gas&r - increases the yield of the second primary product",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.solvent_washed_bedrock_ore.description.0.7>"
+    "&2Note that processing with higher tier solvents will produce lower tier products as well, meaning processing with HPS will provide all available byproducts. Ores processed with lower tier solvents can be processed again with higher tiers to further increase yields, doubling outputs each time!"
   ],
   "x": 1,
   "y": 7,

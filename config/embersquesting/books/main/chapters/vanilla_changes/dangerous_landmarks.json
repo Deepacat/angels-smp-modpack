@@ -1,16 +1,16 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.title>",
+  "title": "Dangerous Landmarks!",
+  "subtitle": "Anyone else hear that clicking",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.1>",
+    "Nuclear Tech Mod's structures can be very dangerous.",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.3>",
+    "With turrets, mobs with guns, or just generally radioactive!",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.5>",
+    "If you care to interact with the mod and it's structures, be careful!",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.7>",
+    "(Random bombs you find laying around will not explode randomly! Although they are slightly radioactive to be around)",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.dangerous_landmarks.description.9>"
+    "(Coal, sulfur, and asbestos hazards are disabled)"
   ],
   "icon": "ags_modernmarkings:textures/block/marking_wall_symbol_yellow_radiation.png",
   "x": 1.5,

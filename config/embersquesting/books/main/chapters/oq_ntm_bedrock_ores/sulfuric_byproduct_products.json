@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.sulfuric_byproduct_products.title>",
+  "title": "Sulfuric Byproduct Products",
   "icon": "hbm:scraps{\"hbm:material\":\"gold\",\"hbm:mat_amount\":48}",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.sulfuric_byproduct_products.description.0.1>"
+    "There are multiple ways of processing at this stage, most efficient being the &3Arc Furnace&r."
   ],
   "x": 1.5,
   "y": 17,

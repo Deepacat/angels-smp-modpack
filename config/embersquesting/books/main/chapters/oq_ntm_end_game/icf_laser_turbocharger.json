@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser_turbocharger.title>",
+  "title": "ICF Laser Turbocharger",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.icf_laser_turbocharger.description.0.1>"
+    "The &3ICF Laser Turbocharger&r can be placed next to &3ICF Laser Capacitors&r to increase the laser's power by a substantial amount, allowing for the &3ICF&r to run higher grade fuels."
   ],
   "icon": "hbm:icf_laser_component_turbo",
   "x": 2,

@@ -1,14 +1,14 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.create.title>",
+  "title": "Create",
+  "subtitle": "Doohickey Corporation",
   "description": [
-    "<lang key=eqpack.quest.mod_books.create.description.0>",
-    "<lang key=eqpack.quest.mod_books.create.description.1>",
+    "For guides, use /ponder or hold the ponder key on applicable items! (Default \"W\")",
     "",
-    "<lang key=eqpack.quest.mod_books.create.description.3>",
-    "<lang key=eqpack.quest.mod_books.create.description.4>",
-    "<lang key=eqpack.quest.mod_books.create.description.5>",
-    "<lang key=eqpack.quest.mod_books.create.description.6>",
-    "<lang key=eqpack.quest.mod_books.create.description.7>"
+    "Addons installed:",
+    "- Create: Power Grid",
+    "- Estrogen/Create: Estrogen",
+    "- Create: Transmission",
+    "- Create: Enchantment Industry"
   ],
   "icon": "create:wrench",
   "x": 9.75,

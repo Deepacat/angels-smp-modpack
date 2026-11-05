@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_grow.title>",
+  "title": "Glyph of Grow",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_grow.description.0>"
+    "Infinite bonemeal from your spellbook!"
   ],
   "icon": "ars_nouveau:glyph_grow",
   "x": 7.5,

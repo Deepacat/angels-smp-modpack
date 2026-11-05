@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.decorative_blocks.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.decorative_blocks.description.0>"
-  ],
+  "title": "Decorative Blocks",
+  "subtitle": "Braziers, fences, bars, pallisades, seats, n more",
   "icon": "decorative_blocks:brazier",
   "x": 1.75,
   "y": 3.75,

@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.construction_wands.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.construction_wands.description.0>"
-  ],
+  "title": "Construction Wands",
+  "subtitle": "Build faster",
   "icon": "constructionwand:diamond_wand{\"minecraft:custom_data\":{wand_options:{}}}",
   "x": 11.5,
   "y": 4.75,

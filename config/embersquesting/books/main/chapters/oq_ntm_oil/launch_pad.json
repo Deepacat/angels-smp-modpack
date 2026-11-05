@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.launch_pad.title>",
+  "title": "Launch Pad",
   "icon": "hbm:launch_pad_large",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.launch_pad.description.0.1>",
+    "The &3Launch Pad&r is the main launch table for most missiles. Although it is the earliest available, missiles must first be erected before launch, resulting in a small delay.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.launch_pad.description.0.2>"
+    "The &3Silo Launch Pad&r is a miniaturized version of the launch pad. It can launch every generic missile with a delay of only 5 seconds. A rusted variant can be found in the naturally-occurring silo structure, holding the damaged Doomsday Missile."
   ],
   "x": 11,
   "y": 19.5,

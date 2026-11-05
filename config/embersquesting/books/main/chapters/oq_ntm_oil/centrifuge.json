@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.centrifuge.title>",
+  "title": "Centrifuge",
   "icon": "hbm:machine_centrifuge",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.centrifuge.description.0.1>",
+    "The &6&3Centrifuge&r allows for the seperation of ores, giving back more items than the usual mining method. It also seperates items into their respective items. Additionally, they are used in processing &e&6Bedrock Ores&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.centrifuge.description.0.2>"
+    "Operating the centrifuge will consume &e4kHE/s&r."
   ],
   "x": 6.5,
   "y": 2.5,

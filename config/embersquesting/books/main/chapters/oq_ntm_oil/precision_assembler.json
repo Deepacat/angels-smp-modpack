@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.precision_assembler.title>",
+  "title": "Precision Assembler",
   "icon": "hbm:machine_precass",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.precision_assembler.description.0.1>",
+    "The &3Precision Assembler&r is a machine which can produce &6Blueprints&r. Due to the recipes having a low success rate, automation of the ingredients is recommended.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.precision_assembler.description.0.2>"
+    "Pufferfish can be obtained from throwing &6Fishing Dynamite&r in water."
   ],
   "x": 2,
   "y": 11.5,

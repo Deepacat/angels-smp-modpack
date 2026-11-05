@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.glyph_of_burst.title>",
+  "title": "Glyph of Burst",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.glyph_of_burst.description.0>"
+    "Resolves the spell many times over in an area of effect - a better version of the Glyph of AOE!"
   ],
   "icon": "ars_nouveau:glyph_burst",
   "x": 9,

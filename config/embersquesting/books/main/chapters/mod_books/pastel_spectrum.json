@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.pastel_spectrum.title>",
+  "title": "Pastel (Spectrum)",
+  "subtitle": "§o§7Descend artist... Descend.§r",
   "description": [
-    "<lang key=eqpack.quest.mod_books.pastel_spectrum.description.0>",
-    "<lang key=eqpack.quest.mod_books.pastel_spectrum.description.1>"
+    "Magic discovery mod using experiments and your curiosity to uncover the secrets that lie within natures colors"
   ],
   "icon": "pastel:pedestal_moonstone",
   "x": 4.75,
@@ -19,7 +19,7 @@
   ],
   "rewards": [
     {
-      "title": "<lang key=eqpack.quest.mod_books.pastel_spectrum.reward.0.title>",
+      "title": "Maybe a gem could lead me somewhere",
       "points": 1,
       "type": "xp"
     }

@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.no_mans_land.title>",
-  "description": [
-    "<lang key=eqpack.quest.mod_books.no_mans_land.description.0>"
-  ],
+  "title": "No mans land",
+  "subtitle": "World environment overhauls",
   "icon": "nomansland:no_mans_globe",
   "x": 7.5,
   "y": 6.25,

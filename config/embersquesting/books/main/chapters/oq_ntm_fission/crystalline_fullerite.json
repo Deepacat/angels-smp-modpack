@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.title>",
+  "title": "Crystalline Fullerite",
   "icon": "hbm:ingot_cft",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.description.0.1>",
+    "&6Crystalline Fullerite&r is an material which is primarely used in endgame machines, such as the &3ICF&r and the &3FEnSU&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.description.0.2>",
+    "&2It is recommended that an Effectiveness 3 upgrade is installed on the Acidizer to increase the chance of not consuming the Fullerene, as fullerite can be expensive to produce large quantities.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.crystalline_fullerite.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_bedrock_ores.centrifuged_bedrock_ore.title>",
+  "title": "Centrifuged Bedrock Ore",
   "icon": "hbm:bedrock_ore_primary_heavy",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.centrifuged_bedrock_ore.description.0.1>",
+    "All ores must be processed in a &3Centrifuge&r in order to extract products from them. The first stage of centrifuging will produce a second stage of ore which can either be centrifuged again to immediately get primary products and finish processing, or can be washed with solvents to acquire useful byproducts.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_bedrock_ores.centrifuged_bedrock_ore.description.0.2>"
+    "Gravel obtained from centrifuging can be processed into concrete for base building, in a &3SILEX&r for additional byproducts, such as &6Lithium&r and &6Boron&r, or shredded into sand for &6Silicon&r."
   ],
   "x": 4,
   "y": 7,

@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.rock_mill.title>",
+  "title": "Rock Mill",
   "icon": "hbm:machine_rockmill",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.rock_mill.description.0.1>",
+    "The &3Rock Mill&r is an early game material grinding machine which grinds down stones into finer items while producing additional byproducts, such as &6Boron&r, &6Niobium&r and &6Titanium&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.rock_mill.description.0.2>"
+    "The machine consumes &e500HE/s&r."
   ],
   "x": 15.5,
   "y": 16.5,

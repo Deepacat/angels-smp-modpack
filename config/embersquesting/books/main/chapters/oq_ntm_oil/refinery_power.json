@@ -1,27 +1,27 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.title>",
+  "title": "Refinery Power",
   "icon": "hbm:machine_turbofan",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.1>",
+    "Oil products can be combusted or burnt to produce massive amounts of energy.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.2>",
+    "The &3Industrial Combustion Engine&r combusts fuels, such as &bHeating Oil&r or &bDiesel&r to produce power. Various piston sets exist, which are needed for the engine to work, each one giving its own efficiency bonuses to fuel grades.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.3>",
+    "The &4&3Turbofan&r is the best place to use aviation type fuels, such as &bKerosene&r, as it provides &e100%&r power efficiency. Be careful not to stand infront of it while its operational!",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.4>",
+    "The &3Combined Cycle Gas Turbine&r is the only generator that can burn gaseous fuels at &e100%&r efficiency. The CCGT uses &3&bEngine Lubricant&r, and produces &bDense Steam&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.5>",
+    "The &3Flare Stack&r is used for burning gasses such as &bUnsaturated Hydrocarbons&r for power, aswell as dealing with excess fluids.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.6>",
+    "The &3Fluid Burner&r is a much more efficient way of producing power from gases. Place a &3Boiler&r ontop and run the &bSteam&r through a turbine to generate power.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.0.7>",
+    "Consider installing a &6Muffler&r on some of these machines as they are very loud. Shift-Click on a machine while holding a Muffler to apply.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.refinery_power.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.tablet_of_harvest.title>",
+  "title": "Tablet of Harvest",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.tablet_of_harvest.description.0>"
+    "Harvests crops in an area and deposits them into a nearby chest."
   ],
   "icon": "ars_nouveau:ritual_harvest",
   "x": 6.5,

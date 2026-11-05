@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.annihilator.title>",
+  "title": "Annihilator",
   "icon": "hbm:machine_annihilator",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.annihilator.description.0.1>",
+    "The &3Annihilator&r is a machine that destroys items and fluids. Annihilating radioactive items or pollution creating fluids will cause more serious environmental consequences than disposing of them in other manners.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.annihilator.description.0.2>"
+    "This machine is mainly intended for &2528 Mode&r where disposing of items will unlock blueprints required for progression."
   ],
   "x": 15.5,
   "y": 12.5,

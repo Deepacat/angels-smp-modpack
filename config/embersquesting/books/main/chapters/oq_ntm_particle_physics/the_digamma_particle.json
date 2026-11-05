@@ -1,17 +1,17 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.the_digamma_particle.title>",
+  "title": "The Digamma Particle",
   "icon": "hbm:particle_digamma",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.the_digamma_particle.description.0.1>",
+    "The &c&r&4&r&6Digamma Particle&r is created by colliding a &6Sparkticle Capsule&r with a &6Higgs Boson Capsule&r in a &3Particle Accelerator&r. Making it in the particle accelerator will require &6Chlorophyte Coils&r and a fourth loop, at a momentum of 70,000.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.the_digamma_particle.description.0.2>",
+    "The digamma particle emits a different kind of radiation, &4DRX&r, which currently can only be countered by the use of digamma medication, most notably &6Enteramine Pills&r, which provide full immunity against DRX for 10 minutes. After the &3DFC&r, Fau armor can be crafted which provides full resistance against DRX.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.the_digamma_particle.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

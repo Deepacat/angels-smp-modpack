@@ -1,12 +1,12 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.hbm_s_nuclear_tech_mod.title>",
+  "title": "HBM's Nuclear Tech Mod",
+  "subtitle": "Multiblocks, chemistry, nuclear science",
   "description": [
-    "<lang key=eqpack.quest.mod_books.hbm_s_nuclear_tech_mod.description.0>",
-    "<lang key=eqpack.quest.mod_books.hbm_s_nuclear_tech_mod.description.1>",
+    "HBM's Nuclear Tech Mod is a silly soulful automation/progression tech mod",
     "",
-    "<lang key=eqpack.quest.mod_books.hbm_s_nuclear_tech_mod.description.3>",
+    "It is mainly multiblock focused, with factorio-like logistics (with some elements from satisfactory, allowing it to work in a 3d environment)",
     "",
-    "<lang key=eqpack.quest.mod_books.hbm_s_nuclear_tech_mod.description.5>"
+    "The mod adds alot of structures and environmental hazards you will find around as well whilst exploring."
   ],
   "icon": "hbm:nuke_man",
   "x": 8.25,
@@ -27,7 +27,7 @@
       "type": "item"
     },
     {
-      "title": "<lang key=eqpack.quest.mod_books.hbm_s_nuclear_tech_mod.reward.1.title>",
+      "title": "You can press F1 on items with guides",
       "points": 1,
       "type": "xp"
     }

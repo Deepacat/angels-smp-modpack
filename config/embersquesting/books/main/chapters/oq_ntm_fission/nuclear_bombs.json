@@ -1,20 +1,20 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.nuclear_bombs.title>",
+  "title": "Nuclear Bombs",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_bombs.description.0.1>",
+    "With access to &6Tantalum&r for &6Control Units&r and fissile matterials, it is possible to assemble a nuclear bomb. To detonate the bomb one can use a detonator or a redstone signal.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_bombs.description.0.2>",
+    "A nuclear explosion will transform ores into more valuable ones, such as &6Coal&r to &6Diamonds&r or &6Uranium&r to &6Schrabidium&r. Be prepared with radiation resistant armor before venturing into the crater.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_bombs.description.0.3>",
+    "Make sure to stand behind some strong cover if you wish to see the explosion from close by.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_bombs.description.0.4>",
+    "&2This quest serves as a list of components needed for various bombs. Some of these components can be mounted onto rockets that will carry the payload over large distances.",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.nuclear_bombs.description.optional>",
+    "Optional items (not required):",
     {
       "items": [
         "hbm:nuke_gadget",

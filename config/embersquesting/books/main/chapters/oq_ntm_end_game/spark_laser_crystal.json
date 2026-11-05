@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_end_game.spark_laser_crystal.title>",
+  "title": "Spark Laser Crystal",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_end_game.spark_laser_crystal.description.0.1>"
+    "The &6Spark Laser Crystal&r unlocks new recipes, most importantly it is used to create &6Osmiridium&r."
   ],
   "icon": "hbm:laser_crystal_dnt",
   "x": -0.5,

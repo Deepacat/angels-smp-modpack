@@ -1,15 +1,15 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.title>",
+  "title": "Ashpit",
   "icon": "hbm:machine_ashpit",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.description.0.1>",
+    "An &3Ashpit&r can be installed beneath a &3Firebox/Heating Oven&r or &3Smokestack&r which will collect &6Ash&r, that can be used as a cheap black dye alternative aswell as in the creation of &6Industrial Fertilizer&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.description.0.2>",
+    "&6Coal Ash&r can later be centrifuged to obtain some &6Boron&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.ashpit.description.0.3>"
+    "An Ashpit below an &3Industrial Smokestack&r will produce &6Fine Soot,&r used in the creation of &6Fullerite&r, a late game material."
   ],
   "x": 11.5,
   "y": 16.5,

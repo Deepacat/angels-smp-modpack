@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.vacuum_refinery.title>",
+  "title": "Vacuum Refinery",
   "icon": "hbm:machine_vacuum_distill",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.vacuum_refinery.description.0.1>",
+    "The &3Vacuum Refinery&r is an oil refinery which processes &bPressurized/Desulfurized Crude Oil&r into 4 liquid products. It is a good way to make &bHigh-Performance Solvent&r by using &bReformate Gas&r and &bChlorine Gas&r in an &3Industrial Mixer&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.vacuum_refinery.description.0.2>"
+    "&2Compressors are needed for the oil to be inserted inside the Vacuum Refinery."
   ],
   "x": 12.5,
   "y": 9.5,

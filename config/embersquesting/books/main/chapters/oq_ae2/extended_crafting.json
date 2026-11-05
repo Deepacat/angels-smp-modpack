@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ae2.extended_crafting.title>",
+  "title": "Extended Crafting",
   "description": [
-    "<lang key=eqpack.quest.oq_ae2.extended_crafting.description.0>"
+    "Extended Pattern Providers hold 36 patterns each, and Extended Molecular Assemblers can craft eight things at once!"
   ],
   "icon": "extendedae:ex_pattern_provider",
   "x": 1,

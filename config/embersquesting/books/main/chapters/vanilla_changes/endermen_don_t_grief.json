@@ -1,8 +1,6 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.endermen_don_t_grief.title>",
-  "description": [
-    "<lang key=eqpack.quest.vanilla_changes.endermen_don_t_grief.description.0>"
-  ],
+  "title": "Endermen don't grief",
+  "subtitle": "It's annoying. you can claim chunks anyways tho to prevent griefing",
   "icon": "supplementaries:enderman_head",
   "x": 1.5,
   "y": 4,

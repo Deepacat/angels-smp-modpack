@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.title>",
+  "title": "Farmer's Delight & Heart and Harvest",
+  "subtitle": "Crops and more food!",
   "description": [
-    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.0>",
-    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.1>",
-    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.2>",
-    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.3>",
-    "<lang key=eqpack.quest.mod_books.farmer_s_delight_heart_and_harvest.description.4>"
+    "Addons:",
+    "Heart and harvest",
+    "Nether delight",
+    "Cuisine delight (Banger addon omg)"
   ],
   "icon": "farmersdelight:hamburger",
   "x": 5.5,

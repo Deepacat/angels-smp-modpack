@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.advanced_enchantment_table.title>",
+  "title": "Advanced Enchantment Table",
   "icon": "eplus:tile.advancedenchantmenttable",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.advanced_enchantment_table.description.0.1>",
+    "The &dAdvanced Enchantment Table&r gives its user the ability to choose any enchantment they want, at the cost of significantly more experience.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.advanced_enchantment_table.description.0.2>"
+    "&2Since very low level books are cheap, its a great way of mass producing Pulverized Enchantment for endgame recipes.&r"
   ],
   "x": 20.5,
   "y": 20,

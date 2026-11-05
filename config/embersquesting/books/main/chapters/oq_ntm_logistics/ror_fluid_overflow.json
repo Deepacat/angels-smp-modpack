@@ -1,20 +1,20 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.title>",
+  "title": "ROR Fluid Overflow",
   "icon": "hbm:machine_fluidtank",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.1>",
+    "Redstone-Over Radio&r in combination with a &3Redstone Fluid Valve&r can be used to detect when a tank is starting to fill up, and release the insides. This is useful for having buffers without having all the fluids being wasted.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.2>",
+    "&2Here is an exmaple of a tank that will only output fluid once its full:&r",
     "",
-    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.3>",
+    "Firstly, place a &6ROR Transmitter&r on one port of the tank, provide an ID and enable Polling.",
     {
       "type": "image",
       "texture": "eqpack:textures/quest/qb_fluid1.png"
     },
-    "<lang key=eqpack.quest.oq_ntm_logistics.ror_fluid_overflow.description.0.4>",
+    "After that, place a &6ROR Logic Receiver&r next to the fluid valve and input the desired settings. Make sure that your signal is >= of your desired buffer. One redstone level equals to 16k mb.",
     {
       "type": "image",
       "texture": "eqpack:textures/quest/qb_fluid2.png"

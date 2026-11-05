@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.electricity_connectors.title>",
+  "title": "Electricity Connectors",
   "icon": "hbm:red_connector",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_connectors.description.0.1>",
+    "For better looking, aswell as longer distance energy transportation, a &l&r&6Cable Drum&r with &3Electricity Connectors&r can be used. These powerlines are non solid and can also pass through floors and walls.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.electricity_connectors.description.0.2>"
+    "&2These cables can be dyed."
   ],
   "x": 0,
   "y": 8,

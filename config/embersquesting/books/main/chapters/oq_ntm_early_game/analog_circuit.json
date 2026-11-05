@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.analog_circuit.title>",
+  "title": "Analog Circuit",
   "icon": "hbm:circuit_analog",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.analog_circuit.description.0.1>",
+    "The &6Analog Circuit&r is the first true circuit board used in crafting certain essential machines and tools such as the &6Oil Deposit Detector&r, the &3Chemical Plant&r, and the &3Electric Arc Furnace&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.analog_circuit.description.0.2>"
+    "&2A cheaper recipe for Capacitors will be available if a Shredder is owned."
   ],
   "x": 12.5,
   "y": 24.5,

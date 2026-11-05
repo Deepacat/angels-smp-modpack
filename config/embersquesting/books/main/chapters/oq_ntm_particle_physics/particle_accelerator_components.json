@@ -1,23 +1,23 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.title>",
+  "title": "Particle Accelerator Components",
   "icon": "hbm:pa_coil_gold",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.1>",
+    "The &3Particle Accelerator&r is highly modular and as such has many parts, each serving a different function:",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.2>",
+    "&3Particle Source&r: To create the particle.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.3>",
+    "&3Particle Detector&r (at a receiving end): To form the intended byproduct.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.4>",
+    "&3Quadrupole Magnets&r: To reduce particle defocus.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.5>",
+    "&3RF Cavities&r: For electromagnetic acceleration.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.6>",
+    "&3Dipole Magnets&r: For re-directing the particle.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_particle_physics.particle_accelerator_components.description.0.7>"
+    "&6Coils&r: For quadrupole and dipole magnets to function."
   ],
   "x": 4.5,
   "y": 2,

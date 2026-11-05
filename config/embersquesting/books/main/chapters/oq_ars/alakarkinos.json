@@ -1,7 +1,7 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.alakarkinos.title>",
+  "title": "Alakarkinos",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.alakarkinos.description.0>"
+    "This handsome gentleman can sift archaeology loot out of regular sand and gravel! Pottery sherds are now renewable!"
   ],
   "icon": "ars_nouveau:alakarkinos_charm",
   "x": 12.5,
@@ -19,7 +19,7 @@
     {
       "id": "ftbquests:1000acab249b1158",
       "type": "custom",
-      "title": "<lang key=eqpack.quest.oq_ars.alakarkinos.task.1.title>"
+      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "optional": true,

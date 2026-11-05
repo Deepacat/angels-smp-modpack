@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_fission.big_ass_tank.title>",
+  "title": "Big-Ass Tank",
   "icon": "hbm:machine_bigasstank",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_fission.big_ass_tank.description.0.1>",
+    "The &3Big-Ass Tank&r is the largest fluid storage container, capable of storing 16000000mB of fluids, aswell as being able to hold strongly corrosive fluids.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_fission.big_ass_tank.description.0.2>"
+    "&2Must be placed on solid ground or else it will tilt.&r"
   ],
   "x": 4,
   "y": 20,

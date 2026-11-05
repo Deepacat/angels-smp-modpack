@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.electric_heater.title>",
+  "title": "Electric Heater",
   "icon": "hbm:heater_electric",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.electric_heater.description.0.1>",
+    "The &3Electric Heater&r is a heater which produces heat using electricity. A Screwdriver is needed to increase its energy input, to a maximum of &e5023HE/t&r for &e1000TU/t&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.electric_heater.description.0.2>"
+    "&2A single Heating Oven that uses Coal produces the same amount of heat so it is not recomended that this is used.&r"
   ],
   "x": 20,
   "y": 13.5,

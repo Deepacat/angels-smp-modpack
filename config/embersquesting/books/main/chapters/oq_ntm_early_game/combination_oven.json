@@ -1,11 +1,11 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.combination_oven.title>",
+  "title": "Combination Oven",
   "icon": "hbm:machine_furnace_combination",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.combination_oven.description.0.1>"
+    "The &3Combination Oven&r is a unique type of furnace that transforms items into their respective product and produce liquid byproducts. It can be used to produce &6Coke&r, &bWood Oil&r and &6Aluminium&r more efficiently."
   ],
   "x": 5,
   "y": 20.5,

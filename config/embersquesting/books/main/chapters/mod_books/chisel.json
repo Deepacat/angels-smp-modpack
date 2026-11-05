@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.chisel.title>",
+  "title": "Chisel",
+  "subtitle": "Lotsa block variants and custom blocks",
   "description": [
-    "<lang key=eqpack.quest.mod_books.chisel.description.0>",
-    "<lang key=eqpack.quest.mod_books.chisel.description.1>"
+    "I can't lie I just wanted it for factory blocks. It's a dependency."
   ],
   "icon": "chisel:chisel",
   "x": 3.25,

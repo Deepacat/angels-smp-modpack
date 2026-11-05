@@ -1,13 +1,13 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_oil.coker_unit.title>",
+  "title": "Coker Unit",
   "icon": "hbm:machine_coker",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_oil.coker_unit.description.0.1>",
+    "The &3Coker Unit&r is a machine that turns oil products into &6Petroleum Coke&r, which is the same to the other kinds of coke, aswell as additional fluids as byproducts. The coker unit will require an external heat source in order to function, similar to the &3Crucible&r.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_oil.coker_unit.description.0.2>"
+    "&2&r&2Alongside the &2&r&2&r&2Electric Arc Furnace, the coker unit is one of the most polluting machines of the mod. It spreads 20 soot per second, making it a dangerous machine to use next to a glyphid nest."
   ],
   "x": 15.5,
   "y": 19.5,

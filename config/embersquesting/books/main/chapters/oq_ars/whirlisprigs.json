@@ -1,8 +1,8 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ars.whirlisprigs.title>",
+  "title": "Whirlisprigs",
+  "subtitle": "aren't they the cutest little florets :3",
   "description": [
-    "<lang key=eqpack.quest.oq_ars.whirlisprigs.description.0>",
-    "<lang key=eqpack.quest.oq_ars.whirlisprigs.description.1.1>\n\n<lang key=eqpack.quest.oq_ars.whirlisprigs.description.1.2>"
+    "To obtain this §oadorable§r cutie's token, grow a tree near a wild one!~ You can summon it back by using the charm on any flower, which will convert said flower into a Whirlisprig Blossom - the cutie's new home!\n\nWhirlisprigs duplicate plants (logs, flowers and even lilypads) around their home when provided with source and an output inventory, which should be adjacent to the flower. They are happiest when their home has a great variety of plants, leading to increased outputs!"
   ],
   "icon": "ars_nouveau:whirlisprig_charm",
   "x": 9,
@@ -25,7 +25,7 @@
     {
       "id": "ftbquests:1000acab383b42a3",
       "type": "custom",
-      "title": "<lang key=eqpack.quest.oq_ars.whirlisprigs.task.2.title>"
+      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "shape": "circle"

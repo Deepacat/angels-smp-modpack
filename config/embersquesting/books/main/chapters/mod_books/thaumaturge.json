@@ -1,10 +1,10 @@
 {
-  "title": "<lang key=eqpack.quest.mod_books.thaumaturge.title>",
+  "title": "Thaumaturge",
+  "subtitle": "The study of natures mysterious wonders",
   "description": [
-    "<lang key=eqpack.quest.mod_books.thaumaturge.description.0>",
-    "<lang key=eqpack.quest.mod_books.thaumaturge.description.1>",
+    "A \"port\"/remake of 1.7.10's Thaumcraft 4, combined with elements of 1.12.2's Thaumcraft 6.",
     "",
-    "<lang key=eqpack.quest.mod_books.thaumaturge.description.3>"
+    "It is a discovery based magic mod, rewarding your curiosities and exploration of the world."
   ],
   "icon": "thaumaturge:goggles_revealing",
   "x": 4.25,
@@ -21,7 +21,7 @@
   ],
   "rewards": [
     {
-      "title": "<lang key=eqpack.quest.mod_books.thaumaturge.reward.0.title>",
+      "title": "Perhaps a good nights rest could grant you a clue?",
       "points": 1,
       "type": "xp"
     }

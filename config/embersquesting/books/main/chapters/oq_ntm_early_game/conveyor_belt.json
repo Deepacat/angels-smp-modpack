@@ -1,25 +1,25 @@
 {
-  "title": "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.title>",
+  "title": "Conveyor Belt",
   "icon": "hbm:conveyor",
   "description": [
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.0.1>",
+    "&3Conveyors&r provide the simplest way of moving items around. There are multiple blocks that can interface with machines as well as items moving along conveyor belts.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.0.2>",
+    "&3Conveyor Belts&r are blocks used to transport items. They can pick up dropped items or items from conveyor ejectors. Conveyor inserters can take items from conveyor belts. If there are no conveyor inserters present, the item will be dropped at the end of the conveyor belt line.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.0.3>",
+    "&3Conveyor Inserters&r are blocks that take items from conveyor belts and outputs them into a storage space. Conveyor ejectors are the opposite, they take items from storage and place them onto conveyor belts.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.0.4>",
+    "Inserters have an option to destroy surplus items if the input buffer has run full, otherwise the items that can neither be inserted in the target nor the inserter's buffer is simply dropped.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.0.5>",
+    "The ejector has a whitelist/blacklist system (the default mode is blacklist with no restrictions - this means that everything will go through). Rick-clicking the white arrow will toggle between whitelist and blacklist. An item can be added to the blacklist/whitelist by \"depositing\" it into the blue inventory square - the item will not be consumed, however.",
     "",
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.0.6>",
+    "&2Make sure to visit the NTM: Logistics page for more information.&r",
     {
       "type": "divider"
     },
-    "<lang key=eqpack.quest.oq_ntm_early_game.conveyor_belt.description.optional>",
+    "Optional items (not required):",
     {
       "type": "item",
       "items": [

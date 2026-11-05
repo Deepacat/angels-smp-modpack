@@ -1,12 +1,12 @@
 {
-  "title": "<lang key=eqpack.quest.vanilla_changes.meteors_will_break_your_shit.title>",
+  "title": "Meteors !!! (Will break your shit)",
+  "subtitle": "Claim your prevention charm!!",
   "description": [
-    "<lang key=eqpack.quest.vanilla_changes.meteors_will_break_your_shit.description.0>",
-    "<lang key=eqpack.quest.vanilla_changes.meteors_will_break_your_shit.description.1>",
+    "NTM adds meteors that occasionally fall and can §4destroy§r your base or the terrain!",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.meteors_will_break_your_shit.description.3>",
+    "This quest gives 2 curios that can prevent them from spawning at all near you OR just prevent them from damaging terrain.",
     "",
-    "<lang key=eqpack.quest.vanilla_changes.meteors_will_break_your_shit.description.5>"
+    "(They fit into any curio slot)"
   ],
   "icon": "hbm:block_meteor_molten",
   "x": 0.5,
