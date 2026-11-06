@@ -127,6 +127,7 @@
 /config/ixeris.toml
 /config/jasione.toml
 /config/visual_keybinder.toml
+/config/shut_up_gl_error.json5
 ## Client config exceptions (Want to be updated)
 !/config/defaultsettings/**
 !/config/sophisticatedstorage-client.toml

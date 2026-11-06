@@ -28,6 +28,9 @@
         "c2me": {
             "side": "CLIENT"
         },
+        "shut-up-gl-error": {
+            "side": "CLIENT"
+        },
         "scalablelux": {
             "side": "CLIENT"
         },
