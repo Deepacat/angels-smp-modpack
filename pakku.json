@@ -31,6 +31,9 @@
         "shut-up-gl-error": {
             "side": "CLIENT"
         },
+        "raws-visual-keybinder": {
+            "side": "CLIENT"
+        },
         "scalablelux": {
             "side": "CLIENT"
         },
