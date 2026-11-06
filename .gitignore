@@ -177,6 +177,8 @@
 /config/zfastnoise.mixin.properties
 /config/axiom*
 /config/thaumaturge/aspect_index.json
+# dude.
+/config/hbmRecipes/REMOVE UNDERSCORE TO ENABLE RECIPE LOADING - RECIPES WILL RESET TO DEFAULT OTHERWISE
 # Xaero
 /config/xaerohud.txt
 /config/xaeropatreon.txt
