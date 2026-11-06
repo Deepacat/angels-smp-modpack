@@ -12,7 +12,3 @@ donator_cape = true
 [hud]
 	#When true, the caster vis dial renders at the bottom left of the screen instead of the top left.
 	dial_bottom = false
-
-[book]
-	#When true, the Thaumonomicon uses a visible return button instead of right-click navigation. The button closes an open insert first, then returns to the research map.
-	use_return_button = true

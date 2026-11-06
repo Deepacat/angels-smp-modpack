@@ -17,7 +17,7 @@
 		#Default Value: 5
 		# Default: 5
 		# Range: 1 ~ 255
-		max_columns = 5
+		max_columns = 2
 		#Space between individual effect widgets on y-axis.
 		#Default Value: 1
 		# Default: 1
