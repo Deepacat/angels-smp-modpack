@@ -1,0 +1,25 @@
+{
+  "title": "ROR Displays and Buttons",
+  "icon": "hbm:rbmk_display_blank",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "ROR &3Panels&r can be used to craft useful ROR components such as Gauges, Switches, Graphs and more. Shift-Click with a screwdriver to configure them once placed."
+  ],
+  "x": 9,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/chemical_plant",
+      "oq_ntm_logistics/redstone_over_radio"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:rbmk_display_blank",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

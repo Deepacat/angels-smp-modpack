@@ -1,0 +1,27 @@
+{
+  "title": "Familiars",
+  "description": [
+    "Some creatures in Ars Nouveau can become your magical familiars! Perform a Ritual of Binding near them: after that you will be able to summon them from your spellbook!"
+  ],
+  "icon": "ars_nouveau:familiar_bookwyrm",
+  "x": 5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier",
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_binding",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(ars_nouveau:familiar_amethyst_golem) item(ars_nouveau:familiar_starbuncle) item(ars_nouveau:familiar_wixie) item(ars_nouveau:familiar_whirlisprig) item(ars_nouveau:familiar_drygmy) item(ars_nouveau:familiar_bookwyrm))",
+      "type": "item",
+      "title": "Any Bound Script"
+    }
+  ],
+  "shape": "circle"
+}

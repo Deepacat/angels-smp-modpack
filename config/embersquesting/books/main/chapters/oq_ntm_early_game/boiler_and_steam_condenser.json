@@ -1,0 +1,32 @@
+{
+  "title": "Boiler and Steam Condenser",
+  "icon": "hbm:machine_boiler_off",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Boiler&r, when receiving heat from below, heats up fluids. Two important uses of the boiler are for &bSteam&r and &bOil&r processing which will come later on. The Boiler can explode if its output is full.",
+    "",
+    "Steam, when used by machines, such as reactors sending steam through &3Turbines&r or &3Chemical Factories&r produce &bLow-Pressure Steam&r. The low-pressure steam can be recycled back to retrieve 100% of the water by using a &3Steam Condenser&r. Closed water loops are recommended for reactors."
+  ],
+  "x": 5,
+  "y": 24.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_boiler_off",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_condenser",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

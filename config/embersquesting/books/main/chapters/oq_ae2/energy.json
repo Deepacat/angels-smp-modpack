@@ -1,0 +1,20 @@
+{
+  "title": "Energy",
+  "description": [
+    "AE2 networks require energy to run. Any mod that generates energy will work, but AE2 itself also provides some crude solutions."
+  ],
+  "x": 4,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/starting_with_ae2"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

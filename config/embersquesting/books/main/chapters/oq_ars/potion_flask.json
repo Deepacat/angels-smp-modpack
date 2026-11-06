@@ -1,0 +1,23 @@
+{
+  "title": "Potion Flask",
+  "description": [
+    "Stores up to 8 doses of a potion and can be drunk from in inventory."
+  ],
+  "icon": "ars_nouveau:potion_flask",
+  "x": 12,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:potion_flask",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

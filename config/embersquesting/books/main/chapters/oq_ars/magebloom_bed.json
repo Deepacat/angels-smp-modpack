@@ -1,0 +1,24 @@
+{
+  "title": "Magebloom Bed",
+  "description": [
+    "Drygmies and Whirlisprigs have their home blocks, but what about the Starbuncles? Fear not, as you can give them an adorable pet bed! Everbloom, it's so soft I want to sleep in one :D"
+  ],
+  "icon": "ars_nouveau:orange_sbed",
+  "x": 13.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ars/starbuncles",
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:orange_sbed",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

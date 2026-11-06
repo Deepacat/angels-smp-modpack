@@ -1,0 +1,36 @@
+{
+  "title": "Additional Fusion Attachments",
+  "icon": "hbm:fusion_breeder",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Fusion Reactor Breeding Chamber&r uses neutron flux from a torus to in order to process materials. It can perform any recipe from an &3RBMK irradiation channel&r, with some additional recipes aswell. The neutron flux is not affected by port sharing rules, and the output level is the same on any side.",
+    "",
+    "The &3Fusion Reactor Collection Chamber&r increases the byproduct production rate by &e50%&r."
+  ],
+  "x": 9.5,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/fusion_reactor"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:fusion_breeder",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_collector",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

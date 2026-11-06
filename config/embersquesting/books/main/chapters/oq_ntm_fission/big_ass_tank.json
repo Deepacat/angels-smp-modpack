@@ -1,0 +1,27 @@
+{
+  "title": "Big-Ass Tank",
+  "icon": "hbm:machine_bigasstank",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Big-Ass Tank&r is the largest fluid storage container, capable of storing 16000000mB of fluids, aswell as being able to hold strongly corrosive fluids.",
+    "",
+    "&2Must be placed on solid ground or else it will tilt.&r"
+  ],
+  "x": 4,
+  "y": 20,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_bigasstank",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

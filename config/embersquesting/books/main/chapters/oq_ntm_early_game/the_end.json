@@ -1,0 +1,29 @@
+{
+  "title": "The End",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&eThe End&r is entirely optional for &dNTM&r progression, but is home to &6Trixite&r, a unique extraterrestrial mineral that when processed can yield &6Plutonium&r, &6Cobalt&r and &6Niobium&r. The Niobium is of great interest as it is a great source for early &3Catalytic Cracking Towers&r.",
+    "",
+    "Due to only the main end island existing, Trixite Ore is a limited resource.&r Trixite Crystals can also be obtained from an &6Asteroid Mining Ship&r, but it is not recommended.",
+    "",
+    "&dEt Futurum Requiem&r backports many modern end features, such as &eChorus Fruit&r and a respawnable &eEnder Dragon&r using &6End Crystals&r.",
+    "",
+    "The &6Dragon Egg&r can also be used to create a Backpack which provides passive &eNight Vision&r, &eStrength 2&r and &eFire resistance&r, aswell as some &eRegeneration&r when on low health.",
+    "",
+    "Enderman farms can also be made using &3Fans&r to push the endermen into the killing zone."
+  ],
+  "icon": "minecraft:end_portal_frame",
+  "x": 15,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

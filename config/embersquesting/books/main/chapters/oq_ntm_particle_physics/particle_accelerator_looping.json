@@ -1,0 +1,65 @@
+{
+  "title": "Particle Accelerator Looping",
+  "icon": "hbm:pa_dipole",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&2For recipes that demand high momentum, additional loops are needed. This quest serves as a guide on how to change the direction of particles.&r",
+    "",
+    "Below is a miniature particle accelerator built for showcasing purposes. It is not connected to power, coolant or have any coils. It does not have rf cavities and uses two particle detectors as outputs. A compass is also provided in the image.",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa1.png"
+    },
+    "After constructing your PA, assuming the beamlines face the right directions, head over to the magnet that bridges the first and second loops.",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa2.png"
+    },
+    "Open its GUI and configure the dipole magnet.",
+    "",
+    "The first line is for particles that havent reached the desired momentum.",
+    "",
+    "The second line is for particles that have reached the desired momentum.",
+    "",
+    "The third line is for particles that have reached the desired momentum AND are powered by redstone.",
+    "",
+    "The &cRed Line&r shows the direction the particle will travel towards and the &9Blue Line&r shows where the player is facing.",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa3.png"
+    },
+    "Make sure that for this specific dipole magnet the third line has the particle orientation facing towards the second loop, NORTH in this case.",
+    "",
+    "After this, the redstone logic must be set in order to be able to turn the particle orientation when powered. Simply provide power underneath the dipole magnet as such. A redstone signal should only exist when a particle needs momentum greater than what the first tier of coil allows.",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa4.png"
+    },
+    "Head over, WEST in this case, to the dipole magnet which is after the transitionary dipole and right before the detector, and which connects to the rest of the loop.",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa5.png"
+    },
+    "Open its GUI and configure it. Make sure the second line is facing towards the particle detector and the first line towards the other dipole magnets.",
+    {
+      "type": "image",
+      "texture": "eqpack:textures/quest/qb_pa6.png"
+    }
+  ],
+  "x": 3,
+  "y": 4,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/particle_accelerator_components",
+      "oq_ntm_particle_physics/additional_particle_accelerator_information"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

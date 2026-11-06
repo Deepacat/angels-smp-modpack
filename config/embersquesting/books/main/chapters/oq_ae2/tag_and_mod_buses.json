@@ -1,0 +1,23 @@
+{
+  "title": "Tag and Mod Buses",
+  "description": [
+    "These export items filtered by item tag or by mod that adds them! There are Storage Bus versions as well!"
+  ],
+  "icon": "extendedae:mod_storage_bus",
+  "x": 10,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ae2/io"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(extendedae:tag_storage_bus) item(extendedae:tag_export_bus) item(extendedae:mod_storage_bus) item(extendedae:mod_export_bus))",
+      "type": "item",
+      "title": "Any Tag or Mod Bus"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

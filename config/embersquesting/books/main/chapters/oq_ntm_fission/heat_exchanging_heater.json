@@ -1,0 +1,25 @@
+{
+  "title": "Heat Exchanging Heater",
+  "icon": "hbm:heater_heatex",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &4&3Heat Exchanging Heater&r is used to cool down coolants used in reactors while also genearting &eTU&r. A &3Boiler&r can be placed ontop of it to heat up other fluids, such as &bSteam&r, to be used in &3Steam Turbines&r."
+  ],
+  "x": 8,
+  "y": 0,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/desh_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:heater_heatex",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

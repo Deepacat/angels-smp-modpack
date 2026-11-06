@@ -1,0 +1,13 @@
+name = "Parkour -Simple Parkour-"
+filename = "parkour-1.0.5.4+mc.1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9235/103/parkour-1.0.5.4+mc.1.21.1.jar"
+hash-format = "sha1"
+hash = "0a5d4decae076ae8c58393ff6c8eb0dd3f5429f3"
+
+[update]
+[update.curseforge]
+project-id = 1570704
+file-id = 9235103

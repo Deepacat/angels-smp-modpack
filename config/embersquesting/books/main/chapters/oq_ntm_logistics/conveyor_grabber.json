@@ -1,0 +1,24 @@
+{
+  "title": "Conveyor Grabber",
+  "icon": "hbm:crane_grabber",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Conveyor Grabber&r grabs items straight off of the conveyor belt without having the line go into it. It does not have an internal buffer."
+  ],
+  "x": 14.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crane_grabber",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

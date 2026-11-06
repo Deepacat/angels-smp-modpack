@@ -1,0 +1,34 @@
+{
+  "title": "Solvent Washed Bedrock Ore",
+  "icon": "hbm:bedrock_ore_primary_rad_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "After the first centrifuging stage, ores can be washed with various fluids to increase primary products or add byproducts, these include:",
+    "",
+    "&s&bSulfuric Acid&r - adds the first tier of byproducts to your outputs",
+    "",
+    "&bSolvent&r - adds the second tier of byproducts",
+    "",
+    "&bHigh-Performance Solvent&r - adds the final tier of byproducts",
+    "",
+    "&bLiquid Hydrogen&r - increases the yield of the first primary product",
+    "",
+    "&bChlorine Gas&r - increases the yield of the second primary product",
+    "",
+    "&2Note that processing with higher tier solvents will produce lower tier products as well, meaning processing with HPS will provide all available byproducts. Ores processed with lower tier solvents can be processed again with higher tiers to further increase yields, doubling outputs each time!"
+  ],
+  "x": 1,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/second_bedrock_ore_roasting"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

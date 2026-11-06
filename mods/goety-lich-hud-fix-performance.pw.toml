@@ -1,0 +1,13 @@
+name = "Goety Lich HUD Fix Performance"
+filename = "goety-lich-hud-fix-performance-1.21.1-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9087/747/goety-lich-hud-fix-performance-1.21.1-neoforge-1.0.0.jar"
+hash-format = "sha1"
+hash = "5a135fe8dc23ece7f55ead2f715b005d5d46ffdd"
+
+[update]
+[update.curseforge]
+project-id = 1624979
+file-id = 9087747

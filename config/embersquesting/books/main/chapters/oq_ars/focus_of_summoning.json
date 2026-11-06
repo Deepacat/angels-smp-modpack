@@ -1,0 +1,24 @@
+{
+  "title": "Focus of Summoning",
+  "description": [
+    "Increases duration and damage of your summons and decreases the summoning cooldown!"
+  ],
+  "icon": "ars_nouveau:summon_focus",
+  "x": 12,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/wilden_tribute",
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:summon_focus",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

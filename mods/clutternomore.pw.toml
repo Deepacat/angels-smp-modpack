@@ -1,0 +1,13 @@
+name = "Clutter No More"
+filename = "clutternomore-neoforge-3.1.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9397/567/clutternomore-neoforge-3.1.1-1.21.1.jar"
+hash-format = "sha1"
+hash = "738d002088f6033e70d30ff9f53896e9ad1019ee"
+
+[update]
+[update.curseforge]
+project-id = 1339454
+file-id = 9397567

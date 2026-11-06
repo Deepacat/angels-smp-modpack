@@ -1,0 +1,24 @@
+{
+  "title": "Conveyor Splitter",
+  "icon": "hbm:crane_splitter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Conveyor Splitter&r is a type of conveyor belt that splits items evenly onto 2 lanes. The ratio is 1:1, but can be configured using a &6Screwdriver&r."
+  ],
+  "x": 13,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crane_splitter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

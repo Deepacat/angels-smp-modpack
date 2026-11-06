@@ -1,0 +1,21 @@
+{
+  "title": "Extended Interface",
+  "description": [
+    "Has 36 configuration slots. I used these with Gregtech once :D"
+  ],
+  "icon": "extendedae:ex_interface",
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:ex_interface",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

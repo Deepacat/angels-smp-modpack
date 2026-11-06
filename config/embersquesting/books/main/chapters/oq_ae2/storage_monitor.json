@@ -1,0 +1,22 @@
+{
+  "title": "Storage Monitor",
+  "description": [
+    "This fella displays the total amount of a filtered item that your system is storing!"
+  ],
+  "icon": "ae2:storage_monitor",
+  "x": 9,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/level_emitter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:storage_monitor",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Spark Singularity",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Spark Singularity&r is a singularity made from combining all the types of singularities with &6Dineutronium&r."
+  ],
+  "icon": "hbm:singularity_spark",
+  "x": -0.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/dineutronium_anvil",
+      "oq_ntm_fusion/cmb_steel",
+      "oq_ntm_particle_physics/euphemium",
+      "oq_ntm_fusion/magnetized_tungsten"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:singularity_spark",
+      "type": "item"
+    }
+  ]
+}

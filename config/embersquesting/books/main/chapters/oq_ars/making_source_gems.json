@@ -1,0 +1,25 @@
+{
+  "title": "Making Source Gems",
+  "description": [
+    "You will need an Imbuement Chamber to create the basic materials of Ars, the first of which, source gems, are made from either amethyst or lapis. For now they process rather slowly, but a way to speed it up is on the horizon!"
+  ],
+  "icon": "ars_nouveau:source_gem",
+  "x": 4,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/archwood"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:imbuement_chamber",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:source_gem",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

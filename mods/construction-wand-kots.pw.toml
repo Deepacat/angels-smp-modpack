@@ -1,0 +1,13 @@
+name = "Construction Wand - KOTS"
+filename = "constructionwand-kots-1.21.1-2.16.13.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9392/199/constructionwand-kots-1.21.1-2.16.13.jar"
+hash-format = "sha1"
+hash = "2f92561a985e1a81da2e4a7a685efb62739d0d4f"
+
+[update]
+[update.curseforge]
+project-id = 1382688
+file-id = 9392199

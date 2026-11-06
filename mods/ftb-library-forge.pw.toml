@@ -1,0 +1,13 @@
+name = "FTB Library (NeoForge)"
+filename = "ftb-library-neoforge-2101.1.39.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9350/706/ftb-library-neoforge-2101.1.39.jar"
+hash-format = "sha1"
+hash = "ff852d99ade215fb892369687d0634ecf0bca6ae"
+
+[update]
+[update.curseforge]
+project-id = 404465
+file-id = 9350706

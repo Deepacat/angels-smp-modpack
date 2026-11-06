@@ -1,0 +1,25 @@
+{
+  "title": "CMB Steel",
+  "icon": "hbm:ingot_combine_steel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6CMB Steel&r is an alloy made from &6Poisonous Mud&r and &6Magnetized Tunsten&r in a &3Crucible&r. This alloy is used in endgame machinery, such as the &3ICF&r and &3DFC&r."
+  ],
+  "x": 18,
+  "y": 12,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/solid_mud_brick",
+      "oq_ntm_fusion/magnetized_tungsten"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_combine_steel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

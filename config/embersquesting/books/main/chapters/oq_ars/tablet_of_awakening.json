@@ -1,0 +1,21 @@
+{
+  "title": "Tablet of Awakening",
+  "description": [
+    "Performing this near Archwood Trees creates Weald Walkers, near Budding Amethyst - Amethyst Golems, and if you augment the ritual with a Book and Quill, you'll get a Bookwyrm charm!"
+  ],
+  "icon": "ars_nouveau:ritual_awakening",
+  "x": 8.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_awakening",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Spell Prism",
+  "description": [
+    "Spell Prisms redirect spell projectiles passing through them. Advanced Spell Prisms can aim at a specific block."
+  ],
+  "icon": "ars_nouveau:spell_prism",
+  "x": 12,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ars/spell_turret"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:spell_prism) item(ars_elemental:advanced_prism))",
+      "type": "item",
+      "title": "Any Spell Prism"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

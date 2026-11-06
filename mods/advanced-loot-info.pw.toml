@@ -1,0 +1,13 @@
+name = "Advanced Loot Info (ALI)"
+filename = "AdvancedLootInfo-neoforge-1.21.1-2.5.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9212/286/AdvancedLootInfo-neoforge-1.21.1-2.5.0.jar"
+hash-format = "sha1"
+hash = "d640286f05ff6417af467ba25e92f7f879cd888d"
+
+[update]
+[update.curseforge]
+project-id = 1205426
+file-id = 9212286

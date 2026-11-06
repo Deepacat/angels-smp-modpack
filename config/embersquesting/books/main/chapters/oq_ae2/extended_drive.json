@@ -1,0 +1,22 @@
+{
+  "title": "Extended Drive",
+  "description": [
+    "Can hold 20 Storage Cells compared to the normal Drive's 10."
+  ],
+  "icon": "extendedae:ex_drive",
+  "x": 2,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:ex_drive",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

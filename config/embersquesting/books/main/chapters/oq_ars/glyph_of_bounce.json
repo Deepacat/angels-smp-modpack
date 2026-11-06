@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Bounce",
+  "description": [
+    "Makes you bounce on everything, preventing fall damage. Useful with the glyph of Leap."
+  ],
+  "icon": "ars_nouveau:glyph_bounce",
+  "x": 6,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_bounce",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Extended Crafting",
+  "description": [
+    "Extended Pattern Providers hold 36 patterns each, and Extended Molecular Assemblers can craft eight things at once!"
+  ],
+  "icon": "extendedae:ex_pattern_provider",
+  "x": 1,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:ex_pattern_provider",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:ex_molecular_assembler",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

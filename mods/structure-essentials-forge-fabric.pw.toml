@@ -1,0 +1,13 @@
+name = "Structure Essentials"
+filename = "structureessentials-1.21.1-5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9278/578/structureessentials-1.21.1-5.1.jar"
+hash-format = "sha1"
+hash = "03ec260f12627af514e0cf4644e03cb1975aab18"
+
+[update]
+[update.curseforge]
+project-id = 832882
+file-id = 9278578

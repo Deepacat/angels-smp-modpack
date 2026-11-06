@@ -1,0 +1,22 @@
+{
+  "title": "Helium-4",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:helium4\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&bHelium-4&r is a product of fusion and is mainly used in crafting &6Quantum Processing Units&r."
+  ],
+  "x": 7.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/fusion_reactor"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

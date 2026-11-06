@@ -1,0 +1,45 @@
+{
+  "title": "Ammo Press and Guns",
+  "icon": "hbm:gun_light_revolver",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "With casting available through the &3Crucible&r, many gun parts can now be created such as &6Barrels&r and &6Grips&r. An &3Ammo Press&r is used to create the various ammunitions guns use.",
+    "",
+    "A &3Weapon Modification Table&r can be used to install weapon mods, such as &6Silencers&r and &6Scopes&r.",
+    "",
+    "The &6Bullet Casing Bag&r will retrieve some of the casings when guns are fired.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_weapon_table",
+          "count": 1
+        },
+        {
+          "item": "hbm:casing_bag",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 9.5,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_ammo_press",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

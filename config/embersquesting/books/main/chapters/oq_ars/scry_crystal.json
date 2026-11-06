@@ -1,0 +1,21 @@
+{
+  "title": "Scry Crystal",
+  "subtitle": "Access the world remotely!",
+  "icon": "ars_nouveau:scryers_crystal",
+  "x": 13,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ars/making_source_gems"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:scryers_crystal",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

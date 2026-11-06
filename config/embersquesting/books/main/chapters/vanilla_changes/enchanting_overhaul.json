@@ -1,0 +1,67 @@
+{
+  "title": "Enchanting overhaul",
+  "subtitle": "Matrix & More expensive",
+  "description": [
+    "Enchanting has it's system replaced by quark matrix enchanting, and it is heavily nerfed",
+    "",
+    "While enchanting a base item, it is difficult to get very far in enchanting it (Has been limited greatly)",
+    "",
+    "Book enchanting is slightly buffed",
+    "",
+    "This is intended to make enchants much more valuable and harder to obtain",
+    "",
+    "You can influence the chance for certain enchant pieces using candles, up to candles can be used at once",
+    "",
+    "§7§nSee next page for which enchants the candle colors influence",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§lWhite§r: Unbreaking",
+    "",
+    "§l§7Light Gray§r: Fire Protection",
+    "",
+    "§l§8Gray§r: Knockback, Punch",
+    "",
+    "§l§0Black§r: Feather Falling",
+    "",
+    "§l&#563A00Brown§r: Looting, Fortune, Luck of the Sea",
+    "",
+    "§l§cRed§r: Blast Protection",
+    "",
+    "§l&#FF6F01Orange§r: Silk Touch, Channeling",
+    "",
+    "§l§eYellow§r: Bane of Arthropods",
+    "",
+    "§l§aLime§r: Protection",
+    "",
+    "§l§2Green§r: Respiration, Loyalty, Infinity",
+    "",
+    "§l§3Cyan§r: Sweeping Edge, Multishot",
+    "",
+    "§l§bLight Blue§r: Efficiency, Sharpness, Lure, Power, Impaling, Quick Charge",
+    "",
+    "§l§9Blue§r: Aqua Affinity, Depth Strider, Riptide",
+    "",
+    "§l&#AA19A0Purple§r: Thorns, Piercing",
+    "",
+    "§l§dMagenta§r: Fire Aspect, Flame",
+    "",
+    "§l&#FF9DE7Pink§r: Smite, Projectile Protection"
+  ],
+  "icon": "minecraft:enchanting_table",
+  "x": 1,
+  "y": 3,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:enchanting_table",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

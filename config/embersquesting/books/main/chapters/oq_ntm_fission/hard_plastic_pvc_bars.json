@@ -1,0 +1,27 @@
+{
+  "title": "Hard Plastic/PVC Bars",
+  "icon": "hbm:ingot_pvc",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Hard Plastic/PVC Bars&r are very durable plastics needed for many late game recipes.",
+    "",
+    "&2Both can be used in the same recipes."
+  ],
+  "x": 18.5,
+  "y": 16,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/cadmium",
+      "oq_ntm_fission/btx"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_pc",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

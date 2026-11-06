@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Fell",
+  "description": [
+    "Cuts trees down in like... three casts max :D"
+  ],
+  "icon": "ars_nouveau:glyph_fell",
+  "x": 7,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_fell",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

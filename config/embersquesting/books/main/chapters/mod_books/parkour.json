@@ -1,0 +1,30 @@
+{
+  "title": "Parkour",
+  "subtitle": "NOT \"Parcool\"",
+  "description": [
+    "Simple parkour is present but is disabled alongside it's keybinds by default, if you want to try the mod you can rebind them.",
+    "",
+    "(It's really fun mostly unobtrusive movement stuff unlike parcool)",
+    "",
+    "Features:",
+    "- Sliding",
+    "- Wall mantles (lets you hold a ledge and shimmy",
+    "  across/around it)",
+    "- Wall jumps",
+    "- Breakfalls (rolls out of fall damage)"
+  ],
+  "icon": "minecraft:textures/mob_effect/jump_boost.png",
+  "x": 12.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

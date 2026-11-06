@@ -1,0 +1,27 @@
+{
+  "title": "P2P Tunnels",
+  "description": [
+    "P2P Tunnels are portals - a cable can come into one, come out of another, and it's like they're directly connected. P2P tunnels can be linked to one another with a Memory Card.\nDifferent types of P2P tunnels support different cables: item and fluid pipes, energy cables, and even AE2's own cables carrying channels.\nA connection between linked P2P tunnels takes one channel of the network."
+  ],
+  "icon": "ae2:memory_card",
+  "x": 7,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/cables"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ae2:me_p2p_tunnel) item(ae2:redstone_p2p_tunnel) item(ae2:item_p2p_tunnel) item(ae2:fluid_p2p_tunnel) item(ae2:energy_p2p_tunnel) item(ae2:light_p2p_tunnel))",
+      "type": "item",
+      "title": "Any P2P Tunnel"
+    },
+    {
+      "item": "ae2:memory_card",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

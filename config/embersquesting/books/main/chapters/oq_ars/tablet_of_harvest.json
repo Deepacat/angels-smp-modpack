@@ -1,0 +1,22 @@
+{
+  "title": "Tablet of Harvest",
+  "description": [
+    "Harvests crops in an area and deposits them into a nearby chest."
+  ],
+  "icon": "ars_nouveau:ritual_harvest",
+  "x": 6.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_harvest",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

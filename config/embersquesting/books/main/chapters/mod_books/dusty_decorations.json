@@ -1,0 +1,18 @@
+{
+  "title": "Dusty Decorations",
+  "subtitle": "Lots of decorations and blocks for more realistic environments (not all industrial)",
+  "icon": "dustydecorations:corrugated_metal_block",
+  "x": 3.75,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

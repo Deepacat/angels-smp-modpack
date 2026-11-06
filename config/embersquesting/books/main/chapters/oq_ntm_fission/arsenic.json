@@ -1,0 +1,25 @@
+{
+  "title": "Arsenic",
+  "icon": "hbm:ingot_arsenic",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Arsenic&r is a substitute of &6Bismuth&r which can be made from acidizing &6Oily Dirt&r, found near &ebedrock oil deposits&r or from the environmental damage the &3Fracking Tower&r does, with &bHigh-Performance Solvent&r."
+  ],
+  "x": 22.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/high_performance_solvent",
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_arsenic",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

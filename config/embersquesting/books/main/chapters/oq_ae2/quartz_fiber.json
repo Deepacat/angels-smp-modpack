@@ -1,0 +1,21 @@
+{
+  "title": "Quartz Fiber",
+  "description": [
+    "This is a crafting component, but it also has a purpose in itself. You can connect two cable lines through it and it will transfer energy, but not channels, allowing you to power one AE2 network from another."
+  ],
+  "icon": "ae2:quartz_fiber",
+  "x": 6,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:quartz_fiber",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

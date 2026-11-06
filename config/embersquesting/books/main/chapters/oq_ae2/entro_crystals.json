@@ -1,0 +1,29 @@
+{
+  "title": "Entro Crystals",
+  "description": [
+    "Welcome to Extended AE! To start in this mod, you'll need a new type of resource, Entro Crystals. Craft an Entro Seed and click it on a Fluix Block: this will create a Budding Block that grows them. Growth Accelerators work!\n\nThere is no Flawless version of this, unfortunately, but you will get a way to prevent the decay down the line (@see Crystal Fixer)"
+  ],
+  "icon": "extendedae:entro_crystal",
+  "x": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/fluix_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:entro_seed",
+      "type": "item"
+    },
+    {
+      "item": "ae2:fluix_block",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:entro_crystal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_in": "hover"
+}

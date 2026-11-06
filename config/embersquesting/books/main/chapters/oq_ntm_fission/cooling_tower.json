@@ -1,0 +1,25 @@
+{
+  "title": "Cooling Tower",
+  "icon": "hbm:machine_tower_large",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Cooling Tower&r is a larger version of the &3Auxiliary Cooling Tower&r&r, able to process up to 500 mB/t of &bLow-Pressure Steam&r."
+  ],
+  "x": 0,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/boiler_and_steam_condenser",
+      "oq_ntm_fission/ferrouranium_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_tower_large",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

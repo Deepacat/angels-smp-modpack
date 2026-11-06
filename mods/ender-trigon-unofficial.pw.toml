@@ -1,0 +1,13 @@
+name = "Ender Trigon Unofficial"
+filename = "ender_trigon_unofficial-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8535/38/ender_trigon_unofficial-1.0.0-1.21.1.jar"
+hash-format = "sha1"
+hash = "505177c05a0ec3fb971d5ac89080990e07583ec9"
+
+[update]
+[update.curseforge]
+project-id = 1630768
+file-id = 8535038

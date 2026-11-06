@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Dispel",
+  "description": [
+    "Can be used to return Ars pets into their charms and release mobs out of Containment Jars!"
+  ],
+  "icon": "ars_nouveau:glyph_dispel",
+  "x": 7.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_dispel",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

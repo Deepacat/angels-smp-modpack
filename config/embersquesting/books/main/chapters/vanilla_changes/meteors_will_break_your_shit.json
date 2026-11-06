@@ -1,0 +1,35 @@
+{
+  "title": "Meteors !!! (Will break your shit)",
+  "subtitle": "Claim your prevention charm!!",
+  "description": [
+    "NTM adds meteors that occasionally fall and can §4destroy§r your base or the terrain!",
+    "",
+    "This quest gives 2 curios that can prevent them from spawning at all near you OR just prevent them from damaging terrain.",
+    "",
+    "(They fit into any curio slot)"
+  ],
+  "icon": "hbm:block_meteor_molten",
+  "x": 0.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ntmadditions:meteor_charm_curio",
+      "type": "item"
+    },
+    {
+      "item": "ntmadditions:protection_charm_curio",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

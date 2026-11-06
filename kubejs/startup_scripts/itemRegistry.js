@@ -1,0 +1,27 @@
+StartupEvents.registry('item', e => {
+    e.create('kubejs:repair_scrap')
+        .displayName('Repair Scraps')
+        .tooltip('§7Obtained by placing a broken item in the crafting grid.')
+        .tooltip('§7Right click this onto a broken item inside your inventory to restore it to 1 durability.')
+
+    e.create('kubejs:broken_item')
+        .displayName('Unknown Broken Item')
+        .maxStackSize(1)
+        .unstackable()
+        .tooltip('§7Right click this item with a Repair Scrap to restore it with 1 durability.')
+        .tooltip('§7Can be crafted into a repair scrap.')
+
+    e.create('kubejs:broken_tool')
+        .displayName('Unkown Broken Tool')
+        .maxStackSize(1)
+        .unstackable()
+        .tooltip('§7Right click this item with a Repair Scrap to restore it with 1 durability.')
+        .tooltip('§7Can be crafted into a repair scrap.')
+
+    e.create('kubejs:broken_armor')
+        .displayName('Unkown Broken Armor Piece')
+        .maxStackSize(1)
+        .unstackable()
+        .tooltip('§7Right click this item with a Repair Scrap to restore it with 1 durability.')
+        .tooltip('§7Can be crafted into a repair scrap.')
+})

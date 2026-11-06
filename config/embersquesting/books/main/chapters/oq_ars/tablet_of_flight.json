@@ -1,0 +1,20 @@
+{
+  "title": "Tablet of Flight",
+  "description": [
+    "Creative flight - for the cost of source in a range around the brazier!"
+  ],
+  "icon": "ars_nouveau:ritual_flight",
+  "x": 7,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_flight",
+      "type": "item"
+    }
+  ],
+  "shape": "gear"
+}

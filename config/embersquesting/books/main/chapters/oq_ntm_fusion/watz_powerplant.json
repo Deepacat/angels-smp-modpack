@@ -1,0 +1,62 @@
+{
+  "title": "Watz Powerplant",
+  "icon": "hbm:watz",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Watz&r powerplant is a fission reactor which can produce &bPoisonous Mud&r, an important component of &6CMB Steel&r. Although the reactor is not really powerful in terms of energy output, it can be stacked ontop of eachother for increased mud and power production.",
+    "",
+    "If the poisonous mud buffer reaches its maximum, the reactor will melt down and explode, irradiating a wide area around it and causing fallout to fall in a small area around it. As well as this, it will spew poisonous mud in a very wide area which will then corrode any blocks that it comes in contact with, similar to corium."
+  ],
+  "x": 16.5,
+  "y": 5.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_oil/desh",
+      "oq_ntm_oil/military_grade_circuit_board",
+      "oq_ntm_early_game/industrial_mixer",
+      "oq_ntm_fission/saturnite",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:bolt_dura_steel",
+      "count": 192,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_casing",
+      "count": 48,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_element",
+      "count": 36,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_cooler",
+      "count": 26,
+      "type": "item"
+    },
+    {
+      "item": "hbm:struct_watz_core",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:watz_pump",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:boltgun",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

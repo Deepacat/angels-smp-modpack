@@ -1,0 +1,22 @@
+{
+  "title": "Terminal",
+  "description": [
+    "An AE system would be hard to use if it didn't have a visual interface to it. That's where the Terminal comes in! You can view your items from it, put them in, take them out, search, and in the upgraded version, the Crafting Terminal, you can even craft with all the items at your disposal. (Honestly, why does the regular terminal even exist?)\nYou can place this on any cable that isn't dense."
+  ],
+  "icon": "ae2:crafting_terminal",
+  "x": 7,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors",
+      "oq_ae2/cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:crafting_terminal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Jars of Containment",
+  "description": [
+    "A Tablet of Containment can be used to pick mobs up into Containment Jars! It needs source for every activation after the first. To release the mob, cast Dispel on the jar.\n\n§oNota Bene:§r Containment Jars are not limited to mobs - they can contain pretty much any entity, including dropped items and even lightning bolts!"
+  ],
+  "icon": "ars_nouveau:mob_jar",
+  "x": 9,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_containment",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:mob_jar",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

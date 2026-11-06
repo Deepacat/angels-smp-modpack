@@ -1,0 +1,47 @@
+{
+  "title": "Structure Looting",
+  "icon": "hbm:safe",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Screwdriver&r is used to rotate conveyor blocks aswell as to create a &3Chicago Pile&r. It can also be used in combination with &6Bobby Pins&r to unlock &6Safes&r found in various structures.",
+    "",
+    "The &6Crowbar&r is used to open crates for loot such as food and ammunition found in various structures.",
+    "",
+    "&6Uranium-238&r can be found in structures and can be used to skip the &3Desh Anvil&r after obtaining a &3Crucible&r.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:screwdriver",
+          "count": 1
+        },
+        {
+          "item": "hbm:pin",
+          "count": 1
+        },
+        {
+          "item": "hbm:crowbar",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 18,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

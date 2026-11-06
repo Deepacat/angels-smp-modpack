@@ -1,0 +1,8 @@
+name = "Random NTM Additions"
+filename = "ntmadditions-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://mods.deepa.cat/angel/packmods/ntmadditions-0.1.0.jar"
+hash-format = "sha1"
+hash = "79039e8ff8691b19eebd3d8f98bfbfb3054dbe29"

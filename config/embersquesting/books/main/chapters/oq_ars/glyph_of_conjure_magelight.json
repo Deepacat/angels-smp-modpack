@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Conjure Magelight",
+  "description": [
+    "Now you can shoot infinite magical torches! And applied to self, this gives night vision for a short time."
+  ],
+  "icon": "ars_nouveau:glyph_light",
+  "x": 3,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/simplest_glyphs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_light",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

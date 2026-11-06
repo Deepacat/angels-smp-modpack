@@ -1,0 +1,20 @@
+{
+  "title": "Plushies!",
+  "description": [
+    "Hell yeah!"
+  ],
+  "icon": "extendedae:mddyue",
+  "x": 1,
+  "y": 6,
+  "tasks": [
+    {
+      "item": "extendedae:fishbig",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:mddyue",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

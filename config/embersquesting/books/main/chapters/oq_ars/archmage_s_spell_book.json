@@ -1,0 +1,21 @@
+{
+  "title": "Archmage's Spell Book",
+  "description": [
+    "Tier 3 spells are within your reach!"
+  ],
+  "icon": "ars_nouveau:archmage_spell_book",
+  "x": 10,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/wilden_tribute"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:archmage_spell_book",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

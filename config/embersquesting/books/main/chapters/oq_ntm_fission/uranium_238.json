@@ -1,0 +1,34 @@
+{
+  "title": "Uranium-238",
+  "icon": "hbm:ingot_u238",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Uranium-238&r is the most common uranium isotope in the game.",
+    "",
+    "This material has many uses, some of which are: &6Ferrouranium&r, MOX fuel, depleted uranium ammunition, absorber Pellets for the &3Watz&r powerplant and can also be turned into &6Schrabidium&r later on in the &3Exposure Chamber&r."
+  ],
+  "x": 4,
+  "y": 9.5,
+  "deps": {
+    "any": [
+      "oq_ntm_early_game/structure_looting",
+      "oq_ntm_fission/fel_and_silex",
+      "oq_ntm_fission/gas_centrifuge",
+      "oq_ntm_fission/nuclear_fuel_processing"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/fel_and_silex": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_u238",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

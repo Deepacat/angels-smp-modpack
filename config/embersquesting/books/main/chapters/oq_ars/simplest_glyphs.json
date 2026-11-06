@@ -1,0 +1,19 @@
+{
+  "title": "Simplest glyphs",
+  "description": [
+    "Ars Nouveau has a lot of different glyphs, so for this and other similar sections I will only provide a handful which were most useful in my experience playing with the mod. In this section I'm showing Tier 1 glyhs that don't require elemental essences - so anything you can craft right out the gate without progressing into Ars further."
+  ],
+  "x": 4,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/scribe_s_table"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

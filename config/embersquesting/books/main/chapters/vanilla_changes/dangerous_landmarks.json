@@ -1,0 +1,29 @@
+{
+  "title": "Dangerous Landmarks!",
+  "subtitle": "Anyone else hear that clicking",
+  "description": [
+    "Nuclear Tech Mod's structures can be very dangerous.",
+    "",
+    "With turrets, mobs with guns, or just generally radioactive!",
+    "",
+    "If you care to interact with the mod and it's structures, be careful!",
+    "",
+    "(Random bombs you find laying around will not explode randomly! Although they are slightly radioactive to be around)",
+    "",
+    "(Coal, sulfur, and asbestos hazards are disabled)"
+  ],
+  "icon": "ags_modernmarkings:textures/block/marking_wall_symbol_yellow_radiation.png",
+  "x": 1.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

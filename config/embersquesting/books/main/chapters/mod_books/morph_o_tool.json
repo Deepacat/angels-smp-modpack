@@ -1,0 +1,23 @@
+{
+  "title": "Morph-O-Tool",
+  "subtitle": "Dynamic wrench",
+  "description": [
+    "Can be crafted together with any other wrench to add to it, can swap to any wrench whenever you want.",
+    "",
+    "(Alot of magic \"wrenches\" work too!)"
+  ],
+  "icon": "morphtool:tool",
+  "x": 13.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

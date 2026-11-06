@@ -1,0 +1,20 @@
+{
+  "title": "Crafting Card",
+  "description": [
+    "These make Interfaces and Export Buses request autocrafting of the items they need if there are none in stock."
+  ],
+  "icon": "ae2:crafting_card",
+  "x": 6.5,
+  "deps": {
+    "all": [
+      "oq_ae2/upgrade_cards"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:crafting_card",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

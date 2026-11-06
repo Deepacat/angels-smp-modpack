@@ -1,0 +1,24 @@
+{
+  "title": "Waystones",
+  "icon": "waystones:waystone",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&dWaystones&r are a method of teleporation that work in one dimension. They can be set to global to make them accessable by othe players. Additionally, the &dWarpstone&r can be used to teleport to any waystone from anywhere at the cost of a 100s cooldown."
+  ],
+  "x": 20.5,
+  "y": 21,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "waystones:waystone",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

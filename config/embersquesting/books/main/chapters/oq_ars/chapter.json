@@ -1,0 +1,10 @@
+{
+  "title": "Ars Nouveau",
+  "icon": "ars_nouveau:archmage_spell_book",
+  "order": 4,
+  "scope": "team",
+  "group": "magic_info",
+  "defaults": {
+    "progression": "linear"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "The Nether",
+  "icon": "minecraft:obsidian",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&eThe Nether&r is entirely optional for &dNTM&r progression, but is home to many resources, such as:",
+    "",
+    "&6Quartz&r&r which can be used for &6Silicon&r.",
+    "",
+    "&6Infernal Coal&r which can be shredded for &6Coal Powder&r. A mask or suit that can protect against Carbon Dioxide is needed to mine the deposits.",
+    "",
+    "&6Sulfur&r needed for various chemical processes.",
+    "",
+    "&6Red Phosphorus&r for incendiary weaponry.",
+    "",
+    "&6Glowstone&r for early &bChlorine Gas&r in a &3Combination Oven&r.",
+    "",
+    "&6Cobalt&r can also be rarely found near the Nether Roof.",
+    "",
+    "The Nether has a backround radiation of &e0.1RAD/s&r.&r",
+    "",
+    "&2Glowstone, Quartz and Phosphorus Bedrock Ore Deposits also exist.&r",
+    "",
+    "&2Depth Neodymium Deposits also spawn exclusively in the Nether.&r"
+  ],
+  "x": 14,
+  "y": 0,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

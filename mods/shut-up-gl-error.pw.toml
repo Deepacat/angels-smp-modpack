@@ -1,0 +1,13 @@
+name = "Shut Up GL Error"
+filename = "shut_up_gl_error-neoforge-2.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6748/324/shut_up_gl_error-neoforge-2.0.0+1.21.1.jar"
+hash-format = "sha1"
+hash = "b74aa13ec2945c781c450bc49dc2d9968d44db00"
+
+[update]
+[update.curseforge]
+project-id = 900855
+file-id = 6748324

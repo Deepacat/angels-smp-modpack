@@ -1,0 +1,28 @@
+{
+  "title": "Exposure Chamber",
+  "icon": "hbm:machine_exposure_chamber",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Exposure Chamber&r is a machine in which many materials can be created by exposing ingots to certain particles, most important of which being &6Dineutronium&r."
+  ],
+  "x": 6.5,
+  "y": 11,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/technetium_cadmium_steel",
+      "oq_ntm_oil/tantalum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_exposure_chamber",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

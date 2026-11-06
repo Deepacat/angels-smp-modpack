@@ -1,0 +1,28 @@
+{
+  "title": "Occultism",
+  "subtitle": "Summoning spirits to do your bidding. And mining.",
+  "description": [
+    "You can also marry one or 2 of them I guess."
+  ],
+  "icon": "occultism:textures/gui/book/pentacle.png",
+  "x": 5.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "title": "Maybe a gem could lead me somewhere",
+      "points": 1,
+      "type": "xp"
+    }
+  ],
+  "shape": "circle"
+}

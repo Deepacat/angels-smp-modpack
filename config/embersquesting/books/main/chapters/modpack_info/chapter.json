@@ -1,0 +1,8 @@
+{
+  "title": "Modpack Info",
+  "icon": "jei:textures/gui/sprites/icons/info.png",
+  "scope": "team",
+  "defaults": {
+    "progression": "linear"
+  }
+}

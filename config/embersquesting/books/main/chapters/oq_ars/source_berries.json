@@ -1,0 +1,21 @@
+{
+  "title": "Source Berries",
+  "description": [
+    "Source Berries grow in taigas and archwood forests! They give Mana Regeneration when eaten and can be crafted into more potent foods, as well as brewed into a Potion of Mana Regeneration."
+  ],
+  "icon": "ars_nouveau:sourceberry_bush",
+  "x": 2,
+  "y": 4,
+  "tasks": [
+    {
+      "item": "ars_nouveau:sourceberry_bush",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(ars_nouveau:source_berry_roll) item(ars_nouveau:source_berry_pie))",
+      "type": "item",
+      "title": "Source Berry Roll or Pie"
+    }
+  ],
+  "shape": "circle"
+}

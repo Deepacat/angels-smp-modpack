@@ -1,0 +1,22 @@
+{
+  "title": "Tablet of Scrying",
+  "description": [
+    "Augment it with any block, and the ritual will highlight all blocks of the same time through walls. Yes, this is ore x-ray, but you can also search for e.g. mob spawner dungeons by scrying mossy cobblestone! Incredibly versatile :3"
+  ],
+  "icon": "ars_nouveau:ritual_scrying",
+  "x": 8,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_scrying",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

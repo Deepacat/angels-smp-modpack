@@ -1,0 +1,33 @@
+{
+  "title": "Heavy Magnetic Storage Tank",
+  "icon": "hbm:machine_orbus",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Heavy Magnetic Storage Tank&r is a large version of the &3Magnetic Antimatter Container&r. It will be particularly useful when making &6Gerald&r, as he will need very large quantities of &bStellar Flux&r."
+  ],
+  "x": 8,
+  "y": 20,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/dense_wires",
+      "oq_ntm_fission/saturnite",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:machine_orbus",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:barrel_antimatter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

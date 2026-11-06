@@ -1,0 +1,65 @@
+{
+  "title": "Refinery Power",
+  "icon": "hbm:machine_turbofan",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Oil products can be combusted or burnt to produce massive amounts of energy.",
+    "",
+    "The &3Industrial Combustion Engine&r combusts fuels, such as &bHeating Oil&r or &bDiesel&r to produce power. Various piston sets exist, which are needed for the engine to work, each one giving its own efficiency bonuses to fuel grades.",
+    "",
+    "The &4&3Turbofan&r is the best place to use aviation type fuels, such as &bKerosene&r, as it provides &e100%&r power efficiency. Be careful not to stand infront of it while its operational!",
+    "",
+    "The &3Combined Cycle Gas Turbine&r is the only generator that can burn gaseous fuels at &e100%&r efficiency. The CCGT uses &3&bEngine Lubricant&r, and produces &bDense Steam&r.",
+    "",
+    "The &3Flare Stack&r is used for burning gasses such as &bUnsaturated Hydrocarbons&r for power, aswell as dealing with excess fluids.",
+    "",
+    "The &3Fluid Burner&r is a much more efficient way of producing power from gases. Place a &3Boiler&r ontop and run the &bSteam&r through a turbine to generate power.",
+    "",
+    "Consider installing a &6Muffler&r on some of these machines as they are very loud. Shift-Click on a machine while holding a Muffler to apply.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_combustion_engine",
+          "count": 1
+        },
+        {
+          "item": "hbm:machine_turbofan",
+          "count": 1
+        },
+        {
+          "item": "hbm:machine_turbine_gas",
+          "count": 1
+        },
+        {
+          "item": "hbm:machine_flare",
+          "count": 1
+        },
+        {
+          "item": "hbm:heater_oilburner",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 6.5,
+  "y": 19.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_early_game/dense_wires"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

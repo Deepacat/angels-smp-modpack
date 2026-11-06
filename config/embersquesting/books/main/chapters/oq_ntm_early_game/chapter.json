@@ -1,0 +1,11 @@
+{
+  "title": "Early Game",
+  "icon": "hbm:machine_wood_burner",
+  "order": 2,
+  "scope": "team",
+  "world_reveal": false,
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

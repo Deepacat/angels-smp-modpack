@@ -1,0 +1,19 @@
+{
+  "title": "Angel's SMP Guide",
+  "icon": "minecraft:writable_book",
+  "style": "deepaclassic:blank",
+  "groups": {
+    "tech_info": {
+      "title": "Tech info",
+      "order": 3
+    },
+    "magic_info": {
+      "title": "Magic info",
+      "order": 4
+    },
+    "ntm": {
+      "title": "NTM",
+      "order": 5
+    }
+  }
+}

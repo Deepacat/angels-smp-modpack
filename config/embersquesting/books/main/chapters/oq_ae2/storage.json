@@ -1,0 +1,20 @@
+{
+  "title": "Storage",
+  "description": [
+    "You need a place to store items in your AE system. There are two solutions: either store them digitally on storage cells or slap a storage bus on something.\nThere's a priority system for storage that can be configured for both. Items are first put into higher priority storage and first taken from lower priority storage."
+  ],
+  "icon": "minecraft:barrel",
+  "x": 7,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

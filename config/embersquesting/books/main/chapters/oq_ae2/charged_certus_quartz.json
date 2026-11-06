@@ -1,0 +1,21 @@
+{
+  "title": "Charged Certus Quartz",
+  "description": [
+    "Put a Certus Quartz Crystal into a Charger to get this."
+  ],
+  "icon": "ae2:charged_certus_quartz_crystal",
+  "x": 4,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:charged_certus_quartz_crystal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

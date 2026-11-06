@@ -1,0 +1,13 @@
+name = "Industrial Hellscape"
+filename = "industrialhellscape-1.1.94.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8782/368/industrialhellscape-1.1.94.jar"
+hash-format = "sha1"
+hash = "7223923cd6964a938b96720c1280d476ff1467a8"
+
+[update]
+[update.curseforge]
+project-id = 1302110
+file-id = 8782368

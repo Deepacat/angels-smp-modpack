@@ -1,0 +1,25 @@
+{
+  "title": "Sensor Relay",
+  "icon": "hbm:satellite_science_sensor",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Sensor Relay Satellite&r is used to produce &eOrbital Data&r. A single relay takes &e100 hours&r to produce one drive worth of orbital data. It can be sped up by installing more relays. Each additional Relay reduces the time linearly, meaning that a satellite with 100 relays will produce orbital data in just &eone hour&r."
+  ],
+  "x": 5,
+  "y": 12,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/space_laboratory",
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:satellite_science_sensor",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "ICF Laser",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&2This quest provides an optional retrieval task for two small lasers capable of running Helium-4 - Deuterium Fuel at 15MHE, producing up to 537 MHE/s.&r",
+    {
+      "texture": "eqpack:textures/quest/bq_icflaser.png",
+      "type": "image"
+    },
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "items": [
+        {
+          "item": "hbm:icf_laser_component_casing",
+          "count": 28
+        },
+        {
+          "item": "hbm:icf_laser_component_capacitor",
+          "count": 2
+        },
+        {
+          "item": "hbm:icf_laser_component_emitter",
+          "count": 2
+        },
+        {
+          "item": "hbm:icf_laser_component_turbo",
+          "count": 2
+        },
+        {
+          "item": "hbm:icf_laser_component_cell",
+          "count": 2
+        },
+        {
+          "item": "hbm:icf_controller",
+          "count": 2
+        },
+        {
+          "item": "hbm:icf_laser_component_port",
+          "count": 2
+        }
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:icf_controller",
+  "x": 1.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/icf"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

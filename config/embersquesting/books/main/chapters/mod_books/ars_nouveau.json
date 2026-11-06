@@ -1,0 +1,29 @@
+{
+  "title": "Ars Nouveau",
+  "subtitle": "Spellcrafting & Taming arcane creatures",
+  "description": [
+    "Has a dumbed down Noita-style casting system, with glyph crafting for spells",
+    "",
+    "alongside alot of helpful companion creatures you can summon to do tasks for you like farming, brewing, collecting logs, and more"
+  ],
+  "icon": "ars_nouveau:archmage_spell_book",
+  "x": 5.75,
+  "y": 1.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ars_nouveau:worn_notebook",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

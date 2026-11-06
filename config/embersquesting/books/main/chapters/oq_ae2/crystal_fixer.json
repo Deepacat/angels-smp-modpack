@@ -1,0 +1,21 @@
+{
+  "title": "Crystal Fixer",
+  "description": [
+    "This machine requires Charged Certus Quartz Crystals and energy to fix Budding Certus Quartz blocks! It even has a 5% chance to upgrade a Flawed one into a Flawless!\n\nIt can also fix Budding Entroized Fluix, using Ender Dust instead of Charged Certus Quartz."
+  ],
+  "icon": "extendedae:crystal_fixer",
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:crystal_fixer",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

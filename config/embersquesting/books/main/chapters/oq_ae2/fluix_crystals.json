@@ -1,0 +1,21 @@
+{
+  "title": "Fluix Crystals",
+  "description": [
+    "This is an alloy of Redstone, Nether Quartz, and Charged Certus Quartz, obtained by throwing equal amounts of each item together into water. Or you can get it from villagers."
+  ],
+  "icon": "ae2:fluix_crystal",
+  "x": 5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/charged_certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:fluix_crystal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

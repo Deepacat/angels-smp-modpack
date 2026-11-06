@@ -1,0 +1,13 @@
+name = "Angels-Smp-Pack"
+author = "Deepacat"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3baa63509a2560822231fb89cf9944e5560fdf2789291024312108dd4e6b268c"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.262"

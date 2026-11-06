@@ -1,0 +1,22 @@
+{
+  "title": "Wireless Hub",
+  "description": [
+    "A version of the Wireless Connector that can connect to up to 8 others at once."
+  ],
+  "icon": "extendedae:wireless_hub",
+  "x": 2,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors",
+      "oq_ae2/wireless_connector"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:wireless_hub",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

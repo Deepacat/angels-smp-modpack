@@ -1,0 +1,13 @@
+name = "Immersive Aircraft"
+filename = "immersive_aircraft-neoforge-1.7.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9224/351/immersive_aircraft-neoforge-1.7.0+1.21.1.jar"
+hash-format = "sha1"
+hash = "5cf33cd634a88ec5728668bf13421645f11fbbe4"
+
+[update]
+[update.curseforge]
+project-id = 666014
+file-id = 9224351

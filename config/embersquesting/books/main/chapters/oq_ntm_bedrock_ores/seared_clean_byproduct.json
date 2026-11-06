@@ -1,0 +1,22 @@
+{
+  "title": "Seared Clean Byproduct",
+  "icon": "hbm:bedrock_ore_rad_arc_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of Arc Furnace processing."
+  ],
+  "x": 5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/roasted_cleaned_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Wilden Tribute",
+  "description": [
+    "Defeat the Wilden Chimera!"
+  ],
+  "icon": "ars_nouveau:wilden_tribute",
+  "x": 10,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/wilden_drops",
+      "oq_ars/tablet_of_summon_wilden",
+      "oq_ars/mage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:wilden_tribute",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

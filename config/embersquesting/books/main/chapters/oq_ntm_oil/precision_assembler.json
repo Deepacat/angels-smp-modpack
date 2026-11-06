@@ -1,0 +1,36 @@
+{
+  "title": "Precision Assembler",
+  "icon": "hbm:machine_precass",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Precision Assembler&r is a machine which can produce &6Blueprints&r. Due to the recipes having a low success rate, automation of the ingredients is recommended.",
+    "",
+    "Pufferfish can be obtained from throwing &6Fishing Dynamite&r in water."
+  ],
+  "x": 2,
+  "y": 11.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/tantalum",
+      "oq_ntm_oil/basic_oil_processing"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/tantalum": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/basic_oil_processing": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_precass",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

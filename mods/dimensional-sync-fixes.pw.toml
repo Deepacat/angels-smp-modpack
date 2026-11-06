@@ -1,0 +1,13 @@
+name = "Dimensional Sync Fixes"
+filename = "dimensionalsyncfixes-1.21.1-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7888/278/dimensionalsyncfixes-1.21.1-0.0.1.jar"
+hash-format = "sha1"
+hash = "d0d8c2d8e80a9af1cc6409e7339ae927e29332de"
+
+[update]
+[update.curseforge]
+project-id = 829521
+file-id = 7888278

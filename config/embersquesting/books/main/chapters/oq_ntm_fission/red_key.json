@@ -1,0 +1,25 @@
+{
+  "title": "Red Key",
+  "icon": "hbm:key_red",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Red Key&r is able to open any container that requires a regular key, regardless of the pin configuration of the lock, and it is one of the only two keys capable of opening the keyhole found on strange stone, in order to open a &eRed Room&r. The key has no durability, and can be reused indefinitely."
+  ],
+  "x": 12,
+  "y": 23.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/dense_wires",
+      "oq_ntm_fission/starmetal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:key_red",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

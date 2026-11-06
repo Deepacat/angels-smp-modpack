@@ -1,0 +1,28 @@
+{
+  "title": "Better Combat",
+  "subtitle": "DON'T RUN AWAY YET JUST READ ME !!",
+  "description": [
+    "First of all you can §n§ltoggle off§r better combat swinging for yourself!",
+    "",
+    "Check the controls for the keybind \"Toggle better combat\" (Default B)",
+    "",
+    "",
+    "However, Better combat is tweaked to not be annoyingly sluggish! ",
+    "",
+    "It will not slow you when swinging, and there is no delay from your click to the swing happening."
+  ],
+  "icon": "minecraft:diamond_sword",
+  "x": 2.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

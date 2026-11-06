@@ -1,0 +1,39 @@
+{
+  "title": "Electric Heater",
+  "icon": "hbm:heater_electric",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Electric Heater&r is a heater which produces heat using electricity. A Screwdriver is needed to increase its energy input, to a maximum of &e5023HE/t&r for &e1000TU/t&r.",
+    "",
+    "&2A single Heating Oven that uses Coal produces the same amount of heat so it is not recomended that this is used.&r"
+  ],
+  "x": 20,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_oil/desh_anvil"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/integrated_circuit_board": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/desh_anvil": {
+      "style": "hidden"
+    }
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:heater_electric",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

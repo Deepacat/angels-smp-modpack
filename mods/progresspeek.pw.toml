@@ -1,0 +1,13 @@
+name = "ProgressPeek"
+filename = "progresspeek-1.2.1-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9395/408/progresspeek-1.2.1-1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "3343ef2afad4bd19b4d25fdef8e032664637c045"
+
+[update]
+[update.curseforge]
+project-id = 1554328
+file-id = 9395408

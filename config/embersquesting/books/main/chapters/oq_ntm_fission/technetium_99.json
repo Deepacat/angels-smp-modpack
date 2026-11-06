@@ -1,0 +1,25 @@
+{
+  "title": "Technetium-99",
+  "icon": "hbm:ingot_technetium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Technetium-99&r is a common waste product from the fission of &6Uranium&r and &6Plutonium&r. It is mainly used in making &6Technetium Steel&r and &dAE2 Storage Components&r."
+  ],
+  "x": 6,
+  "y": 11.5,
+  "deps": {
+    "any": [
+      "oq_ntm_bedrock_ores/cleaned_byproduct_products",
+      "oq_ntm_fission/nuclear_fuel_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_technetium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Via Romana",
+  "subtitle": "Vanilla-friendly fast travel",
+  "description": [
+    "Via romana adds a vanilla-friendly fast travel system.",
+    "",
+    "It requires you to build paths between multiple points, marked by signs, and plotting the path by hand to set it up.",
+    "",
+    "After doing so, the sign can let you quickly teleport along the plotted path."
+  ],
+  "icon": "minecraft:oak_sign",
+  "x": 12.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "aliases": [
+    "mod_books/shrink_2"
+  ],
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Hephaestus",
+  "subtitle": "Like if COFH made tinkers",
+  "icon": "hephaestus_tools:large_plate{\"hephaestus_tools:part_material\":\"hephaestus_tools:copper\"}",
+  "x": 9.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

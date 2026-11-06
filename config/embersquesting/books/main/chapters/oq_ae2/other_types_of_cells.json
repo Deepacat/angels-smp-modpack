@@ -1,0 +1,23 @@
+{
+  "title": "Other types of Cells",
+  "description": [
+    "AE2 can store more things than just items!"
+  ],
+  "icon": "ae2:fluid_storage_cell_4k",
+  "x": 9,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/digital_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ae2:fluid_storage_cell_1k) item(ae2:fluid_storage_cell_4k) item(ae2:fluid_storage_cell_16k) item(ae2:fluid_storage_cell_64k) item(ae2:fluid_storage_cell_256k))",
+      "type": "item",
+      "title": "Any Fluid Storage Cell"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

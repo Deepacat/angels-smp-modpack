@@ -1,0 +1,31 @@
+{
+  "title": "Drive Enclosure and Disk Drives",
+  "icon": "hbm:machine_tape_drive",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Attaching a &3Drive Enclosure&r to one of the ports of a &3Satellite Ground Station&r which is linked to a satellite will allow it to receive data.",
+    "",
+    "&2A linked satellite ground station, when looking at it, will reveal information about the satellite.&r"
+  ],
+  "x": 1.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/satellite_ground_station"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_tape_drive",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:drive_disk_empty",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

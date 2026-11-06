@@ -1,0 +1,21 @@
+{
+  "title": "Engineered Computation",
+  "subtitle": "Retro-Digital storage mod",
+  "description": [
+    "Similar to Ae2 however much more limited in capability, still works as a tech style storage mod"
+  ],
+  "icon": "engineered_computation:era5_terminal",
+  "x": 10.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

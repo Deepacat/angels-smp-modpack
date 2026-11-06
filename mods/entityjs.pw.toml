@@ -1,0 +1,13 @@
+name = "EntityJS"
+filename = "entityjs-1.5.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9021/968/entityjs-1.5.2.jar"
+hash-format = "sha1"
+hash = "a074823b0e207fd0aeff04d2b90055a023e22f94"
+
+[update]
+[update.curseforge]
+project-id = 967617
+file-id = 9021968

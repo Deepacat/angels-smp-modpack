@@ -1,0 +1,29 @@
+{
+  "title": "Conveyor Boxers",
+  "icon": "hbm:crane_boxer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&3Conveyor Boxers&r package a certain amount of items into a box, configurable inside a &3Conveyor Boxer&r, and output them as a single item on a conveyor belt. They are then unpackaged at the &3Conveyor Unboxer&r."
+  ],
+  "x": 11.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crane_boxer",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:crane_unboxer",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

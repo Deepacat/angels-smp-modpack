@@ -1,0 +1,24 @@
+{
+  "title": "Augment Arrows",
+  "description": [
+    "These can be used in an Enchanter's Bow!"
+  ],
+  "icon": "ars_nouveau:pierce_arrow",
+  "x": 12,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/magical_tools_and_weapons"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:amplify_arrow) item(ars_nouveau:split_arrow) item(ars_nouveau:pierce_arrow))",
+      "type": "item",
+      "title": "Any Augment Arrow"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

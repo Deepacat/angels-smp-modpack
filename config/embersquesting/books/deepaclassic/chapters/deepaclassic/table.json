@@ -1,0 +1,29 @@
+{
+  "title": "Workbench",
+  "icon": "minecraft:crafting_table",
+  "description": [
+    "Turn the logs into a crafting table."
+  ],
+  "x": 2,
+  "y": 0,
+  "deps": {
+    "all": [
+      "logs"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "item",
+      "item": "minecraft:crafting_table",
+      "count": 1,
+      "mode": "detect"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "item": "minecraft:apple",
+      "count": 2
+    }
+  ]
+}

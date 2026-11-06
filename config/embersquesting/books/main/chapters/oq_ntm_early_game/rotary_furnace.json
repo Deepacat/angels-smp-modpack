@@ -1,0 +1,25 @@
+{
+  "title": "Rotary Furnace",
+  "icon": "hbm:machine_rotary_furnace",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Rotary Furnace&r is a large furnace which is powered by both &bSteam&r and &6&rsolid fuel. &rIt outputs molten material which can be cast similarly to the outputs of the &3Crucible&r and &3Arc Furnace&r. The Rotary Furnace is the only machine that can produce &6Saturnite&r and &6Weapon Steel&r."
+  ],
+  "x": 5,
+  "y": 27,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/boiler_and_steam_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_rotary_furnace",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

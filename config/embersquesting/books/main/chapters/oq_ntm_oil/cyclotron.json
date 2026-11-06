@@ -1,0 +1,39 @@
+{
+  "title": "Cyclotron",
+  "icon": "hbm:machine_cyclotron",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Cyclotron&r is a machine that bombards element powders with element boxes to get heavier elements. Operating the machine will consume&e 20MHE/s&r.",
+    "",
+    "It can also create &bAntimatter&r as a byproduct for certain operations, which makes it a reliable but expensive method of large-scale advanced material production.",
+    "",
+    "&2Consider installing the highest level of Power Saving and Speed upgrades to reduce both recipe time and power consumption.&r"
+  ],
+  "x": 2,
+  "y": 9,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_early_game/dense_wires"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/rubber": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/integrated_circuit_board": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_cyclotron",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

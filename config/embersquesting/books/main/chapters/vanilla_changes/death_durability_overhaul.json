@@ -1,0 +1,32 @@
+{
+  "title": "Death & Durability Overhaul",
+  "subtitle": "A little less annoying and cheesy",
+  "description": [
+    "Gear does not lose durability normally when mining with tools, hitting with weapons, or being hit with armor",
+    "",
+    "And on death you won't lose any items!",
+    "",
+    "Instead, §4§lon death§r you will lose:§r",
+    "",
+    "- §n25 §oflat§r durability, AND §n15% §ototal§r durability",
+    "",
+    "on §l§4all items§r in your inventory",
+    "(Including worn and NOT including cosmetic slots)",
+    "",
+    "If an item breaks, it will become a \"broken item\" which can be repaired with a \"Repair Scrap\"."
+  ],
+  "icon": "goety:textures/item/focus/soulskull_spell.png",
+  "x": 3.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}
