@@ -1,6 +1,6 @@
 {
   "enabled": {
-    "value": "OFF"
+    "value": "ON"
   },
   "showHudFps": {
     "value": "ON"
@@ -12,12 +12,6 @@
   "maxFps": 60,
   "screenMaxFps": 20,
   "mapVanillaElements": {
-    "cynosure:overlays_player_list": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "goety:static_overlay": {
       "enabled": {
         "value": "AUTO"
@@ -54,35 +48,11 @@
       },
       "pass": 3
     },
-    "create:toolbox": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
     "hbm:goggles_blur": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 3
-    },
-    "hbm:wiring_readout": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "patchouli:multiblock_progress": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "thaumaturge:caster_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
     },
     "minecraft:subtitle_overlay": {
       "enabled": {
@@ -90,37 +60,13 @@
       },
       "pass": 3
     },
-    "cynosure:overlays_portal": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
     "cynosure:overlays_frostbite": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 1
     },
-    "cynosure:overlays_sleep_fade": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "minecraft:jump_meter": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
     "thaumaturge:hover_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "cynosure:overlays_experience_bar": {
       "enabled": {
         "value": "AUTO"
       },
@@ -156,25 +102,7 @@
       },
       "pass": 3
     },
-    "databank:debug": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "minecraft:scoreboard_sidebar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "hbm:jetpack_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "cynosure:overlays_boss_event_progress": {
       "enabled": {
         "value": "AUTO"
       },
@@ -198,25 +126,7 @@
       },
       "pass": 1
     },
-    "minecraft:hotbar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "figura:figura_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "hbm:boss_status": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "hbm:armor_hud": {
       "enabled": {
         "value": "AUTO"
       },
@@ -227,18 +137,6 @@
         "value": "AUTO"
       },
       "pass": 2
-    },
-    "hbm:rad_counter": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "minecraft:debug_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
     },
     "gnetum:minecraft_hand": {
       "enabled": {
@@ -252,12 +150,6 @@
       },
       "pass": 1
     },
-    "hbm:gun_scope": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "ars_nouveau:tooltip": {
       "enabled": {
         "value": "AUTO"
@@ -270,25 +162,13 @@
       },
       "pass": 3
     },
-    "goety:ravager_roar_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "thaumaturge:knowledge_gain": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
     "minecraft:experience_bar": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 2
     },
-    "cynosure:overlays_hotbar": {
+    "xaerohud:hud": {
       "enabled": {
         "value": "AUTO"
       },
@@ -348,6 +228,270 @@
       },
       "pass": 3
     },
+    "embersquesting:quest_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "figura:figura_underlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "ars_nouveau:scry_camera": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "thaumaturge:left_hud_stack": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "create:blueprint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "hbm:tool_ability": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "hbm:look_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "starcatcher:tournament": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:status_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "nomansland:dream_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "toxony:mutagen_transform_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "cuisinedelight:cooking": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "patchouli:book_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "thaumaturge:recharge_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "hbm:info_system": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:tab_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "nuggets:in_world_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:goggle_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "cynosure:overlays_player_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:toolbox": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "hbm:wiring_readout": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "thaumaturge:caster_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "cynosure:overlays_portal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "cynosure:overlays_sleep_fade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:jump_meter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "cynosure:overlays_experience_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "hbm:helmet_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "databank:debug": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "hbm:jetpack_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "cynosure:overlays_boss_event_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "figura:figura_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "hbm:armor_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "hbm:rad_counter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "hbm:gun_scope": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "goety:ravager_roar_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "thaumaturge:knowledge_gain": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "cynosure:overlays_hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "embersquesting:build_guide": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "xaeroworldmap:crosshair_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "cynosure:overlays_vignette": {
       "enabled": {
         "value": "AUTO"
@@ -384,35 +528,11 @@
       },
       "pass": 1
     },
-    "figura:figura_underlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "ars_nouveau:scry_camera": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
     "hbm:shield_bar": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 3
-    },
-    "thaumaturge:left_hud_stack": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "create:blueprint": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
     },
     "hbm:nuke_flash": {
       "enabled": {
@@ -426,12 +546,6 @@
       },
       "pass": 1
     },
-    "hbm:tool_ability": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "minecraft:sleep_overlay": {
       "enabled": {
         "value": "AUTO"
@@ -443,12 +557,6 @@
         "value": "AUTO"
       },
       "pass": 3
-    },
-    "minecraft:experience_level": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
     },
     "upgrade_aquatic:insomnia": {
       "enabled": {
@@ -462,41 +570,11 @@
       },
       "pass": 3
     },
-    "hbm:look_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "create:linked_controller": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 1
-    },
-    "starcatcher:tournament": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "gnetum:status_bar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:effects": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "nomansland:dream_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
     },
     "goety:soul_energy_hud": {
       "enabled": {
@@ -510,65 +588,17 @@
       },
       "pass": 3
     },
-    "toxony:mutagen_transform_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "cuisinedelight:cooking": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "patchouli:book_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "thaumaturge:recharge_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
     "supplementaries:slimed": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 1
     },
-    "hbm:info_system": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "cynosure:overlays_potion_icons": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 2
-    },
-    "minecraft:tab_list": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "nuggets:in_world_tooltip": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "create:goggle_info": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
     },
     "minecraft:chat": {
       "enabled": {
@@ -593,6 +623,12 @@
   },
   "mapModdedElementsPost": {
     "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "clutternomore": {
       "enabled": {
         "value": "AUTO"
       },

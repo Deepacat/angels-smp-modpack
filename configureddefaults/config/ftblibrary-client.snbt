@@ -33,7 +33,7 @@
 			}
 			"ftbchunks:chunks": {
 				enabled: true
-				x: 3
+				x: 2
 				y: 1
 			}
 			"ftblibrary:toggle/night": {
