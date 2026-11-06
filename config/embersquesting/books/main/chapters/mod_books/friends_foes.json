@@ -3,7 +3,7 @@
   "subtitle": "Adds back some scrapped minecraft mob vote and other content",
   "icon": "friendsandfoes:crab_claw",
   "x": 7.5,
-  "y": 8.25,
+  "y": 8,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

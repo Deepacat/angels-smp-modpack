@@ -9,7 +9,7 @@
   ],
   "icon": "farmersdelight:hamburger",
   "x": 5.5,
-  "y": 7.25,
+  "y": 7,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

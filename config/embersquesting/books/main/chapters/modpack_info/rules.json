@@ -15,7 +15,7 @@
     "",
     "2. If I ever add NTM: Space, DO NOT modify the atmosphere of earth. Not even for a second."
   ],
-  "icon": "ftbquests:textures/gui/alert.png",
+  "icon": "minecraft:tnt",
   "x": 2,
   "tasks": [
     {

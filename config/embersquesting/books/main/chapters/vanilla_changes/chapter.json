@@ -1,6 +1,6 @@
 {
-  "title": "! Vanilla changes !",
-  "icon": "ftbquests:textures/gui/editor.png",
+  "title": "⚠ Vanilla changes ⚠",
+  "icon": "embersquesting:textures/gui/icons/pencil.png",
   "order": 1,
   "scope": "team",
   "defaults": {

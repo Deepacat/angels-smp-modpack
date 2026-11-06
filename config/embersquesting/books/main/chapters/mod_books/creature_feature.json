@@ -3,7 +3,7 @@
   "subtitle": "Quirky hostile mobs",
   "icon": "creaturefeature:sleeping_powder",
   "x": 8.5,
-  "y": 6.25,
+  "y": 6,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

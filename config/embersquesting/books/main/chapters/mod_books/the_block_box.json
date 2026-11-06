@@ -3,7 +3,7 @@
   "subtitle": "The other brazier mod (and alot more)",
   "icon": "blockbox:brazier",
   "x": 0.75,
-  "y": 3.75,
+  "y": 3.5,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

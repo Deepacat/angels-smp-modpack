@@ -15,7 +15,7 @@
   ],
   "icon": "minecraft:textures/mob_effect/jump_boost.png",
   "x": 12.5,
-  "y": 3.75,
+  "y": 3.5,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

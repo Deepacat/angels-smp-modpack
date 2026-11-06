@@ -3,7 +3,7 @@
   "subtitle": "End upgrade with mobs, biomes, and mechanics",
   "icon": "betterend:eternal_crystal",
   "x": 6.5,
-  "y": 6.25,
+  "y": 6,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

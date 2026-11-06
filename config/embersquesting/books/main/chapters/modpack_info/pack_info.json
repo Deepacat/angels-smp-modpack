@@ -10,7 +10,7 @@
     "",
     "-Deepacat"
   ],
-  "icon": "jei:textures/gui/sprites/icons/info.png",
+  "icon": "minecraft:textures/item/knowledge_book.png",
   "tasks": [
     {
       "type": "checkmark",

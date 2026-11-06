@@ -25,17 +25,17 @@
 	# Default: 0
 	# Range: 0 ~ 1000000
 	crimsonPortalRarity = 500
-	#Maximum block-eating ray length in blocks. Dropped items are pulled from this range plus half a block; the entity pulling range is not affected.
+	#Maximum range in blocks for hungry node block eating and entity pulling. Dropped items are pulled from this range plus half a block.
 	# Default: 16
 	# Range: 1 ~ 64
 	hungryNodeBlockEatRange = 16
-	#Scales hungry node block-eating range by quality. Uses the minimum and maximum ranges below instead of the fixed range.
+	#Scales hungry node range by quality. Uses the minimum and maximum ranges below instead of the fixed range.
 	scaleHungryNodeBlockEatRangeByModifier = false
-	#Block-eating range for fading hungry nodes when quality scaling is enabled. Ignored when scaling is disabled.
+	#Range for fading hungry nodes when quality scaling is enabled. Ignored when scaling is disabled.
 	# Default: 16
 	# Range: 1 ~ 64
 	hungryNodeMinimumBlockEatRange = 16
-	#Block-eating range for bright hungry nodes when quality scaling is enabled. Values below the minimum use the minimum for all qualities.
+	#Range for bright hungry nodes when quality scaling is enabled. Values below the minimum use the minimum for all qualities.
 	# Default: 32
 	# Range: 1 ~ 64
 	hungryNodeMaximumBlockEatRange = 32
@@ -95,6 +95,14 @@
 	# Default: 10.0
 	# Range: 0.0 ~ 100.0
 	crimsonPatrolChance = 10.0
+	#Allows hungry nodes to destroy edible blocks.
+	hungryNodeEatsBlocks = true
+	#Allows hungry nodes to pull in and consume entities, including dropped items.
+	hungryNodeEatsEntities = true
+	#Allows hungry nodes to pull players toward them. Disabling this does not prevent damage to players who enter the maw.
+	hungryNodePullsPlayers = true
+	#Allows hungry nodes to damage and consume players that reach the maw. Creative and spectator players are excluded. Does not control player pulling.
+	hungryNodeDamagesPlayers = true
 
 	[world.nodes]
 		#Chance (%) of a wild node placement attempt per Overworld chunk. Default: ~2.7778% (1 in 36 chunks). 0 disables wild node generation.

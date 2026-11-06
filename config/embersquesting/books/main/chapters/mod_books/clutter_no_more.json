@@ -10,7 +10,7 @@
   ],
   "icon": "clutternomore:vertical_oak_stairs",
   "x": 11.5,
-  "y": 3.75,
+  "y": 3.5,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

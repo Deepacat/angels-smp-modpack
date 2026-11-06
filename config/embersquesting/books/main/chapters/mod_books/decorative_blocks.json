@@ -3,7 +3,7 @@
   "subtitle": "Braziers, fences, bars, pallisades, seats, n more",
   "icon": "decorative_blocks:brazier",
   "x": 1.75,
-  "y": 3.75,
+  "y": 3.5,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

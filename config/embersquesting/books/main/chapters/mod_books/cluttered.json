@@ -3,7 +3,7 @@
   "subtitle": "So much furniture & vibrant decor",
   "icon": "cluttered:animated_flag_transgender",
   "x": 3.75,
-  "y": 3.75,
+  "y": 3.5,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

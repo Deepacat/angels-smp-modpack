@@ -3,7 +3,7 @@
   "subtitle": "Huge fishing expansion, catch em all!... ... ...?",
   "icon": "starcatcher:starcatcher_rod",
   "x": 5.5,
-  "y": 6.25,
+  "y": 6,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

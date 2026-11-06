@@ -7,9 +7,27 @@
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "6c66cae1620b3258f47ac7fb40230d52ebbc43e1"
+      "hash": "2ff86ff6115bdb87ad58e5ff35ed728ef152769f"
     },
-        {
+    {
+      "name": "HBM's Nuclear Tech Mod",
+      "filename": "hbm-neoforge-1.0.4+1.21.1-build.3.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.4%2B1.21.1-build.3.jar",
+      "category": "mods",
+      "side": "both",
+      "hash-format": "sha1",
+      "hash": "ce152e26ec5240837b2362b87bc54ea2d1e17204"
+    },
+    {
+      "name": "Golem Core",
+      "filename": "golemcore-neoforge-1.0.4+1.21.1-build.3.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/golemcore-neoforge-1.0.4%2B1.21.1-build.3.jar",
+      "category": "mods",
+      "side": "both",
+      "hash-format": "sha1",
+      "hash": "0fd19bc208833ab314efac7ab3ea4b247bc4a491"
+    },
+    {
       "name": "Random NTM Additions",
       "filename": "ntmadditions-0.1.0.jar",
       "url": "https://mods.deepa.cat/angel/packmods/ntmadditions-0.1.0.jar",

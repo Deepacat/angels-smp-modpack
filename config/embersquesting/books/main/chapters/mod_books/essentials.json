@@ -3,7 +3,7 @@
   "subtitle": "Vanilla style redstone blocks & circuits",
   "icon": "essentials:candle_lilypad",
   "x": 8.75,
-  "y": 1.5,
+  "y": 1.25,
   "deps": {
     "all": [
       "mod_books/mods_what_they_do_what_i_did"

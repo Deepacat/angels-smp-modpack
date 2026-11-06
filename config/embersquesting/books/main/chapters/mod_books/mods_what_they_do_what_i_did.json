@@ -12,7 +12,7 @@
   ],
   "icon": "minecraft:knowledge_book",
   "x": 7,
-  "y": 3,
+  "y": 2.75,
   "tasks": [
     {
       "type": "checkmark"
