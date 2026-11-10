@@ -43,7 +43,7 @@
 		"recipe/automatic_brewing/dragon_breath" = true
 		#.
 		#If Sand Paper Polishing Recipes for Polished Blocks should be generated
-		"recipe/sand_paper_polishing/polished_blocks" = true
+		"recipe/sand_paper_polishing/polished_blocks" = false
 		#.
 		#If Sand Paper Polishing Recipes for Oxidized Blocks should be generated
 		"recipe/sand_paper_polishing/oxidized_blocks" = true
