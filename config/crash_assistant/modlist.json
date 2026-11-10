@@ -789,14 +789,6 @@
     "curseForgeHash": 3635686444,
     "modrinthHash": "4dc232213f88173d360d892faae11a8d6dcda10d"
   },
-  "Fastquit-3.0.2+1.21neoforge.jar": {
-    "jarName": "Fastquit-3.0.2+1.21neoforge.jar",
-    "modId": "fastquit",
-    "name": "Fastquit",
-    "version": "3.0.2+1.21neoforge",
-    "curseForgeHash": 1539372447,
-    "modrinthHash": "2d037da214d075ba0f78380f5b1714d99a37a844"
-  },
   "FastSuite-1.21.1-6.0.7.jar": {
     "jarName": "FastSuite-1.21.1-6.0.7.jar",
     "modId": "fastsuite",

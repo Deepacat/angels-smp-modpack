@@ -17,5 +17,11 @@
       "type": "checkmark"
     }
   ],
+  "rewards": [
+    {
+      "item": "engineered_computation:guide_edition_1",
+      "type": "item"
+    }
+  ],
   "shape": "circle"
 }

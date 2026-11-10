@@ -1,0 +1,19 @@
+{
+  "title": "Dwarven Pickaxe",
+  "description": [
+    "Really great early game pickaxe, incredibly cheap and can mine an (3x3x3) or a (1x3x3) area!"
+  ],
+  "x": 16,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:dwarven_pickaxe",
+      "type": "item"
+    }
+  ]
+}

@@ -19,9 +19,8 @@
   ],
   "rewards": [
     {
-      "title": "Maybe a gem could lead me somewhere",
-      "points": 1,
-      "type": "xp"
+      "item": "occultism:dictionary_of_spirits",
+      "type": "item"
     }
   ],
   "shape": "circle"

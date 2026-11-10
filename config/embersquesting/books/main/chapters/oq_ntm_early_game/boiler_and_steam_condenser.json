@@ -1,6 +1,5 @@
 {
   "title": "Boiler and Steam Condenser",
-  "icon": "hbm:machine_boiler_off",
   "description": [
     {
       "type": "divider"
@@ -9,9 +8,9 @@
     "",
     "Steam, when used by machines, such as reactors sending steam through &3Turbines&r or &3Chemical Factories&r produce &bLow-Pressure Steam&r. The low-pressure steam can be recycled back to retrieve 100% of the water by using a &3Steam Condenser&r. Closed water loops are recommended for reactors."
   ],
+  "icon": "hbm:heat_boiler",
   "x": 5,
   "y": 24.5,
-  "size": 2,
   "deps": {
     "all": [
       "oq_ntm_early_game/cast_plates"
@@ -19,14 +18,19 @@
   },
   "tasks": [
     {
-      "item": "hbm:machine_boiler_off",
-      "count": 1,
+      "item": "hbm:machine_condenser",
       "type": "item"
     },
     {
-      "item": "hbm:machine_condenser",
-      "count": 1,
+      "optional": true,
+      "item": "hbm:heat_boiler",
+      "type": "item"
+    },
+    {
+      "optional": true,
+      "item": "hbm:machine_industrial_boiler",
       "type": "item"
     }
-  ]
+  ],
+  "size": 2.0
 }

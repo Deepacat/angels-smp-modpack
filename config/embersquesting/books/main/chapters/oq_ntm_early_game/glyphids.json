@@ -1,6 +1,5 @@
 {
   "title": "Glyphids",
-  "icon": "hbm:glyphid_base",
   "description": [
     {
       "type": "divider"
@@ -11,8 +10,9 @@
     "",
     "&2It is recommended that all hives are destroyed as soon as possible as to prevent their spread later on."
   ],
+  "icon": "hbm:glyphid_base",
   "x": 16,
-  "y": 3,
+  "y": 2.5,
   "deps": {
     "all": [
       "oq_ntm_early_game/ntm_introduction"
