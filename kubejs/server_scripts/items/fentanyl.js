@@ -5,6 +5,7 @@ ItemEvents.rightClicked("kubejs:fentanyl", e => {
 
     e.player.potionEffects.add("minecraft:strength", 60 * 20, 3)
     e.player.potionEffects.add("minecraft:resistance", 60 * 20, 2)
+    e.player.potionEffects.add("minecraft:wither", 60 * 20, 4)
     e.player.potionEffects.add("pastel:divinity", 60 * 20, 1)
 
     e.level["playSound(net.minecraft.world.entity.player.Player,double,double,double,net.minecraft.sounds.SoundEvent,net.minecraft.sounds.SoundSource,float,float)"](
