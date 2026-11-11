@@ -2,17 +2,17 @@ ServerEvents.recipes(e => {
     e.shapeless("ae2:item_p2p_tunnel", [
         "ae2:me_p2p_tunnel",
         "minecraft:hopper"
-    ]).id("kubejs:mods/ae2/item_p2p_tunnel")
+    ]).id("kubejs:ae2/crafting/item_p2p_tunnel")
 
     e.shapeless("ae2:light_p2p_tunnel", [
         "ae2:me_p2p_tunnel",
         "minecraft:torch"
-    ]).id("kubejs:mods/ae2/light_p2p_tunnel")
+    ]).id("kubejs:ae2/crafting/light_p2p_tunnel")
 
     e.shapeless("ae2:redstone_p2p_tunnel", [
         "ae2:me_p2p_tunnel",
         "#c:dusts/redstone"
-    ]).id("kubejs:mods/ae2/redstone_p2p_tunnel")
+    ]).id("kubejs:ae2/crafting/redstone_p2p_tunnel")
 
     e.remove({ output: "ae2:me_p2p_tunnel" })
     e.shaped("ae2:me_p2p_tunnel", [
@@ -23,12 +23,12 @@ ServerEvents.recipes(e => {
         "S": "#c:ingots/steel",
         "A": "ae2:engineering_processor",
         "F": "ae2:fluix_crystal"
-    }).id("kubejs:mods/ae2/me_p2p_tunnel")
+    }).id("kubejs:ae2/crafting/me_p2p_tunnel")
 
     e.shapeless("ae2:fluix_covered_cable", [
         "ae2:fluix_glass_cable",
         "hbm:plate_polymer"
-    ]).id("kubejs:mods/ae2/fluix_covered_cable")
+    ]).id("kubejs:ae2/crafting/fluix_covered_cable")
 
     e.remove({ output: "ae2:spatial_io_port" })
     e.shaped("ae2:spatial_io_port", [
@@ -39,7 +39,7 @@ ServerEvents.recipes(e => {
         "Q": "hbm:glass_quartz",
         "P": "ae2:io_port",
         "C": "ae2:calculation_processor"
-    }).id("kubejs:mods/ae2/spatial_io_port")
+    }).id("kubejs:ae2/crafting/spatial_io_port")
 
     e.remove({ output: "ae2:io_port" })
     e.shaped("ae2:io_port", [
@@ -50,7 +50,7 @@ ServerEvents.recipes(e => {
         "Q": "hbm:glass_quartz",
         "D": "ae2:drive",
         "L": "ae2:logic_processor"
-    }).id("kubejs:mods/ae2/io_port")
+    }).id("kubejs:ae2/crafting/io_port")
 
     e.remove({ output: "ae2:energy_cell" })
     e.shaped("ae2:energy_cell", [
@@ -61,30 +61,18 @@ ServerEvents.recipes(e => {
         "C": "ae2:charged_certus_quartz_crystal",
         "F": "ae2:fluix_crystal",
         "G": "hbm:glass_quartz"
-    }).id("kubejs:mods/ae2/energy_cell")
+    }).id("kubejs:ae2/crafting/energy_cell")
 
     e.remove({ output: "ae2:item_cell_housing" })
     e.shaped("ae2:item_cell_housing", [
         "GGG",
         "R R",
-        "TTT"
-    ], {
-        "G": "hbm:glass_quartz",
-        "R": "#c:dusts/redstone",
-        "T": "hbm:ingot_tcalloy"
-    }).id("kubejs:mods/ae2/advanced_cell_housing")
-
-    e.remove({ output: "ae2:item_cell_housing" })
-    e.shaped("ae2:item_cell_housing", [
-        "GGG",
-        "R R",
-        "SII"
+        "SSS"
     ], {
         "G": "hbm:glass_quartz",
         "R": "#c:dusts/redstone",
         "S": "#c:ingots/steel",
-        "I": "hbm:ingot_steel"
-    }).id("kubejs:mods/ae2/cell_housing")
+    }).id("kubejs:ae2/crafting/cell_housing")
 
     e.remove({ output: "ae2:growth_accelerator" })
     e.shaped("ae2:growth_accelerator", [
@@ -95,7 +83,7 @@ ServerEvents.recipes(e => {
         "G": "#c:ingots/steel",
         "C": "ae2:fluix_glass_cable",
         "F": "ae2:fluix_block"
-    }).id("kubejs:mods/ae2/growth_accelerator")
+    }).id("kubejs:ae2/crafting/growth_accelerator")
 
     e.remove({ output: "ae2:chest" })
     e.shaped("ae2:chest", [
@@ -108,7 +96,7 @@ ServerEvents.recipes(e => {
         "C": "ae2:fluix_glass_cable",
         "T": "ae2:terminal",
         "P": "ae2:calculation_processor"
-    }).id("kubejs:mods/ae2/chest")
+    }).id("kubejs:ae2/crafting/chest")
 
     e.remove({ output: "ae2:molecular_assembler" })
     e.shaped("ae2:molecular_assembler", [
@@ -121,7 +109,7 @@ ServerEvents.recipes(e => {
         "C": "ae2:fluix_glass_cable",
         "A": "hbm:machine_autocrafter",
         "L": "ae2:logic_processor"
-    }).id("kubejs:mods/ae2/molecular_assembler")
+    }).id("kubejs:ae2/crafting/molecular_assembler")
 
     e.remove({ output: "ae2:interface" })
     e.shaped("ae2:interface", [
@@ -132,7 +120,7 @@ ServerEvents.recipes(e => {
         "S": "#c:ingots/steel",
         "C": "ae2:fluix_glass_cable",
         "L": "ae2:logic_processor"
-    }).id("kubejs:mods/ae2/interface")
+    }).id("kubejs:ae2/crafting/interface")
 
     e.remove({ output: "ae2:blank_pattern" })
     e.shaped(Item.of('ae2:blank_pattern', 16), [
@@ -142,7 +130,7 @@ ServerEvents.recipes(e => {
     ], {
         "P": "#hbm:ingots/any_hard_plastic",
         "C": "hbm:circuit_chip"
-    }).id("kubejs:mods/ae2/blank_pattern_hard_plastic")
+    }).id("kubejs:ae2/crafting/blank_pattern_hard_plastic")
 
     e.remove({ output: "ae2:blank_pattern" })
     e.shaped(Item.of('ae2:blank_pattern', 4), [
@@ -152,7 +140,7 @@ ServerEvents.recipes(e => {
     ], {
         "P": "#hbm:ingots/any_rubber",
         "C": "hbm:circuit_chip"
-    }).id("kubejs:mods/ae2/blank_pattern_rubber")
+    }).id("kubejs:ae2/crafting/blank_pattern_rubber")
 
     e.remove({ output: "ae2:network_tool" })
     e.shaped("ae2:network_tool", [
@@ -162,7 +150,7 @@ ServerEvents.recipes(e => {
     ], {
         "C": "ae2:fluix_glass_cable",
         "W": "ae2:certus_quartz_wrench"
-    }).id("kubejs:mods/ae2/network_tool")
+    }).id("kubejs:ae2/crafting/network_tool")
 
     e.remove({ output: "ae2:color_applicator" })
     e.shaped("ae2:color_applicator", [
@@ -173,7 +161,7 @@ ServerEvents.recipes(e => {
         "S": "#c:ingots/steel",
         "C": "ae2:cell_component_1k",
         "E": "ae2:energy_cell"
-    }).id("kubejs:mods/ae2/color_applicator")
+    }).id("kubejs:ae2/crafting/color_applicator")
 
     e.remove({ output: "ae2:memory_card" })
     e.shaped("ae2:memory_card", [
@@ -183,7 +171,7 @@ ServerEvents.recipes(e => {
         "C": "ae2:calculation_processor",
         "R": "#c:dusts/redstone",
         "S": "#c:ingots/steel"
-    }).id("kubejs:mods/ae2/memory_card")
+    }).id("kubejs:ae2/crafting/memory_card")
 
     e.remove({ output: "ae2:charger" })
     e.shaped("ae2:charger", [
@@ -194,7 +182,7 @@ ServerEvents.recipes(e => {
         "P": "#c:plates/steel",
         "G": "#c:ingots/red_copper",
         "S": "#c:ingots/steel"
-    }).id("kubejs:mods/ae2/charger")
+    }).id("kubejs:ae2/crafting/charger")
 
     e.remove({ output: "ae2:energy_acceptor" })
     e.shaped("ae2:energy_acceptor", [
@@ -205,7 +193,7 @@ ServerEvents.recipes(e => {
         "P": "#c:plates/steel",
         "G": "ae2:fluix_crystal",
         "F": "hbm:glass_quartz"
-    }).id("kubejs:mods/ae2/energy_acceptor")
+    }).id("kubejs:ae2/crafting/energy_acceptor")
 
     e.remove({ output: "ae2:spatial_pylon" })
     e.shaped("ae2:spatial_pylon", [
@@ -217,7 +205,7 @@ ServerEvents.recipes(e => {
         "C": "ae2:fluix_glass_cable",
         "D": "ae2:fluix_dust",
         "F": "ae2:fluix_crystal"
-    }).id("kubejs:mods/ae2/spatial_pylon")
+    }).id("kubejs:ae2/crafting/spatial_pylon")
 
     e.remove({ output: "ae2:cell_workbench" })
     e.shaped("ae2:cell_workbench", [
@@ -229,7 +217,7 @@ ServerEvents.recipes(e => {
         "C": "ae2:calculation_processor",
         "S": "#c:ingots/steel",
         "W": "#c:chests/wooden"
-    }).id("kubejs:mods/ae2/cell_workbench")
+    }).id("kubejs:ae2/crafting/cell_workbench")
 
     e.remove({ output: "ae2:quantum_ring" })
     e.shaped("ae2:quantum_ring", [
@@ -241,7 +229,7 @@ ServerEvents.recipes(e => {
         "E": "ae2:engineering_processor",
         "L": "ae2:logic_processor",
         "C": "ae2:energy_cell"
-    }).id("kubejs:mods/ae2/quantum_ring")
+    }).id("kubejs:ae2/crafting/quantum_ring")
 
     e.remove({ output: "ae2:drive" })
     e.shaped("ae2:drive", [
@@ -252,7 +240,7 @@ ServerEvents.recipes(e => {
         "P": "hbm:plate_cast_steel",
         "E": "ae2:engineering_processor",
         "C": "ae2:fluix_glass_cable"
-    }).id("kubejs:mods/ae2/drive")
+    }).id("kubejs:ae2/crafting/drive")
 
     e.remove({ output: "ae2:crafting_unit" })
     e.shaped("ae2:crafting_unit", [
@@ -263,7 +251,7 @@ ServerEvents.recipes(e => {
         "P": "hbm:plate_cast_steel",
         "C": "ae2:calculation_processor",
         "L": "ae2:logic_processor"
-    }).id("kubejs:mods/ae2/crafting_unit")
+    }).id("kubejs:ae2/crafting/crafting_unit")
 
     e.remove({ output: "ae2:condenser" })
     e.shaped("ae2:condenser", [
@@ -275,7 +263,7 @@ ServerEvents.recipes(e => {
         "G": "hbm:glass_quartz",
         "D": "ae2:fluix_dust",
         "F": "ae2:fluix_crystal"
-    }).id("kubejs:mods/ae2/condenser")
+    }).id("kubejs:ae2/crafting/condenser")
 
     e.shaped(Item.of('ae2:sky_stone_block', 16), [
         " M ",
@@ -284,7 +272,7 @@ ServerEvents.recipes(e => {
     ], {
         "M": "hbm:fragment_meteorite",
         "C": "minecraft:cobblestone"
-    }).id("kubejs:mods/ae2/sky_stone_block")
+    }).id("kubejs:ae2/crafting/sky_stone_block")
 
     e.remove({ output: "ae2:quantum_link" })
     e.shaped("ae2:quantum_link", [
@@ -295,7 +283,7 @@ ServerEvents.recipes(e => {
         "Q": "hbm:glass_quartz",
         "P": "ae2:fluix_pearl",
         "C": "hbm:circuit_chip_quantum"
-    }).id("kubejs:mods/ae2/quantum_link")
+    }).id("kubejs:ae2/crafting/quantum_link")
 
     e.remove({ output: "ae2:terminal" })
     e.shaped("ae2:terminal", [
@@ -303,7 +291,7 @@ ServerEvents.recipes(e => {
     ], {
         "L": "ae2:logic_processor",
         "I": "ae2:semi_dark_monitor"
-    }).id("kubejs:mods/ae2/terminal")
+    }).id("kubejs:ae2/crafting/terminal")
 
     e.remove({ output: "ae2:semi_dark_monitor" })
     e.shaped(Item.of('ae2:semi_dark_monitor', 3), [
@@ -315,7 +303,7 @@ ServerEvents.recipes(e => {
         "R": "#c:dusts/redstone",
         "S": "#c:ingots/steel",
         "Q": "hbm:glass_quartz"
-    }).id("kubejs:mods/ae2/semi_dark_monitor")
+    }).id("kubejs:ae2/crafting/semi_dark_monitor")
 
     e.remove({ output: "ae2:import_bus" })
     e.shaped("ae2:import_bus", [
@@ -325,7 +313,7 @@ ServerEvents.recipes(e => {
         "E": "ae2:engineering_processor",
         "S": "#c:ingots/steel",
         "P": "minecraft:piston"
-    }).id("kubejs:mods/ae2/import_bus")
+    }).id("kubejs:ae2/crafting/import_bus")
 
     e.remove({ output: "ae2:export_bus" })
     e.shaped("ae2:export_bus", [
@@ -335,7 +323,7 @@ ServerEvents.recipes(e => {
         "S": "#c:ingots/steel",
         "L": "ae2:logic_processor",
         "P": "minecraft:piston"
-    }).id("kubejs:mods/ae2/export_bus")
+    }).id("kubejs:ae2/crafting/export_bus")
 
     e.remove({ output: "ae2:conversion_monitor" })
     e.shaped("ae2:conversion_monitor", [
@@ -344,7 +332,7 @@ ServerEvents.recipes(e => {
         "E": "ae2:engineering_processor",
         "S": "ae2:storage_monitor",
         "L": "ae2:logic_processor"
-    }).id("kubejs:mods/ae2/conversion_monitor")
+    }).id("kubejs:ae2/crafting/conversion_monitor")
 
     e.remove({ output: "ae2:formation_plane" })
     e.shaped("ae2:formation_plane", [
@@ -354,7 +342,7 @@ ServerEvents.recipes(e => {
         "F": "ae2:fluix_crystal",
         "P": "hbm:plate_cast_steel",
         "E": "ae2:engineering_processor"
-    }).id("kubejs:mods/ae2/formation_plane")
+    }).id("kubejs:ae2/crafting/formation_plane")
 
     e.remove({ output: "ae2:annihilation_plane" })
     e.shaped("ae2:annihilation_plane", [
@@ -364,7 +352,7 @@ ServerEvents.recipes(e => {
         "F": "ae2:fluix_crystal",
         "P": "hbm:plate_cast_steel",
         "L": "ae2:logic_processor"
-    }).id("kubejs:mods/ae2/annihilation_plane")
+    }).id("kubejs:ae2/crafting/annihilation_plane")
 
     e.remove({ output: "ae2:wireless_booster" })
     e.shaped("ae2:wireless_booster", [
@@ -375,7 +363,7 @@ ServerEvents.recipes(e => {
         "Q": "ae2:certus_quartz_crystal",
         "D": "minecraft:ender_pearl",
         "S": "#c:ingots/steel"
-    }).id("kubejs:mods/ae2/wireless_booster")
+    }).id("kubejs:ae2/crafting/wireless_booster")
 
     e.remove({ output: "ae2:wireless_terminal" })
     e.shaped("ae2:wireless_terminal", [
@@ -386,7 +374,7 @@ ServerEvents.recipes(e => {
         "P": "ae2:fluix_pearl",
         "S": "#c:ingots/steel",
         "F": "ae2:quartz_fiber"
-    }).id("kubejs:mods/ae2/wireless_terminal")
+    }).id("kubejs:ae2/crafting/wireless_terminal")
 
     e.remove({ output: "ae2:redstone_card" })
     e.shaped("ae2:redstone_card", [
@@ -394,7 +382,7 @@ ServerEvents.recipes(e => {
     ], {
         "B": "ae2:basic_card",
         "T": "minecraft:redstone_torch"
-    }).id("kubejs:mods/ae2/redstone_card")
+    }).id("kubejs:ae2/crafting/redstone_card")
 
     e.remove({ output: "ae2:basic_card" })
     e.shaped("ae2:basic_card", [
@@ -406,7 +394,7 @@ ServerEvents.recipes(e => {
         "S": "#c:ingots/steel",
         "R": "#c:dusts/redstone",
         "C": "ae2:calculation_processor"
-    }).id("kubejs:mods/ae2/basic_card")
+    }).id("kubejs:ae2/crafting/basic_card")
 
     e.remove({ output: "ae2:advanced_card" })
     e.shaped("ae2:advanced_card", [
@@ -418,7 +406,7 @@ ServerEvents.recipes(e => {
         "S": "#c:ingots/steel",
         "R": "#c:dusts/redstone",
         "C": "ae2:calculation_processor"
-    }).id("kubejs:mods/ae2/advanced_card")
+    }).id("kubejs:ae2/crafting/advanced_card")
 
     e.remove({ output: "ae2:view_cell" })
     e.shaped("ae2:view_cell", [
@@ -430,5 +418,5 @@ ServerEvents.recipes(e => {
         "R": "#c:dusts/redstone",
         "S": "#c:ingots/steel",
         "C": "ae2:certus_quartz_crystal"
-    }).id("kubejs:mods/ae2/view_cell")
+    }).id("kubejs:ae2/crafting/view_cell")
 })
