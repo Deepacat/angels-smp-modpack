@@ -6,10 +6,15 @@ StartupEvents.registry('item', e => {
         .displayName('Deep-a-mochi')
         .tooltip("§7No!!! Please don't eat me!!!!")
 
+    e.create('kubejs:owie')
+        .displayName('Owie')
+        .tooltip("§7You monster.")
+
     e.create('kubejs:fentanyl')
-        .displayName('fentanyl')
+        .displayName('Fentanyl')
         .maxStackSize(4)
-        .tooltip("§7You... §4§l§oReally...§r§7 don't want this.")
+        .tooltip("§7Feels sooooooo good!!!")
+        .tooltip("§7Till it doesnt.")
 
     // Broken item related
     e.create('kubejs:repair_scrap')

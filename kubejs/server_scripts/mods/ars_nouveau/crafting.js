@@ -1,14 +1,6 @@
 ServerEvents.recipes(e => {
-    // Making this evil
+    // Nvm get out of here
     e.remove({ output: "ars_nouveau:annotated_codex" })
-    e.shaped("ars_nouveau:annotated_codex", [
-        "A A",
-        " B ",
-        "A A"
-    ], {
-        "A": "ars_nouveau:blank_parchment",
-        "B": "ars_nouveau:wilden_tribute"
-    }).id('kubejs:mods/ars_nouveau/annotated_codex')
 
     // Requires sunbird curse effect
     e.remove({ output: "ars_nouveau:ritual_flight" })

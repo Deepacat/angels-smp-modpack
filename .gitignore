@@ -39,6 +39,7 @@
 /moonlight-global-datapacks/
 /schematics/
 /data/
+/emberstextapi/
 # Fancy toasts cfg (auto updates date, should be updated in defaultcfgs)
 /cache/
 /bivrik/
@@ -135,7 +136,7 @@
 !/config/create-client.toml
 !/config/botania-client.toml
 !/config/defaultsettings/Default/options.txt
-# ember questing 
+# embers questing
 /config/embersquesting/**
 !/config/embersquesting/pack/
 !/config/embersquesting/pack/**

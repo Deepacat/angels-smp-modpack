@@ -1,6 +1,5 @@
 {
   "title": "The Nether",
-  "icon": "minecraft:obsidian",
   "description": [
     {
       "type": "divider"
@@ -25,8 +24,9 @@
     "",
     "&2Depth Neodymium Deposits also spawn exclusively in the Nether.&r"
   ],
+  "icon": "minecraft:obsidian",
   "x": 14,
-  "y": 0,
+  "y": 0.5,
   "deps": {
     "all": [
       "oq_ntm_early_game/ntm_introduction"

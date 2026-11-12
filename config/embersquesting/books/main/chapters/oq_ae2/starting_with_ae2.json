@@ -1,7 +1,13 @@
 {
   "title": "Starting with AE2",
   "description": [
-    "There are two ways to get your foot in the door of AE2, and both of them require the use of a Charger.\n\nThe common way is to charge a compass in the Charger, creating a Meteor Compass; it would then point you to the nearest meteor - a structure containing everything you need to start with the mod.\n\nThe fun way is villager trading. The Charger doubles as a villager profession block for a Fluix Researcher, that can sell you certus quartz and fluix crystals, sky stone, and at expert level - two random inscriber presses. You'll need several of these villagers to get the full set."
+    "Note that Ae2 is entirely gated by HBM's NTM in this modpack!!",
+    "",
+    "It will take a fair bit of progress into the mod to obtain certain things",
+    "",
+    "You will probably want oil processing and an arc welder before looking into ae2",
+    "",
+    "Until then, you can look into \"engineered computation\", create, or \"ars nouveau\" for interfaced network storage solutions"
   ],
   "icon": "ae2:charger",
   "x": 4,

@@ -2,6 +2,7 @@ ItemEvents.rightClicked("kubejs:fentanyl", e => {
     if (e.player.hand == "OFF_HAND") return
 
     e.item.setCount(e.item.getCount() - 1)
+    e.player.give("hbm:syringe_empty")
 
     // insta effects
     e.player.potionEffects.add("minecraft:strength", 25 * 20, 3)
