@@ -1,0 +1,27 @@
+{
+  "title": "Amethyst Golems",
+  "description": [
+    "This yonic-looking item can be used to summon Amethyst Golems, which can farm Amethyst! The charm drops from the golems upon the use of a Dispel spell. Set their home to a chest with a Dominion Wand, and they will deposit collected amethyst shards there!"
+  ],
+  "icon": "ars_nouveau:amethyst_golem_charm",
+  "x": 9.5,
+  "deps": {
+    "all": [
+      "oq_ars/tablet_of_awakening",
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:amethyst_golem_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab37b7ccec",
+      "type": "custom",
+      "title": "Unknown type: openquests_api:pet"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

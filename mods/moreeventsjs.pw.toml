@@ -1,0 +1,13 @@
+name = "MoreEventsJS"
+filename = "more_events_js-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7299/660/more_events_js-1.0.1.jar"
+hash-format = "sha1"
+hash = "73f48781b78b628121c992d5d28b4dcafa693a0f"
+
+[update]
+[update.curseforge]
+project-id = 1388507
+file-id = 7299660

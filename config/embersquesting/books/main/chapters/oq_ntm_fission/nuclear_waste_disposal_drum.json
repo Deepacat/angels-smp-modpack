@@ -1,0 +1,43 @@
+{
+  "title": "Nuclear Waste Disposal Drum",
+  "icon": "hbm:machine_storage_drum",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Nuclear Waste Disposal Drum&r is used to decay &3RBMK&r nuclear waste. The decayed nuclear waste can then be used with a &3FEL&r and &3SILEX&r to obtain some rare elements, such as &6Bismuth&r.",
+    "",
+    "&2The drum also emmits radiation when theres fuel inside it.&r",
+    "",
+    "Later on, the &3Radiation-Powered Engine&r is a more reliable way of decaying rbmk fuel as you get guaranteed consistent decay times. Additionally it also provides power and doesnt emmit radiation.",
+    "",
+    "&2Blueprints can be found in structures, purchased through Bobmazon or made in a Precision Assembler.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_radgen",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 8,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/spent_fuel_pool_drum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_storage_drum",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

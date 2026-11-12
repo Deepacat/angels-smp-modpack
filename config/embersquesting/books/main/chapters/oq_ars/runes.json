@@ -1,0 +1,26 @@
+{
+  "title": "Runes",
+  "description": [
+    "Runes cast spells inscribed in them when an entity steps on them! Runes you can make with a Glyph of Rune are one-use, but you can reinforce them with Runic Chalk. They need source for each cast after the first."
+  ],
+  "icon": "ars_nouveau:runic_chalk",
+  "x": 12,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_rune",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:runic_chalk",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

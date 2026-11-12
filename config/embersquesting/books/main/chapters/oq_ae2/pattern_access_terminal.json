@@ -1,0 +1,21 @@
+{
+  "title": "Pattern Access Terminal",
+  "description": [
+    "This terminal allows you to access pattern storage of all Pattern Providers on your network remotely, so you don't have to go to the provider to place new patterns in."
+  ],
+  "icon": "ae2:pattern_access_terminal",
+  "x": 9,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/the_start_of_autocrafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:pattern_access_terminal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

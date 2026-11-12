@@ -1,0 +1,38 @@
+{
+  "title": "Burner Press",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Presses&r are machines that can be used to make &6Plates&r, &6Wires&r, &6Circuits&r, &6Bullet Casings&r as well as &6Compressing&r non-smeltable powders back into their normal form. They require &6Stamps&r to work, which can be made from an &3Anvil&r.",
+    "",
+    "&2A preheater can be placed next to the Burner Press to increase its speed.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:press_preheater",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "icon": "hbm:machine_press",
+  "x": 15,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_press",
+      "type": "item"
+    }
+  ]
+}

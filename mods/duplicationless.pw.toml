@@ -1,0 +1,13 @@
+name = "Duplicationless"
+filename = "duplicationless-1.21.1-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8646/414/duplicationless-1.21.1-1.2.1.jar"
+hash-format = "sha1"
+hash = "c3f8e32ee4239bb14c11940518085b66ca1cd5f5"
+
+[update]
+[update.curseforge]
+project-id = 1380105
+file-id = 8646414

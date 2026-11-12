@@ -1,0 +1,26 @@
+{
+  "title": "Integrated Circuit Board",
+  "icon": "hbm:circuit_basic",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Integrated Circuit Board&r is the first circuit board to use &6Silicon&r, being used extensively in mid game machines, automation devices, missiles, and various small tools such as the &6Geiger Counter&r.",
+    "",
+    "&2If a Blueprint is found, the circuit can be manufactured using Rubber.&r"
+  ],
+  "x": 6.5,
+  "y": 16,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/microchip"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_basic",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

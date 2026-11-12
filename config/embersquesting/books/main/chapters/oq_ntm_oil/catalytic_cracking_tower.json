@@ -1,0 +1,25 @@
+{
+  "title": "Catalytic Cracking Tower",
+  "icon": "hbm:machine_catalytic_cracker",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Catalytic Cracking Tower&r is a large oil processing multiblock machine which produces many fluids, such as &bAromatic Hydrocarbons&r used for &6Bakelite&r."
+  ],
+  "x": 15.5,
+  "y": 11.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_catalytic_cracker",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

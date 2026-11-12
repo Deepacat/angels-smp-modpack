@@ -1,0 +1,18 @@
+{
+  "title": "Wilden Drops",
+  "description": [
+    "These have three main ways of getting them: you either find them in a loot chest somewhere, or find a Wilden Den (a small hill with Wilden mobs spawning inside), or perform a Ritual of Summon Wilden (see the ritual quests)."
+  ],
+  "icon": "ars_nouveau:wilden_wing",
+  "x": 3,
+  "y": 3,
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:wilden_wing) item(ars_nouveau:wilden_horn) item(ars_nouveau:wilden_spike))",
+      "type": "item",
+      "title": "Any Wilden item drop"
+    }
+  ],
+  "shape": "circle",
+  "lines_out": "hover"
+}

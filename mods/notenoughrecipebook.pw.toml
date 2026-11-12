@@ -1,0 +1,13 @@
+name = "Not Enough Recipe Book [NERB]"
+filename = "nerb-neoforge-0.6.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9565/202/nerb-neoforge-0.6.2-1.21.1.jar"
+hash-format = "sha1"
+hash = "6996908a02219a3d189606eae369060f39d3deda"
+
+[update]
+[update.curseforge]
+project-id = 738663
+file-id = 9565202

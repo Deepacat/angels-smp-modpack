@@ -1,0 +1,60 @@
+{
+  "title": "Advanced Oil Processing",
+  "icon": "hbm:machine_catalytic_reformer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Catalytic Reformer&r is an optional late-game oil processing machine. It converts certain oil products into more valuable ones.",
+    "",
+    "The &3Hydrotreater&r is another optional late-game oil processing machine that allows for easier production of &bSour Gas&r, which can also turn &bCrude Oil&r into &bDesulfurized crude Oil&r.",
+    "",
+    "&2The Hydrotreater requires pressurized Liquid Hydrogen in all its recipes, requiring the use of a Compressor.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_catalytic_reformer",
+          "count": 1
+        },
+        {
+          "item": "hbm:catalytic_converter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_hydrotreater",
+          "count": 1
+        },
+        {
+          "item": "hbm:catalytic_converter",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 12.5,
+  "y": 16,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/technetium_cadmium_steel",
+      "oq_ntm_early_game/compressor"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

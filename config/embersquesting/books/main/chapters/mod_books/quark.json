@@ -1,0 +1,18 @@
+{
+  "title": "Quark",
+  "subtitle": "SO many little things",
+  "icon": "quark:diamond_heart",
+  "x": 6.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

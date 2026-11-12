@@ -1,0 +1,25 @@
+{
+  "title": "Murky Anvil",
+  "icon": "hbm:anvil_murky",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The&3 Murky Anvil&r is the ultimate version of the &3Anvil&r, having all recipes unlocked."
+  ],
+  "x": 1.5,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/the_digamma_particle",
+      "oq_ntm_oil/balefire"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:anvil_murky",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

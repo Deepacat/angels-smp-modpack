@@ -1,0 +1,26 @@
+{
+  "title": "Crafting CPU",
+  "description": [
+    "Crafting CPUs are multiblocks that oversee autocrafting; you can't autocraft anything without one on your system. They are composed of Crafting Storage and Crafting Co-Processing Units, and must be built in the shape of a solid box.\nCrafting Storage blocks provide temporary storage for the items for the duration of crafting; you can't craft a recipe that requires two thousand items on a CPU with only 1k crafting storage. Crafting Co-Processing Units provide additional threads to the CPU,allowing the process to use more than one machine at the same time.\nEvery Crafting CPU can only process one crafting request at a time. If you want to craft more things simultaneously, build more CPUs."
+  ],
+  "icon": "ae2:crafting_accelerator",
+  "x": 9,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/the_start_of_autocrafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:crafting_accelerator",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(ae2:1k_crafting_storage) item(ae2:4k_crafting_storage) item(ae2:16k_crafting_storage) item(ae2:64k_crafting_storage) item(ae2:256k_crafting_storage))",
+      "type": "item",
+      "title": "Any Crafting Storage"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Dissolved Byproducts Products",
+  "icon": "hbm:scraps{\"hbm:material\":\"lead\",\"hbm:mat_amount\":216}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "There are multiple ways of processing at this stage, most efficient being the &3Arc Furnace&r."
+  ],
+  "x": 3.5,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/washed_dissolved_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

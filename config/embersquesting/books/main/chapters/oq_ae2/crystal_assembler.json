@@ -1,0 +1,21 @@
+{
+  "title": "Crystal Assembler",
+  "description": [
+    "This machine can make processors of all kinds from printed circuits at a much faster rate than the Inscriber, but it also opens the floodgates for crafting every other machine in Extended AE."
+  ],
+  "icon": "extendedae:crystal_assembler",
+  "x": 1,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/entro_infused_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:crystal_assembler",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

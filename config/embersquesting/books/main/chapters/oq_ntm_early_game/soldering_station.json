@@ -1,0 +1,31 @@
+{
+  "title": "Soldering Station",
+  "icon": "hbm:machine_soldering_station",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Soldering Station&r is the machine in which &6&rcircuit components&r can be combined&6&r into &6Circuits&r and where &6Machine Upgrades&r can be created."
+  ],
+  "x": 10,
+  "y": 24.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates",
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_soldering_station",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

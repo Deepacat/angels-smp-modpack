@@ -1,0 +1,23 @@
+{
+  "title": "Enchanter's Eye",
+  "subtitle": "Casts a spell through a Scry Crystal!",
+  "icon": "ars_nouveau:enchanters_eye",
+  "x": 11.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ars/scry_crystal",
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:enchanters_eye",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover",
+  "lines_out": "hover"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Scribe's Table",
+  "description": [
+    "Your new Spellbook doesn't have that many glyphs in it, but we can fix it with this new table! Click your spellbook on it, then you can select the glyph you want to craft. Toss the ingredients on the table to satisfy the craft!\n\n§oNota Bene:§o the Scribe's Table can pull items out of nearby inventories to use once the glyph is selected!"
+  ],
+  "icon": "ars_nouveau:scribes_table",
+  "x": 4,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/archwood",
+      "oq_ars/novice_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:scribes_table",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

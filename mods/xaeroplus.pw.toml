@@ -1,0 +1,13 @@
+name = "XaeroPlus"
+filename = "XaeroPlus-2.37.2+neoforge-1.21.1-WM1.47.0-MM26.6.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9324/954/XaeroPlus-2.37.2+neoforge-1.21.1-WM1.47.0-MM26.6.0.jar"
+hash-format = "sha1"
+hash = "f7df32c52896a0e08a0f69f49bdb734d44f29847"
+
+[update]
+[update.curseforge]
+project-id = 866084
+file-id = 9324954

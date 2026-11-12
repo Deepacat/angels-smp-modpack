@@ -1,0 +1,26 @@
+{
+  "title": "Annihilator",
+  "icon": "hbm:machine_annihilator",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Annihilator&r is a machine that destroys items and fluids. Annihilating radioactive items or pollution creating fluids will cause more serious environmental consequences than disposing of them in other manners.",
+    "",
+    "This machine is mainly intended for &2528 Mode&r where disposing of items will unlock blueprints required for progression."
+  ],
+  "x": 15.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/steel_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_annihilator",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

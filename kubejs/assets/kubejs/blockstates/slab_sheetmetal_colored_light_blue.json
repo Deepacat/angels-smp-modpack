@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kubejs:block/slab_sheetmetal_colored_light_blue_bottom"
+    },
+    "type=double": {
+      "model": "kubejs:block/slab_sheetmetal_colored_light_blue_double"
+    },
+    "type=top": {
+      "model": "kubejs:block/slab_sheetmetal_colored_light_blue_top"
+    }
+  }
+}

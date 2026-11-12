@@ -1,0 +1,41 @@
+{
+  "title": "HEV Mark IV",
+  "icon": "hbm:hev_helmet",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6HEV Mark IV&r is a strong electric armor set, with the intent of keeping the user safe primarely from dangerous hazards, such as high levels of radiation, fire, certain air particles and more. The suit comes equiped with an &6Geiger Counter&r and custom hud."
+  ],
+  "x": 0,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/ferrouranium_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:hev_helmet",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:hev_plate",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:hev_legs",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:hev_boots",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

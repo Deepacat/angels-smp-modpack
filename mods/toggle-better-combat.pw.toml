@@ -1,0 +1,13 @@
+name = "Toggle Better Combat"
+filename = "togglebettercombat-neoforge-1.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9236/745/togglebettercombat-neoforge-1.0.0+1.21.1.jar"
+hash-format = "sha1"
+hash = "8b9bc53336fd4da0c29a9c26fdedc160e4c0990d"
+
+[update]
+[update.curseforge]
+project-id = 1750743
+file-id = 9236745

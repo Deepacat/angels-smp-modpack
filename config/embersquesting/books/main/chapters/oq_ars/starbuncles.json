@@ -1,0 +1,31 @@
+{
+  "title": "Starbuncles",
+  "subtitle": "Cannot evolve into a Sylveon :/",
+  "description": [
+    "Starbuncles can move items between chests and collect Source Berries! To tell one where to deposit the items, use the Dominion Wand, and to obtain a starbuncle token in the first place, give a wild starbuncle a gold nugget.\n\n§oNota Bene:§r if you like the color of a wild starbuncle, nametag it before giving it a gold nugget - this will give you a named token, which when converted into a charm will summon a starbuncle of the same name and color!"
+  ],
+  "icon": "ars_nouveau:starbuncle_charm",
+  "x": 9,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:starbuncle_shards",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab712337a7",
+      "type": "custom",
+      "title": "Unknown type: openquests_api:pet"
+    }
+  ],
+  "shape": "circle"
+}

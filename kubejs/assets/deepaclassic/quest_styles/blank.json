@@ -1,0 +1,5 @@
+{
+  "layout": "map",
+  "screen": "deepaclassic:ui/deepaclassic.ui.nbt",
+  "sheets": ["deepaclassic:lss/blank.lss"]
+}

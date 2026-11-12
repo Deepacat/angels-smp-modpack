@@ -1,0 +1,50 @@
+{
+  "title": "Smokestack",
+  "icon": "hbm:chimney_brick",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Smokestack&r is used to reduce pollution made from machines. &3Exhaust Pipes&r, made in anvils, can be used to transport the fumes to the Smokestack. The &3Industrial Smokestack&r is needed to produce &6Fine Soot&r, required for making &6Fullerite&r in the late game.",
+    "",
+    "The wiki page for pollution can be found below.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Pollution",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Pollution"
+          }
+        }
+      ]
+    }
+  ],
+  "x": 13.5,
+  "y": 16.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/steel_anvil"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:chimney_brick",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:chimney_industrial",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_ashpit",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

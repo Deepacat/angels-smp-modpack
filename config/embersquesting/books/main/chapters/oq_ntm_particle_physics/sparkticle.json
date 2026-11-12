@@ -1,0 +1,24 @@
+{
+  "title": "Sparkticle",
+  "icon": "hbm:particle_sparkticle",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Sparkticle&r is made from colliding &6Strange Quark&r particles and &6Pulverized Enchantment&r."
+  ],
+  "x": 4.5,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/strange_quark"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_sparkticle",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

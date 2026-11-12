@@ -1,0 +1,26 @@
+{
+  "title": "Satellite Ground Station",
+  "icon": "hbm:machine_satlink",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Satellite Ground Station&r is used to send and receive Redstone-Over Radio signals from satellites in orbit."
+  ],
+  "x": 0,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/microchip",
+      "oq_ntm_oil/tantalum"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_satlink",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

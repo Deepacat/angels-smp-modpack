@@ -1,0 +1,31 @@
+{
+  "title": "⚠ Vanilla changes ⚠",
+  "icon": "embersquesting:textures/gui/icons/pencil.png",
+  "order": 1,
+  "scope": "team",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/block/cannon_arrow.png",
+        "type": "image"
+      },
+      "x": 0.82142854,
+      "y": 0.82142854
+    },
+    {
+      "width": 0.85714287,
+      "height": 0.85714287,
+      "content": {
+        "texture": "supplementaries:textures/block/cannon_arrow.png",
+        "type": "image"
+      },
+      "x": 3.3214285,
+      "y": 0.82142854
+    }
+  ]
+}

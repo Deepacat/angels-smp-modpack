@@ -1,0 +1,24 @@
+{
+  "title": "Oil Resevoir Detector",
+  "icon": "hbm:oil_detector",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Oil Resevoir Detector&r will help one in the search for an &eOil Deposit&r by pointing it out at the top left of the screen."
+  ],
+  "x": 12,
+  "y": 22.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:oil_detector",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

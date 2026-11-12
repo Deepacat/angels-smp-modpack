@@ -1,0 +1,21 @@
+{
+  "title": "Certus Quartz Dust",
+  "description": [
+    "Put a Certus Quartz Crystal into an Inscriber to get this. Alternatively, it drops from Certus Quartz Buds before they are fully grown."
+  ],
+  "icon": "ae2:certus_quartz_dust",
+  "x": 5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:certus_quartz_dust",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

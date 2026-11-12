@@ -1,0 +1,22 @@
+{
+  "title": "Arcane Pedestals",
+  "description": [
+    "These can hold one item at a time; apart from being useful for sourcelink automation (mycelial and volcanic sourcelinks can take items from them), they can also provide crafting catalysts for imbuing Essences!\nThey can also be crafted into a platform version, which works for all the same things, but is smaller and can be placed on walls or upside down."
+  ],
+  "icon": "ars_nouveau:arcane_pedestal",
+  "x": 6,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/working_with_source"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:arcane_pedestal) item(ars_nouveau:arcane_platform))",
+      "type": "item",
+      "title": "Arcane Pedestal or Platform"
+    }
+  ],
+  "shape": "circle"
+}

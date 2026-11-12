@@ -1,0 +1,22 @@
+{
+  "title": "Level Emitter",
+  "description": [
+    "These can be set to emit a redstone signal when the amount of items of a certain type stored in the system exceeds a certain value. Given that export buses etc. can be configured to only work with (or without)redstone signal with the use of a Redstone Card, this allows to make e.g. automatic off switches for passive processing lines."
+  ],
+  "icon": "ae2:level_emitter",
+  "x": 8,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:level_emitter",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

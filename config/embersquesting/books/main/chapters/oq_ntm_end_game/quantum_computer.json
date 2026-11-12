@@ -1,0 +1,25 @@
+{
+  "title": "Quantum Computer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Quantum Computer&r is the most powerful out of any other control unit. It  used to build &6Gerald&r and the &3DFC&r."
+  ],
+  "icon": "hbm:circuit_controller_quantum",
+  "x": 4.5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/solid_state_quantum_processor",
+      "oq_ntm_oil/tantalum",
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_controller_quantum",
+      "type": "item"
+    }
+  ]
+}

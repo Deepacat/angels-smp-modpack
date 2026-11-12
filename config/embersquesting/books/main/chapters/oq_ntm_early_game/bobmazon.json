@@ -1,0 +1,23 @@
+{
+  "title": "Bobmazon",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Bobmazon&r is an in-game shop where players can spend &6Bottle Caps&r to purchase various items such as building blocks, plants, resources and many more. To purchase items, one must have unlocked the achievements listed below as \"Ratings\"."
+  ],
+  "icon": "hbm:bobmazon",
+  "x": 16,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:bobmazon",
+      "type": "item"
+    }
+  ]
+}

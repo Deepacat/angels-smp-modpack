@@ -1,0 +1,8 @@
+name = "HBM's Nuclear Tech Mod"
+filename = "hbm-neoforge-1.0.5+1.21.1-build.2.jar"
+side = "both"
+
+[download]
+url = "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.5%2B1.21.1-build.2.jar"
+hash-format = "sha1"
+hash = "8fa88a028a91f3606fcb7baa30cc3cb63fb2be82"

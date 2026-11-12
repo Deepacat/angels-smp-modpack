@@ -1,0 +1,22 @@
+{
+  "title": "Seperated Clean Primary Fraction",
+  "icon": "hbm:bedrock_ore_primary_norad_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of Second Centrifuging."
+  ],
+  "x": 0,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/second_bedrock_ore_centrifuging"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

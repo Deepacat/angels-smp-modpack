@@ -1,0 +1,22 @@
+{
+  "title": "Cable Anchor",
+  "description": [
+    "Sticking these into cables allows you to disconnect what would otherwise be connected."
+  ],
+  "icon": "ae2:cable_anchor",
+  "x": 6,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:cable_anchor",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

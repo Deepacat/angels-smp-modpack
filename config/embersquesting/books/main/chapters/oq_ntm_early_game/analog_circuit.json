@@ -1,0 +1,26 @@
+{
+  "title": "Analog Circuit",
+  "icon": "hbm:circuit_analog",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Analog Circuit&r is the first true circuit board used in crafting certain essential machines and tools such as the &6Oil Deposit Detector&r, the &3Chemical Plant&r, and the &3Electric Arc Furnace&r.",
+    "",
+    "&2A cheaper recipe for Capacitors will be available if a Shredder is owned."
+  ],
+  "x": 12.5,
+  "y": 24.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/soldering_station"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_analog",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

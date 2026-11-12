@@ -1,0 +1,21 @@
+{
+  "title": "Certus Quartz",
+  "description": [
+    "Unless you got these from villagers, what you have to work with is Budding Certus Quartz Blocks, which you find in the meteor. These work the same as Budding Amethyst, slowly growing Certus Quartz Buds, that turn into Clusters. Clusters can be broken for Certus Quartz Crystals. Fortune works on them!\n\nAll versions of these budding blocks, except Flawless, degrade over time until they become Certus Quartz Blocks, and all versions degrade one stage if broken to be moved. There is a quest down the line on how to create more of these.\n\nFlawless Budding Certus Quartz grows clusters forever unless you break it. Do not break it! There are other ways to move it depending on the mods installed:\n- AE2 itself provides Spatial IO, which can cut and paste blocks form the world, albeit with a slightly bulky setup.\n- With Create, you can move budding certus on a minecart contraption or train."
+  ],
+  "icon": "ae2:certus_quartz_crystal",
+  "x": 4,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/starting_with_ae2"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

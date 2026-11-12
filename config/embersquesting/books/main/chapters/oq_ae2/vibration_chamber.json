@@ -1,0 +1,21 @@
+{
+  "title": "Vibration Chamber",
+  "description": [
+    "The Vibration Chamber is AE2's coal generator, making 80 FE/t. It accepts Acceleration Cards for increased production speed and Energy Cards for increased fuel efficiency."
+  ],
+  "icon": "ae2:vibration_chamber",
+  "x": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/energy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:vibration_chamber",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

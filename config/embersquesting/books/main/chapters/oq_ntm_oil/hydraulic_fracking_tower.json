@@ -1,0 +1,30 @@
+{
+  "title": "Hydraulic Fracking Tower",
+  "icon": "hbm:machine_fracking_tower",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Hydraulic Fracking Tower&r is used to extract infinite oil from a &eBedrock Oil Deposit&r. To operate, the machine needs &bFracking Solution&r. During its operation, the surrounding environment will sustain considerable damage. &6Oily Dirt&r and &6Oily Sand&r can be used to create &6Arsenic&r, a substitute of &6Bismuth&r.",
+    "",
+    "Operating the hydraulic fracking tower will consume &e100kHE/s&r.",
+    "",
+    "&2Fracking Solution made from Sulfuric Acid doubles the efficiency of the Sulfur used.&r"
+  ],
+  "x": 15.5,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_fracking_tower",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

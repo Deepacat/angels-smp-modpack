@@ -1,0 +1,24 @@
+{
+  "title": "Steel Anvil",
+  "icon": "hbm:anvil_steel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "An upgraded version of the &3Anvil&r, [T2], which unlocks additional recipes."
+  ],
+  "x": 14.5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:anvil_steel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

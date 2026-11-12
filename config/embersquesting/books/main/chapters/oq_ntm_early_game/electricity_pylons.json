@@ -1,0 +1,90 @@
+{
+  "title": "Electricity Pylons",
+  "icon": "hbm:red_pylon_medium_steel_transformer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&3Electricity Pylons&r are used to transport power more easily between larger distances. There are two variants, going from 25 blocks per pylon to 45 respectively.",
+    "",
+    "The 45 block pylon variants require the ones with transformers to input and output energy.",
+    "",
+    "&2These cables can be dyed.&r",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon_steel",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon_medium_wood",
+          "count": 1
+        },
+        {
+          "item": "hbm:red_pylon_medium_wood_transformer",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:red_pylon_medium_steel",
+          "count": 1
+        },
+        {
+          "item": "hbm:red_pylon_medium_steel_transformer",
+          "count": 2
+        },
+        {
+          "item": "hbm:wiring_red_copper",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 0,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/energy_cables"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

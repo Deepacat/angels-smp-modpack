@@ -1,0 +1,29 @@
+{
+  "title": "Yharonite Billet",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Yharonite Billet&r is created in a tungsten crate that has &6Polonium Billets&r in it while being shot from a &3DFC Emitter&r with a minumum of 10 &eMSpk&r of DFC energy. This can be checked by opening the GUI of the receiver while it is not blocked by the crate and the reactor is operating.",
+    "",
+    "This is the final material obtained in the mod."
+  ],
+  "icon": "hbm:billet_yharonite",
+  "x": 2,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/dfc"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crate_tungsten",
+      "type": "item"
+    },
+    {
+      "item": "hbm:billet_yharonite",
+      "type": "item"
+    }
+  ]
+}

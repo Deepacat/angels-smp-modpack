@@ -1,0 +1,20 @@
+{
+  "title": "Circuit Slicer",
+  "description": [
+    "This machine can do all Inscriber Press recipes and processes blocks at a time! With this and a Crystal Assembler you officially don't need inscribers anymore :D"
+  ],
+  "icon": "extendedae:circuit_cutter",
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/concurrent_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:circuit_cutter",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

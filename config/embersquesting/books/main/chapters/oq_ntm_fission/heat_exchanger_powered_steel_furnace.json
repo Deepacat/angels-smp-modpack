@@ -1,0 +1,23 @@
+{
+  "title": "Heat Exchanger powered Steel Furnace",
+  "icon": "hbm:furnace_steel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Instead of using the &bHot Coolant&r for power, one can use it to make the &3Steel Furnace&r go at ludicrous speeds."
+  ],
+  "x": 6,
+  "y": 0,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/heat_exchanging_heater"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

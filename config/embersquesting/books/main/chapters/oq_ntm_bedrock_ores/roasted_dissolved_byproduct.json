@@ -1,0 +1,22 @@
+{
+  "title": "Roasted Dissolved Byproduct",
+  "icon": "hbm:bedrock_ore_solvent_roasted_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of third roasting."
+  ],
+  "x": 3.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/dissolved_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

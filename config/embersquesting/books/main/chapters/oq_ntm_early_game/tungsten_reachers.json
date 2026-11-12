@@ -1,0 +1,25 @@
+{
+  "title": "Tungsten Reachers",
+  "icon": "hbm:reacher",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Tungsten Reachers&r are a utility item which, when in any slot of the inventory, reduce the radiation taken from items. They can also handle pyrophoric items."
+  ],
+  "x": 11.5,
+  "y": 2.5,
+  "deps": {
+    "any": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_early_game/latex"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:reacher",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

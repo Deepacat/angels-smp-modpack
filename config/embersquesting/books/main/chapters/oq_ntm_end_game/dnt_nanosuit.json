@@ -1,0 +1,39 @@
+{
+  "title": "DNT Nanosuit",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6DNT Nanosuit&r is final goal of the mod. By crafting this armor you have reached the end of progression.",
+    "",
+    "&5Thanks for playing!"
+  ],
+  "icon": "hbm:dns_helmet",
+  "x": 2,
+  "y": 16,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/yharonite_billet",
+      "oq_ntm_end_game/balls_o_tron",
+      "oq_ntm_oil/weapon_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:dns_helmet",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dns_plate",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dns_legs",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dns_boots",
+      "type": "item"
+    }
+  ]
+}

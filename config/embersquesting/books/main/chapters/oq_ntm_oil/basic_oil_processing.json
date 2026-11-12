@@ -1,0 +1,59 @@
+{
+  "title": "Basic Oil Processing",
+  "icon": "hbm:machine_refinery",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Before &bCrude Oil&r can be processed, it must be heated up in a &3Boiler&r.",
+    "",
+    "The &3Oil Refinery&r splits Hot Crude Oil(or later on &bCracked&r) into four different fluid products and one solid byproduct.",
+    "",
+    "After that, those fluids can be sent through a &3Fractioning Tower&r to obtain different kinds of fuels, such as &bKerosene&r and &bDiesel&r. A &3Fractioning Tower Seperator&r can be used to stack fractioning towers ontop of eachother.",
+    "",
+    "It is recommended that the wiki is checked out.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Guide:_Petroleum_Processing",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Guide:_Petroleum_Processing"
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_fraction_tower",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 11,
+  "y": 6.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit",
+      "oq_ntm_early_game/boiler_and_steam_condenser",
+      "oq_ntm_oil/derrick",
+      "oq_ntm_early_game/arc_welder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_refinery",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

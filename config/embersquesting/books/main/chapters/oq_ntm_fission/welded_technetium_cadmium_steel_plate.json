@@ -1,0 +1,26 @@
+{
+  "title": "Welded Technetium/Cadmium Steel Plate",
+  "icon": "hbm:plate_welded_tcalloy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Welded Technetium/Cadmium Steel Plate&r is the welded varient of the cast technetium/cadmium steel plate and is used in some recipes that require strong materials.",
+    "",
+    "&2Make sure to have good energy generation and storage infrastructure as each plate costs 1.2 Billion HE."
+  ],
+  "x": 6,
+  "y": 20,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/technetium_cadmium_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:plate_welded_tcalloy",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

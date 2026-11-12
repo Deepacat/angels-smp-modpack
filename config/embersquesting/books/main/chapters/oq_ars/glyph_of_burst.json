@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Burst",
+  "description": [
+    "Resolves the spell many times over in an area of effect - a better version of the Glyph of AOE!"
+  ],
+  "icon": "ars_nouveau:glyph_burst",
+  "x": 9,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/archmage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_burst",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Primary Fraction Products",
+  "icon": "hbm:scraps{\"hbm:material\":\"tungsten\",\"hbm:mat_amount\":576}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "There are multiple ways of processing at this stage, most efficient being the &3Electrolysis Machine&r."
+  ],
+  "x": 0,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/primary_function_adjustable_wheights"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

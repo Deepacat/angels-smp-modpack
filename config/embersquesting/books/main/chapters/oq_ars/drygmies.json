@@ -1,0 +1,31 @@
+{
+  "title": "Drygmies",
+  "description": [
+    "Drygmy Tokens can be found in loot chests or obtained by giving a wild Drygmy a Wilden Horn. They can then be converted into Drygmy Charms.\nTo summon a Drygmy, use a Charm on a block of Mossy Cobblestone; this will convert the block into a Drygmy Henge. More drygmies can be summoned into said henge.\nWhen provided source and an inventory adjacent to the henge to deposit items into, Drygmies will harmlessly simulate and collect drops from nearby mobs, including those in Containment Jars. The greater the variety of mobs, the happier the Drygmies and greater the output."
+  ],
+  "icon": "ars_nouveau:drygmy_charm",
+  "x": 9,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ars/jars_of_containment",
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:drygmy_shard",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:drygmy_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab59da1c5a",
+      "type": "custom",
+      "title": "Unknown type: openquests_api:pet"
+    }
+  ],
+  "shape": "circle"
+}

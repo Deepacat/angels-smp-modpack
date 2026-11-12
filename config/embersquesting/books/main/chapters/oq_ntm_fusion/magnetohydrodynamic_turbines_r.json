@@ -1,0 +1,26 @@
+{
+  "title": "Magnetohydrodynamic Turbines&r",
+  "icon": "hbm:fusion_mhdt",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&3Magnetohydrodynamic Turbines&r are advanced components of the fusion reactor that make electricity out of the plasma energy directly without needing additional turbines. While more expensive and requiring &bPerfluoromethyl&r cooling, they have a &e+35%&r convertion bonus from &eTU&r to &eHE&r. In addition, the MDH turbine requires a minimum input of\n&e5MTU/t&r of plasma energy to operate normally, otherwise efficiency will be halved."
+  ],
+  "x": 10.5,
+  "y": 13.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/ferric_schrabidate",
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:fusion_mhdt",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Bakelite",
+  "icon": "hbm:ingot_bakelite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Bakelite&r is an alternative to Polymer and can be used for the same recipes. Since it doesnt require any &6Coal Powder&r or &6Fluorite&r to be made, it is easier and more convenient to automate than &6Polymer&r."
+  ],
+  "x": 17.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/catalytic_cracking_tower"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_bakelite",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

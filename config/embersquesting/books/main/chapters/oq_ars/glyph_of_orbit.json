@@ -1,0 +1,23 @@
+{
+  "title": "Glyph of Orbit",
+  "subtitle": "Not to be confused with the Sharingan",
+  "description": [
+    "Copies the remainder of the spell three times over into projectiles orbiting the current target."
+  ],
+  "icon": "ars_nouveau:glyph_orbit",
+  "x": 11,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/archmage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_orbit",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

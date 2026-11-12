@@ -1,0 +1,22 @@
+{
+  "title": "Creating your own Budding Certus",
+  "description": [
+    "Throw Charged Certus Quartz into water together with a Certus Quartz Block to get your own budding blocks. Throwing it back with more charged certus upgrades the stage of the block. You can't get Flawless this way, though :("
+  ],
+  "icon": "ae2:flawed_budding_quartz",
+  "x": 3,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/charged_certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:flawed_budding_quartz",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

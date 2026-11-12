@@ -1,0 +1,10 @@
+{
+  "title": "End Game",
+  "icon": "hbm:machine_battery_redd",
+  "order": 7,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

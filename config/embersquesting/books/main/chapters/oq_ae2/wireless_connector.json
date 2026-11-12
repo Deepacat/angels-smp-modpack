@@ -1,0 +1,26 @@
+{
+  "title": "Wireless Connector",
+  "description": [
+    "Pairs of these blocks can facilitate wireless connections and are much less bulky than Quantum Network Bridges! Though unlike these, they can't work cross-dimensionally and also eat energy proportional to distance between the pair.\n\nTo link the pair to one another, use the Wireless Setup Kit."
+  ],
+  "icon": "extendedae:wireless_tool",
+  "x": 2,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:wireless_connect",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "extendedae:wireless_tool",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

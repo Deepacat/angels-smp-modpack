@@ -1,0 +1,25 @@
+{
+  "title": "Mending rework",
+  "subtitle": "(It doesn't repair)",
+  "description": [
+    "Mending will not repair gear! And cannot be applied as an enchant like normal",
+    "",
+    "It will instead reset the cost of combining/adding levels to the item, making it cheaper to continue enchanting it",
+    "",
+    "If you get a mending \"Ancient Tome\", and combine it with a mending book, you can get mending 2 which acts like the vanilla mending enchant"
+  ],
+  "icon": "minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:impaling\":1}}}",
+  "x": 2,
+  "y": 3,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

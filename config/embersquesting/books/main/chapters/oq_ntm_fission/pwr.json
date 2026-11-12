@@ -1,0 +1,57 @@
+{
+  "title": "PWR",
+  "icon": "hbm:pwr_controller",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &2&3PWR&r is a modular fission reactor. It is more limited than the &3RBMK&r in terms of capability and fuel types but it is much safer and easier to use due to it melting down more gently and being far more stable in its operation.",
+    "",
+    "Due to the complex and expansive nature of the PWR, it is highly recommend that the wiki is checked out as it provides more information.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/PWR",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/PWR"
+          }
+        }
+      ]
+    },
+    "&2This quest demands the most essential parts of a PWR, and does not represent the amount needed for a functioning reactor. There are also many other types of PWR Components that can be used."
+  ],
+  "x": 8,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/centrifuge",
+      "oq_ntm_oil/industrial_steam_turbine",
+      "oq_ntm_fission/heat_exchanging_heater"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:pwr_controller",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pwr_port",
+      "count": 2,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pwr_fuel",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pwr_neutron_source",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

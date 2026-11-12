@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "kubejs:block/metal/sheetmetal_black",
+    "side": "kubejs:block/metal/sheetmetal_black",
+    "top": "kubejs:block/metal/sheetmetal_black"
+  }
+}

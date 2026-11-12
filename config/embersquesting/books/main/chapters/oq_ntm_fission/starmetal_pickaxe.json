@@ -1,0 +1,41 @@
+{
+  "title": "Starmetal Pickaxe",
+  "icon": "hbm:starmetal_pickaxe",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Starmetal Pickaxe&r is used as a crafting component for the &6Molten&r and &6Bismuth Pickaxes&r, both being unbreakable and having a lot of abilities. Additionally, both can be used to mine &eDepth Rock&r.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:bismuth_pickaxe",
+          "count": 1
+        },
+        {
+          "item": "hbm:volcanic_pickaxe",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 13,
+  "y": 23.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/starmetal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:starmetal_pickaxe",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

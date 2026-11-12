@@ -1,0 +1,23 @@
+{
+  "title": "Welded Osmiridium Plate",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Welded Osmiridium Plates&r cost 300 Billion &eHE&r to produce, so good energy generation and storage infrastructure is needed."
+  ],
+  "icon": "hbm:plate_welded_osmiridium",
+  "x": 2,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/osmiridium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:plate_welded_osmiridium",
+      "type": "item"
+    }
+  ]
+}

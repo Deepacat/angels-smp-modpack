@@ -1,0 +1,28 @@
+{
+  "title": "Wixies",
+  "subtitle": "Witchy Crafting Service",
+  "description": [
+    "Wixies are tiny with pixies that autocraft! They take items out of inventories linked with the Dominion Wand, and craft them into items placed on Arcane Pedestals adjacent to thieir home cauldron. They can also brew potions with Potion Jars!"
+  ],
+  "icon": "ars_nouveau:wixie_charm",
+  "x": 12.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:wixie_charm",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab333561fd",
+      "type": "custom",
+      "title": "Unknown type: openquests_api:pet"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

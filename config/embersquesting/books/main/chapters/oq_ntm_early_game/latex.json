@@ -1,0 +1,26 @@
+{
+  "title": "Latex",
+  "icon": "hbm:ingot_biorubber",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Latex&r is an early game rubber which can be used instead of normal &6Rubber&r, such as cheaper conveyors. Before the &3Press&r is unlocked, it can be made using dandelions in a crafting table.",
+    "",
+    "&2If a jungle biome is too far away, beach biomes provide jungle wood and saplings from palm trees.&r"
+  ],
+  "x": 13,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_biorubber",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

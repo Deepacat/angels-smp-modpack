@@ -1,0 +1,24 @@
+{
+  "title": "Magical Tools and Weapons",
+  "description": [
+    "There are quite a few different weapons in the arsenal of a sorcerer:\n- Enchanter's Wand casts projectile spells, allowing to exceed the glyph cap a little,\n- Enchanter's Mirror does the same with self spells,\n- Enchanter's Sword casts Touch spells with increased damage,\n- Enchanter's Gauntlet also casts with Touch and is a diamond-tier multitool,\n- Enchanter's Fishing Rod casts a touch spell on the hooked entity §ocontinuously§r,\n- Enchanter's Bow shoots arrows imbued with spells,\n- Enchanter's Shield gives Mana Regeneration and Spell Damage when used,\n- and the Splash Flask Cannon fires potions!"
+  ],
+  "icon": "ars_nouveau:enchanters_sword",
+  "x": 11.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:enchanters_sword) item(ars_nouveau:wand) item(ars_nouveau:spell_bow) item(ars_nouveau:enchanters_mirror) item(ars_nouveau:enchanters_gauntlet) item(ars_nouveau:enchanters_fishing_rod) item(ars_nouveau:enchanters_shield) item(ars_nouveau:splash_flask_cannon))",
+      "type": "item",
+      "title": "Any Enchanter's Weapon"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

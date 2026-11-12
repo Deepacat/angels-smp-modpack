@@ -1,0 +1,43 @@
+{
+  "title": "Teleporter",
+  "icon": "hbm:machine_teleporter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Teleporter&r can be used to teleport players, and entities in general, to a specific location.",
+    "",
+    "Right-click a block with the &6Telelinker&r to set the desired exit position, then shift-click the teleporter with the telelinker to configure the teleporter.",
+    "",
+    "&2The teleporter is a one way trip so it is advised that multiple are made.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_teleporter",
+          "count": 1
+        },
+        {
+          "item": "hbm:linker",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 10,
+  "y": 17.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/military_grade_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

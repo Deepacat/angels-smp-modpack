@@ -1,0 +1,27 @@
+{
+  "title": "Controlling Time and Weather",
+  "icon": "ars_nouveau:ritual_sunrise",
+  "x": 6,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_sunrise",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:ritual_moonfall",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:ritual_cloudshaping",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

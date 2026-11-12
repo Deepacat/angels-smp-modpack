@@ -1,0 +1,24 @@
+{
+  "title": "Starmetal",
+  "icon": "hbm:ingot_starmetal",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Starmetal&r is a unique alloy made from combining &6Saturnite&r with &6Meteorite Powder&r in a &3Blast Furnace&r."
+  ],
+  "x": 12.5,
+  "y": 22,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/saturnite"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_starmetal",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

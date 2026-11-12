@@ -1,0 +1,31 @@
+{
+  "title": "Bookwyrms and the Storage Lectern",
+  "description": [
+    "This is Ars Nouveau's storage system! It's very easy to assemble and use, accessible relatively earlygame!\n\nUse Bookwyrm charms on a Storage Lectern to summon Bookwyrms in; they are the «cables» of the system, in a matter of speaking. Then use the Dominion Wand to link the lectern to inventories; every bookwyrm can support up to eight inventories, which can be chests or any modded containers.\n\n§oNota Bene:§r items in all unlinked containers placed directly against the Storage Lectern will be automagically imported into the system!"
+  ],
+  "icon": "ars_nouveau:storage_lectern",
+  "x": 9.5,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ars/tablet_of_awakening",
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:bookwyrm_charm",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:storage_lectern",
+      "type": "item"
+    },
+    {
+      "id": "ftbquests:1000acab5f07ca23",
+      "type": "custom",
+      "title": "Unknown type: openquests_api:pet"
+    }
+  ],
+  "shape": "circle"
+}

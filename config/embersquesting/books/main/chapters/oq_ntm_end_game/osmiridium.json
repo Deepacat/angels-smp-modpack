@@ -1,0 +1,30 @@
+{
+  "title": "Osmiridium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Osmiridium&r is the second most expensive material and is used primarely in the &3DFC&r.",
+    "",
+    "The ratio is 9 Osmiridium-Infused Tektite to one ingot.",
+    "",
+    "&2Installing an effectiveness upgrade on the ore acidizer is recommended.&r"
+  ],
+  "icon": "hbm:ingot_osmiridium",
+  "x": 2,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/spark_laser_crystal",
+      "oq_ntm_fission/bismuth",
+      "oq_ntm_fusion/utility_satellites",
+      "oq_ntm_end_game/gerald_the_construction_android"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_osmiridium",
+      "type": "item"
+    }
+  ]
+}

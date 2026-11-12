@@ -1,0 +1,22 @@
+{
+  "title": "Tablet of Summon Wilden",
+  "description": [
+    "This can summon wilden mobs if you don't have any of their drops! Alternatively, you can augment it with one of each of Wilden Wing, Horn and Spike to summon a boss - the Wilden Chimera!"
+  ],
+  "icon": "ars_nouveau:ritual_wilden_summon",
+  "x": 5.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_wilden_summon",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_out": "hover"
+}

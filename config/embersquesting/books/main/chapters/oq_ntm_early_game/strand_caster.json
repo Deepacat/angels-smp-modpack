@@ -1,0 +1,33 @@
+{
+  "title": "Strand Caster",
+  "icon": "hbm:machine_strand_caster",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Strand Caster&r is a large basin that can cast items in batches of 9. It also requires &bWater&r in order to cast, where it makes &bLow-Pressure Steam&r that can be turned back into water."
+  ],
+  "x": 14.5,
+  "y": 20.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/chemical_plant",
+      "oq_ntm_early_game/boiler_and_steam_condenser",
+      "oq_ntm_early_game/shredder",
+      "oq_ntm_early_game/arc_welder"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/boiler_and_steam_condenser": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_strand_caster",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

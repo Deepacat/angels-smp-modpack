@@ -1,0 +1,35 @@
+{
+  "title": "NTM: Introduction",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "This is the begining of the tech tree of &dHBM's Nuclear Tech Mod&r. Before proceeding it is recommended that you stock up on materials such as &6Iron&r, &6Coal&r, &6Copper&r and &6Redstone&r.",
+    "",
+    "&a&2Some advanced machinery can be obtained by salvaging them from structures scattered across the world, such as Centrifuges from abandoned nuclear powerplants found in deserts, or by rare mob drops such as a Geiger Counter.&r",
+    "",
+    "Most of the information in this quest book was derived from the official NTM wiki and Qmaw entries, with additional information being added.",
+    "",
+    "The NTM Wiki link can be found here:",
+    {
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Main_Page",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Main_Page"
+          }
+        }
+      ],
+      "type": "button"
+    }
+  ],
+  "icon": "minecraft:grass_block",
+  "x": 14.5,
+  "y": 2.5,
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

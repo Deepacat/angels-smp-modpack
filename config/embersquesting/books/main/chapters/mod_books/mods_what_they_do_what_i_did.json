@@ -1,0 +1,30 @@
+{
+  "title": "Mods, what they do, what I did",
+  "subtitle": "Info and also books for them if there is one",
+  "description": [
+    "This page is a collection of the mods that add meaningful content",
+    "",
+    "It is here for you to see what mods the pack includes, and what might interest you!",
+    "",
+    "The quests for the mods will give you books or hints on how to start them if applicable",
+    "",
+    "And this quests reward gives you a book that you can craft with any other mod books to combine them all into one book! (The akahsic tome)"
+  ],
+  "icon": "minecraft:knowledge_book",
+  "x": 7,
+  "y": 2.75,
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "akashictome:tome",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_in": "hover",
+  "lines_out": "hover"
+}

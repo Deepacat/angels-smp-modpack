@@ -1,0 +1,139 @@
+{
+  "title": "Nuclear Bombs",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "With access to &6Tantalum&r for &6Control Units&r and fissile matterials, it is possible to assemble a nuclear bomb. To detonate the bomb one can use a detonator or a redstone signal.",
+    "",
+    "A nuclear explosion will transform ores into more valuable ones, such as &6Coal&r to &6Diamonds&r or &6Uranium&r to &6Schrabidium&r. Be prepared with radiation resistant armor before venturing into the crater.",
+    "",
+    "Make sure to stand behind some strong cover if you wish to see the explosion from close by.",
+    "",
+    "&2This quest serves as a list of components needed for various bombs. Some of these components can be mounted onto rockets that will carry the payload over large distances.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "items": [
+        "hbm:nuke_gadget",
+        {
+          "item": "hbm:item.early_explosive_lenses",
+          "count": 4
+        },
+        "hbm:gadget_wireing",
+        "hbm:gadget_core"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:nuke_boy",
+        "hbm:boy_shielding",
+        "hbm:boy_target",
+        "hbm:boy_bullet",
+        "hbm:boy_propellant",
+        "hbm:boy_igniter"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:nuke_man",
+        {
+          "item": "hbm:item.early_explosive_lenses",
+          "count": 4
+        },
+        "hbm:man_igniter",
+        "hbm:man_core"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:nuke_mike",
+        {
+          "item": "hbm:item.explosive_lenses",
+          "count": 4
+        },
+        "hbm:man_core",
+        "hbm:mike_core",
+        "hbm:mike_deut",
+        "hbm:mike_cooling_unit"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:nuke_prototype",
+        "hbm:igniter",
+        {
+          "item": "hbm:item.cell_sas3",
+          "count": 4
+        },
+        {
+          "item": "hbm:rod_quad_uranium",
+          "count": 4
+        },
+        {
+          "item": "hbm:rod_quad_lead",
+          "count": 4
+        },
+        {
+          "item": "hbm:rod_quad_np237",
+          "count": 2
+        }
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:nuke_fleija",
+        {
+          "item": "hbm:fleija_core",
+          "count": 6
+        },
+        {
+          "item": "hbm:fleija_propellant",
+          "count": 3
+        },
+        {
+          "item": "hbm:fleija_igniter",
+          "count": 2
+        }
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:nuke_solinium",
+        {
+          "item": "hbm:solinium_igniter",
+          "count": 4
+        },
+        {
+          "item": "hbm:solinium_propellant",
+          "count": 4
+        },
+        "hbm:solinium_core"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:nuke_man",
+  "x": 18.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/fissile_materials",
+      "oq_ntm_oil/tantalum"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "size": 2.0
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Ferrouranium",
+  "icon": "hbm:ingot_ferrouranium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Ferrouranium&r is an alloy of &6Uranium-238&r and &6Steel&r."
+  ],
+  "x": 2,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/uranium_238",
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_ferrouranium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+name = "Golem Core"
+filename = "golemcore-neoforge-1.0.5+1.21.1-build.2.jar"
+side = "both"
+
+[download]
+url = "https://mods.deepa.cat/angel/packmods/golemcore-neoforge-1.0.5%2B1.21.1-build.2.jar"
+hash-format = "sha1"
+hash = "7d8bf73cff29ef4355acd427dc29e33ab896b2f9"

@@ -1,0 +1,25 @@
+{
+  "title": "Water Washed Bedrock Ore",
+  "icon": "hbm:bedrock_ore_base_washed_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Ores can be washed to increase the number of primary products and even add useful additional byproducts. Washing is done in &3Ore Acidizers&r with different fluids.",
+    "",
+    "Ores straight out of the &3Bedrock Ore Processor&r (before initial centrifuging) can be washed with &bWater&r to immediately duplicate all products, making it a very desirable first step."
+  ],
+  "x": 4,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/roasted_bedrock_ore",
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

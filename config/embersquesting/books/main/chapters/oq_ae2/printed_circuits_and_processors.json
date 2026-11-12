@@ -1,0 +1,34 @@
+{
+  "title": "Printed Circuits and Processors",
+  "description": [
+    "Presses process raw ingredients into printed circuits in the Inscriber. Logic takes gold ingots, Calculation takes certus crystals, Engineering takes diamonds (ouch) and Silicon takes... well, silicon.\nPrinted Silicon, put back into the inscriber with one of the other printed circuits and redstone dust, creates processors. These will be very important crafting ingredients going forward."
+  ],
+  "icon": "ae2:inscriber",
+  "x": 6,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/inscriber_presses",
+      "oq_ae2/silicon"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:inscriber",
+      "type": "item"
+    },
+    {
+      "item": "ae2:logic_processor",
+      "type": "item"
+    },
+    {
+      "item": "ae2:calculation_processor",
+      "type": "item"
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

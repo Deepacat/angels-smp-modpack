@@ -1,0 +1,22 @@
+{
+  "title": "Tablet of Sanctuary",
+  "description": [
+    "Intercepts hostile mob spawning in a large radius."
+  ],
+  "icon": "ars_nouveau:ritual_sanctuary",
+  "x": 7.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_sanctuary",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

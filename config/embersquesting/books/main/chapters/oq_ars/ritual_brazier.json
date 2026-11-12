@@ -1,0 +1,21 @@
+{
+  "title": "Ritual Brazier",
+  "description": [
+    "Rituals are magical effects cast from a Ritual Brazier. Some of them require source to operate, and some of them require augmentation with an item: to do that, toss the item needed into the brazier!"
+  ],
+  "icon": "ars_nouveau:ritual_brazier",
+  "x": 7,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ars/arcane_pedestals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_brazier",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

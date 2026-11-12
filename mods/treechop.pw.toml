@@ -1,0 +1,13 @@
+name = "HT's TreeChop"
+filename = "TreeChop-1.21.1-neoforge-0.19.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6254/465/TreeChop-1.21.1-neoforge-0.19.3.jar"
+hash-format = "sha1"
+hash = "7bf7c1bde0f574e3fb9077115a2d4f59e534486c"
+
+[update]
+[update.curseforge]
+project-id = 421377
+file-id = 6254465

@@ -1,0 +1,13 @@
+name = "ShatterLib | OctoLib"
+filename = "OctoLib-NEOFORGE-0.6.3-1.21.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9478/818/OctoLib-NEOFORGE-0.6.3-1.21.jar"
+hash-format = "sha1"
+hash = "df7ded04b794d2d61dbb8e54e34527624c0cc1aa"
+
+[update]
+[update.curseforge]
+project-id = 916747
+file-id = 9478818

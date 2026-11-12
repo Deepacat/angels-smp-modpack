@@ -1,0 +1,10 @@
+{
+  "title": "Fission",
+  "icon": "hbm:rbmk_console",
+  "order": 4,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Sulfuric Byproduct",
+  "icon": "hbm:bedrock_ore_sulfuric_byproduct_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of Second Centrifuging."
+  ],
+  "x": 1.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/second_bedrock_ore_centrifuging"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

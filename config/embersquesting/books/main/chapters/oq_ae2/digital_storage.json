@@ -1,0 +1,26 @@
+{
+  "title": "Digital Storage",
+  "description": [
+    "AE2 can store stuff digitally on storage cells. These have a byte limit (roughly corresponds to how many items can be stored in a cell, a byte stores 8 items) and a type limit (how many §odifferent§r item types can be stored). Even a 256k item storage cell will be fully filled with 63 iron axes of different damage values! (fresh iron axes will stack though - AE2 doesn't care about the item's stack size limit).\nCells are made from the Cell Housing, which sets the type of storage (item, fluid, etc.), and a Storage Component, which sets the byte limit.\nFor the system to read from storage cells, they must be placed into a connected ME Drive.\nCells can be formatted in the Cell Workbench to filter what items they accept."
+  ],
+  "icon": "ae2:drive",
+  "x": 8,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:drive",
+      "type": "item"
+    },
+    {
+      "filter": "or(item(ae2:item_storage_cell_1k) item(ae2:item_storage_cell_4k) item(ae2:item_storage_cell_16k) item(ae2:item_storage_cell_64k) item(ae2:item_storage_cell_256k))",
+      "type": "item",
+      "title": "Any Item Storage Cell"
+    }
+  ],
+  "shape": "circle"
+}

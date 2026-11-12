@@ -1,0 +1,44 @@
+{
+  "title": "Crystalline Fullerite",
+  "icon": "hbm:ingot_cft",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Crystalline Fullerite&r is an material which is primarely used in endgame machines, such as the &3ICF&r and the &3FEnSU&r.",
+    "",
+    "&2It is recommended that an Effectiveness 3 upgrade is installed on the Acidizer to increase the chance of not consuming the Fullerene, as fullerite can be expensive to produce large quantities.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:upgrade_effect_3",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 18.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/industrial_mixer",
+      "oq_ntm_fission/fel_and_silex",
+      "oq_ntm_fission/high_performance_solvent",
+      "oq_ntm_fission/btx",
+      "oq_ntm_oil/ore_acidizer",
+      "oq_ntm_early_game/ashpit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_cft",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

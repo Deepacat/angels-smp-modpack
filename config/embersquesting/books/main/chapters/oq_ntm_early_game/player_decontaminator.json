@@ -1,0 +1,24 @@
+{
+  "title": "Player Decontaminator",
+  "icon": "hbm:decon",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Player Decontaminator&r will remove Rads received while standing on it. It can be very cost efficient, as other methods such as &6RadAways&r require constant replenishment."
+  ],
+  "x": 17.5,
+  "y": 18.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:decon",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

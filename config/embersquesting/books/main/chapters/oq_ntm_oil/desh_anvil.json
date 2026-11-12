@@ -1,0 +1,33 @@
+{
+  "title": "Desh Anvil",
+  "icon": "hbm:anvil_desh",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "An upgraded version of the &3Anvil&r, [T3], which unlocks additional recipes. Important unlocks of this tier are plates being able to be crafted in the anvil.",
+    "",
+    "Alternatively, the &3Desh Anvil&r can be skipped by making a &3Ferrouranium Anvil&r, [T4], from scavanged &e&r&6Uranium-238&r found in structures."
+  ],
+  "x": 13,
+  "y": 9.5,
+  "deps": {
+    "any": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/ferrouranium_anvil"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:anvil_desh",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:anvil_ferrouranium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

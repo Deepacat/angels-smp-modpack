@@ -1,0 +1,43 @@
+{
+  "title": "Assembler Matrix",
+  "description": [
+    "This multiblock can replace all of your Molecular Assemblers with their associated Pattern Providers. Prepare a lot of matter balls!\nIt holds 36 patterns per pattern core, can perform 8 recipes in parallel per craft core, and speed cores are its acceleration cards (you can install no more than 5). It has to be a framed rectangular box with no empty space inside, with the maximum size being 7x7x7 (requiring 5 speed cores, 60 pattern cores, 60 craft cores, 68 frames and 150 walls/glass). This quest asks for a more modest 5x5x5 one, which should be plenty for most uses :D"
+  ],
+  "icon": "extendedae:assembler_matrix_frame",
+  "x": 1,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ae2/extended_crafting"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:assembler_matrix_frame",
+      "count": 44,
+      "type": "item"
+    },
+    {
+      "filter": "or(item(extendedae:assembler_matrix_wall) item(extendedae:assembler_matrix_glass))",
+      "count": 54,
+      "type": "item",
+      "title": "Assembler Matrix Wall or Glass"
+    },
+    {
+      "item": "extendedae:assembler_matrix_pattern",
+      "count": 11,
+      "type": "item"
+    },
+    {
+      "item": "extendedae:assembler_matrix_crafter",
+      "count": 11,
+      "type": "item"
+    },
+    {
+      "item": "extendedae:assembler_matrix_speed",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

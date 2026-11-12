@@ -1,0 +1,13 @@
+name = "Quickstack"
+filename = "quickstack-neoforge-1.21.1-1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8244/917/quickstack-neoforge-1.21.1-1.jar"
+hash-format = "sha1"
+hash = "060911ba4df738efb56ecc4764d45c888dcc655a"
+
+[update]
+[update.curseforge]
+project-id = 354522
+file-id = 8244917

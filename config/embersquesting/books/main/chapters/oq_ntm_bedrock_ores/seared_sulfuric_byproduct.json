@@ -1,0 +1,22 @@
+{
+  "title": "Seared Sulfuric Byproduct",
+  "icon": "hbm:bedrock_ore_sulfuric_arc_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of Arc Furnace processing."
+  ],
+  "x": 1.5,
+  "y": 14,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/roasted_sulfuric_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

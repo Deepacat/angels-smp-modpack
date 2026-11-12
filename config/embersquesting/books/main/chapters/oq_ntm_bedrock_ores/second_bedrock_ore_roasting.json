@@ -1,0 +1,22 @@
+{
+  "title": "Second Bedrock Ore Roasting",
+  "icon": "hbm:bedrock_ore_primary_roasted_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Roast your bedrock ore again for additional &bVitriol&r."
+  ],
+  "x": 2.5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/centrifuged_bedrock_ore"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

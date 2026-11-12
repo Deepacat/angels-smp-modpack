@@ -1,0 +1,13 @@
+name = "Ember's Text API"
+filename = "emberstextapi-neoforge-1.21.1-3.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8899/704/emberstextapi-neoforge-1.21.1-3.0.4.jar"
+hash-format = "sha1"
+hash = "c63229551254aa8fc976edfddde93b3c67a740d3"
+
+[update]
+[update.curseforge]
+project-id = 1345948
+file-id = 8899704

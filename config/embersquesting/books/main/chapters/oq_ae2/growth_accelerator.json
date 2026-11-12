@@ -1,0 +1,21 @@
+{
+  "title": "Growth Accelerator",
+  "description": [
+    "This block greatly accelerates certus quartz cluster growth. Place it by the budding block and give it energy (pro tip: this is the perfect use case for the Crystal Resonance Generator).\nIt can accelerate budding amethyst, too, as well as any other modded budding blocks and even crop growth (though for that you'll need to place it adjacent to the crop, not to farmland).\nDoes it stack? Absolutely!!"
+  ],
+  "icon": "ae2:growth_accelerator",
+  "x": 4,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/fluix_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:growth_accelerator",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

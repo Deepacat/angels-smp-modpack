@@ -1,0 +1,24 @@
+{
+  "title": "Network Separator",
+  "icon": "hbm:network_separator",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Network Separator&r can be used to split up a power network into multiple. It has a power gauge integrated into it and can be shut off by providing power from beneath."
+  ],
+  "x": 0,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:network_separator",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Flight Data",
+  "icon": "hbm:drive_disk_flightdata_processed",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "One Space Laboratory will produce &eFlight Data&r for &6Disk Drives&r every 15 minutes."
+  ],
+  "x": 3,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/space_laboratory"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:drive_disk_flightdata_processed",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

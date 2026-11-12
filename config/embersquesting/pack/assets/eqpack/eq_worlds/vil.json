@@ -1,0 +1,82 @@
+{
+  "name": "Village",
+  "form": "ground",
+  "match": {
+    "priority": 0
+  },
+  "sky": {
+    "colors": [
+      "#6CA9EE",
+      "#CFE6FA",
+      "#9CCBF5",
+      "#5B9DE8",
+      "#2F6FD0"
+    ],
+    "daylit": true,
+    "fog": "#B9D3EE"
+  },
+  "terrain": {
+    "top": "minecraft:grass_block",
+    "under": "minecraft:dirt",
+    "deep": "minecraft:stone",
+    "tip": "minecraft:deepslate",
+    "ores": [
+      "minecraft:coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:copper_ore",
+      "minecraft:andesite",
+      "minecraft:gravel",
+      "minecraft:granite",
+      "minecraft:diorite"
+    ],
+    "plinth": "minecraft:cobblestone",
+    "fluid": "minecraft:water",
+    "bed": "minecraft:sand"
+  },
+  "land": {
+    "relief": 0.4,
+    "spread": 0.4,
+    "ponds": -0.85,
+    "river": 0.0,
+    "pond_clear": 2.3
+  },
+  "paths": {
+    "laid": "minecraft:dirt_path",
+    "marker": "minecraft:cobblestone",
+    "loose": "minecraft:gravel"
+  },
+  "pedestal": {
+    "post": "minecraft:cobblestone_wall",
+    "cap": "minecraft:oak_slab",
+    "goal": "minecraft:chiseled_stone_bricks",
+    "challenge": "minecraft:emerald_block",
+    "pad": "minecraft:lodestone"
+  },
+  "banner": "lime",
+  "decorations": [
+    {
+      "type": "feature",
+      "id": "embersquesting:village"
+    }
+  ],
+  "mobs": [
+    {
+      "type": "minecraft:villager",
+      "move": "walk",
+      "per": 140,
+      "max": 3,
+      "variant": "townsfolk"
+    },
+    {
+      "type": "minecraft:cat",
+      "move": "walk",
+      "per": 220,
+      "max": 2
+    }
+  ],
+  "particles": {
+    "style": "fireflies",
+    "count": 48,
+    "color": "#D8F56A"
+  }
+}

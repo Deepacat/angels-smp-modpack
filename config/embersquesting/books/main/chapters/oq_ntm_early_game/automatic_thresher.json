@@ -1,0 +1,26 @@
+{
+  "title": "Automatic Thresher",
+  "icon": "hbm:machine_thresher",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Automatic Thresher&r harvests crops such as &6Wheat&r, &6Hemp&r, &6Sugarcane&r, ect in a 7x7 area when supplied with fuel. It will eject all items from the back.",
+    "",
+    "Press [F1] for more info on applicable items"
+  ],
+  "x": 5.5,
+  "y": 18.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/combination_oven"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_thresher",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Ars Polymorphia"
+filename = "ars_polymorphia-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9433/369/ars_polymorphia-1.0.4.jar"
+hash-format = "sha1"
+hash = "a846a4945c0a0b4cecf171f7d1b352d8a69f43c5"
+
+[update]
+[update.curseforge]
+project-id = 1197614
+file-id = 9433369

@@ -1,0 +1,13 @@
+name = "Ember's Questing"
+filename = "embersquesting-neoforge-1.21.1-1.8.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9570/605/embersquesting-neoforge-1.21.1-1.8.0.jar"
+hash-format = "sha1"
+hash = "8d0897df73899a6bbd2db6ed0f42fd29615f6d62"
+
+[update]
+[update.curseforge]
+project-id = 1752806
+file-id = 9570605

@@ -1,0 +1,24 @@
+{
+  "title": "Chicken Nugget",
+  "icon": "hbm:nugget",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Chicken Nugget&r is the best food item in the mod, completely filling up both hunger and saturation. It is made by colliding 2 raw chickens in a Particle Accelerator. Since it is a recipe, it is the cheapest way of performing tests."
+  ],
+  "x": 5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/particle_accelerator_looping"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

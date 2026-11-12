@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Craft",
+  "description": [
+    "Crafting table on a stick? No, crafting table in a spellbook!"
+  ],
+  "icon": "ars_nouveau:glyph_craft",
+  "x": 3.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/simplest_glyphs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_craft",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

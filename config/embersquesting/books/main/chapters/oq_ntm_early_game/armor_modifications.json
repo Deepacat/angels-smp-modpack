@@ -1,0 +1,24 @@
+{
+  "title": "Armor Modifications",
+  "icon": "hbm:machine_armor_table",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Armor Modification Table&r allows for armor modifications to be inserted in armor, giving either buffs, new abilities or extra resistance."
+  ],
+  "x": 18,
+  "y": 10,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_armor_table",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

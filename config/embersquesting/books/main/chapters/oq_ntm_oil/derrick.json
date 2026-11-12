@@ -1,0 +1,26 @@
+{
+  "title": "Derrick",
+  "icon": "hbm:machine_well",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Oil Derrick&r extracts &bCrude Oil&r and &6&bNatural Gas&r from &eOil Deposits&r that are directly below them. When supplied with power, it will begin to drill downwards until it cannot drill further or reach an oil deposit. Upon reaching a deposit, it will continuously extract oil and gas from it until the deposit is entirely depleted."
+  ],
+  "x": 11,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/high_speed_steel",
+      "oq_ntm_early_game/assembly_machine"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_well",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

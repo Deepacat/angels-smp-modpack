@@ -1,0 +1,21 @@
+{
+  "title": "Villagers & Villages",
+  "subtitle": "Halls are immoral!!",
+  "description": [
+    "Villagers often reroll their trades, so no specific enchant trading halls!"
+  ],
+  "icon": "pastel:villager_head",
+  "x": 2.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

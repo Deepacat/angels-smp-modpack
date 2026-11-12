@@ -1,0 +1,23 @@
+{
+  "title": "Potion Diffuser",
+  "description": [
+    "Spreads potions in an area of effect rather efficiently, at the cost of Source!"
+  ],
+  "icon": "ars_nouveau:potion_diffuser",
+  "x": 12.5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:potion_diffuser",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

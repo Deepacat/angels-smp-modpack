@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kubejs:block/slab_sheetmetal_copper_bottom"
+    },
+    "type=double": {
+      "model": "kubejs:block/slab_sheetmetal_copper_double"
+    },
+    "type=top": {
+      "model": "kubejs:block/slab_sheetmetal_copper_top"
+    }
+  }
+}
