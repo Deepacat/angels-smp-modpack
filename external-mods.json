@@ -2,30 +2,30 @@
   "mods": [
     {
       "name": "Thaumaturge",
-      "filename": "thaumaturge-1.21.1-NeoForge-1.0.12.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.12.jar",
+      "filename": "thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "2ff86ff6115bdb87ad58e5ff35ed728ef152769f"
+      "hash": "6ffacd8ea9a5e0166c4ca1cca36905055cdd0f92"
     },
     {
       "name": "HBM's Nuclear Tech Mod",
-      "filename": "hbm-neoforge-1.0.4+1.21.1-build.3.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.4%2B1.21.1-build.3.jar",
+      "filename": "hbm-neoforge-1.0.5+1.21.1-build.2.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.5%2B1.21.1-build.2.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "ce152e26ec5240837b2362b87bc54ea2d1e17204"
+      "hash": "8fa88a028a91f3606fcb7baa30cc3cb63fb2be82"
     },
     {
       "name": "Golem Core",
-      "filename": "golemcore-neoforge-1.0.4+1.21.1-build.3.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/golemcore-neoforge-1.0.4%2B1.21.1-build.3.jar",
+      "filename": "golemcore-neoforge-1.0.5+1.21.1-build.2.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/golemcore-neoforge-1.0.5%2B1.21.1-build.2.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "0fd19bc208833ab314efac7ab3ea4b247bc4a491"
+      "hash": "7d8bf73cff29ef4355acd427dc29e33ab896b2f9"
     },
     {
       "name": "Random NTM Additions",
@@ -47,12 +47,12 @@
     },
     {
       "name": "CC-Tweaked",
-      "filename": "cc-tweaked-1.21.1-forge-1.120.2.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "filename": "cc-tweaked-1.21.1-forge-1.121.0.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/cc-tweaked-1.21.1-forge-1.121.0.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "f35d4f636c2eb1b30c5d3f5c08e110c6acb8e02f"
+      "hash": "946c83390aadfe0d8077198fcf22804cee206637"
     }
   ]
 }
