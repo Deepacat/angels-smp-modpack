@@ -1,7 +1,7 @@
 // priority: 100
 
 StartupEvents.registry('item', e => {
-    // Funsies
+    /* Funsies */
     e.create('kubejs:deepa_mochi')
         .displayName('Deep-a-mochi')
         .tooltip("§7No!!! Please don't eat me!!!!")
@@ -16,30 +16,48 @@ StartupEvents.registry('item', e => {
         .tooltip("§7Feels sooooooo good!!!")
         .tooltip("§7Till it doesnt.")
 
-    // Broken item related
+    /* Broken item related */
+
+    // Repair item for generic item without repair materials 
     e.create('kubejs:repair_scrap')
         .displayName('Repair Scraps')
-        .tooltip('§7Obtained by placing a broken item in the crafting grid.')
-        .tooltip('§7Right click this onto a broken item inside your inventory to restore it to 1 durability.')
 
+    // Generic broken item that isn't a tool or armor
     e.create('kubejs:broken_item')
         .displayName('Unknown Broken Item')
         .maxStackSize(1)
         .unstackable()
-        .tooltip('§7Right click this item with a Repair Scrap to restore it with 1 durability.')
-        .tooltip('§7Can be crafted into a repair scrap.')
 
+    // Broken tool
     e.create('kubejs:broken_tool')
         .displayName('Unknown Broken Tool')
         .maxStackSize(1)
         .unstackable()
-        .tooltip('§7Right click this item with a Repair Scrap to restore it with 1 durability.')
-        .tooltip('§7Can be crafted into a repair scrap.')
 
+    // Broken armor piece 
+    // Deprecated
     e.create('kubejs:broken_armor')
         .displayName('Unknown Broken Armor Piece')
         .maxStackSize(1)
         .unstackable()
-        .tooltip('§7Right click this item with a Repair Scrap to restore it with 1 durability.')
-        .tooltip('§7Can be crafted into a repair scrap.')
+
+    // Note these labels correlate to the armor piece types in kjs as well as name (e.g. kubejs:helmet registry type)
+    const armors = ['helmet', 'chestplate', 'leggings', 'boots']
+
+    for (let piece of armors) {
+        e.create(`kubejs:broken_${piece}`, `kubejs:${piece}`)
+            .fireResistant(true)
+            .material('kubejs:broken')
+            .displayName(`Unknown Broken ${piece.charAt(0).toUpperCase() + piece.slice(1)}`)
+    }
+})
+
+StartupEvents.registry("armor_material", e => {
+    // Armor tier for broken armor pieces to use
+    e.create("kubejs:broken")
+        .defense({ helmet: 1, chestplate: 1, leggings: 1, boots: 1, })
+        .enchantmentValue(0)
+        .toughness(0)
+        .knockbackResistance(0.0)
+        .equipSound("minecraft:item.armor.equip_netherite")
 })
