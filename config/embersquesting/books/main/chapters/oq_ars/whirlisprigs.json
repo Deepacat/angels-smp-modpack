@@ -21,11 +21,6 @@
     {
       "item": "ars_nouveau:whirlisprig_charm",
       "type": "item"
-    },
-    {
-      "id": "ftbquests:1000acab383b42a3",
-      "type": "custom",
-      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "shape": "circle"

@@ -15,11 +15,6 @@
     {
       "item": "ars_nouveau:alakarkinos_charm",
       "type": "item"
-    },
-    {
-      "id": "ftbquests:1000acab249b1158",
-      "type": "custom",
-      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "optional": true,

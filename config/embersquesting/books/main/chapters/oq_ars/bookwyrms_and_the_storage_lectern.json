@@ -20,11 +20,6 @@
     {
       "item": "ars_nouveau:storage_lectern",
       "type": "item"
-    },
-    {
-      "id": "ftbquests:1000acab5f07ca23",
-      "type": "custom",
-      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "shape": "circle"

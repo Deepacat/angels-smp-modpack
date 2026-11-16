@@ -16,11 +16,6 @@
     {
       "item": "ars_nouveau:wixie_charm",
       "type": "item"
-    },
-    {
-      "id": "ftbquests:1000acab333561fd",
-      "type": "custom",
-      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "optional": true,

@@ -20,11 +20,6 @@
     {
       "item": "ars_nouveau:starbuncle_charm",
       "type": "item"
-    },
-    {
-      "id": "ftbquests:1000acab712337a7",
-      "type": "custom",
-      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "shape": "circle"

@@ -20,11 +20,6 @@
     {
       "item": "ars_nouveau:drygmy_charm",
       "type": "item"
-    },
-    {
-      "id": "ftbquests:1000acab59da1c5a",
-      "type": "custom",
-      "title": "Unknown type: openquests_api:pet"
     }
   ],
   "shape": "circle"
