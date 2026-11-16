@@ -1,6 +1,8 @@
 #Dreamweavers only spawn Nothings, Endermen and themselves.
 endreamweaver = false
-#Weakens the rotation of Saint Solis' Stars
+#Pathogen only spawns in temperate overworld biomes.
 pathogen = false
 #Gives Fiend a gun.
 ff_reloaded = true
+#Weakens the rotation of Saint Solis' Stars
+saint = false
