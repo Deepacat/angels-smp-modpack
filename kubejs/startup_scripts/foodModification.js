@@ -23,11 +23,17 @@ ItemEvents.modification(event => {
     // })
 
     event.modify('kubejs:deepa_mochi', (item) => {
-        item.itemName
         let builder = setupFood(item)
         builder.nutrition(5.0)
         builder.saturation(saturationFixer(7.0, 5.0))
         builder.effect('minecraft:regeneration', 2 * 20, 0, 1.0)
+        item.setFood(builder.build())
+    })
+
+    event.modify('minecraft:lantern', (item) => {
+        let builder = setupFood(item)
+        builder.nutrition(2.0)
+        builder.saturation(saturationFixer(2.0, 2.0))
         item.setFood(builder.build())
     })
 })
@@ -39,7 +45,7 @@ let setupFood = (originalItem) => {
     let builder = new $FoodBuilder()
 
     if (foodProperties == null) return builder
-    
+
     builder.nutrition(foodProperties.nutrition())
     builder.saturation(saturationFixer(foodProperties.saturation(), foodProperties.nutrition()))
     builder.alwaysEdible(foodProperties.canAlwaysEat())
