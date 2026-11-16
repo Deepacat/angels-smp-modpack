@@ -1,22 +1,22 @@
 {
   "mods": [
     {
-      "name": "Thaumaturge",
-      "filename": "thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
+      "name": "CC-Tweaked",
+      "filename": "cc-tweaked-1.21.1-forge-1.121.0.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/cc-tweaked-1.21.1-forge-1.121.0.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "6ffacd8ea9a5e0166c4ca1cca36905055cdd0f92"
+      "hash": "946c83390aadfe0d8077198fcf22804cee206637"
     },
     {
-      "name": "HBM's Nuclear Tech Mod",
-      "filename": "hbm-neoforge-1.0.5+1.21.1-build.2.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.5%2B1.21.1-build.2.jar",
+      "name": "Creature Feature",
+      "filename": "creaturefeature-1.3.0.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/creaturefeature-1.3.0.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "8fa88a028a91f3606fcb7baa30cc3cb63fb2be82"
+      "hash": "6bd60f344337fedf219e891b2e805211f06ae6fb"
     },
     {
       "name": "Golem Core",
@@ -28,31 +28,40 @@
       "hash": "7d8bf73cff29ef4355acd427dc29e33ab896b2f9"
     },
     {
+      "name": "HBM's Nuclear Tech Mod",
+      "filename": "hbm-neoforge-1.0.5+1.21.1-build.2.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.5%2B1.21.1-build.2.jar",
+      "category": "mods",
+      "side": "both",
+      "hash-format": "sha1",
+      "hash": "8fa88a028a91f3606fcb7baa30cc3cb63fb2be82"
+    },
+    {
       "name": "Random NTM Additions",
-      "filename": "ntmadditions-0.1.0.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/ntmadditions-0.1.0.jar",
+      "filename": "ntmadditions-0.2.0.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/ntmadditions-0.2.0.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "79039e8ff8691b19eebd3d8f98bfbfb3054dbe29"
+      "hash": "06193024e72087c7f0e96051910567c12f49b9c9"
     },
     {
-      "name": "Creature Feature",
-      "filename": "creaturefeature-1.2.3.3.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/creaturefeature-1.2.3.3.jar",
+      "name": "Wover Dimension Gen Fix",
+      "filename": "endbiomefix-1.0.0.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/endbiomefix-1.0.0.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "e8550e1bae25f437fdaa142877027a0b783c074b"
+      "hash": "a0fac8d8c17029aa2476cf5beca5770ecc8cec7b"
     },
     {
-      "name": "CC-Tweaked",
-      "filename": "cc-tweaked-1.21.1-forge-1.121.0.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/cc-tweaked-1.21.1-forge-1.121.0.jar",
+      "name": "Thaumaturge",
+      "filename": "thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "946c83390aadfe0d8077198fcf22804cee206637"
+      "hash": "6ffacd8ea9a5e0166c4ca1cca36905055cdd0f92"
     }
   ]
 }
