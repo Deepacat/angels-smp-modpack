@@ -7,7 +7,7 @@
 // broken item itself, and no tooltip is registered on the items in the startup
 // registry.
 
-const { $RenderTooltipEvent$GatherComponents } = require("@package/net/neoforged/neoforge/client/event")
+let $RenderTooltipEvent$GatherComponents = Java.loadClass("net.neoforged.neoforge.client.event.RenderTooltipEvent$GatherComponents");
 
 const $Either = Java.loadClass('com.mojang.datafixers.util.Either')
 const $DataComponents = Java.loadClass("net.minecraft.core.component.DataComponents")
