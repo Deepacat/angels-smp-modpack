@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:0.5053063266574691
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","embersquesting/pack","file/deepaclassic"]
-incompatibleResourcePacks:[]
+resourcePacks:["mod/industrialhellscape:resourcepacks/inhell_fusion_textures","vanilla","mod_resources","moonlight:merged_pack","embersquesting/pack","file/deepaclassic","file/EssentiallyRetextured.zip","mod/pastel:pastel_style_amethyst","mod/musicnotification:resourcepacks/dark_mode"]
+incompatibleResourcePacks:["file/EssentiallyRetextured.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
