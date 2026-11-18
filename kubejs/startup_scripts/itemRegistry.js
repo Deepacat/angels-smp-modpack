@@ -13,6 +13,7 @@ StartupEvents.registry('item', e => {
         sharingBook.maxStackSize(1)
         sharingBook.tooltip("Shift-use §7book to record your knowledge of colors.")
         sharingBook.tooltip("Use §7book to collect the knowledge of another.")
+        sharingBook.tooltip("(§7You probably want to use clear toasts keybind after using it§r)")
     })(e)
 
     /* Funsies */

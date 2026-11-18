@@ -16,6 +16,6 @@ NativeEvents.onEvent($RenderTooltipEvent$GatherComponents, e => {
             '§cNo advancements recorded.' :
             `§a${amt} §radvancement${amt === 1 ? '' : 's'} recorded.`
 
-        tooltipElements.add(3, $Either.left(Text.of(tip)))
+        tooltipElements.add(4, $Either.left(Text.of(tip)))
     }
 })
