@@ -19,34 +19,16 @@
       "hash": "6bd60f344337fedf219e891b2e805211f06ae6fb"
     },
     {
-      "name": "Golem Core",
-      "filename": "golemcore-neoforge-1.0.5+1.21.1-build.2.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/golemcore-neoforge-1.0.5%2B1.21.1-build.2.jar",
-      "category": "mods",
-      "side": "both",
-      "hash-format": "sha1",
-      "hash": "7d8bf73cff29ef4355acd427dc29e33ab896b2f9"
-    },
-    {
-      "name": "HBM's Nuclear Tech Mod",
-      "filename": "hbm-neoforge-1.0.5+1.21.1-build.2.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/hbm-neoforge-1.0.5%2B1.21.1-build.2.jar",
-      "category": "mods",
-      "side": "both",
-      "hash-format": "sha1",
-      "hash": "8fa88a028a91f3606fcb7baa30cc3cb63fb2be82"
-    },
-    {
       "name": "Random NTM Additions",
       "filename": "ntmadditions-0.2.0.jar",
       "url": "https://mods.deepa.cat/angel/packmods/ntmadditions-0.2.0.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "06193024e72087c7f0e96051910567c12f49b9c9"
+      "hash": "4e680129f856014123c2060e13ea9ea6c993b6a9"
     },
     {
-      "name": "Wover Dimension Gen Fix",
+      "name": "Better End Biome Fix",
       "filename": "endbiomefix-1.0.0.jar",
       "url": "https://mods.deepa.cat/angel/packmods/endbiomefix-1.0.0.jar",
       "category": "mods",
@@ -56,12 +38,12 @@
     },
     {
       "name": "Thaumaturge",
-      "filename": "thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.0.12-deepaupdated1.jar",
+      "filename": "thaumaturge-1.21.1-NeoForge-1.1.1.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.1.1.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "6ffacd8ea9a5e0166c4ca1cca36905055cdd0f92"
+      "hash": "4ad99b1d664b4557aeca973bdd7fe8da038c9452"
     }
   ]
 }
