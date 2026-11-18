@@ -8,16 +8,15 @@
 // registry.
 
 let $RenderTooltipEvent$GatherComponents = Java.loadClass("net.neoforged.neoforge.client.event.RenderTooltipEvent$GatherComponents");
-
-const $Either = Java.loadClass('com.mojang.datafixers.util.Either')
-const $DataComponents = Java.loadClass("net.minecraft.core.component.DataComponents")
-const $Minecraft = Java.loadClass("net.minecraft.client.Minecraft")
-const $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack")
-const $ArmorItem = Java.loadClass("net.minecraft.world.item.ArmorItem")
-const $TieredItem = Java.loadClass("net.minecraft.world.item.TieredItem")
-const $TagsUpdatedEvent = Java.loadClass("net.neoforged.neoforge.event.TagsUpdatedEvent")
-const $I18n = Java.loadClass("net.minecraft.client.resources.language.I18n")
-const $ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting")
+let $Either = Java.loadClass('com.mojang.datafixers.util.Either')
+let $DataComponents = Java.loadClass("net.minecraft.core.component.DataComponents")
+let $Minecraft = Java.loadClass("net.minecraft.client.Minecraft")
+let $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack")
+let $ArmorItem = Java.loadClass("net.minecraft.world.item.ArmorItem")
+let $TieredItem = Java.loadClass("net.minecraft.world.item.TieredItem")
+let $TagsUpdatedEvent = Java.loadClass("net.neoforged.neoforge.event.TagsUpdatedEvent")
+let $I18n = Java.loadClass("net.minecraft.client.resources.language.I18n")
+let $ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting")
 
 const REPAIR_SCRAP_ID = 'kubejs:repair_scrap'
 const HELD_ITEM_KEY = 'held_item'

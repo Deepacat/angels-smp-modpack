@@ -1,7 +1,22 @@
 // priority: 100
 
 StartupEvents.registry('item', e => {
+
+    /* Actually useful things */
+
+    // who up not polluting the global var space
+    ((e) => {
+        let sharingBook = e.create("kubejs:pastel_knowledge_sharing_book")
+        sharingBook.displayName("Pastel Knowledge Sharing Book")
+        sharingBook.texture("minecraft:item/book")
+        sharingBook.color(0, "#e14dff")
+        sharingBook.maxStackSize(1)
+        sharingBook.tooltip("Shift-use §7book to record your knowledge of colors.")
+        sharingBook.tooltip("Use §7book to collect the knowledge of another.")
+    })(e)
+
     /* Funsies */
+
     e.create('kubejs:deepa_mochi')
         .displayName('Deep-a-mochi')
         .tooltip("§7No!!! Please don't eat me!!!!")
