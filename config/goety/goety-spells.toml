@@ -2399,14 +2399,14 @@
 	# Default: 2
 	# Range: > 0
 	graveGolemLimit = 2
-	#Total number of Redstone Monstrosities that can be summoned in total on a world, Default: 2
+	#Total number of Monstrosities that can be summoned in total on a world, Default: 6
+	# Default: 6
+	# Range: > 0
+	monstrosityGlobalLimit = 6
+	#Total number of Monstrosities an individual player can have, Default: 2
 	# Default: 2
 	# Range: > 0
-	redstoneMonstrosityGlobalLimit = 2
-	#Total number of Redstone Monstrosities an individual player can have, Default: 1
-	# Default: 1
-	# Range: > 0
-	redstoneMonstrosityPlayerLimit = 1
+	monstrosityPlayerLimit = 2
 
 [Enchantments]
 	#Whether Focus Enchantments can appear on Villager Trade Pools, Default: true

@@ -1577,8 +1577,8 @@
 			# Default: 0.0
 			# Range: 0.0 ~ 1.7976931348623157E308
 			redstoneMonstrosityArmor = 0.0
-			#How much damage Redstone Monstrosities deals, Default: 21.0
-			# Default: 21.0
+			#How much damage Redstone Monstrosities deals, Default: 25.0
+			# Default: 25.0
 			# Range: 1.0 ~ 1.7976931348623157E308
 			redstoneMonstrosityDamage = 21.0
 			#How much following/detection range Redstone Monstrosities have, Default: 32.0
@@ -1613,6 +1613,52 @@
 			# Default: 16.0
 			# Range: 1.0 ~ 2048.0
 			redstoneCubeFollowRange = 16.0
+
+		[Attributes."Summoned Mobs"."Grave Monstrosity"]
+			#How much Max Health Grave Monstrosities have, Default: 480.0
+			# Default: 480.0
+			# Range: 1.0 ~ 1.7976931348623157E308
+			graveMonstrosityHealth = 480.0
+			#How much natural armor points Grave Monstrosities have, Default: 0.0
+			# Default: 0.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			graveMonstrosityArmor = 0.0
+			#How much damage Grave Monstrosities deals, Default: 16.0
+			# Default: 16.0
+			# Range: 1.0 ~ 1.7976931348623157E308
+			graveMonstrosityDamage = 16.0
+			#How much following/detection range Grave Monstrosities have, Default: 50.0
+			# Default: 50.0
+			# Range: 1.0 ~ 2048.0
+			graveMonstrosityFollowRange = 50.0
+			#Grave Monstrosities attack HP percent damage, Default: 0.05
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			graveMonstrosityHPPercentDamage = 0.05
+			#How many blocks or distance away an attack can be from Grave Monstrosities to damage them, Default: 20.0
+			# Default: 20.0
+			# Range: 6.0 ~ 1.7976931348623157E308
+			graveMonstrosityHurtRange = 20.0
+			#The maximum amount of damage an Grave Monstrosities can attain per hit, Default: 25.0
+			# Default: 25.0
+			# Range: 1.0 ~ 1.7976931348623157E308
+			graveMonstrosityDamageCap = 25.0
+			#How much Max Health Grave Cubes have, Default: 10.0
+			# Default: 10.0
+			# Range: 1.0 ~ 1.7976931348623157E308
+			graveCubeHealth = 10.0
+			#How much natural armor points Grave Cubes have, Default: 0.0
+			# Default: 0.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			graveCubeArmor = 0.0
+			#How much damage Grave Cubes deals, Default: 4.0
+			# Default: 4.0
+			# Range: 1.0 ~ 1.7976931348623157E308
+			graveCubeDamage = 4.0
+			#How much following/detection range Grave Cubes have, Default: 16.0
+			# Default: 16.0
+			# Range: 1.0 ~ 2048.0
+			graveCubeFollowRange = 16.0
 
 		[Attributes.Mini-Bosses.Crone]
 			#How much Max Health Crones have, Default: 130.0

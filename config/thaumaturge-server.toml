@@ -243,3 +243,7 @@
 [seasonal]
 	#Whether idle cultists occasionally relieve themselves of a harmless illusory mind spider on April 1st.
 	aprilFools = true
+
+[cultists]
+	#Whether cultist fireballs set blocks on fire. Disabling this still allows them to damage and ignite living targets.
+	fireballsIgniteBlocks = true

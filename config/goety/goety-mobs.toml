@@ -179,8 +179,6 @@
 	servantTeleport = false
 	#Whether Servants owned by other Servants benefits from Player Robes and Crown, Default: true
 	servantOwnedServantPlayerBenefit = true
-	#Whether Redstone Monstrosity breaks leaves and certain blocks if mob griefing is enabled, Default: true
-	redstoneMonstrosityLeafBreak = true
 	#Enable Redstone Cubes block detection mechanic, Default: true
 	RedstoneCubeBlockFind = true
 	#Whether Vex Servants can teleport to Players, Default: true
@@ -229,6 +227,12 @@
 	# Default: 5
 	# Range: > 0
 	servantHealHalt = 5
+	#How much Soul Energy is needed to create a Monstrosity, Default: 50000
+	# Default: 50000
+	# Range: > 0
+	monstrositySoulCost = 50000
+	#Whether Monstrosities breaks leaves and certain blocks if mob griefing is enabled, Default: true
+	monstrosityLeafBreak = true
 
 	[Servants."Undead Servants"]
 		#Whether Servants would naturally attack Undead mobs if owner wears a full Necro Set, Default: false

@@ -101,13 +101,13 @@
     "curseForgeHash": 3551532297,
     "modrinthHash": "81cf0e668f991f83ac8820c386fbd6c9c3602246"
   },
-  "appliedenergistics2-19.2.19.jar": {
-    "jarName": "appliedenergistics2-19.2.19.jar",
+  "appliedenergistics2-19.2.20.jar": {
+    "jarName": "appliedenergistics2-19.2.20.jar",
     "modId": "ae2",
     "name": "Applied Energistics 2",
-    "version": "19.2.19",
-    "curseForgeHash": 1090998281,
-    "modrinthHash": "aa28d9d98d400fa9a191456bb14a433a3a2f6bfc"
+    "version": "19.2.20",
+    "curseForgeHash": 2178538779,
+    "modrinthHash": "6ea9ea3e1c036a1f036173f3f38d4f7badaf1d28"
   },
   "architectury-13.0.12-neoforge.jar": {
     "jarName": "architectury-13.0.12-neoforge.jar",
@@ -125,13 +125,13 @@
     "curseForgeHash": 360998666,
     "modrinthHash": "22a6afd4fbe76354acc9c1ba076c89a94d120d94"
   },
-  "ars_elemental-1.21.1-0.7.10.4.jar": {
-    "jarName": "ars_elemental-1.21.1-0.7.10.4.jar",
+  "ars_elemental-1.21.1-0.7.11.0.jar": {
+    "jarName": "ars_elemental-1.21.1-0.7.11.0.jar",
     "modId": "ars_elemental",
     "name": "Ars Elemental",
-    "version": "0.7.10.4",
-    "curseForgeHash": 3822737389,
-    "modrinthHash": "562f640916aa6f5c83b3b3ee2384ca828b870e01"
+    "version": "0.7.11.0",
+    "curseForgeHash": 3000271817,
+    "modrinthHash": "ab302ab766d961af1f941ccf764be1626d40982c"
   },
   "ars_nouveau-1.21.1-5.13.5.jar": {
     "jarName": "ars_nouveau-1.21.1-5.13.5.jar",
@@ -157,13 +157,13 @@
     "curseForgeHash": 2297049137,
     "modrinthHash": "257bd7fc7feba6805eeda64349675942023fbe74"
   },
-  "AsyncParticles-21.1.4.12-1.21.1.jar": {
-    "jarName": "AsyncParticles-21.1.4.12-1.21.1.jar",
+  "AsyncParticles-21.1.4.13-1.21.1.jar": {
+    "jarName": "AsyncParticles-21.1.4.13-1.21.1.jar",
     "modId": "asyncparticles",
     "name": "AsyncParticles",
-    "version": "21.1.4.12",
-    "curseForgeHash": 3222174902,
-    "modrinthHash": "6b340309278617457acfcac68fb240b8b6761474"
+    "version": "21.1.4.13",
+    "curseForgeHash": 2862549342,
+    "modrinthHash": "28f966b24b5925793d80c5356a80c34987571a71"
   },
   "athena-neoforge-1.21.1-4.0.6.jar": {
     "jarName": "athena-neoforge-1.21.1-4.0.6.jar",
@@ -885,13 +885,13 @@
     "curseForgeHash": 3320449505,
     "modrinthHash": "09917774048af0ebf7f4d2293f281bfcd3df2fdb"
   },
-  "friendsandfoes-neoforge-5.0.4+mc1.21.1.jar": {
-    "jarName": "friendsandfoes-neoforge-5.0.4+mc1.21.1.jar",
+  "friendsandfoes-neoforge-5.0.5-mc1.21.1.jar": {
+    "jarName": "friendsandfoes-neoforge-5.0.5-mc1.21.1.jar",
     "modId": "friendsandfoes",
     "name": "Friends\u0026Foes",
-    "version": "5.0.4",
-    "curseForgeHash": 2261494695,
-    "modrinthHash": "0bb94ce6451d043fc480188f7e44715b83f351e8"
+    "version": "5.0.5",
+    "curseForgeHash": 3539960210,
+    "modrinthHash": "f82a19b725c2751576aa2d5fe9086eab6aab4ff7"
   },
   "ftb-chunks-neoforge-2101.1.24.jar": {
     "jarName": "ftb-chunks-neoforge-2101.1.24.jar",
@@ -917,13 +917,13 @@
     "curseForgeHash": 1958225968,
     "modrinthHash": "a48e54edeacc59aaba29a1b627799c052112ee0b"
   },
-  "ftb-library-neoforge-2101.1.39.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.39.jar",
+  "ftb-library-neoforge-2101.1.40.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.40.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.39",
-    "curseForgeHash": 10689697,
-    "modrinthHash": "ff852d99ade215fb892369687d0634ecf0bca6ae"
+    "version": "2101.1.40",
+    "curseForgeHash": 3777965651,
+    "modrinthHash": "e5f24391a447754dbc6d37d866981f47d67bb664"
   },
   "ftb-teams-neoforge-2101.1.12.jar": {
     "jarName": "ftb-teams-neoforge-2101.1.12.jar",
@@ -981,13 +981,13 @@
     "curseForgeHash": 3402830604,
     "modrinthHash": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac"
   },
-  "gemrender-0.1.21.jar": {
-    "jarName": "gemrender-0.1.21.jar",
+  "gemrender-0.1.22.jar": {
+    "jarName": "gemrender-0.1.22.jar",
     "modId": "gemrender",
     "name": "GemRender",
-    "version": "0.1.21",
-    "curseForgeHash": 607692596,
-    "modrinthHash": "f870d737a8df5544b6dfb100920d0a1d4b430f5f"
+    "version": "0.1.22",
+    "curseForgeHash": 1085390844,
+    "modrinthHash": "2f3b4b4f38e65c611e60c305597fff0a39477b97"
   },
   "Glodium-1.21-2.2-neoforge.jar": {
     "jarName": "Glodium-1.21-2.2-neoforge.jar",
@@ -1005,21 +1005,21 @@
     "curseForgeHash": 1457212992,
     "modrinthHash": "c71f592fc679664d497518ca6cb6762460a2426f"
   },
-  "goety-3.2.2.jar": {
-    "jarName": "goety-3.2.2.jar",
+  "goety-3.2.3.jar": {
+    "jarName": "goety-3.2.3.jar",
     "modId": "goety",
     "name": "Goety",
-    "version": "3.2.2",
-    "curseForgeHash": 2538517664,
-    "modrinthHash": "d7fe0abd288d279f6996d5e9e2bd4f74f476fc48"
+    "version": "3.2.3",
+    "curseForgeHash": 3558536222,
+    "modrinthHash": "607dbe55a0aaca21e6632abdf487845a228a4f48"
   },
-  "golemcore-neoforge-1.0.5+1.21.1-build.2.jar": {
-    "jarName": "golemcore-neoforge-1.0.5+1.21.1-build.2.jar",
+  "golemcore-neoforge-1.0.6-1.21.1.jar": {
+    "jarName": "golemcore-neoforge-1.0.6-1.21.1.jar",
     "modId": "golemcore",
     "name": "Golem Core",
-    "version": "1.0.5",
-    "curseForgeHash": 1469758542,
-    "modrinthHash": "7d8bf73cff29ef4355acd427dc29e33ab896b2f9"
+    "version": "1.0.6",
+    "curseForgeHash": 1920096680,
+    "modrinthHash": "bd2e0a5e47383086f9cd9d660e7fbdd295c5b99e"
   },
   "Guard Ribbits-1.21.1-neoforge-2.0.0.jar": {
     "jarName": "Guard Ribbits-1.21.1-neoforge-2.0.0.jar",
@@ -1053,13 +1053,13 @@
     "curseForgeHash": 2216435565,
     "modrinthHash": "18a1da3fba0b84ab6a17c74081feb2dd4aff2475"
   },
-  "hbm-neoforge-1.0.5+1.21.1-build.2.jar": {
-    "jarName": "hbm-neoforge-1.0.5+1.21.1-build.2.jar",
+  "hbm-neoforge-1.0.6-1.21.1.jar": {
+    "jarName": "hbm-neoforge-1.0.6-1.21.1.jar",
     "modId": "hbm",
     "name": "NTM - Continuum",
-    "version": "1.0.5",
-    "curseForgeHash": 3486098084,
-    "modrinthHash": "8fa88a028a91f3606fcb7baa30cc3cb63fb2be82"
+    "version": "1.0.6",
+    "curseForgeHash": 1194194465,
+    "modrinthHash": "d9653f90047d725eae58997da603cd9417ab3020"
   },
   "hearthandharvest-1.21.1-1.4.3.jar": {
     "jarName": "hearthandharvest-1.21.1-1.4.3.jar",
@@ -1322,13 +1322,13 @@
     "curseForgeHash": 1213767033,
     "modrinthHash": "52c008540c7dc2cc451f7e939a885d7462c9ae72"
   },
-  "modonomicon-1.21.1-neoforge-1.123.0.jar": {
-    "jarName": "modonomicon-1.21.1-neoforge-1.123.0.jar",
+  "modonomicon-1.21.1-neoforge-1.123.1.jar": {
+    "jarName": "modonomicon-1.21.1-neoforge-1.123.1.jar",
     "modId": "modonomicon",
     "name": "Modonomicon",
-    "version": "1.123.0",
-    "curseForgeHash": 674123988,
-    "modrinthHash": "3971a5ade2595bfcb8a93f4baa2e6e834691e3cf"
+    "version": "1.123.1",
+    "curseForgeHash": 2083867049,
+    "modrinthHash": "ae7b0b434318302d5479a9e9f9fff80477287a25"
   },
   "moonlight-1.21.1-3.8.3-neoforge.jar": {
     "jarName": "moonlight-1.21.1-3.8.3-neoforge.jar",
@@ -1426,13 +1426,21 @@
     "curseForgeHash": 3229378459,
     "modrinthHash": "6b2ee389eb78c63580398d9b4c9a7c70a8491f52"
   },
-  "ntmadditions-0.1.0.jar": {
-    "jarName": "ntmadditions-0.1.0.jar",
+  "ntm-claims-1.0.1.jar": {
+    "jarName": "ntm-claims-1.0.1.jar",
+    "modId": "ntmclaims",
+    "name": "NTM Claims",
+    "version": "1.0.1",
+    "curseForgeHash": 1298440133,
+    "modrinthHash": "33f4e7ae0577fc34537ea3a94b5f76b3af8b2168"
+  },
+  "ntmadditions-0.2.0.jar": {
+    "jarName": "ntmadditions-0.2.0.jar",
     "modId": "ntmadditions",
-    "name": "NTM Additions",
-    "version": "0.1.0",
-    "curseForgeHash": 3680090260,
-    "modrinthHash": "79039e8ff8691b19eebd3d8f98bfbfb3054dbe29"
+    "name": "Random NTM Continuum Additions",
+    "version": "0.2.0",
+    "curseForgeHash": 1498556083,
+    "modrinthHash": "5dbc6b36bc9f76c72c6dd0820709bedd8a26aa83"
   },
   "occultism-1.21.1-neoforge-1.227.0.jar": {
     "jarName": "occultism-1.21.1-neoforge-1.227.0.jar",
@@ -1658,13 +1666,13 @@
     "curseForgeHash": 312094340,
     "modrinthHash": "e9e6d101b31acb51539141937ad5b069ff2ccc4d"
   },
-  "reliable_advancements-6.3.4-1.21.1-neoforge.jar": {
-    "jarName": "reliable_advancements-6.3.4-1.21.1-neoforge.jar",
+  "reliable_advancements-6.3.5-1.21.1-neoforge.jar": {
+    "jarName": "reliable_advancements-6.3.5-1.21.1-neoforge.jar",
     "modId": "reliable_advancements",
     "name": "Reliable Advancements",
-    "version": "6.3.4+1.21.1",
-    "curseForgeHash": 3056833419,
-    "modrinthHash": "b5b878651d4bde9b25e75ef1ba94373e2bca3f8d"
+    "version": "6.3.5+1.21.1",
+    "curseForgeHash": 2382964413,
+    "modrinthHash": "af6e35b9d5a44f4adf4d4370b02c4f85d32cfeaf"
   },
   "reliable_backpacks-neoforge-1.21.1-1.9.1.jar": {
     "jarName": "reliable_backpacks-neoforge-1.21.1-1.9.1.jar",
@@ -1674,13 +1682,13 @@
     "curseForgeHash": 424533238,
     "modrinthHash": "0a6656ff8eb12eec04cd9ead6e0e135bfbb711c3"
   },
-  "remi-neoforge-1.21.1-4.8.4.jar": {
-    "jarName": "remi-neoforge-1.21.1-4.8.4.jar",
+  "remi-neoforge-1.21.1-4.9.0.jar": {
+    "jarName": "remi-neoforge-1.21.1-4.9.0.jar",
     "modId": "remi",
     "name": "Reliable EMI",
-    "version": "4.8.4",
-    "curseForgeHash": 2860756044,
-    "modrinthHash": "1b2a354e19b288a6309bbbe5b86d1e41a76e7df7"
+    "version": "4.9.0",
+    "curseForgeHash": 1404071309,
+    "modrinthHash": "ac091d468a5151e72aa84eee305205b9f7d03ad0"
   },
   "resourcefulconfig-neoforge-1.21-3.0.11.jar": {
     "jarName": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
@@ -1842,13 +1850,13 @@
     "curseForgeHash": 3814787694,
     "modrinthHash": "3db306bd16084a6773dc921ff9baed8bbf600f34"
   },
-  "thaumaturge-1.21.1-NeoForge-1.0.12.jar": {
-    "jarName": "thaumaturge-1.21.1-NeoForge-1.0.12.jar",
+  "thaumaturge-1.21.1-NeoForge-1.1.1.jar": {
+    "jarName": "thaumaturge-1.21.1-NeoForge-1.1.1.jar",
     "modId": "thaumaturge",
     "name": "Thaumaturge",
-    "version": "1.0.12",
-    "curseForgeHash": 860130418,
-    "modrinthHash": "6ffacd8ea9a5e0166c4ca1cca36905055cdd0f92"
+    "version": "1.1.1",
+    "curseForgeHash": 4150422027,
+    "modrinthHash": "4ad99b1d664b4557aeca973bdd7fe8da038c9452"
   },
   "ToastControl-1.21.1-9.0.1.jar": {
     "jarName": "ToastControl-1.21.1-9.0.1.jar",

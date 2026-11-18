@@ -167,6 +167,14 @@
 	pithosRespawn = true
 	#Allow used Crystal Balls to spawn Crones again when right-clicked with respawn_boss tagged item, Default: true
 	crystalBallRespawn = true
+	#The amount of Soul Energy used to power the Sealer, Default: 1
+	# Default: 1
+	# Range: > 0
+	sealerCost = 1
+	#How many seconds before Sealer needs to be powered with Soul Energy, Default: 60
+	# Default: 60
+	# Range: > 0
+	sealerIntervalCost = 60
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2

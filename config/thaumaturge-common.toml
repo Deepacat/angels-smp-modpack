@@ -11,9 +11,9 @@
 	taintSpreadArea = 32
 	#Allows deep, exposed Flux Goo to fester into a taint seed.
 	taintFromFlux = true
-	#Allows physical Flux Goo and Gas to sustain a capped minimum Aura Flux in their chunk. Disabling this does not remove physical Flux.
+	#Allows physical Flux Goo and Gas to slowly turn into Aura Flux below a cap in their chunk, consuming the converted waste.
 	physicalFluxAuraFloor = true
-	#Allows large accumulations of Flux Goo and Gas to sprout a taint seed independently of individual Goo blocks.
+	#Allows large accumulations of Flux Goo and Gas to consume part of a pocket to sprout a taint seed.
 	physicalFluxTaintOutbreaks = true
 	#Allows high Aura Flux to trigger Flux-pressure events. Disabling this does not affect Flux Rifts.
 	fluxPressureEvents = true
@@ -88,9 +88,9 @@
 	# Range: 20 ~ 1000000
 	taintStarveTicks = 12000
 	#Flux a freshly generated Tainted Lands chunk starts with, as a multiple of its base aura. The tainted nodes and seeds there feed on it. 0 leaves Tainted Lands dormant until flux reaches them.
-	# Default: 1.0
+	# Default: 0.35
 	# Range: 0.0 ~ 10.0
-	taintedLandsStartingFlux = 1.0
+	taintedLandsStartingFlux = 0.35
 	#Chance from 0 to 100 that a crimson ranger patrol spawns near a random overworld player at each daytime attempt, about every 10 minutes from day 5 on. 0 disables patrols.
 	# Default: 10.0
 	# Range: 0.0 ~ 100.0

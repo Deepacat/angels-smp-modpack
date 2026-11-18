@@ -1,3 +1,7 @@
 #Play the mine priming sound with a local 32-block fade instead of NTM's volume-3 sound.
 #This only affects the FSTBMB_START arming sound; explosions, damage, and block destruction are unchanged.
 localMinePrimeSound = true
+#Keep highly corrosive fluids inside machine fluid tanks instead of rupturing the tank.
+#Set to false to restore NTM's original rupture behavior.
+#Antimatter explosions and steel barrel corrosion are unaffected.
+preventCorrosiveTankRupture = true
