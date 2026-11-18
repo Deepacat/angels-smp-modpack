@@ -20,12 +20,12 @@
     },
     {
       "name": "Random NTM Additions",
-      "filename": "ntmadditions-0.2.0.jar",
-      "url": "https://mods.deepa.cat/angel/packmods/ntmadditions-0.2.0.jar",
+      "filename": "ntmadditions-0.3.0.1.jar",
+      "url": "https://mods.deepa.cat/angel/packmods/ntmadditions-0.3.0.1.jar",
       "category": "mods",
       "side": "both",
       "hash-format": "sha1",
-      "hash": "4e680129f856014123c2060e13ea9ea6c993b6a9"
+      "hash": "6c34b9088fa1802820eba52e02229912705d06ac"
     },
     {
       "name": "Better End Biome Fix",
