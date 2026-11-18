@@ -1,4 +1,4 @@
-let { $ServerPlayer } = require("@package/net/minecraft/server/level")
+let $ServerPlayer = Java.loadClass("net.minecraft.server.level.ServerPlayer");
 
 ItemEvents.firstRightClicked(e => {
     //  force cast to serverPlayer for advancements visibility

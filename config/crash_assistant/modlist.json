@@ -29,6 +29,14 @@
     "curseForgeHash": 1296867095,
     "modrinthHash": "d640286f05ff6417af467ba25e92f7f879cd888d"
   },
+  "ae2ct-1.21.1-1.1.1.jar": {
+    "jarName": "ae2ct-1.21.1-1.1.1.jar",
+    "modId": "ae2ct",
+    "name": "AE2:Crafting Tree",
+    "version": "1.21.1-1.1.1",
+    "curseForgeHash": 2544167647,
+    "modrinthHash": "2e425a9dc8891bdcd3b2914506d1bc33414b61be"
+  },
   "ae2wtlib-19.5.1.jar": {
     "jarName": "ae2wtlib-19.5.1.jar",
     "modId": "ae2wtlib",
@@ -676,6 +684,14 @@
     "version": "21.1.11",
     "curseForgeHash": 3739969139,
     "modrinthHash": "4d453df785ac21e0e7389cba949f4fa460c3e267"
+  },
+  "endbiomefix-1.0.0.jar": {
+    "jarName": "endbiomefix-1.0.0.jar",
+    "modId": "endbiomefix",
+    "name": "BetterX End Biome Fix",
+    "version": "1.0.0",
+    "curseForgeHash": 3120469383,
+    "modrinthHash": "a0fac8d8c17029aa2476cf5beca5770ecc8cec7b"
   },
   "ender_trigon_unofficial-1.0.0-1.21.1.jar": {
     "jarName": "ender_trigon_unofficial-1.0.0-1.21.1.jar",
@@ -1434,13 +1450,13 @@
     "curseForgeHash": 1298440133,
     "modrinthHash": "33f4e7ae0577fc34537ea3a94b5f76b3af8b2168"
   },
-  "ntmadditions-0.2.0.jar": {
-    "jarName": "ntmadditions-0.2.0.jar",
+  "ntmadditions-0.3.0.1.jar": {
+    "jarName": "ntmadditions-0.3.0.1.jar",
     "modId": "ntmadditions",
     "name": "Random NTM Continuum Additions",
-    "version": "0.2.0",
-    "curseForgeHash": 1498556083,
-    "modrinthHash": "5dbc6b36bc9f76c72c6dd0820709bedd8a26aa83"
+    "version": "0.3.0.1",
+    "curseForgeHash": 3743200229,
+    "modrinthHash": "6c34b9088fa1802820eba52e02229912705d06ac"
   },
   "occultism-1.21.1-neoforge-1.227.0.jar": {
     "jarName": "occultism-1.21.1-neoforge-1.227.0.jar",
