@@ -1,0 +1,29 @@
+{
+  "title": "Pipe Anchors",
+  "icon": "hbm:pipe_anchor",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&3Pipe Anchors&r are non solid fluid ducts which can be used instead of normal ducts."
+  ],
+  "x": 19.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/multi_fluid_identifier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:wrench",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pipe_anchor",
+      "count": 2,
+      "type": "item"
+    }
+  ]
+}

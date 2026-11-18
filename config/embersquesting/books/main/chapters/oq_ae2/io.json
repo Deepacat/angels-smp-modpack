@@ -1,0 +1,30 @@
+{
+  "title": "IO",
+  "description": [
+    "The Import Bus imports items §ointo§r the system, and the Export Bus exports §ofrom§r the system. The Export Bus needs to be filtered to tell it what to export.\nThe Interface is an inventory that keeps items (fluids, etc.) in constant stock up to set amount. Click items (or drag from JEI) into the top slots to set what to stock, middle-click to change amount.\n\nDid you know? If you place a storage bus of one AE2 system on the interface of another, the first will gain access to the entire contentsof the second!"
+  ],
+  "icon": "ae2:interface",
+  "x": 11,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:interface",
+      "type": "item"
+    },
+    {
+      "item": "ae2:import_bus",
+      "type": "item"
+    },
+    {
+      "item": "ae2:export_bus",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_in": "hover"
+}

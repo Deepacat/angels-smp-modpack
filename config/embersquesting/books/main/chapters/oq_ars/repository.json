@@ -1,0 +1,27 @@
+{
+  "title": "Repository",
+  "subtitle": "Version control for your items",
+  "description": [
+    "A Repository has a double chest worth of storage space in a single block, and a Repository Catalog functions as a controller for all Repositories connected to it - so you can link a wall of them to a Storage Lectern by linking only one inventory!"
+  ],
+  "icon": "ars_nouveau:repository",
+  "x": 10.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/archwood"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:repository",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:repository_controller",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_in": "hover"
+}

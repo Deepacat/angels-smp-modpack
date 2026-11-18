@@ -1,0 +1,13 @@
+name = "Ars Nouveau"
+filename = "ars_nouveau-1.21.1-5.13.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9521/184/ars_nouveau-1.21.1-5.13.5.jar"
+hash-format = "sha1"
+hash = "cdc946c63e1eb676f0e29e4640335c0ce68d7de3"
+
+[update]
+[update.curseforge]
+project-id = 401955
+file-id = 9521184

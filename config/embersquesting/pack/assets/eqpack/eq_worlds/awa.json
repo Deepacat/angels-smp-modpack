@@ -1,0 +1,94 @@
+{
+  "name": "Meadow",
+  "form": "island",
+  "match": {
+    "priority": 0
+  },
+  "sky": {
+    "colors": [
+      "#6CA9EE",
+      "#CFE6FA",
+      "#9CCBF5",
+      "#5B9DE8",
+      "#2F6FD0"
+    ],
+    "daylit": true,
+    "clouds": {
+      "color": "#F6FAFF",
+      "opacity": 0.9
+    }
+  },
+  "terrain": {
+    "top": "minecraft:grass_block",
+    "under": "minecraft:dirt",
+    "deep": "minecraft:stone",
+    "tip": "minecraft:deepslate",
+    "ores": [
+      "minecraft:coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:copper_ore",
+      "minecraft:andesite",
+      "minecraft:gravel"
+    ],
+    "plinth": "minecraft:stone_bricks",
+    "fluid": "minecraft:water",
+    "bed": "minecraft:sand",
+    "underside": {
+      "block": "minecraft:hanging_roots",
+      "chance": 0.3,
+      "max_thick": 3,
+      "natural": true
+    }
+  },
+  "land": {
+    "relief": 1.0,
+    "spread": 0.4,
+    "ponds": -0.5,
+    "river": 0.0,
+    "pond_clear": 2.3
+  },
+  "paths": {
+    "laid": "minecraft:dirt_path",
+    "marker": "minecraft:mossy_cobblestone",
+    "loose": "minecraft:coarse_dirt"
+  },
+  "pedestal": {
+    "post": "minecraft:stone_brick_wall",
+    "cap": "minecraft:smooth_stone_slab",
+    "goal": "minecraft:chiseled_stone_bricks",
+    "challenge": "minecraft:gold_block",
+    "pad": "minecraft:lodestone"
+  },
+  "banner": "lime",
+  "decorations": [
+    {
+      "type": "feature",
+      "id": "embersquesting:meadow"
+    }
+  ],
+  "mobs": [
+    {
+      "type": "minecraft:sheep",
+      "move": "walk",
+      "per": 120,
+      "max": 3
+    },
+    {
+      "type": "minecraft:chicken",
+      "move": "walk",
+      "per": 160,
+      "max": 2
+    },
+    {
+      "type": "minecraft:bee",
+      "move": "fly",
+      "per": 200,
+      "max": 2
+    }
+  ],
+  "particles": {
+    "style": "fireflies",
+    "count": 48,
+    "color": "#D8F56A"
+  }
+}

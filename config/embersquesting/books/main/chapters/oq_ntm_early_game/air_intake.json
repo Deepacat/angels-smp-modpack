@@ -1,0 +1,24 @@
+{
+  "title": "Air Intake",
+  "icon": "hbm:machine_intake",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Air Intake&r, when powered, produces &bCompressed Air&r needed in &3Pneumatic Pipes&r and &bHot Air Blast&r."
+  ],
+  "x": 18,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_intake",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

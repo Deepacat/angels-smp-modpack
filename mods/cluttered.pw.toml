@@ -1,0 +1,13 @@
+name = "Cluttered"
+filename = "cluttered-[NeoForge]-3.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7385/620/cluttered-[NeoForge]-3.0.3-1.21.1.jar"
+hash-format = "sha1"
+hash = "ae644104c83cdce103f536fb42d500c282cf1b35"
+
+[update]
+[update.curseforge]
+project-id = 826308
+file-id = 7385620

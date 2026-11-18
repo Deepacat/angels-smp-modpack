@@ -1,0 +1,13 @@
+name = "No Mans Land"
+filename = "nomansland-1.6.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9310/995/nomansland-1.6.3.jar"
+hash-format = "sha1"
+hash = "c6f69a4d7e23c07cf6321792cd134b99a2078938"
+
+[update]
+[update.curseforge]
+project-id = 538493
+file-id = 9310995

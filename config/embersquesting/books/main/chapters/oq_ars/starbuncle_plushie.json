@@ -1,0 +1,20 @@
+{
+  "title": "Starbuncle Plushie",
+  "subtitle": "uwuuu ^-^",
+  "icon": "ars_nouveau:starbuncle_plush",
+  "x": 10,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/starbuncles"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:starbuncle_plush",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

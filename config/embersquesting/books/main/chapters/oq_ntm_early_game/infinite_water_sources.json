@@ -1,0 +1,47 @@
+{
+  "title": "Infinite Water Sources",
+  "icon": "hbm:inf_water",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&bWater&r is used in various ways, such as washing, cooling reactors and used in chemical reactions.",
+    "",
+    "&6Infinite Water Barrels&r produce 50mb/t while the heavy variant produces 500mb/t.",
+    "",
+    "&3Water Pumps&r can produce water even faster, the steam version being able to produce 1000mb/t while the electric one up to 10000mb/t. They must be placed under Y:70 and require a 3x3x2 dirt platform beneath them."
+  ],
+  "x": 13.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/steel_anvil"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:inf_water",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:inf_water_mk2",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_pump_steam",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_pump_electric",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

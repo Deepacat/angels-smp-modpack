@@ -1,0 +1,34 @@
+{
+  "title": "Utility Satellites",
+  "icon": "hbm:satellite_scanner",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "These satellites are optional but very useful tools.",
+    "",
+    "&3Depth Scanning Satellites&r, when linked with a &6Neutrino Lens&r armor modification applied to a helmet can be used to locate hard to detect objects, such as &6Alexandrite&r.",
+    "",
+    "&3Radio Emission Satellites&r can detect high-energy events, such as nuclear explosions, particle accelerator operations and radar. Very useful for finding other people's bases.",
+    "",
+    "&3Xenium Resonator Satellites&r can be used to teleport the player in the same dimension. Needs a &6Satellite Designator&r."
+  ],
+  "x": 1.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/technetium_cadmium_steel",
+      "oq_ntm_fusion/satellite_id_manager"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/technetium_cadmium_steel": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

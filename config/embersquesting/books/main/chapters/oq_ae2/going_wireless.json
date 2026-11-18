@@ -1,0 +1,25 @@
+{
+  "title": "Going Wireless",
+  "description": [
+    "Tired of running to your terminals every time you need to craft something? Luckily, we have a wireless version!\nYou need to click the terminal into the Wireless Access Point to link it."
+  ],
+  "icon": "ae2:wireless_access_point",
+  "x": 4,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/energy_cell"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:wireless_access_point",
+      "type": "item"
+    },
+    {
+      "item": "ae2:wireless_crafting_terminal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

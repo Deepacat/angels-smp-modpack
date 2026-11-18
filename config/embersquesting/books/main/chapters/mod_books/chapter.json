@@ -1,0 +1,172 @@
+{
+  "title": "Mods Overview",
+  "icon": "#minecraft:pickaxes",
+  "order": 2,
+  "scope": "team",
+  "links": [
+    {
+      "quest": "vanilla_changes/better_combat",
+      "x": 13.5,
+      "y": 3.5
+    }
+  ],
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#B61CFF",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 4.857143,
+      "y": -0.8928571
+    },
+    {
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#50B71C",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 3.357143,
+      "y": -0.8928571
+    },
+    {
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#FF4C13",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 9.607142,
+      "y": -0.8928571
+    },
+    {
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#FF29EE",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 2.107143,
+      "y": 2.357143
+    },
+    {
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#3682FF",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 6.857143,
+      "y": 4.857143
+    },
+    {
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 6.642857,
+      "y": 2.392857
+    },
+    {
+      "width": 1.2857143,
+      "height": 1.2857143,
+      "content": {
+        "color": "#FFB503",
+        "texture": "goety:textures/particle/spiralling.png",
+        "type": "image"
+      },
+      "x": 11.857142,
+      "y": 2.357143
+    },
+    {
+      "tooltip": [
+        "Tech mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "etcetera:textures/item/wrench.png",
+        "type": "image"
+      },
+      "x": 9.928572,
+      "y": -0.57142854
+    },
+    {
+      "tooltip": [
+        "Magic leaning mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "pastel:textures/particle/shooting_star.png",
+        "type": "image"
+      },
+      "x": 5.2285714,
+      "y": -0.57142854
+    },
+    {
+      "tooltip": [
+        "Alchemic leaning mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "toxony:textures/item/toxin_flask.png",
+        "type": "image"
+      },
+      "x": 3.6785715,
+      "y": -0.57142854
+    },
+    {
+      "tooltip": [
+        "Building mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "hearthandharvest:textures/item/sugar_cubes.png",
+        "type": "image"
+      },
+      "x": 2.4285715,
+      "y": 2.6785715
+    },
+    {
+      "tooltip": [
+        "Content mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "item": "pastel:paintbrush",
+        "type": "image"
+      },
+      "x": 7.178571,
+      "y": 5.178571
+    },
+    {
+      "tooltip": [
+        "Utility/mechanic mods"
+      ],
+      "width": 0.64285713,
+      "height": 0.64285713,
+      "content": {
+        "texture": "pastel:textures/item/multitool.png",
+        "type": "image"
+      },
+      "x": 12.178572,
+      "y": 2.6785715
+    }
+  ]
+}

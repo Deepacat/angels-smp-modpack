@@ -1,0 +1,23 @@
+{
+  "title": "Enchanter's Horn",
+  "description": [
+    "Casts the inscribed spell on everything in a large radius!"
+  ],
+  "icon": "ars_elemental:spell_horn",
+  "x": 0.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_elemental:spell_horn",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

@@ -1,0 +1,13 @@
+name = "Kotlin for Forge"
+filename = "kotlinforforge-5.13.0-all.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9641/139/kotlinforforge-5.13.0-all.jar"
+hash-format = "sha1"
+hash = "b1d5563f4e3db9ec4a4a2b371560aa171d6de237"
+
+[update]
+[update.curseforge]
+project-id = 351264
+file-id = 9641139

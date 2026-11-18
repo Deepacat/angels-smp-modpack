@@ -1,0 +1,24 @@
+{
+  "title": "Hazmat Suits",
+  "icon": "hbm:hazmat_helmet",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Hazmat Suits&r provide protection against many hazards, mainly radiation. &6Hazmat Cloth&r can be further strengthened to create more resistant hazmat suits.",
+    "",
+    "To provide additional protection against environmental dangers, a &6Gas Mask Filter&r is needed, which can be equiped by right-clicking while holding it."
+  ],
+  "x": 19.5,
+  "y": 22.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

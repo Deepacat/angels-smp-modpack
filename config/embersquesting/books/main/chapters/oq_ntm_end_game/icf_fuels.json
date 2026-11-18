@@ -1,0 +1,29 @@
+{
+  "title": "ICF Fuels",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3ICF&r can process different combinations of fuels at different laser power levels. A cheap and renewable fuel that can be used to gather the &bStellar Flux&r needed for &6Gerald&r and make decent power is &bHelium-4 - Hydrogen&r.",
+    "",
+    "Applying a Muon Particle to a fuel pellet will decrease the power that is needed to run it."
+  ],
+  "icon": "hbm:icf_pellet_depleted",
+  "x": 2.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/icf"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_icf_press",
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_pellet_empty",
+      "type": "item"
+    }
+  ]
+}

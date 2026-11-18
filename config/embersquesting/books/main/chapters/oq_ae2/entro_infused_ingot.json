@@ -1,0 +1,21 @@
+{
+  "title": "Entro Infused Ingot",
+  "description": [
+    "An alloy of Entro Dust, Gold and Lapis Lazuli, made in the same way Fluix Crystals are. You need these to craft machine frames for this mod."
+  ],
+  "icon": "extendedae:entro_ingot",
+  "x": 1,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/entro_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:entro_ingot",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

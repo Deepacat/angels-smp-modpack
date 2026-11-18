@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of AOE",
+  "description": [
+    "The big brother of the Glyph of Amplify, this augments specifically the block range of compatible spells.\n\nThe firework star required to craft this doesn't show a recipe in JEI/EMI, so in case you don't know how to craft it, it's gunpowder with any kind of dye."
+  ],
+  "icon": "ars_nouveau:glyph_aoe",
+  "x": 7,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ars/mage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_aoe",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

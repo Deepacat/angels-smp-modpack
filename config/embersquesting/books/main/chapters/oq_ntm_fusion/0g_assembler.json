@@ -1,0 +1,25 @@
+{
+  "title": "0G Assembler",
+  "icon": "hbm:satellite_science_assembler",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&60G Assemblers&r allow for the production of certain items in orbit, mainly the &6Crystal Circuite Board&r. Launching more assemblers will speed up the recipe. The input items must be launched from a rocket."
+  ],
+  "x": 5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/space_laboratory",
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:satellite_science_assembler",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

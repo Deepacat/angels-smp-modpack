@@ -1,0 +1,23 @@
+{
+  "title": "Glyph of Summon Wolves",
+  "description": [
+    "There are two wolves inside of you, and with this glyph you can summon them both to an outside fight!"
+  ],
+  "icon": "ars_nouveau:glyph_summon_wolves",
+  "x": 8,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences",
+      "oq_ars/wilden_drops"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_summon_wolves",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

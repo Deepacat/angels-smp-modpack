@@ -1,0 +1,42 @@
+{
+  "title": "Electric Arc Furnace",
+  "icon": "hbm:machine_arc_furnace",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Electric Arc Furnace&r is a large automated furnace multiblock machine that can fill the role of &3Crucible&r and automated smelter, and is required for progression as it is the only machine that can produce &6Silicon&r from various sources, such as &6Sand&r, &6Flint&r, &6fiberglass&r, and &6Asbestos&r.",
+    "",
+    "To operate this machine, it will require both electrical power and crafted &7&6Electrodes&r. In terms of electricity, the machine has a maximum storage capacity of &e2.5MHE&r, and consumes &e20kHE/s&r in operation, making it reasonably power hungry. In terms of the electrodes required for operation, there are four types available, and the machine must have three installed before it can operate.",
+    "",
+    "This machine can operate in two different modes: Solid mode, which is the easiest to setup and use, great for initial crafting, and Liquid mode, which produces castable molten ores much like the crucible, with a small bonus to output, increasing efficiency of extraction from various ores.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:arc_electrode",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "x": 6.5,
+  "y": 11.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_arc_furnace",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

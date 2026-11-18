@@ -1,0 +1,22 @@
+{
+  "title": "Malachite Processing",
+  "icon": "hbm:chunk_ore_malachite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Washing &6Malachite&r with &bSulfuric Acid&r will yield &6Copper Scraps&r worth 1 ingot, making it an easy way of obtaining large amounts of copper before &eBedrock Ore Processing&r."
+  ],
+  "x": 20.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Starting with AE2",
+  "description": [
+    "Note that Ae2 is entirely gated by HBM's NTM in this modpack!!",
+    "",
+    "It will take a fair bit of progress into the mod to obtain certain things",
+    "",
+    "You will probably want oil processing and an arc welder before looking into ae2",
+    "",
+    "Until then, you can look into \"engineered computation\", create, or \"ars nouveau\" for interfaced network storage solutions"
+  ],
+  "icon": "ae2:charger",
+  "x": 4,
+  "y": 2,
+  "tasks": [
+    {
+      "item": "ae2:charger",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

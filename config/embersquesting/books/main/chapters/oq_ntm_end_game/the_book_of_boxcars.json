@@ -1,0 +1,24 @@
+{
+  "title": "The Book of Boxcars",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Book of Boxcars&r is an item which allows the crafting of many special items. The book can be found inside &eMeteorite Dungeons&r found randomly in the wilderness, indicated by either skulls on the ground of a black pillar, or in &eRed Rooms&r."
+  ],
+  "icon": "hbm:book_of_",
+  "x": 4.5,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:book_of_",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

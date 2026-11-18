@@ -1,0 +1,34 @@
+{
+  "title": "Ore Acidizer",
+  "icon": "hbm:machine_crystallizer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Ore Acidizer&r is a useful machine, used for processing various items for utility, ore multiplication, and more. It is powered by electricity and requires various solvents depending on the item. The acidizer is quite the power hungry machine, consuming &e20kHE/s&r."
+  ],
+  "x": 20,
+  "y": 6.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_oil/desh"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/integrated_circuit_board": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/desh": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_crystallizer",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

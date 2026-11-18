@@ -1,0 +1,22 @@
+{
+  "title": "Cables",
+  "description": [
+    "These are the skeleton of your AE2 system, connecting all the parts together! Consider upgrading them to Smart and Dense versions for larger networks.\nPro tip: all cables can be colored. Cables of different color do not connect to one another."
+  ],
+  "icon": "ae2:fluix_glass_cable",
+  "x": 7,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/quartz_fiber",
+      "oq_ae2/fluix_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:fluix_glass_cable",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

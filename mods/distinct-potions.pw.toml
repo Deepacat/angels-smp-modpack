@@ -1,0 +1,13 @@
+name = "Distinct Potions"
+filename = "DistinguishedPotions-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6025/981/DistinguishedPotions-v21.1.1-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "ab787ac8348340a80401a5b1feb293750db48274"
+
+[update]
+[update.curseforge]
+project-id = 682565
+file-id = 6025981

@@ -1,0 +1,26 @@
+{
+  "title": "Leviathan Steam Turbine",
+  "icon": "hbm:machine_chungus",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Leviathan Steam Turbine&r is a massive turbine capable of processing gargantuan amounts of &bSteam&r at once, only hindered by the fluid system's transfer rate. It is significantly more powerful than even the &3Industrial Steam Turbine&r in terms of raw steam processing power. This turbine runs on &e85%&r Efficiency, so it is recommended that only 1-2 are used for very large reactors."
+  ],
+  "x": 2,
+  "y": 14.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/dense_wires",
+      "oq_ntm_fission/technetium_cadmium_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_chungus",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

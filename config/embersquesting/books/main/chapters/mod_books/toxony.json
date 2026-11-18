@@ -1,0 +1,27 @@
+{
+  "title": "Toxony",
+  "subtitle": "Medieval Alchemy",
+  "description": [
+    "Cool potion systems and interesting weapons"
+  ],
+  "icon": "toxony:alembic",
+  "x": 3.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "toxony:lost_journal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

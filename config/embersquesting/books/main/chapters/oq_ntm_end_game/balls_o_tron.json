@@ -1,0 +1,72 @@
+{
+  "title": "Balls-O-Tron",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Balls-O-Tron is the second boss of &dNTM&r. It can be summoned by interracting the mechanist's circle, found in the &eEnargite Temple&r which spawns in jungles, with a &6Silver Key&r, made using the Maskman Coin, or from crafting the Balls-O-Tron spawn item.",
+    "",
+    "Due to the outdated nature of the bosses, aswell as the RNG needed to obtain some of the items, this quest provides an alternative way of obtaining the Balls-O-Tron coin.",
+    "",
+    "&2This quest can be repeated.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "items": [
+        "hbm:coin_worm"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        {
+          "item": "hbm:ingot_rubber",
+          "count": 64
+        },
+        {
+          "item": "hbm:motor",
+          "count": 64
+        },
+        {
+          "item": "hbm:wire_dense_gold",
+          "count": 64
+        },
+        {
+          "item": "hbm:plate_welded_titanium",
+          "count": 32
+        },
+        {
+          "item": "hbm:block_u238",
+          "count": 10
+        },
+        "hbm:det_nuke"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:coin_worm",
+  "x": -0.5,
+  "y": 16,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/tantalum",
+      "oq_ntm_fission/nuclear_fuel_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "hbm:coin_worm",
+      "type": "item"
+    }
+  ],
+  "repeat": {
+    "cooldown": 60
+  }
+}

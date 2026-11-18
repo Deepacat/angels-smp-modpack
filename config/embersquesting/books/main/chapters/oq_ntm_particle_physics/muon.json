@@ -1,0 +1,25 @@
+{
+  "title": "Muon",
+  "icon": "hbm:particle_muon",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Muon&r particles are created by colliding &bAntimatter&r and &bHydrogen&r. A second loop with &6NbTi Coils&r are required."
+  ],
+  "x": 3,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/particle_accelerator_looping",
+      "oq_ntm_oil/antimatter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_muon",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

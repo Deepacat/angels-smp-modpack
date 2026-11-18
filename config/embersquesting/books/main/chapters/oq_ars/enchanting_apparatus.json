@@ -1,0 +1,30 @@
+{
+  "title": "Enchanting Apparatus",
+  "description": [
+    "This multiblock crafts most unique items in Ars Nouveau. It is made of an Arcane Core with an Enchanting Apparatus on top of it and eight Arcane Pedestals surrounding the core."
+  ],
+  "icon": "ars_nouveau:enchanting_apparatus",
+  "x": 7,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/arcane_pedestals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:enchanting_apparatus",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:arcane_core",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:arcane_pedestal",
+      "count": 8,
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

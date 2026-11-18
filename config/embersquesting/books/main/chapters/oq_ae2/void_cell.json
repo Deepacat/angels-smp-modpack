@@ -1,0 +1,22 @@
+{
+  "title": "Void Cell",
+  "description": [
+    "Extended AE allows you to have a pocket Matter Condenser in the form of a Storage Cell! Pro tip: it works wonders in on a subnet with an infinite cobblestone cell being imported from in a ME IO port :D"
+  ],
+  "icon": "extendedae:void_cell",
+  "x": 7,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/matter_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:void_cell",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Thaumaturge",
+  "subtitle": "The study of natures mysterious wonders",
+  "description": [
+    "A \"port\"/remake of 1.7.10's Thaumcraft 4, combined with elements of 1.12.2's Thaumcraft 6.",
+    "",
+    "It is a discovery based magic mod, rewarding your curiosities and exploration of the world."
+  ],
+  "icon": "thaumaturge:goggles_revealing",
+  "x": 4.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "title": "Perhaps a good nights rest could grant you a clue?",
+      "points": 1,
+      "type": "xp"
+    }
+  ],
+  "shape": "circle"
+}

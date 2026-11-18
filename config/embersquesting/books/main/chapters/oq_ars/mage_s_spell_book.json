@@ -1,0 +1,21 @@
+{
+  "title": "Mage's Spell Book",
+  "description": [
+    "With some diamonds and blaze rods you can now cast Tier 2 glyphs!"
+  ],
+  "icon": "ars_nouveau:apprentice_spell_book",
+  "x": 7,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ars/scribe_s_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:apprentice_spell_book",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

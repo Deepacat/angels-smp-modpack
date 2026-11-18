@@ -1,0 +1,24 @@
+{
+  "title": "Infinity Cells",
+  "description": [
+    "Infinite water and cobblestone cells, courtesy of Extended AE!"
+  ],
+  "icon": "extendedae:infinity_water_cell",
+  "x": 9,
+  "deps": {
+    "all": [
+      "oq_ae2/digital_storage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:infinity_water_cell",
+      "type": "item"
+    },
+    {
+      "item": "extendedae:infinity_cobblestone_cell",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

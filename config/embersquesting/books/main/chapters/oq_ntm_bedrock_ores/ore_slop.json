@@ -1,0 +1,22 @@
+{
+  "title": "Ore Slop",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:slop\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&bOre Slop&r&r can be processed most efficiently in an &3Electrolysis Machine&r, giving &6Mercury&r, &6Niter&r, &6Sulfur&r and &6Limestone&r. Products obtained from the processing can be used to make acids for the rest of the bedrock ore plant."
+  ],
+  "x": 2.5,
+  "y": 0,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/bedrock_ore_extracting"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

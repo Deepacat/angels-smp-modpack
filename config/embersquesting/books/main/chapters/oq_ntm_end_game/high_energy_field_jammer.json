@@ -1,0 +1,28 @@
+{
+  "title": "High Energy Field Jammer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3High Energy Field Jammer&r prevents schrabidium explosions from destroying blocks and damaging entities for a short while. It is a great fail-safe to have for the &3DFC&r."
+  ],
+  "icon": "hbm:field_disturber",
+  "x": 4.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/starmetal",
+      "oq_ntm_fission/versatile_integrated_circuit"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:field_disturber",
+      "type": "item"
+    }
+  ],
+  "complete": "any"
+}

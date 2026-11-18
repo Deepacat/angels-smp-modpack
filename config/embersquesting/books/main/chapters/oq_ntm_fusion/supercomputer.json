@@ -1,0 +1,26 @@
+{
+  "title": "Supercomputer",
+  "icon": "hbm:machine_supercomputer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Supercomputer&r is a large computer which processes &6Flash&r and &6Disk Drives&r. Processing Drives is a very time consuming task, which can be sped up by using a more efficient coolant, at the cost of a higher recipe failure chance. Drives can also be copied, at a chance of losing both the original and the copy."
+  ],
+  "x": 3,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_fission/technetium_cadmium_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_supercomputer",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

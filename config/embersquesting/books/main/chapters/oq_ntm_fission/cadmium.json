@@ -1,0 +1,34 @@
+{
+  "title": "Cadmium",
+  "icon": "hbm:ingot_cadmium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Cadmium&r is a material needed to make &6Cadmium Stee&rl, which is a substitute of &6Technetium Steel&r.",
+    "",
+    "Cadmium can be obtained by smelting cadmium powder, which can be obtained acidizing 10 &6Mustard Willow leaves&r with 250mB of &bHigh-Perfomance Solvent&r in the &3Ore Acidizer&r.",
+    "",
+    "The mustard willow is a plant that can be found near &eBedrock Oil Deposits&r. When it's fully matured, the main item can be obtained, that being the mustard willow leaf."
+  ],
+  "x": 21,
+  "y": 16,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/high_performance_solvent",
+      "oq_ntm_oil/ore_acidizer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:plant_item_mustardwillow",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:powder_cadmium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

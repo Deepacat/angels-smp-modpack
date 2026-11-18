@@ -1,0 +1,20 @@
+{
+  "title": "Source Relay",
+  "subtitle": "Transports source long distances",
+  "icon": "ars_nouveau:relay",
+  "x": 11.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:relay",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

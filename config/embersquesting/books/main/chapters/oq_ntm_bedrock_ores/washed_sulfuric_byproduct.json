@@ -1,0 +1,22 @@
+{
+  "title": "Washed Sulfuric Byproduct",
+  "icon": "hbm:bedrock_ore_sulfuric_washed_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of second water washing."
+  ],
+  "x": 1.5,
+  "y": 15.5,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/seared_sulfuric_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

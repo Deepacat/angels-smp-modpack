@@ -1,0 +1,25 @@
+{
+  "title": "Bedrock Ore Crumps",
+  "icon": "hbm:bedrock_ore_crumbs_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Some steps will produce crumbs which can be further processed into more primary outputs in an arc furnace or electrolyzer, or combined into a full stack of 64 and washed with &bOre Slop&r to produce more unprocessed ore, which can be passed back into the system to yield even more ores."
+  ],
+  "x": 2.5,
+  "y": 19,
+  "deps": {
+    "any": [
+      "oq_ntm_bedrock_ores/sulfuric_byproduct_products",
+      "oq_ntm_bedrock_ores/cleaned_byproduct_products",
+      "oq_ntm_bedrock_ores/primary_fraction_products",
+      "oq_ntm_bedrock_ores/dissolved_byproducts_products"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

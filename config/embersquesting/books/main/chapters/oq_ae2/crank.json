@@ -1,0 +1,22 @@
+{
+  "title": "Crank",
+  "description": [
+    "The crank provides a small amount of energy to machines while you hold right click on it. An early game solution, e.e., to charge your Meteorite Compass."
+  ],
+  "icon": "ae2:crank",
+  "x": 3.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ae2/energy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:crank",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

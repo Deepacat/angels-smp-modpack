@@ -1,0 +1,8 @@
+name = "Thaumaturge"
+filename = "thaumaturge-1.21.1-NeoForge-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://mods.deepa.cat/angel/packmods/thaumaturge-1.21.1-NeoForge-1.1.1.jar"
+hash-format = "sha1"
+hash = "4ad99b1d664b4557aeca973bdd7fe8da038c9452"

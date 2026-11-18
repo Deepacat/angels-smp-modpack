@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Split",
+  "description": [
+    "Using this on a projectile creates an additional projectile, so twice the spell!"
+  ],
+  "icon": "ars_nouveau:glyph_split",
+  "x": 10,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/archmage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_split",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

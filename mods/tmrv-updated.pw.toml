@@ -1,0 +1,13 @@
+name = "TMRV Updated"
+filename = "toomanyrecipeviewers-0.9.4-mc.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9600/357/toomanyrecipeviewers-0.9.4-mc.21.1.jar"
+hash-format = "sha1"
+hash = "b0f5b0a8defeb63528f048c9071d1e8e628acdc0"
+
+[update]
+[update.curseforge]
+project-id = 1727144
+file-id = 9600357

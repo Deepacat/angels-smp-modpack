@@ -1,0 +1,21 @@
+{
+  "title": "Matter Condenser",
+  "description": [
+    "This is a trash can, but it can also condense trashed items into Matter Balls (requires a 1k or larger Storage Part installed) or Singularities (requires a 64k or larger Storage Part)."
+  ],
+  "icon": "ae2:condenser",
+  "x": 6,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/fluix_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:condenser",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Fusion",
+  "icon": "hbm:fusion_torus",
+  "order": 5,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

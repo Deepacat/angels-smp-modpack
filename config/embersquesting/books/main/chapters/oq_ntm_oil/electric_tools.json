@@ -1,0 +1,37 @@
+{
+  "title": "Electric Tools",
+  "icon": "hbm:elec_pickaxe",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Impact Drill&r is an electric pickaxe which has prebuilt enchantments and abilities on it. It is a very useful tool which will make mining way more efficient.",
+    "",
+    "Similar electric tools exist for the axe and shovel."
+  ],
+  "x": 7.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:elec_pickaxe",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:elec_axe",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:elec_shovel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

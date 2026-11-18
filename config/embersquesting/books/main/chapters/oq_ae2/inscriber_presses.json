@@ -1,0 +1,21 @@
+{
+  "title": "Inscriber Presses",
+  "description": [
+    "The four presses are Logic, Calculation, Engineering, and Silicon. You get these from breaking a Mysterious Cube, that spawns at the meteor.\n\nYou can duplicate presses by putting them through an inscriber with an iron block."
+  ],
+  "x": 5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/starting_with_ae2"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "ae2:main/presses",
+      "type": "advancement",
+      "title": "Get all four inscriber presses"
+    }
+  ],
+  "shape": "circle"
+}

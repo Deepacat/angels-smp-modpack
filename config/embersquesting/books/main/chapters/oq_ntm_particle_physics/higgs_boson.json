@@ -1,0 +1,24 @@
+{
+  "title": "Higgs Boson",
+  "icon": "hbm:particle_higgs",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Higgs Boson&r particles are created by colliding &6Lead Ions&r with &bHydrogen&r. A second loop with &6NbTi Coils&r are required. Can be also used to easily transmutate &6Uranium&r into &6Schrabidium&r in an &3Exposure Chamber&r."
+  ],
+  "x": 0,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/particle_accelerator_looping"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_higgs",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

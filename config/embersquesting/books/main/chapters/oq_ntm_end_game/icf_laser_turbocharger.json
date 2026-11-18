@@ -1,0 +1,23 @@
+{
+  "title": "ICF Laser Turbocharger",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3ICF Laser Turbocharger&r can be placed next to &3ICF Laser Capacitors&r to increase the laser's power by a substantial amount, allowing for the &3ICF&r to run higher grade fuels."
+  ],
+  "icon": "hbm:icf_laser_component_turbo",
+  "x": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/dineutronium",
+      "oq_ntm_end_game/icf"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:icf_laser_component_turbo",
+      "type": "item"
+    }
+  ]
+}

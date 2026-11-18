@@ -1,0 +1,31 @@
+{
+  "title": "Arc Welder",
+  "icon": "hbm:machine_arc_welder",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Arc Welder&r is a machine needed for the creation of many components, such as &6Welded Plates&r, &6Missile Parts&r and more. Some Recipes will require a fluid inserted into the welder to work."
+  ],
+  "x": 10,
+  "y": 20.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates",
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_arc_welder",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

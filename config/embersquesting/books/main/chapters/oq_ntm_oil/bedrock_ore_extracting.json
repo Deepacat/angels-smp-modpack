@@ -1,0 +1,69 @@
+{
+  "title": "Bedrock Ore Extracting",
+  "icon": "hbm:machine_ore_slopper",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&eBedrock Ore Deposits&r are an infinite source of resources which can be obtained by using a &3Large Mining Drill&r and a &3Bedrock Ore Processor&r. Operating the drill will consume&e 200kHE/s&r.",
+    "",
+    "Before excavation can happen, the &eDepth Rock&r covering the bedrock ore deposit needs to be removed. An easy way of doing that is blowing up the rock with &6Mining Charges&r.",
+    "",
+    "The large mining drill is used to excavate &6Raw Bedrock Ores&r from their deposits. The drill requires a &6Drillbit&r to work&r, which can be upgraded to increase the speed at which it operates at. &eFortune&r on a drillbit affects the quality of mined bedrock ore, each level of fortune adds &e10%&r of the value to the item.",
+    "",
+    "The bedrock ore processor takes &6&rraw bedrock ore obtained from the drill and breaks it down into smaller pieces, each with different products that can be obtained from them. \n&a&bOre Slop&r, which is created when the machine is operating, can be processed into many useful products, especially when it is sent through an &3Electrolysis Machine&r.",
+    "",
+    "The &6Bedrock Ore Density Scanner&r shows information on the composition of Bedrock Ore deposits.",
+    "",
+    "Bedrock ore processing can be both an energy and resource expensive operation so it is recommended that it is explored after having good infrastructure.",
+    "",
+    "&2Consider adding a Power Saving Upgrade to the drill as it only reduces power without affecting the mining speed. Additionally, installing an Effectiveness Upgrade on the ore slopper will make it give out more resources.&r",
+    "",
+    "Make sure to go to the bedrock ore processing chapter and follow the quests there for instructions. It is also recommended that the wiki is checked out.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Bedrock_Ore",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Bedrock_Ore"
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:ore_density_scanner",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 6.5,
+  "y": 0,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/centrifuge"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_excavator",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_ore_slopper",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Assembly Machine",
+  "icon": "hbm:machine_assembly_machine",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Assembly Machine&r is used in every stage of the game, with it being used to manufacture practically every other complex machine. Recipes for it can be chosen inside the GUI."
+  ],
+  "x": 18.5,
+  "y": 14,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/early_game_power",
+      "oq_ntm_early_game/steel_anvil"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_assembly_machine",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Industrial Boiler",
+  "icon": "hbm:machine_industrial_boiler",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Industrial Boiler&r is an upgraded version of the Boiler which has a higher capacity of held liquid. Additionally, it doesnt explode."
+  ],
+  "x": 9,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer",
+      "oq_ntm_oil/desh_anvil"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_industrial_boiler",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Machine Upgrade Template",
+  "icon": "hbm:upgrade_template",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Machine Upgrade Template&r is the baseline for all machine upgrades. Machine upgrades are not only used to increase the efficiency of machines but also to unlock new functions.",
+    "",
+    "&2While in the UI of a machine, hover over an upgrade on NEI to see its effects.&r"
+  ],
+  "x": 12,
+  "y": 26.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:upgrade_template",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

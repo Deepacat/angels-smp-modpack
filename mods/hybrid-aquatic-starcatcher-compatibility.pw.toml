@@ -1,0 +1,13 @@
+name = "Hybrid Aquatic + Starcatcher Compatibility"
+filename = "hybrid_aquatic_starcatcher_compat-0.6.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9239/788/hybrid_aquatic_starcatcher_compat-0.6.3.jar"
+hash-format = "sha1"
+hash = "446062a15332a0280bc339704c4b0526cc62c123"
+
+[update]
+[update.curseforge]
+project-id = 1676380
+file-id = 9239788

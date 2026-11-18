@@ -1,0 +1,25 @@
+{
+  "title": "Magnetized Tungsten",
+  "icon": "hbm:ingot_magnetized_tungsten",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Magnetized Tungsten&r is the product of combining &6Schrabidium&r and &6Tungsten&r in a &3Blast Furnace&r. It can also be rarely dropped by cybercrabs in &eMeteorite Dungeons&r."
+  ],
+  "x": 18,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/schrabidium",
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_magnetized_tungsten",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

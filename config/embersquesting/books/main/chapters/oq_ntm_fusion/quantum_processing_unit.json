@@ -1,0 +1,25 @@
+{
+  "title": "Quantum Processing Unit",
+  "icon": "hbm:circuit_quantum",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Quantum Processing Unit&r is the first quantum circuit one makes, used in the &3Particle Accelerator&r and &3ICF&r reactor."
+  ],
+  "x": 7.5,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/solid_state_quantum_processor",
+      "oq_ntm_fusion/helium_4"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_quantum",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

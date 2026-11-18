@@ -1,0 +1,32 @@
+{
+  "title": "Spatial IO",
+  "description": [
+    "Spatial IO allows you to cut and paste parts of the world, with all the blocks and entities in them. To use it, you should have a structure of Spatial Pylons on your AE2 network spanning the length of the box you're planning to cut, plus one block, on all three axes (the quest asks for 6, giving you a 1x1x1 working area to move e.g. a flawless budding certus block); a Spatial IO port; and an empty Spatial Storage Cell of adequate size to store the structure inside. Once everything is ready, place the cell inside the IO port and give the port a redstone signal.\nTo paste, construct a box of pylons of the same dimensions in another location and do the same procedure on a filled cell.\nSpatial IO uses a lot of energy for the larger structures! Bring on your dense energy cells!"
+  ],
+  "icon": "ae2:spatial_storage_cell_2",
+  "x": 11,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/me_io_port"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:spatial_io_port",
+      "type": "item"
+    },
+    {
+      "item": "ae2:spatial_pylon",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "filter": "or(item(ae2:spatial_storage_cell_2) item(ae2:spatial_storage_cell_16) item(ae2:spatial_storage_cell_128))",
+      "type": "item",
+      "title": "Any Spatial Storage Cell"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

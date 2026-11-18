@@ -1,0 +1,45 @@
+{
+  "title": "Gas Centrifuge",
+  "icon": "hbm:machine_gascent",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Gas Centrifuge&r is used to centrifuge &bUranium/Plutonium Hexafluoride&r to obtain enriched fuel for bombs and reactor fuel.",
+    "",
+    "Two gas centrifuges in a row will yield &6Uranium-238&r and &6Uranium Fuel&r used in reactors. The uranium hexafluoride processing line does not consume the &6Sulfur&r and &6Fluorite&r, so loops are recommended.",
+    "",
+    "The &6Gas Centrifuge Overclocking Upgrade&r is needed to obtain &6Uranium-235&r. Four gas centrifuges will have to be placed in a row and the upgrade on the last of them to obtain uranium-235 nuggets.",
+    "",
+    "Press [F1] for more info on applicable items",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:upgrade_gc_speed",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 4,
+  "y": 6.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_oil/military_grade_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_gascent",
+      "count": 2,
+      "type": "item"
+    }
+  ]
+}

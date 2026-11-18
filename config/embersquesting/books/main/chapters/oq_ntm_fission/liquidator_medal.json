@@ -1,0 +1,24 @@
+{
+  "title": "Liquidator Medal",
+  "icon": "hbm:medal_liquidator",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Incase of an &3RBMK&r meltdown, &6Fuel Chunks&r will be thrown near the reactor. The &6Liquidator Medal&r is an armor modification which passively reduces radiation, making it very useful when handling radioactive items or venturing into irradiated areas."
+  ],
+  "x": 23,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/armor_modifications"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:medal_liquidator",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

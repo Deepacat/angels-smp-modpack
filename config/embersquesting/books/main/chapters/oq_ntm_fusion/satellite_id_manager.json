@@ -1,0 +1,31 @@
+{
+  "title": "Satellite ID Manager",
+  "icon": "hbm:machine_satlinker",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Satellite ID Manager&r is used to assign specific IDs to &6Satellites&r. To assign an id place the satellite in the [?] area.",
+    "",
+    "&2It is highly recommended that the ID of the satellite is copied over in a separate ID chip as to not lose it. To copy an ID simply place the ID chip in the ID slot and the desired satellite next to it.&r"
+  ],
+  "x": 3,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/soyuz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_satlinker",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:sat_chip",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Soyuz",
+  "icon": "hbm:launchpad_soyuz",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Soyuz-FG&r is the first rocket one can make to launch &6Satellites&r into space. To launch the rocket, a &3Soyuz Launch Pad&r is needed. The pad consumes &e200kHE/s&r constantly and each launch consumes 100000mb of both &bJet Fuel&r and &bLiquid Oxygen&r."
+  ],
+  "x": 3,
+  "y": 7.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/flash_drives",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:launchpad_soyuz",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:missile_soyuz_0",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Polymorphic Occultism"
+filename = "polymorphic_occultism-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9143/40/polymorphic_occultism-1.21.1-1.0.2.jar"
+hash-format = "sha1"
+hash = "3f87e8e60d000b8237db394c31dbac4fcaac3cc0"
+
+[update]
+[update.curseforge]
+project-id = 1520561
+file-id = 9143040

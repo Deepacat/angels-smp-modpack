@@ -1,0 +1,13 @@
+name = "Pastel"
+filename = "Pastel-1.1.5.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7591/337/Pastel-1.1.5.5.jar"
+hash-format = "sha1"
+hash = "53a582520b78aebd56c9be1fd041472047dca3d3"
+
+[update]
+[update.curseforge]
+project-id = 1264556
+file-id = 7591337

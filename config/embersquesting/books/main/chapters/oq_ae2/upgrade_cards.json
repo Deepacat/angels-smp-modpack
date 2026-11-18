@@ -1,0 +1,22 @@
+{
+  "title": "Upgrade Cards",
+  "description": [
+    "These are the base for making all sorts of upgrades to your AE2 machines!"
+  ],
+  "icon": "ae2:basic_card",
+  "x": 6,
+  "y": 1,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ae2:basic_card) item(ae2:advanced_card))",
+      "type": "item",
+      "title": "Basic or Advanced Card"
+    }
+  ],
+  "shape": "circle"
+}

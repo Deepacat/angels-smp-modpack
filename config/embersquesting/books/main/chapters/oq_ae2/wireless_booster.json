@@ -1,0 +1,22 @@
+{
+  "title": "Wireless Booster",
+  "description": [
+    "By default, a Wireless Access Point only covers a range of 16 blocks. This range can be extended with boosters up to 528 blocks, at the cost of energy. Alternatively, you can use a Quantum Network Bridge for infinite range, cross-dimensional access."
+  ],
+  "icon": "ae2:wireless_booster",
+  "x": 3,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/going_wireless"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:wireless_booster",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

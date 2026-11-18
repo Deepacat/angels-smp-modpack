@@ -1,0 +1,22 @@
+{
+  "title": "Extended Pattern Access Terminal",
+  "description": [
+    "Finally, a Pattern Access Terminal with a search bar!"
+  ],
+  "icon": "extendedae:ex_pattern_access_part",
+  "x": 2,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:ex_pattern_access_part",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

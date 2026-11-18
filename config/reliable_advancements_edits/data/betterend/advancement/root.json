@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "welcome": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "welcome"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "display": {
+    "announce_to_chat": false,
+    "icon": {
+      "id": "betterend:end_mycelium"
+    },
+    "title": "BetterEnd",
+    "description": "Enter a world that has a better End",
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "frame": "task"
+  }
+}

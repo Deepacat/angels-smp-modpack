@@ -1,0 +1,28 @@
+{
+  "title": "Centrifuge",
+  "icon": "hbm:machine_centrifuge",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6&3Centrifuge&r allows for the seperation of ores, giving back more items than the usual mining method. It also seperates items into their respective items. Additionally, they are used in processing &e&6Bedrock Ores&r.",
+    "",
+    "Operating the centrifuge will consume &e4kHE/s&r."
+  ],
+  "x": 6.5,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit",
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_centrifuge",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Industrial Solidification Machine",
+  "icon": "hbm:machine_solidifier",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Industrial Solidification Machine&r is a general use machine for the solidification of various fluids."
+  ],
+  "x": 5.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_solidifier",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

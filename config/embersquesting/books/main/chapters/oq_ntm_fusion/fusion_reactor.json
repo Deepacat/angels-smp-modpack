@@ -1,0 +1,98 @@
+{
+  "title": "Fusion Reactor",
+  "icon": "hbm:fusion_torus",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Fusion Reactor&r is a large, expensive, and advanced reactor type that runs by fusing various plasma types to generate heat.",
+    "",
+    "The main part of the fusion reactor, the &3\"Torus\"&r, features four connecting ports for external components. It requires electricity and &bPerfluoromethyl&r cooling to operate.",
+    "",
+    "The &3Klystron&r is the main power source of the fusion reactor, which uses electricity and compressed air, to generate input energy, &eKyU&r, for the connected torus. It will throttle if the buffered electricity or compressed air falls below &e50%&r, and if it falls below the torus' required input level, the plasma will extinguish.",
+    "",
+    "The different plasma types also generate different useful byproducts and differing levels of neutron flux for breeding bulk quantities of materials, such as &6Lithium&r into &6Tritium&r.",
+    "",
+    "Welding the coils will require a &6Blowtorch&r or an &6Acetylene Welding Torch&r.",
+    "",
+    "More information can be found below:",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Fusion_Reactor",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Fusion_Reactor"
+          }
+        }
+      ]
+    },
+    "&2For the additional components and power generation methods, please check out the two quests below.&r",
+    "",
+    "&2Multiple fusion reactors will be required soon so it is recommended that Bedrock Ore Processing and Oil Refinement is automated.&r",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:acetylene_torch",
+          "count": 1
+        },
+        {
+          "item": "hbm:blowtorch",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 10.5,
+  "y": 5.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/versatile_circuit_board",
+      "oq_ntm_early_game/dense_wires",
+      "oq_ntm_oil/military_grade_circuit_board",
+      "oq_ntm_fusion/flash_drives",
+      "oq_ntm_early_game/air_intake",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate",
+      "oq_ntm_early_game/compressor"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:fusion_component",
+      "count": 484,
+      "type": "item"
+    },
+    {
+      "item": "hbm:plate_cast_steel",
+      "count": 484,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_component_motor",
+      "count": 280,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_component_bscco_welded",
+      "count": 160,
+      "type": "item"
+    },
+    {
+      "item": "hbm:struct_torus_core",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:fusion_klystron",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

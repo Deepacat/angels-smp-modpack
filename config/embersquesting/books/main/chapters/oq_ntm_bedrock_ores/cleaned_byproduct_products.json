@@ -1,0 +1,22 @@
+{
+  "title": "Cleaned Byproduct Products",
+  "icon": "hbm:scraps{\"hbm:material\":\"bismuth\",\"hbm:mat_amount\":24}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "There are multiple ways of processing at this stage, most efficient being the &3Arc Furnace&r."
+  ],
+  "x": 5,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/washed_clean_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

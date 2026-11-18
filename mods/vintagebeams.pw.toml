@@ -1,0 +1,13 @@
+name = "Vintage Beams"
+filename = "beams-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8394/229/beams-1.0.0.jar"
+hash-format = "sha1"
+hash = "0373433957c0b01addb7139116b9bbc74682374c"
+
+[update]
+[update.curseforge]
+project-id = 1602549
+file-id = 8394229

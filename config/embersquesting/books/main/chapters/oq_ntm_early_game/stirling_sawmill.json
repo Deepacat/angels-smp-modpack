@@ -1,0 +1,24 @@
+{
+  "title": "Stirling Sawmill",
+  "icon": "hbm:machine_sawmill",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Stirling Sawmill&r uses heat to cut wooden related items, producing &6Sawdust&r in the process. Sawdust can be used to obtain &6Paper&r, and if further processed, can be turned into &6Charcoal&r in a &3Combination Oven&r."
+  ],
+  "x": 7.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/heating_oven_firebox"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_sawmill",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

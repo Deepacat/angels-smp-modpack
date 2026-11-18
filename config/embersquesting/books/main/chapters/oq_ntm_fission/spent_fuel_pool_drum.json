@@ -1,0 +1,27 @@
+{
+  "title": "Spent Fuel Pool Drum",
+  "icon": "hbm:machine_waste_drum",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Spent Fuel Pool Drum&r is used to cool down hot nuclear fuel rods for the &3RBMK&r, &3ZIRNOX&r and &3PWR&r. It has 12 slots.",
+    "",
+    "The drum needs to have at least one of its sides touching &bWater&r to work. The more sides that have water the faster the fuels inside will cool down."
+  ],
+  "x": 6,
+  "y": 4.5,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/zirnox",
+      "oq_ntm_fission/pwr"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_waste_drum",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

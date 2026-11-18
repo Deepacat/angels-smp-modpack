@@ -1,0 +1,22 @@
+{
+  "title": "Quantum Bridge Card",
+  "description": [
+    "This upgrade card allows you to use your terminal from anywhere, even other dimensions! Simply build one side of a Quantum Network Bridge like normal and put the paired entangled singularity into your terminal together with this card."
+  ],
+  "icon": "ae2wtlib:quantum_bridge_card",
+  "x": 2,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/universal_terminal",
+      "oq_ae2/quantum_network_bridge"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2wtlib:quantum_bridge_card",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

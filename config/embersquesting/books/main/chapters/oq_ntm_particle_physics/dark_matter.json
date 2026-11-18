@@ -1,0 +1,24 @@
+{
+  "title": "Dark Matter",
+  "icon": "hbm:particle_dark",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Dark Matter&r is made from colliding two &bAntischrabidium&r particles together. A third loop with &6BSCCO Coils&r is required."
+  ],
+  "x": 4.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/antischrabidium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_dark",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

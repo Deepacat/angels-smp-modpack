@@ -1,0 +1,41 @@
+{
+  "title": "Redstone-Over Radio",
+  "icon": "hbm:radio_torch_sender",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&dNTM&r introduces &eRedstone-Over Radio&r, which is a system of sending redstone signals wirelessly. There are many ROR components which serve different purposes, from maintaining a certain amount of fluid in a tank to reading item amounts in containers.",
+    "",
+    "The foundational components of this system are the ROR &6Transmitter&r and &6Receiver&r. As their name suggests, they can send and receive redstone signals. For them to be linked together, both need the same &eID&r.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:radio_torch_receiver",
+          "count": 1
+        },
+        {
+          "item": "hbm:radio_torch_sender",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

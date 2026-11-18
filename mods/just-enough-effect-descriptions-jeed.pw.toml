@@ -1,0 +1,13 @@
+name = "Just Enough Effect Descriptions (JEED)"
+filename = "jeed-1.21-2.3.6-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9587/512/jeed-1.21-2.3.6-neoforge.jar"
+hash-format = "sha1"
+hash = "a5a6e195cc71db8ebf8c5f29deef35e050edff88"
+
+[update]
+[update.curseforge]
+project-id = 532286
+file-id = 9587512

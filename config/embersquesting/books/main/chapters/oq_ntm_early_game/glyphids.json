@@ -1,0 +1,26 @@
+{
+  "title": "Glyphids",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Glyphids&r are large insects that have many different types. They primarily spawn with naturally generated &6&rhives&r structures. All of the types are armored and they take less damage than against normal mobs. Glyphids are normally attracted to pollution created by the player, and usually have to be dealt with by the player.",
+    "",
+    "&6&r&6Hives&r can spawn naturally in all non-ocean biomes and can also be created by glyphid scouts. They contain several glyphid egg blocks and some low-tier loot inside, lying on top of eggs. glyphid egg blocks spawn glyphids and drop glyphid eggs upon destruction.",
+    "",
+    "&2It is recommended that all hives are destroyed as soon as possible as to prevent their spread later on."
+  ],
+  "icon": "hbm:glyphid_base",
+  "x": 16,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

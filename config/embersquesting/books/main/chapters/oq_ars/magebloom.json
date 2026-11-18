@@ -1,0 +1,30 @@
+{
+  "title": "Magebloom",
+  "description": [
+    "An arcane plant that grows magical fiber!"
+  ],
+  "icon": "ars_nouveau:magebloom",
+  "x": 8,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:magebloom_crop",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:magebloom",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_out": "hover"
+}

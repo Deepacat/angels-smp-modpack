@@ -1,0 +1,24 @@
+{
+  "title": "Charging Station",
+  "icon": "hbm:charger",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Charging Station&r will charge electric tools aswell as electric suits when standing near it. Placing more next to eachother will increase the speed at which items are being recharged."
+  ],
+  "x": 4,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/energy_cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:charger",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

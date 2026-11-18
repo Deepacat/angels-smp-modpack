@@ -1,0 +1,14 @@
+#n=0: No player/villager damage when ingested
+# Default: 512
+# Range: 0 ~ 512
+pill_damage = 512
+#n=0: Teleport Disabled. n>1: Mitosis
+# Default: 1
+# Range: 0 ~ 16
+peanut_statue_teleport_attempts = 1
+#Enable Peanut Statue disappearance on random tick
+enable_peanut_statue_random_tick_disappear = false
+#Enable HAVEN Tool to remove Peanut Statue without triggering teleport
+enable_haven_tool_peanut_statue_removal = true
+#Enable activated smoke alarm to produce low-battery sound on randomTicks
+enable_smoke_alarm_sound = true

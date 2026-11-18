@@ -1,0 +1,28 @@
+{
+  "title": "Energy Cables",
+  "icon": "hbm:red_cable",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The most basic block for transmission is the &3Red Copper Cable&r, which comes in two varieties, a block form and a skinnier cable form. The block form also has a paintable version which can help it blend into your designs better."
+  ],
+  "x": 2,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:red_cable",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

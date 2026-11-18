@@ -1,0 +1,21 @@
+{
+  "title": "Controller",
+  "description": [
+    "The heart of your AE2 system. You can make these into a multiblock if you need more channels than a single controller can provide; the only rules are:\n- All controller blocks must be connected;\n- No controller block should touch four others in a cross shape;\n- The multiblock must fit inside a 7x7x7 cube."
+  ],
+  "icon": "ae2:controller",
+  "x": 7,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:controller",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

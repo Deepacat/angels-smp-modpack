@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Item Pickup",
+  "description": [
+    "You can place it on a projectile+break spell and collect blocks from a great distance!"
+  ],
+  "icon": "ars_nouveau:glyph_pickup",
+  "x": 5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/simplest_glyphs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_pickup",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

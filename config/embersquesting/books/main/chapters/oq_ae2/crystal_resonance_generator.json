@@ -1,0 +1,22 @@
+{
+  "title": "Crystal Resonance Generator",
+  "description": [
+    "This block makes 40 FE/t out of thin air! Sadly, you can only have one of them on any AE2 network."
+  ],
+  "icon": "ae2:crystal_resonance_generator",
+  "x": 4.5,
+  "y": 0.5,
+  "deps": {
+    "all": [
+      "oq_ae2/energy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:crystal_resonance_generator",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Where am I??",
+  "description": [
+    "You can teleport §oyourself§r to the Spatial Storage pocket dimension if you stand inside the box while it's cut! Now how would I get out of here..."
+  ],
+  "icon": "minecraft:black_concrete",
+  "x": 11,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/spatial_io"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "ae2:spatial_storage",
+      "type": "location"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

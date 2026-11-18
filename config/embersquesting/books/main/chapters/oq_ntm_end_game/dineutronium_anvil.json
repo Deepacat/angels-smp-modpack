@@ -1,0 +1,23 @@
+{
+  "title": "Dineutronium Anvil",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "An upgraded version of the &3Anvil&r, [T7], which unlocks additional recipes."
+  ],
+  "icon": "hbm:anvil_dnt",
+  "x": -0.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/dineutronium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:anvil_dnt",
+      "type": "item"
+    }
+  ]
+}

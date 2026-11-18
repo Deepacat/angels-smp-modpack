@@ -1,0 +1,24 @@
+{
+  "title": "Alchemist's Crown",
+  "subtitle": "Their names were to be replaced by shades ascending from scarlet",
+  "description": [
+    "Instantly drink potions! It's a shame this doesn't display on your player model, it's beautiful..."
+  ],
+  "icon": "ars_nouveau:alchemists_crown",
+  "x": 13,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:alchemists_crown",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

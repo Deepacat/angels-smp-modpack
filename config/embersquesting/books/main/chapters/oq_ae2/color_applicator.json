@@ -1,0 +1,22 @@
+{
+  "title": "Color Applicator",
+  "description": [
+    "This nifty tool can color cables placed in the world! To work, it needs to be filled with Paint Balls, which are crafted from Matter Balls. The easiest way to do that is with an ME Chest."
+  ],
+  "icon": "ae2:color_applicator",
+  "x": 5,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/energy_cell"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:color_applicator",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

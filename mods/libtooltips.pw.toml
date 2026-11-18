@@ -1,0 +1,13 @@
+name = "LibTooltips"
+filename = "libtooltips-3.0-NEOFORGE-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9413/786/libtooltips-3.0-NEOFORGE-1.21.1.jar"
+hash-format = "sha1"
+hash = "f01ff07f0182cac0bfcc7b08ab7703d3a3c16c91"
+
+[update]
+[update.curseforge]
+project-id = 1370245
+file-id = 9413786

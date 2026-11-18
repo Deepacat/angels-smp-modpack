@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Linger",
+  "description": [
+    "Transforms the spell into a lingering potion-type effect cloud that periodically applies it!"
+  ],
+  "icon": "ars_nouveau:glyph_linger",
+  "x": 9.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/archmage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_linger",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

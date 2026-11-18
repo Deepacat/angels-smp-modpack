@@ -1,0 +1,24 @@
+{
+  "title": "Magical lights",
+  "description": [
+    "Cast Touch -> Conjure Magelight on these to turn them on!"
+  ],
+  "icon": "ars_nouveau:magelight_torch",
+  "x": 11.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/glyph_of_conjure_magelight"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:magelight_torch) item(ars_nouveau:sconce) item(ars_nouveau:sourcestone_sconce) item(ars_nouveau:polished_sconce) item(ars_nouveau:archwood_sconce))",
+      "type": "item",
+      "title": "Magelight Torch or Sconce"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

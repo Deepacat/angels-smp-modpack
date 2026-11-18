@@ -1,0 +1,32 @@
+{
+  "title": "Anvil",
+  "icon": "hbm:anvil_iron",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&3Anvils&r are a tiered crafting station that allows for the creation of various machines, structures, and items in some cases. There are multiple tiers of anvils with greater anvil tier primarily corresponding to a greater quantity of recipes being available.",
+    "",
+    "Plate Stamps, used in the &3Burner Press&r, are made in the anvil. A plate stamp is required for the &3Blast Furnace&r."
+  ],
+  "x": 14,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/ntm_introduction"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:anvil_iron",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:anvil_lead",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

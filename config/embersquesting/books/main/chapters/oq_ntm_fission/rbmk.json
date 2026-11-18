@@ -1,0 +1,64 @@
+{
+  "title": "RBMK",
+  "icon": "hbm:rbmk_console",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3RBMK&r is a modular boiling-water type nuclear fission reactor which consists entirely of concrete columns. Each of these columns is either blank or has a specific function that it performs such as holding fuel rods, moderating neutrons, or storing &bWater&r to be boiled into &bSteam&r. Each column will also exchange heat with the column next to it such that temperature differences between columns will gradually equalize within the reactor. If any column reaches &e1500°C&r, the reactor will explode incredibly violently, spraying scrap and immensely radioactive material in every direction.",
+    "",
+    "Due to the complex and expansive nature of the RBMK, it is highly recommend that the wiki is checked out as it provides more information.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/RBMK",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/RBMK"
+          }
+        }
+      ]
+    },
+    "&2This quest provides an optional retrieval task for a cheap and safe RBMK design which can produce High-Performance Solvent&r &2without cooling. Simply Place the RBMK Irradiation Channel next to the RBMK Fuel Rod, apply the covers on the collumns and surround them with a solid block.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:rbmk_fuel_empty",
+          "count": 1
+        },
+        {
+          "item": "hbm:rbmk_outgasser",
+          "count": 1
+        },
+        {
+          "item": "hbm:rbmk_lid",
+          "count": 2
+        },
+        {
+          "item": "hbm:rbmk_fuel_ra226be",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 21,
+  "y": 4.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/centrifuge"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

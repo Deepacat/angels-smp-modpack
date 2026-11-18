@@ -1,0 +1,13 @@
+name = "NTM: Continuum Claims"
+filename = "ntm-claims-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9624/59/ntm-claims-1.0.1.jar"
+hash-format = "sha1"
+hash = "33f4e7ae0577fc34537ea3a94b5f76b3af8b2168"
+
+[update]
+[update.curseforge]
+project-id = 1806600
+file-id = 9624059

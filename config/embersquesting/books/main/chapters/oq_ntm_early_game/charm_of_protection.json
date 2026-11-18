@@ -1,0 +1,24 @@
+{
+  "title": "Charm of Protection",
+  "icon": "hbm:protection_charm",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Charm of Protection&r diverts meteorites away from the player and prevents them from destoying blocks. It is recommended that one is obtained as soon as possible as to prevent costly damages in the future."
+  ],
+  "x": 19.5,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/armor_modifications"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:protection_charm",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

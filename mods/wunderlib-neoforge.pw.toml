@@ -1,0 +1,13 @@
+name = "WunderLib: New Dawn"
+filename = "wunderlib-21.0.11.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9172/421/wunderlib-21.0.11.jar"
+hash-format = "sha1"
+hash = "58a8354e9ecb70a04b51f080ce3c2864a1cf3700"
+
+[update]
+[update.curseforge]
+project-id = 1422273
+file-id = 9172421

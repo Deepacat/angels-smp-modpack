@@ -1,0 +1,23 @@
+{
+  "title": "Alakarkinos",
+  "description": [
+    "This handsome gentleman can sift archaeology loot out of regular sand and gravel! Pottery sherds are now renewable!"
+  ],
+  "icon": "ars_nouveau:alakarkinos_charm",
+  "x": 12.5,
+  "y": 1.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:alakarkinos_charm",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

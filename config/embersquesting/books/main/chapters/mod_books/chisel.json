@@ -1,0 +1,21 @@
+{
+  "title": "Chisel",
+  "subtitle": "Lotsa block variants and custom blocks",
+  "description": [
+    "I can't lie I just wanted it for factory blocks. It's a dependency."
+  ],
+  "icon": "chisel:chisel",
+  "x": 3.25,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

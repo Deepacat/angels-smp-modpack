@@ -1,0 +1,13 @@
+name = "Integrated API"
+filename = "integrated_api-neoforge-1.21.1-1.9.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9552/190/integrated_api-neoforge-1.21.1-1.9.2.jar"
+hash-format = "sha1"
+hash = "deb0bbaabc520dece9047f5527d1d6d85082bfae"
+
+[update]
+[update.curseforge]
+project-id = 817709
+file-id = 9552190

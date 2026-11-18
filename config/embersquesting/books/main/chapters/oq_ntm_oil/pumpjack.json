@@ -1,0 +1,37 @@
+{
+  "title": "Pumpjack",
+  "icon": "hbm:machine_pumpjack",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Pumpjack&r is a more efficient &3Oil Derrick&r which extracts 750mb of &bCrude Oil&r and a random amount of &bNatural Gas&r between 50 and 250mb in a 1.25 second cycle. It depletes a single block of a deposit after extracting a random number of cycles of oil that is on average twice as large compared to the derrick.",
+    "",
+    "In total, this means that the pumpjack is on average 3x as efficient at extracting oil and 3x as fast at doing so while producing the same amount of natural gas as the derrick.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:machine_pumpjack",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 17,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

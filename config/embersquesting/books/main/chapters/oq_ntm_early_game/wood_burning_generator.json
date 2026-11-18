@@ -1,0 +1,25 @@
+{
+  "title": "Wood-Burning Generator",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Wood-Burning Generator&r is basic method of producing energy by burning wood. It can run on any burnable items but provides burn time bonuses to logs and wood. It can also run on any flammable fuel by clicking on the arrow below the on/off switch, but it is considerably more inefficient than other fluid burning generators.",
+    "",
+    "Burning logs in the generator produces &e2kHE/s.&r"
+  ],
+  "icon": "hbm:machine_wood_burner",
+  "x": 12.5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_wood_burner",
+      "type": "item"
+    }
+  ]
+}

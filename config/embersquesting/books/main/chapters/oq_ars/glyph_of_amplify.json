@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Amplify",
+  "description": [
+    "Arguably the most important glyph in the game, as it makes all other glyphs more powerful. In particular it makes the Break spell as powerful as a diamond pickaxe (which is why it requires one), so you can break obsidian really fast!"
+  ],
+  "icon": "ars_nouveau:glyph_amplify",
+  "x": 4,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ars/simplest_glyphs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_amplify",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

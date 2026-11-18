@@ -1,0 +1,38 @@
+{
+  "title": "Mage Robes",
+  "description": [
+    "You can make mage robes out of gold, iron or diamond armor, which give you increased mana reserves and mana regeneration! Higher tier base materials give more protection, but less thread slots (@see Threads and Alteration, also gold is considered a lower material than iron). It can also be directly upgraded with Nether and End materials to get more thread slots, and can be dyed!"
+  ],
+  "icon": "ars_nouveau:arcanist_hood",
+  "x": 12.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_hood) item(ars_nouveau:arcanist_hood) item(ars_nouveau:battlemage_hood))",
+      "type": "item",
+      "title": "Any Mage Hood"
+    },
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_robes) item(ars_nouveau:arcanist_robes) item(ars_nouveau:battlemage_robes))",
+      "type": "item",
+      "title": "Any Mage Robes"
+    },
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_leggings) item(ars_nouveau:arcanist_leggings) item(ars_nouveau:battlemage_leggings))",
+      "type": "item",
+      "title": "Any Mage Leggings"
+    },
+    {
+      "filter": "or(item(ars_nouveau:sorcerer_boots) item(ars_nouveau:arcanist_boots) item(ars_nouveau:battlemage_boots))",
+      "type": "item",
+      "title": "Any Mage Boots"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Industrial Liquification Machine",
+  "icon": "hbm:machine_liquefactor",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Industrial Liquification Machine&r is a general use machine for the liquifying various items. It becomes very useful for cobblestone generation, and thus &6Silicon&r automation."
+  ],
+  "x": 4,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/industrial_solidification_machine"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_liquefactor",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

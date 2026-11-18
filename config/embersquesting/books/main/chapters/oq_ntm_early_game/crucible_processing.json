@@ -1,0 +1,22 @@
+{
+  "title": "Crucible Processing",
+  "icon": "hbm:stone_resource_hematite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Hematite&r and &6Malachite&r can be processed in a crucible with Flux to produce &6Iron&r and &6Copper&r respectively."
+  ],
+  "x": 5.5,
+  "y": 15,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

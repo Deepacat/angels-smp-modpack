@@ -1,0 +1,28 @@
+{
+  "title": "Gravity Gun",
+  "icon": "gravigun:gravigun",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Gravity Gun&r is an advanced tool which can lift and throw blocks. It is particularly useful for moving highly hazardous blocks, such as corium from a reactor meltdown, or throwing explosives.",
+    "",
+    "&2The gravity gun can be supercharged in a Fusion Reactor Breeding Chamber, further increasing its range and power."
+  ],
+  "x": 16.5,
+  "y": 15,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_fusion/schrabidium",
+      "oq_ntm_oil/weapon_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "gravigun:gravigun",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

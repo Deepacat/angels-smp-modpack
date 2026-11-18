@@ -1,0 +1,28 @@
+{
+  "title": "ZIRNOX",
+  "icon": "hbm:machine_zirnox",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3ZIRNOX&r is the first and cheapest nuclear reactor that one can make. Unlike the &3PWR&r and &3RBMK&r, it is a fully assembled reactor which requires &bWater&r and &bCarbon Dioxide&r to operate.",
+    "",
+    "A ZIRNOX running on &6Natural Uranium Fuel Rods&r, at 14000mb of carbon dioxide and on 3 &3Industrial Turbines&r can produce up to &e285.6kHE/s&r."
+  ],
+  "x": 4,
+  "y": 2.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/industrial_steam_turbine",
+      "oq_ntm_early_game/boiler_and_steam_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_zirnox",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

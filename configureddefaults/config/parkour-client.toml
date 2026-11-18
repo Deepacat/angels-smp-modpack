@@ -1,0 +1,14 @@
+#Client-side settings let you change local preferences.
+[client_settings]
+	#Tracks the one-time Smart Key Prompts default-position setup; later position choices are preserved.
+	tutorialHudPositionInitialized = true
+	#Enable or disable parkour abilities locally (default: true)
+	enableParkour = false
+	#Subtle first-person pitch while swinging on bars (default: true)
+	barSwingCamera = true
+	#Show contextual parkour key hints when Smart Key Prompts is installed (default: true)
+	enableTutorialPrompts = true
+	#Adjusts the depth of the player's arms in first-person view (default: 0.15)
+	# Default: 0.15
+	# Range: -1.0 ~ 1.0
+	armDepthOffset = 0.15

@@ -1,0 +1,23 @@
+{
+  "title": "RBMK Fuel Processing",
+  "icon": "hbm:weapon_mod_test_override_2_5",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "With the &3Nuclear Waste Disposal Drum&r to decay waste and a &3SILEX&r, &3RBMK&r nuclear fuels can be processed into many new materials."
+  ],
+  "x": 14.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/nuclear_waste_disposal_drum",
+      "oq_ntm_fission/fel_and_silex"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

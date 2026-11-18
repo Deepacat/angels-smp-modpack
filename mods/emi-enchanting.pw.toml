@@ -1,0 +1,13 @@
+name = "EMI Enchanting"
+filename = "emi_enchanting-0.1.2+1.21+neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/5733/125/emi_enchanting-0.1.2+1.21+neoforge.jar"
+hash-format = "sha1"
+hash = "02ad74769ffcec259fd9bb14a1760593f6182b5c"
+
+[update]
+[update.curseforge]
+project-id = 936713
+file-id = 5733125

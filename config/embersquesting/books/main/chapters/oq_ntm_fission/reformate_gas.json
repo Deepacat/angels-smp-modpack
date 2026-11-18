@@ -1,0 +1,23 @@
+{
+  "title": "Reformate Gas",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:reformgas\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&bReformate Gas&r is used in welding very durable materials, aswell as used in making &6Saturnite&r."
+  ],
+  "x": 12.5,
+  "y": 18,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/vacuum_refinery",
+      "oq_ntm_fission/advanced_oil_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

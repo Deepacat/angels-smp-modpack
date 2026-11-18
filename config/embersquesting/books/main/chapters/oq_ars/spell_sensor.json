@@ -1,0 +1,23 @@
+{
+  "title": "Spell Sensor",
+  "description": [
+    "Emits a redstone signal when a spell is cast nearby"
+  ],
+  "icon": "ars_nouveau:spell_sensor",
+  "x": 12.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:spell_sensor",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

@@ -1,0 +1,19 @@
+#Play the mine priming sound with a local 32-block fade instead of NTM's volume-3 sound.
+#This only affects the FSTBMB_START arming sound; explosions, damage, and block destruction are unchanged.
+localMinePrimeSound = true
+#Keep highly corrosive fluids inside machine fluid tanks instead of rupturing the tank.
+#Set to false to restore NTM's original rupture behavior.
+#Antimatter explosions and steel barrel corrosion are unaffected.
+preventCorrosiveTankRupture = true
+#Master switch for the addon's Curios charm items and their effects.
+#Curios slot data remains installed; disabling this prevents the charms from being equipped or granting effects.
+enableCuriosCharms = true
+#Master switch for the Meteor Ward and Protection Ward blocks and their protection effects.
+enableWards = true
+#Master switch for the Dutch Air Raid siren track and its cassette item.
+enableSiren = true
+#Master switch for the /ntmadditions meteor command.
+enableMeteorCommand = true
+#Play the metal pipe falling sound when a dropped steel pipe lands.
+#The sound is positional and fades out over roughly 24 blocks.
+metalPipeFallingSound = true

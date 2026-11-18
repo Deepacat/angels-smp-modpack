@@ -1,0 +1,21 @@
+{
+  "title": "Potion Jar",
+  "subtitle": "Stores up to 100 doses of a potion!",
+  "icon": "ars_nouveau:potion_jar",
+  "x": 12.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/ars_essences"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:potion_jar",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

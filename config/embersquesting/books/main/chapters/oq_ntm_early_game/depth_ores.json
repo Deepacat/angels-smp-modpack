@@ -1,0 +1,24 @@
+{
+  "title": "Depth Ores",
+  "icon": "hbm:ore_depth_borax",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Depth Ores&r are large ore deposits found at bedrock level. There are many types of deposits, most of them giving ore crystals which can be smelted for 3 ingots per. &3Mining Charges&r of any kind are required to extract the resources from the depth rock.",
+    "",
+    "Two important resources found in depth deposits are &6Borax&r, which can later be put in an &3Arc Furnace&r or &3Acidizer&r to yield &6Boron&r used in reactors, and &6Zirconium&r which is used in reactor fuel rods."
+  ],
+  "x": 19.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/mining_charge"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

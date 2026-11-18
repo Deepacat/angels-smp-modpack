@@ -1,0 +1,24 @@
+{
+  "title": "Orbital Data",
+  "icon": "hbm:drive_disk_orbitdata_processed",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Orbital Data is currently only used for making &6Gerald&r. Due the amount it requires, it is highly recommended that a large amount of &6Satellite Sensor Relays&r are launched."
+  ],
+  "x": 5,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/sensor_relay"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:drive_disk_orbitdata_processed",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

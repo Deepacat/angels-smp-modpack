@@ -1,0 +1,52 @@
+{
+  "title": "Cast Plates",
+  "icon": "hbm:mold_plate_cast",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Cast Plates&r are crafted by melting 3 ingots worth of materials in a &3Crucible&r and casting it in a &3Shallow Foundry Basin&r with a cast plate mold.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:foundry_mold",
+          "count": 1
+        },
+        {
+          "item": "hbm:mold_plate_cast",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:foundry_basin",
+          "count": 1
+        },
+        {
+          "item": "hbm:mold_plates_cast",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 22.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

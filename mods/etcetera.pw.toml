@@ -1,0 +1,13 @@
+name = "Etcetera"
+filename = "etcetera-neoforge-1.21.1-2.3.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9457/883/etcetera-neoforge-1.21.1-2.3.0.jar"
+hash-format = "sha1"
+hash = "5b6a0a5b7a0898fd524d91689754aaac2388127d"
+
+[update]
+[update.curseforge]
+project-id = 891054
+file-id = 9457883

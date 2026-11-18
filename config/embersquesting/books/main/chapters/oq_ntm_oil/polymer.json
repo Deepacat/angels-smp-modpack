@@ -1,0 +1,33 @@
+{
+  "title": "Polymer",
+  "icon": "hbm:ingot_polymer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Polymer&r is a basic plastic material needed for many recipes. Important early uses of it are the &3Centrifuge&r and the &3Electric Arc Furnace&r.",
+    "",
+    "&2Polymer can be skipped if one decides to make bakelite instead through further oil processing.&r"
+  ],
+  "x": 6.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/chemical_plant",
+      "oq_ntm_oil/basic_oil_processing"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:ingot_polymer",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:ingot_bakelite",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

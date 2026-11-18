@@ -1,0 +1,23 @@
+{
+  "title": "Warp Scrolls",
+  "description": [
+    "Warp scrolls are single-use teleports to a location set beforehand! The stabilized version has unlimited uses and can be used crossdimensionally. You can also throw one into a frame made of Sourcestone and/or Mirrorweave and it will create a portal to the scroll's stored location! Creating such a portal requires source, but using it doesn't."
+  ],
+  "icon": "ars_nouveau:stable_warp_scroll",
+  "x": 12,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:warp_scroll) item(ars_nouveau:stable_warp_scroll))",
+      "type": "item",
+      "title": "Any Warp Scroll"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

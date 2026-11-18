@@ -1,0 +1,30 @@
+{
+  "title": "Compressor",
+  "icon": "hbm:machine_compressor",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Compressor&r is a specialized multiblock machine for compressing fluids. It can perform this operation on any fluid to increase its pressure, for use in other machines. Some of these fluids are compressed into different fluids entirely as special recipes for this machine."
+  ],
+  "x": 13,
+  "y": 26.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:machine_compressor",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:machine_compressor_compact",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

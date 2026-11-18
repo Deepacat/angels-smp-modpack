@@ -1,0 +1,22 @@
+{
+  "title": "Tablet of Challenge",
+  "description": [
+    "If you can't find a pillager captain, this can summon a raid instead!"
+  ],
+  "icon": "ars_nouveau:ritual_challenge",
+  "x": 7,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ars/ritual_brazier"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:ritual_challenge",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

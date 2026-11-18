@@ -1,0 +1,38 @@
+{
+  "title": "Antimatter",
+  "icon": "hbm:particle_amat",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&bAntimatter&r is a dangerous substance which can be obtained from a &3Cyclotron&r or a &3Particle Accelerator&r. If dropped on the floor a violent explosion will occur. Antimatter cant be stored in normal tanks, and as such, a &3Magnetic Antimatter Container&r is required.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:barrel_antimatter",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 0,
+  "y": 9,
+  "deps": {
+    "any": [
+      "oq_ntm_oil/cyclotron",
+      "oq_ntm_particle_physics/particle_accelerator_looping"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:item.cell_antimatter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

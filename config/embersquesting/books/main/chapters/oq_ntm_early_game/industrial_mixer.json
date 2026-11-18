@@ -1,0 +1,24 @@
+{
+  "title": "Industrial Mixer",
+  "icon": "hbm:machine_mixer",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Industrial Mixer&r is a machine that is used to mix a fluid with an item and/or another fluid. It can be used instead of a &3Chemical Plant&r for some recipes."
+  ],
+  "x": 4,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/high_speed_steel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_mixer",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

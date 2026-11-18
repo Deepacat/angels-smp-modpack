@@ -1,0 +1,28 @@
+{
+  "title": "FEnSU",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3FenSU&r is the ultimate energy storage block, being able to unlimited amounts of energy. It requires &e300GHE&r of power, or &e75GHE&r with isotope boosting.",
+    "",
+    "&2A Plasma Forge with a plasma input energy of 50MTU/t is required. Stellar Flux plasma is needed.&r"
+  ],
+  "icon": "hbm:machine_battery_redd",
+  "x": 4.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/the_book_of_boxcars",
+      "oq_ntm_fission/starmetal",
+      "oq_ntm_end_game/welded_osmiridium_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_battery_redd",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

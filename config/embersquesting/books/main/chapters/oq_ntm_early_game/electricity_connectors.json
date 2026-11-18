@@ -1,0 +1,31 @@
+{
+  "title": "Electricity Connectors",
+  "icon": "hbm:red_connector",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "For better looking, aswell as longer distance energy transportation, a &l&r&6Cable Drum&r with &3Electricity Connectors&r can be used. These powerlines are non solid and can also pass through floors and walls.",
+    "",
+    "&2These cables can be dyed."
+  ],
+  "x": 0,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/energy_cables"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:wiring_red_copper",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:red_connector",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

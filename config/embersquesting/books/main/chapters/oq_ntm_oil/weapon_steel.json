@@ -1,0 +1,25 @@
+{
+  "title": "Weapon Steel",
+  "icon": "hbm:ingot_weaponsteel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Weapon steel&r is a steel alloy made by further refining steel in a &3Rotary Furnace&r. As its name implies, it is used in the crafting of weapons and ammunition. It is the next tier of weapons grade alloy after &6Gunmetal&r."
+  ],
+  "x": 17.5,
+  "y": 19.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/coker_unit",
+      "oq_ntm_early_game/rotary_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_weaponsteel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Desh Stamps",
+  "icon": "hbm:stamp_desh_flat",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Desh Stamps&r have infinite durability, perfect for automation."
+  ],
+  "x": 2,
+  "y": 8,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/ferrouranium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:stamp_desh_flat",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Novice Spell Book",
+  "description": [
+    "With the power of shoving a variety of iron tools into a book, you are now a sorcerer!\n\nThe default keybind to opening the spellbook is C, then X and Z to switch between the ten spells in the book. Of course, you can change all of these.\n\nSpells are made of several glyphs. Every spell starts with a form glyph, then one or several effect glyphs, optionally with one or several augment glyphs after each.\n\nThe spellbook also has documentation for the mod inside! Consult it if stuck!"
+  ],
+  "icon": "ars_nouveau:novice_spell_book",
+  "x": 3,
+  "y": 5,
+  "tasks": [
+    {
+      "item": "ars_nouveau:novice_spell_book",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

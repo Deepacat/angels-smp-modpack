@@ -1,0 +1,22 @@
+{
+  "title": "Entropy Manipulator",
+  "description": [
+    "This is a somewhat niche tool, but it can turn water into ice, which is nice §o(heh)§r if you need it for some other mod.\nAlso turns logs into charcoal, cobble into stone and lava into obsidian, as well as acts as a flint and steel."
+  ],
+  "icon": "ae2:entropy_manipulator",
+  "x": 6,
+  "y": 7,
+  "deps": {
+    "all": [
+      "oq_ae2/energy_cell"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:entropy_manipulator",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

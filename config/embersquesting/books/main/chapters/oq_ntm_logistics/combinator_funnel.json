@@ -1,0 +1,24 @@
+{
+  "title": "Combinator Funnel",
+  "icon": "hbm:machine_funnel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The Combinator Funnel is used to perform crafts of the same item in a 3x3 or 2x2 grid. It becomes extremely useful for &eBedrock Ore Processing&r."
+  ],
+  "x": 3,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_funnel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

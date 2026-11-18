@@ -1,0 +1,30 @@
+{
+  "title": "Versatile Integrated Circuit",
+  "icon": "hbm:circuit_chip_bismoid",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Versatile Integrated Circuit&r is the first circuit to use &6Bismuth/Arsenic&r. It is used in more advanced machines such as the &3Vacuum Refinery&r and is one of the main components of &6Versatile Circuit Boards&r."
+  ],
+  "x": 14.5,
+  "y": 9.5,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/arsenic",
+      "oq_ntm_fission/bismuth"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/arsenic": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_chip_bismoid",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

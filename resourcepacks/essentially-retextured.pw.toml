@@ -1,0 +1,13 @@
+name = "Essentially Retextured"
+filename = "EssentiallyRetextured.zip"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/8797/784/EssentiallyRetextured.zip"
+hash-format = "sha1"
+hash = "fea3be8341182186bee59b3941371b46ae4128e2"
+
+[update]
+[update.curseforge]
+project-id = 1679865
+file-id = 8797784

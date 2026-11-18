@@ -1,0 +1,24 @@
+{
+  "title": "Microchip",
+  "icon": "hbm:circuit_chip",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Microchips&r are one of the most important components of future circuits and will be used in bulk throughout progression."
+  ],
+  "x": 6.5,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/electric_arc_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:circuit_chip",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

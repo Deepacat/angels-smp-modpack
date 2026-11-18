@@ -1,0 +1,24 @@
+{
+  "title": "Spatial Anchor",
+  "description": [
+    "This block makes your AE2 system always load all chunks it spans, within a single dimension."
+  ],
+  "icon": "ae2:spatial_anchor",
+  "x": 9.5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/printed_circuits_and_processors"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:spatial_anchor",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "gear",
+  "lines_in": "hover",
+  "size": 1.25
+}

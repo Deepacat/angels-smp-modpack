@@ -1,0 +1,25 @@
+{
+  "title": "Energy Cell",
+  "description": [
+    "This augments energy storage of the AE2 network, allowing it to, for example, make bigger crafts. Very relevant for Spatial IO. There's also an upgraded dense version."
+  ],
+  "icon": "ae2:energy_cell",
+  "x": 5,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/fluix_crystals"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:energy_cell",
+      "type": "item"
+    },
+    {
+      "item": "ae2:dense_energy_cell",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

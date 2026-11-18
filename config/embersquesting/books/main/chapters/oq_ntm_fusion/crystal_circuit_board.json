@@ -1,0 +1,31 @@
+{
+  "title": "Crystal Circuit Board",
+  "icon": "hbm:circuit_crystal",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Crystal Circuit Board&r is an end game circuit used for making &6Gerald&r and the &3DFC&r. The finished item will be received via the &3Cargo Landing Pad&r."
+  ],
+  "x": 5,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/crystalline_fullerite",
+      "oq_ntm_fusion/0g_assembler",
+      "oq_ntm_oil/precision_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:sat_dock",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:circuit_crystal",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

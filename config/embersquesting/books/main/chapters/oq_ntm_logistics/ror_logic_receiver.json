@@ -1,0 +1,25 @@
+{
+  "title": "ROR Logic Receiver",
+  "icon": "hbm:radio_torch_logic",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The ROR &6Logic Receiver&r is a more advanced version of the receiver with a more extensive UI which can be used to specify the conditions that are needed for a signal to be received."
+  ],
+  "x": 6,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/microchip",
+      "oq_ntm_logistics/redstone_over_radio"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:radio_torch_logic",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

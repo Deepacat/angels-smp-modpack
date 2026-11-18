@@ -1,0 +1,36 @@
+{
+  "title": "HBM's Nuclear Tech Mod",
+  "subtitle": "Multiblocks, chemistry, nuclear science",
+  "description": [
+    "HBM's Nuclear Tech Mod is a silly soulful automation/progression tech mod",
+    "",
+    "It is mainly multiblock focused, with factorio-like logistics (with some elements from satisfactory, allowing it to work in a 3d environment)",
+    "",
+    "The mod adds alot of structures and environmental hazards you will find around as well whilst exploring."
+  ],
+  "icon": "hbm:nuke_man",
+  "x": 8.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "hbm:book_guide_starter",
+      "type": "item"
+    },
+    {
+      "title": "You can press F1 on items with guides",
+      "points": 1,
+      "type": "xp"
+    }
+  ],
+  "shape": "circle"
+}

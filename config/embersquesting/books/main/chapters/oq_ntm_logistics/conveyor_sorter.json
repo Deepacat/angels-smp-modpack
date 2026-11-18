@@ -1,0 +1,25 @@
+{
+  "title": "Conveyor Sorter",
+  "icon": "hbm:crane_router",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&3Conveyor Sorters&r are blocks that can sort various items to a specific conveyor belt. They do not have a buffer and simply move items to connected conveyor belts based on their filter options, therefore they can sort items as quickly as they receive them.\nThe sorter has six outputs with five slots each, making it able to route multiple items to one belt."
+  ],
+  "x": 11.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board",
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:crane_router",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

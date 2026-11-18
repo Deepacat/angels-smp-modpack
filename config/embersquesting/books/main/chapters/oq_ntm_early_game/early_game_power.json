@@ -1,0 +1,25 @@
+{
+  "title": "Early Game Power",
+  "icon": "hbm:mp_fuselage_10_solid_duracell",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Early Game has a couple of options for power generation which will be needed to power up the first few basic electric machines."
+  ],
+  "x": 2,
+  "y": 9.5,
+  "size": 2,
+  "deps": {
+    "any": [
+      "oq_ntm_early_game/stirling_engine",
+      "oq_ntm_early_game/wood_burning_generator",
+      "oq_ntm_early_game/steam_engine"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

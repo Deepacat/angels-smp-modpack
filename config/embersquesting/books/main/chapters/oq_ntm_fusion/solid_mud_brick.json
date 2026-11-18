@@ -1,0 +1,25 @@
+{
+  "title": "Solid Mud Brick",
+  "icon": "hbm:ingot_mud",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Poisonous Mud&r is the byproduct of the &3Watz&r operating. This is the solidified version of it which can be used in a &3Crucible&r to create &6CMB Steel&r."
+  ],
+  "x": 16.5,
+  "y": 12,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/watz_powerplant",
+      "oq_ntm_fusion/schrabidium"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_mud",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

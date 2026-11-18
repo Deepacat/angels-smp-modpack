@@ -1,0 +1,24 @@
+{
+  "title": "Spell Turret",
+  "description": [
+    "These can cast spells for you using Source! To inscribe the parchment, place it on the Scribe's Table and shift-right-click with your spellbook with the spell selected."
+  ],
+  "icon": "ars_nouveau:basic_spell_turret",
+  "x": 12.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ars/working_with_source",
+      "oq_ars/scribe_s_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:basic_spell_turret",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

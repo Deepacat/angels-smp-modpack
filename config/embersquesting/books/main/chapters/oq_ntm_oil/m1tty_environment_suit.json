@@ -1,0 +1,40 @@
+{
+  "title": "M1TTY Environment Suit",
+  "icon": "hbm:envsuit_helmet",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6M1TTY Environment Suit&r is a cheap electric armor set that comes with many abilities. It is an excellent armor set for exploring as it comes with very high speed buffs aswell as fast swimming speed."
+  ],
+  "x": 11,
+  "y": 13,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/microchip"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:envsuit_helmet",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:envsuit_plate",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:envsuit_legs",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:envsuit_boots",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

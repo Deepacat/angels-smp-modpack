@@ -1,0 +1,44 @@
+{
+  "title": "Geothermal Heat Exchanger",
+  "icon": "hbm:machine_hephaestus",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Geothermal Heat Exchanger&r is a machine that uses the heat from &bLava&r, &bVolcanic Lava&r, or geothermal vents below it to heat up anything a normal boiler can, such as &bWater&r, and &bOil&r.",
+    "",
+    "It operates on a 15x15x10 box below it, centered right under the middle of the machine. Every \"hot block\" in its operational area contributes some heat to the exchanger, and if at least one geothermal vent is present, the total heat output is tripled. Only 3 blocks are hot enough to contribute heat to the heat exchanger:",
+    "",
+    "Lava (source or flowing blocks): &e5 TU&r\nVolcanic lava: &e150 TU&r\nGeothermal vents: &e300 TU&r (effectively always 900)",
+    "",
+    "The most optimal way to run the geothermal heat exchanger is to place it at Y level 9, above a geothermal vent, and then filling in the rest of its operational range with lava. Given that the average bedrock ore vein contains around 5 bedrock ore blocks, the geothermal heat exchanger can theoretically generate 34,875TU, but in practice the thermal output varies because the geothermal vents can generate volcanic lava passively, which could raise or lower the total heat if the volcanic lava solidifies into basalt."
+  ],
+  "x": 20,
+  "y": 11.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/rubber",
+      "oq_ntm_oil/electric_arc_furnace"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/rubber": {
+      "style": "hidden"
+    },
+    "oq_ntm_oil/electric_arc_furnace": {
+      "style": "hidden"
+    }
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:machine_hephaestus",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

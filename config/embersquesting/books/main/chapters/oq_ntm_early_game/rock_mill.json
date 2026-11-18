@@ -1,0 +1,33 @@
+{
+  "title": "Rock Mill",
+  "icon": "hbm:machine_rockmill",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Rock Mill&r is an early game material grinding machine which grinds down stones into finer items while producing additional byproducts, such as &6Boron&r, &6Niobium&r and &6Titanium&r.",
+    "",
+    "The machine consumes &e500HE/s&r."
+  ],
+  "x": 15.5,
+  "y": 16.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/early_game_power",
+      "oq_ntm_early_game/steel_anvil"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_rockmill",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

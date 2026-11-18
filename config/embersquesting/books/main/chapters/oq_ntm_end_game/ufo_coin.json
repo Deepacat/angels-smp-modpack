@@ -1,0 +1,53 @@
+{
+  "title": "UFO Coin",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The Martian Invasion Ship is a late-game boss which is killed to get the &6UFO Coin&r, used in crafting Gerald.",
+    "",
+    "This quest provides an alternative way of obtaining the coin.",
+    "",
+    "&2This quest can be repeated.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "items": [
+        "hbm:coin_ufo"
+      ],
+      "type": "item"
+    },
+    {
+      "items": [
+        "hbm:spawn_ufo",
+        "hbm:det_nuke"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:coin_ufo",
+  "x": -0.5,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/dineutronium",
+      "oq_ntm_end_game/balls_o_tron"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "hbm:coin_ufo",
+      "type": "item"
+    }
+  ],
+  "repeat": {
+    "cooldown": 60
+  }
+}

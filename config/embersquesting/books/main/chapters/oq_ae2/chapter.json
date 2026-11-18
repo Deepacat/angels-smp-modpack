@@ -1,0 +1,10 @@
+{
+  "title": "Applied Energistics 2",
+  "icon": "ae2:controller",
+  "order": 3,
+  "scope": "team",
+  "group": "tech_info",
+  "defaults": {
+    "progression": "linear"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "title": "Particle Accelerator",
+  "icon": "hbm:pa_detector",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Particle Accelerator&r is a highly modular machine that uses high strength superconducting magnets to accelerate particles to relativistic speeds in order to collide them together. Make sure to head over to the Particle Physics chapter after completing this quest.",
+    "",
+    "Make sure to visit the Particle Physics quest chapter for more information. Due to the complex and expansive nature of the particle accelerator, it is also highly recommend that the wiki is checked out as it provides more information.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Particle_Accelerator",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Particle_Accelerator"
+          }
+        }
+      ]
+    },
+    "&2This quest demands the most essential parts of the particle accelerator, and does not represent the amount needed for it to function."
+  ],
+  "x": 7.5,
+  "y": 13.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:pa_detector",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pa_source",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pa_dipole",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pa_quadrupole",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pa_rfc",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:pa_beamline",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

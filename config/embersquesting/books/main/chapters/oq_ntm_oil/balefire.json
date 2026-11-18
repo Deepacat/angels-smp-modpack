@@ -1,0 +1,39 @@
+{
+  "title": "Balefire",
+  "icon": "hbm:egg_balefire_shard",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Balefire&r is an extremely radioactive substance which can be used to make powerful fuels for the &3RBMK&r, aswell as &bBF Rocket Fuel&r for power production. High radiation resistant equipment is needed to hold the item. &6Thermonuclear Ashes&r can be produced sustainably as a byproduct from &bAntimatter - BF Rocket Fuel&r.",
+    "",
+    "The High-Tech Bomb Defusing Device can extract balefire shards from duds.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:defuser",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/polymer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:egg_balefire_shard",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

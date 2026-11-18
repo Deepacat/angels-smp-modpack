@@ -1,0 +1,25 @@
+{
+  "title": "Saturnite",
+  "icon": "hbm:ingot_saturnite",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Saturnite&r is a very durable, heat-resistant and corrosion-resistant alloy that is commonly used for making stronger gun parts. It is also used to make &6Starmetal&r and is an important component of the &3Watz&r reactor."
+  ],
+  "x": 12.5,
+  "y": 20,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/rotary_furnace",
+      "oq_ntm_fission/reformate_gas"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_saturnite",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

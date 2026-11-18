@@ -1,0 +1,19 @@
+{
+  "title": "Glyph of Lightning",
+  "icon": "ars_nouveau:glyph_lightning",
+  "x": 10.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/archmage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_lightning",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

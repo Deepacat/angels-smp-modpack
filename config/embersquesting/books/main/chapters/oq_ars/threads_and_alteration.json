@@ -1,0 +1,28 @@
+{
+  "title": "Threads and Alteration",
+  "subtitle": "Multithreading for your armor",
+  "description": [
+    "The Alteration Table allows you to weave a variety of different threags into your mage armor, which give different buffs."
+  ],
+  "icon": "ars_nouveau:blank_thread",
+  "x": 13.5,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "oq_ars/mage_robes"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:alteration_table",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:blank_thread",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

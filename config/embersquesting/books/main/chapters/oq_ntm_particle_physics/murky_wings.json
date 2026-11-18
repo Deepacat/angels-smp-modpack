@@ -1,0 +1,25 @@
+{
+  "title": "Murky Wings",
+  "icon": "hbm:wings_murk",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Murky Wings&r are an armor modification which grants creative flight at super fast speeds."
+  ],
+  "x": 1.5,
+  "y": 12,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/murky_anvil",
+      "oq_ntm_particle_physics/tachyon"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:wings_murk",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "ME IO Port",
+  "description": [
+    "This block allows to quickly load and empty storage cells, exchanging contents between them and the main system."
+  ],
+  "icon": "ae2:io_port",
+  "x": 11,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ae2/io"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:io_port",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

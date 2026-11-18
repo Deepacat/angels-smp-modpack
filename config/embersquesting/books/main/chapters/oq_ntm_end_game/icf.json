@@ -1,0 +1,73 @@
+{
+  "title": "ICF",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3ICF&r reactor is a very expensive and powerful reactor, which can produce a substantial amount of energy. Apart from the multiblock itself, &3ICF Lasers&r must be constructed for the reactor to work. &bStellar Flux&r will be produced during its operation which is needed to craft &6Gerald&r. Consider making use of &bLiquid Lead&r as it is a very efficient coolant for the ICF.",
+    "",
+    "&2A Plasma Forge with a plasma input energy of 1MTU/t is required.&r",
+    "",
+    "It is recommended that the wiki is checked out as it has built-in calculators for the laser power consumption and the amount of hot coolant it produces.",
+    {
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Inertial_Confinement_Fusion_Reactor",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Inertial_Confinement_Fusion_Reactor"
+          }
+        }
+      ],
+      "type": "button"
+    }
+  ],
+  "icon": "hbm:icf",
+  "x": 2,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/crystalline_fullerite",
+      "oq_ntm_fusion/ferric_schrabidate",
+      "oq_ntm_fusion/plasma_forge",
+      "oq_ntm_fusion/quantum_processing_unit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:bolt_dura_steel",
+      "count": 960,
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_component_vessel",
+      "count": 240,
+      "type": "item"
+    },
+    {
+      "item": "hbm:plate_cast_steel",
+      "count": 240,
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_component_structure",
+      "count": 117,
+      "type": "item"
+    },
+    {
+      "item": "hbm:plate_cast_bismuth_bronze",
+      "count": 117,
+      "type": "item"
+    },
+    {
+      "item": "hbm:icf_component",
+      "count": 50,
+      "type": "item"
+    },
+    {
+      "item": "hbm:struct_icf_core",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

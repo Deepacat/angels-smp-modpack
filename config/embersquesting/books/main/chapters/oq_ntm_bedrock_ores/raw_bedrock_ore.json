@@ -1,0 +1,35 @@
+{
+  "title": "Raw Bedrock Ore",
+  "icon": "hbm:bedrock_ore_base",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The first step to processing &eRaw Bedrock Ore&r straight out of the ground is to run it through a &3Bedrock Ore Processor&r. This will split the raw ore into general types, with amounts depending on the location the ore was extracted and any effectiveness upgrades. These types are:",
+    "",
+    "&eLight Metal&r - common metals including &6Iron/Copper&r",
+    "",
+    "&eHeavy Metal&r - heavier metals including &6Tungsten/Lead&r",
+    "",
+    "&eRare Earth&r - rare earth metals including &6Cobalt/Rare Earth&r",
+    "",
+    "&eActinide&r - radioactive heavy metals including &6Uranium/Thorium&r",
+    "",
+    "&eNon-Metal&r - non-metallic ores including &6Coal/Sulfur&r",
+    "",
+    "&eCrystalline&r - crystals including &6Redstone/Cinnabar&r"
+  ],
+  "x": 1,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/bedrock_ore_extracting",
+      "oq_ntm_early_game/mining_charge"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

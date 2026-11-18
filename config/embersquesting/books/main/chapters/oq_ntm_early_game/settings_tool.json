@@ -1,0 +1,24 @@
+{
+  "title": "Settings Tool",
+  "icon": "hbm:settings_tool",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Settings Tool&r is used to copy settings of machines. It is especially useful when making large refineries."
+  ],
+  "x": 13,
+  "y": 22.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:settings_tool",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

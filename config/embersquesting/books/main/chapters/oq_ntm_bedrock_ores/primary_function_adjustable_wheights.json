@@ -1,0 +1,22 @@
+{
+  "title": "Primary Function, Adjustable Wheights",
+  "icon": "hbm:bedrock_ore_primary_first_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Increase primary or secondary products with &bHydrogen&r or &bChlorine Gas&r."
+  ],
+  "x": 0,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/seperated_clean_primary_fraction"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

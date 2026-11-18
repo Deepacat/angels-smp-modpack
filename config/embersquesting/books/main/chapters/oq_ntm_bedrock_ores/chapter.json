@@ -1,0 +1,17 @@
+{
+  "title": "Bedrock Ores",
+  "icon": "hbm:machine_ore_slopper",
+  "order": 9,
+  "scope": "team",
+  "links": [
+    {
+      "quest": "oq_ntm_oil/bedrock_ore_extracting",
+      "x": 2.5,
+      "y": 2.0
+    }
+  ],
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

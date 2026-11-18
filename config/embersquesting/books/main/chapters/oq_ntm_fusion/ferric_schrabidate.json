@@ -1,0 +1,25 @@
+{
+  "title": "Ferric Schrabidate",
+  "icon": "hbm:ingot_schrabidate",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Ferric Schrabidate&r is an alloy made from &6Iron&r, &6Ionized Particles&r and &6Schrabidium&r."
+  ],
+  "x": 14.5,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/schrabidium",
+      "oq_ntm_fusion/ionized_particles"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_schrabidate",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Multi-Lane Conveyor Belts",
+  "icon": "hbm:conveyor_wand_double",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Multi-Lane Conveyor Belts can be used to transport items on different lanes on the same block."
+  ],
+  "x": 13,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

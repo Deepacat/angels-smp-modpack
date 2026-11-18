@@ -1,0 +1,22 @@
+{
+  "title": "Decorative Certus Blocks",
+  "description": [
+    "Certus quartz blocks can be stonecut into a variety of decorative blocks!"
+  ],
+  "icon": "ae2:quartz_block",
+  "x": 3,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:quartz_block",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

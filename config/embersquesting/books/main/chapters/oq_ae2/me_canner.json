@@ -1,0 +1,21 @@
+{
+  "title": "ME Canner",
+  "description": [
+    "This machine can put fluids into buckets and take them back out."
+  ],
+  "icon": "extendedae:caner",
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/crystal_assembler"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "extendedae:caner",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

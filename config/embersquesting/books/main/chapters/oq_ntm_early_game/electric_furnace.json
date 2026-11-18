@@ -1,0 +1,30 @@
+{
+  "title": "Electric Furnace",
+  "icon": "hbm:machine_electric_furnace_off",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Electric Furnace&r is a varient of the furnace which uses electricity to smelt items. It also has a slot for upgrades to make it faster later on. It consumes from &e1kHE/s &rwithout upgrades up to &e4kHE/s&r."
+  ],
+  "x": 8,
+  "y": 24.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates",
+      "oq_ntm_early_game/early_game_power"
+    ]
+  },
+  "routes": {
+    "oq_ntm_early_game/early_game_power": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_electric_furnace_off",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

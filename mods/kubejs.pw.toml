@@ -1,0 +1,13 @@
+name = "KubeJS"
+filename = "kubejs-neoforge-2101.7.2-build.381.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9396/59/kubejs-neoforge-2101.7.2-build.381.jar"
+hash-format = "sha1"
+hash = "c795402c73988ed0c03ce61767f9606aa1d606d8"
+
+[update]
+[update.curseforge]
+project-id = 238086
+file-id = 9396059

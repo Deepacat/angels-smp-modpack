@@ -1,0 +1,18 @@
+{
+  "title": "Immersive Aircrafts",
+  "subtitle": "Planes and other simple aerial vehicles",
+  "icon": "immersive_aircraft:biplane",
+  "x": 12.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

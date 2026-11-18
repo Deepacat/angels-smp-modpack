@@ -1,0 +1,78 @@
+{
+  "title": "DFC",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3DFC&r is the last reactor of the mod and as such is very expensive to craft. Apart from the DFC parts, two &6Catalysts&r are needed for the reactor to work.",
+    "",
+    "The DFC core requires &e1.2THE&r of power, or &e300GHE&r with isotope boosting.",
+    "",
+    "&2A Plasma Forge with a plasma input energy of 50MTU/t is required. Stellar Flux plasma is needed.&r",
+    "",
+    "It is recommended that the wiki is checked out.",
+    {
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/DFC",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/DFC"
+          }
+        }
+      ],
+      "type": "button"
+    },
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "items": [
+        "hbm:dfc_receiver"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:dfc_emitter",
+  "x": 2,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/spark_singularity",
+      "oq_ntm_oil/cyclotron",
+      "oq_ntm_fission/starmetal",
+      "oq_ntm_fusion/chlorophyte",
+      "oq_ntm_end_game/welded_osmiridium_plate",
+      "oq_ntm_end_game/high_energy_field_jammer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:dfc_emitter",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dfc_injector",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dfc_stabilizer",
+      "type": "item"
+    },
+    {
+      "item": "hbm:ams_lens",
+      "type": "item"
+    },
+    {
+      "item": "hbm:dfc_core",
+      "type": "item"
+    },
+    {
+      "item": "hbm:ams_catalyst_blank",
+      "count": 2,
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

@@ -1,0 +1,13 @@
+name = "Cynosure"
+filename = "cynosure-1.0.7-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9452/494/cynosure-1.0.7-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "958028a17f6eec23e64aaa3c8b425ef53cd5affe"
+
+[update]
+[update.curseforge]
+project-id = 1259952
+file-id = 9452494

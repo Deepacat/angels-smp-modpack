@@ -1,0 +1,21 @@
+{
+  "title": "Silicon",
+  "description": [
+    "Smelt Certus Quartz Dust to get this. Or smelt Quartz Blend, which is a one to §otwenty-four§r increase on your silicon output at the cost of some charcoal and sand."
+  ],
+  "icon": "ae2:silicon",
+  "x": 5.5,
+  "y": 3,
+  "deps": {
+    "all": [
+      "oq_ae2/certus_quartz_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:silicon",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

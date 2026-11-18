@@ -1,0 +1,27 @@
+{
+  "title": "Bismuth",
+  "icon": "hbm:ingot_bismuth",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Bismuth&r is an important material needed in many advanced crafting recipes. Bismuth can be obtained from either &3RBMK&r fuel depletion and processing though a &3FEL&r and &3SILEX&r, or from bedrock ore processing using &bHigh-Performance Solvent&r.",
+    "",
+    "&6Arsenic&r will require an additional &bOre Acidizer&r aswell as access to high-performance solvent."
+  ],
+  "x": 14.5,
+  "y": 8,
+  "deps": {
+    "any": [
+      "oq_ntm_bedrock_ores/cleaned_byproduct_products",
+      "oq_ntm_fission/rbmk_fuel_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:nugget_bismuth",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

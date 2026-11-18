@@ -1,0 +1,34 @@
+{
+  "title": "Quickstack & Findme",
+  "description": [
+    "§nQuickstack:§r",
+    "",
+    "Inventory includes a button to quickstack to nearby chests, similar to terraria!",
+    "",
+    "It can also be keybound to quickly do so",
+    "",
+    "(I really recommend not enabling or binding the dump key)",
+    "",
+    "§nFind Me:§r",
+    "",
+    "Adds a \"find in nearby inventories\" keybind",
+    "",
+    "hovering an item in inventory or recipe viewer then pressing it will highlight nearby storages containing the item",
+    "",
+    "Also adds a keybind to pull 1/64 of the item, without having to open the storages"
+  ],
+  "icon": "toxony:textures/item/magnifying_glass.png",
+  "x": 10.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

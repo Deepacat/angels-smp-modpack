@@ -1,0 +1,20 @@
+{
+  "title": "Redstone Relay",
+  "subtitle": "Wireless redstone!",
+  "icon": "ars_nouveau:redstone_relay",
+  "x": 13.5,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/dominion_wand"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:redstone_relay",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Summon Steed",
+  "description": [
+    "Your first travel spell!"
+  ],
+  "icon": "ars_nouveau:glyph_summon_steed",
+  "x": 4.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "oq_ars/simplest_glyphs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_summon_steed",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

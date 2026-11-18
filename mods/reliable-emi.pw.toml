@@ -1,0 +1,13 @@
+name = "Reliable EMI (REMI)"
+filename = "remi-neoforge-1.21.1-4.9.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9655/977/remi-neoforge-1.21.1-4.9.0.jar"
+hash-format = "sha1"
+hash = "ac091d468a5151e72aa84eee305205b9f7d03ad0"
+
+[update]
+[update.curseforge]
+project-id = 1411826
+file-id = 9655977

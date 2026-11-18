@@ -1,0 +1,20 @@
+{
+  "title": "Acceleration Card",
+  "description": [
+    "These accelerate AE2 machines! I recommend using your first calculation processors on these to speed up your inscribers."
+  ],
+  "icon": "ae2:speed_card",
+  "x": 5.5,
+  "deps": {
+    "all": [
+      "oq_ae2/upgrade_cards"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:speed_card",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

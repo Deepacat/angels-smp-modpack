@@ -1,0 +1,13 @@
+name = "Kerria"
+filename = "Kerria-1.4.0-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9643/134/Kerria-1.4.0-1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "8ce409ce2f2ad5b4bfff4e3ed4e79d6f78495065"
+
+[update]
+[update.curseforge]
+project-id = 1503432
+file-id = 9643134

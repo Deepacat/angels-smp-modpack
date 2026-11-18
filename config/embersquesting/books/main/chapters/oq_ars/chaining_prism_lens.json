@@ -1,0 +1,23 @@
+{
+  "title": "Chaining Prism Lens",
+  "description": [
+    "When placed on an Advanced Spell Prism, adds glyphs inscribed on it to passing projectiles, fully escaping the glyph count limit of 10 :D"
+  ],
+  "icon": "ars_elemental:chaining_prism_lens",
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/spell_prism",
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_elemental:chaining_prism_lens",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

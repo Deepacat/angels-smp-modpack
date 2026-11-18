@@ -1,0 +1,32 @@
+{
+  "title": "Lamda Rockets",
+  "icon": "hbm:launchpad_lambda",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Lamda-98 Rocket&r is a rocket which can be used to launch satellites for cheaper and faster.",
+    "",
+    "The launch pad consumes &e200kHE/s&r constantly and each launch consumes 16000mb of &bLeaded Gasoline&r and &bHydrogen Peroxide&r. The launches can be set to automatic if fuel and materials are supplied."
+  ],
+  "x": 3,
+  "y": 15.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/flight_data"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:launchpad_lambda",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:missile_lambda",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

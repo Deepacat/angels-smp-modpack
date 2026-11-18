@@ -1,0 +1,52 @@
+{
+  "title": "Gerald the Construction Android",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Gerald the Construction Android&r is the most powerful weapon in the mod. Using this has the side effect of setting the world on fire but also getting tektite, which contains &6Osmiridium&r.",
+    "",
+    "Gerald is the hardest recipe of the mod requiring hundreds of thousands of items, mainly circuit related.",
+    "",
+    "Vast quantities of &6Bismuth&r, &6Tantalum&r and &6Silicon&r are needed, so dont hold back on bedrock ore processing and parallelisation of many processes. If you havent already used &dAE2&r, it is highly recommended at this stage of the game.",
+    "",
+    "Launching Gerald will result in a global firestorm that will decimate all life, including all trees and grass. Make sure to keep a backup of your world before launching him. Gerald can also be launched in the &eNether&r or &eEnd&r.",
+    "",
+    "Alternatively, the modpack introduces a &3Chemical Plant&r recipe for &6Osmiridium Infused Tektite&r to avoid the performance issues with launching gerald.",
+    "",
+    "&2A Plasma Forge with a plasma input energy of 25MTU/t is required.&r &2DHC or Stellar Flux plasma is needed.&r",
+    "",
+    "&2Blueprints can be found in structures, purchased from Bobmazon or made in a Precision Assembler.",
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "items": [
+        "hbm:missile_soyuz_lander"
+      ],
+      "type": "item"
+    }
+  ],
+  "icon": "hbm:sat_gerald",
+  "x": 2,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ntm_end_game/icf_fuels",
+      "oq_ntm_fusion/fusion_reactor_plasma_coupler",
+      "oq_ntm_fusion/crystal_circuit_board",
+      "oq_ntm_end_game/quantum_computer",
+      "oq_ntm_fusion/orbital_data",
+      "oq_ntm_end_game/icf_laser",
+      "oq_ntm_fission/tungsten_carbide"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:sat_gerald",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

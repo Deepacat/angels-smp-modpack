@@ -1,0 +1,21 @@
+{
+  "title": "Planarium",
+  "subtitle": "A compact machine!",
+  "icon": "ars_nouveau:planarium",
+  "x": 13,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ars/warp_scrolls"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:planarium",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

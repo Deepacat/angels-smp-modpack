@@ -1,0 +1,26 @@
+{
+  "title": "Dineutronium",
+  "icon": "hbm:ingot_dineutronium",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Dineutronium&r is the mod's (almost) ultimate material. It's a final tier material and is a higher tier than even &6Euphemium&r. It is very difficult to produce and it's used to make the most absurd and broken items this mod has. The only material that is more difficult to make, would be &6Osmiridium&r."
+  ],
+  "x": 6.5,
+  "y": 14.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/sparkticle",
+      "oq_ntm_fusion/ferric_schrabidate",
+      "oq_ntm_particle_physics/exposure_chamber"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_dineutronium",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

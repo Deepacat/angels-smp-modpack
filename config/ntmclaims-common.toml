@@ -1,0 +1,40 @@
+#Which kinds of NTM world changes are blocked inside FTB Chunks claims.
+[protect]
+	#Explosions, nukes, missiles, bullets/shrapnel breaking blocks.
+	#Follows the claim's own 'Allow Explosions' team setting: if the team allows explosions, NTM explosions work there too.
+	explosions = true
+	#Fire placed by NTM (incendiaries, flamethrowers, napalm, balefire...).
+	fire = true
+	#NTM fluids/blocks spreading into claims (acid, volcanic lava, mud, gases...).
+	fluids = true
+	#Blocks converted by radiation/fallout (dead grass, contaminated blocks, fallout layer...).
+	radiation = true
+	#Terraforming effects (craters, digging/boring missiles, machines carving terrain...).
+	terraform = true
+	#NTM effects placing blocks inside a claim (debris, slag, taint, crashed bombs...).
+	placement = true
+
+#Who is trusted inside a claim (when NTM knows who caused the change, e.g. the player who placed the bomb or machine).
+[trust]
+	#Members of the claim's team may use NTM machines/effects in their own claims (excavator, mining laser, fire, fluids...).
+	members = true
+	#Allies of the claim's team are trusted too.
+	allies = true
+	#Also trust members/allies for EXPLOSIONS (including nukes). Default false: explosions only follow the claim's
+	#'Allow Explosions' setting, like TNT in FTB Chunks - so even your own nuke won't crater your own claim.
+	explosions = false
+	#Also trust members/allies for radiation/fallout block conversion. Default false (your own nuke's fallout won't
+	#contaminate your claim unless the claim allows explosions).
+	radiation = false
+	#When NTM can't tell who caused a change (ambient radiation, natural spreading, unowned entities),
+	#still protect claims. If false, unknown sources are allowed everywhere (explosions still follow the claim's 'Allow Explosions').
+	protectUnknownSources = true
+
+[pvp]
+	#Stop NTM hazards caused by another player (radiation, gas, fire, blast...) from hurting players
+	#inside claims where FTB Chunks disallows PvP.
+	respectClaimPvp = true
+
+[debug]
+	#Log every protection decision (chunk, team, cause, who caused it). Turn on only while testing.
+	logDecisions = false

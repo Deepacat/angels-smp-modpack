@@ -1,0 +1,2031 @@
+.panel_bg {
+  background: $(panel.texture|sdf($(panel@f2), 7, 1, $(border@4a)));
+  padding-all: 6;
+  gap-all: 5;
+}
+
+.preview_bg {
+  background: $(bg.texture|sdf($(bg), 6, 1, $(border@4a)));
+  padding-all: 4;
+}
+
+.configurator_preview_bg {
+  background: $(field.texture|sdf($(field), 6, 1, $(border@4a)));
+  padding-all: 4;
+}
+
+text, label {
+  text-shadow: false;
+  text-color: $(text);
+}
+
+button:host {
+  base-background: $(raised.texture|sdf($(raised), 5, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(border@70))));
+  pressed-background: $(raised_pressed.texture|$(raised.texture|sdf($(raised_pressed), 5, 1, $(border@70))));
+  padding-all: 3;
+  height: 16;
+}
+
+button:host .__button_text__ {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+button:disabled:host {
+  base-background: $(raised_disabled.texture|$(raised.texture|sdf($(raised_disabled), 5, 1, $(border@4a))));
+  hover-background: $(raised_disabled.texture|$(raised.texture|sdf($(raised_disabled), 5, 1, $(border@4a))));
+  pressed-background: $(raised_disabled.texture|$(raised.texture|sdf($(raised_disabled), 5, 1, $(border@4a))));
+}
+
+button:disabled:host .__button_text__ {
+  text-color: $(text_dim);
+  text-shadow: false;
+}
+
+.__confirm-button__ {
+  base-background: $(accent.texture|sdf($(accent), 5));
+  hover-background: $(accent_hover.texture|$(accent.texture|sdf($(accent_hover), 5)));
+  pressed-background: $(accent_pressed.texture|$(accent.texture|sdf($(accent_pressed), 5)));
+}
+
+.__confirm-button__ .__button_text__ {
+  text-color: $(text_on_accent);
+}
+
+.__reject-button__ {
+  base-background: $(danger.texture|sdf($(danger), 5));
+  hover-background: $(danger_hover.texture|$(danger.texture|sdf($(danger_hover), 5)));
+  pressed-background: $(danger_pressed.texture|$(danger.texture|sdf($(danger_pressed), 5)));
+}
+
+.__reject-button__ .__button_text__ {
+  text-color: $(text_on_accent);
+}
+
+text-field, text-area {
+  text-color: $(text);
+  cursor-color: $(text);
+  text-shadow: false;
+}
+
+text-field:host,
+.__tag-field_text-field__,
+.__search-component_text-field__ {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+  focus-overlay: sdf(#00000000, 5, 1, $(accent));
+  padding-all: 3;
+}
+
+search-component:host {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+  focus-overlay: sdf(#00000000, 5, 1, $(accent));
+  height: 16;
+}
+
+switch:host {
+  base-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 6)));
+  pressed-background: $(accent.texture|sdf($(accent), 6));
+  unmark-background: sdf($(text_soft), 5);
+  mark-background: sdf($(bg), 5);
+  height: 12;
+  width: 22;
+  padding-all: 1;
+}
+
+selector:host {
+  background: $(raised.texture|sdf($(raised), 5, 1, $(border@4a)));
+  focus-overlay: sdf(#00000000, 5, 1, $(accent));
+  height: 16;
+  transition: background 0.15 QUAD_OUT;
+}
+
+selector:host:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(border@70))));
+}
+
+.__selector_button-icon__ {
+  background: sprite(ldlib2:textures/gui/down.png) scale(0.55) color($(text_soft));
+}
+
+.__selector_dialog__, .__search-component_dialog__ {
+  background: $(panel.texture|sdf($(panel@f7), 5, 1, $(border@70)));
+  padding-all: 3;
+}
+
+progress-bar:host {
+  height: 8;
+}
+
+progress-bar:host label {
+  font-size: 6;
+  text-color: $(text);
+}
+
+.__progress-bar_bar-container__ {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+  padding-all: 0;
+}
+
+.__progress-bar_bar__ {
+  background: $(accent.texture|sdf($(accent), 4));
+  padding-all: 0;
+}
+
+item-slot, .item-slot_bg {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+  hover-overlay: sdf($(border@3c), 4);
+}
+
+fluid-slot, .fluid-slot_bg {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+}
+
+color-selector:host text-field {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+  focus-overlay: sdf(#00000000, 5, 1, $(accent));
+  padding-all: 3;
+}
+
+color-selector:host button {
+  base-background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+  pressed-background: $(raised_pressed.texture|$(raised.texture|sdf($(raised_pressed), 4, 1, $(border@70))));
+}
+
+color-selector:host .__color-selector_alpha-slider__ {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+  margin-right: 3;
+  padding-all: 2;
+}
+
+color-selector:host .__color-selector_color-slider__ {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+  margin-bottom: 3;
+  padding-all: 2;
+}
+
+color-selector:host .__color-selector_color-preview__ {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+  margin-right: 3;
+  margin-bottom: 3;
+  padding-all: 2;
+}
+
+toggle:host {
+  mark-background: sprite(ldlib2:textures/gui/icon/gdp_icons.png, 72, 0, 12, 12);
+  height: 14;
+}
+
+.__toggle_button__ {
+  base-background: $(field.texture|sdf($(field), 4, 1, $(text_dim)));
+  hover-background: $(raised.texture|sdf($(raised), 4, 1, $(text_note)));
+  pressed-background: $(raised_pressed.texture|$(raised.texture|sdf($(raised_pressed), 4, 1, $(text_note))));
+}
+
+toggle:on .__toggle_button__ {
+  base-background: $(accent.texture|sdf($(accent), 4));
+  hover-background: $(accent_hover.texture|$(accent.texture|sdf($(accent_hover), 4)));
+  pressed-background: $(accent_pressed.texture|$(accent.texture|sdf($(accent_pressed), 4)));
+}
+
+.__toggle_mark-icon__ {
+  margin-all: 2;
+  width: auto;
+  height: auto;
+  flex: 1;
+}
+
+text-area {
+  scroller-view-margin: 8;
+}
+
+text-area:host {
+  focus-overlay: sdf(#00000000, 5, 1, $(accent));
+}
+
+tree-list {
+  collapse-icon: sprite(ldlib2:textures/gui/icon/gdp_icons.png, 188, 240, 5, 5) color($(text_soft));
+  expand-icon: sprite(ldlib2:textures/gui/icon/gdp_icons.png, 132, 230, 5, 5) color($(text_soft));
+}
+
+.__text-area_content-view__ {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+  padding-all: 3;
+}
+
+.__text-area_horizontal-scroller__ {
+  height: 5;
+  margin-top: 2;
+}
+
+.__text-area_vertical-scroller__ {
+  width: 5;
+  margin-left: 2;
+}
+
+scroller-horizontal:host {
+  height: 5;
+}
+
+scroller-vertical:host {
+  width: 5;
+}
+
+.__scroller_scroll_container__ {
+  background: $(field.texture|sdf($(field), 3));
+  padding-all: 0;
+}
+
+scroller-horizontal .__scroller_scroll_bar__,
+scroller-vertical .__scroller_scroll_bar__ {
+  base-background: sdf($(border@50), 3);
+  hover-background: sdf($(border@88), 3);
+  pressed-background: $(accent.texture|sdf($(accent), 3));
+}
+
+.__scroller_head_button__, .__scroller_tail_button__ {
+  display: none;
+}
+
+scroller-view {
+  scroller-view-margin: 8;
+}
+
+.__scroller_view_view-port__ {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+  padding-all: 3;
+}
+
+.__scroller_view_horizontal-scroller__ {
+  height: 5;
+  margin-top: 2;
+}
+
+.__scroller_view_vertical-scroller__ {
+  width: 5;
+  margin-left: 2;
+}
+
+slider-horizontal:host {
+  height: 10;
+}
+
+slider-vertical:host {
+  width: 10;
+}
+
+slider-horizontal, slider-vertical {
+  slider-track-size: 3;
+  slider-handle-size: 5;
+}
+
+.__slider_track__ {
+  background: $(field.texture|sdf($(field), 2, 1, $(border@4a)));
+}
+
+.__slider_fill__ {
+  background: $(accent.texture|sdf($(accent), 2));
+}
+
+.__slider_handle__ {
+  base-background: sdf($(text), 3);
+  hover-background: $(accent_hover.texture|$(accent.texture|sdf($(accent_hover), 3)));
+  pressed-background: $(accent.texture|sdf($(accent), 3));
+}
+
+.__tab-view_tab_header_container__ {
+  background: $(field.texture|sdf($(field), 0 0 7 7, 1, $(border@4a)));
+  margin-bottom: -1;
+  padding-all: 3;
+}
+
+.__tab-view_tab_header_container__ .__scroller_view_view-container__ {
+  gap-all: 3;
+}
+
+.__tab-view_tab_content_container__ {
+  background: $(panel.texture|sdf($(panel), 7 7 0 0, 1, $(border@4a)));
+}
+
+tab-view .__tab-view_tab_scroller__ {
+  margin-bottom: 0;
+}
+
+tab:host {
+  base-background: empty;
+  hover-background: sdf($(border@4a), 5);
+  pressed-background: $(accent.texture|sdf($(accent@3d), 5));
+  padding-all: 3;
+  height: 16;
+}
+
+tab:host:selected {
+  base-background: $(panel.texture|sdf($(panel), 0 0 5 5));
+  hover-background: $(panel.texture|sdf($(panel), 0 0 5 5));
+  pressed-background: $(panel.texture|sdf($(panel), 0 0 5 5));
+}
+
+tab:host:not(tab:selected) label {
+  text-color: $(text_soft);
+  text-shadow: false;
+}
+
+.__dialog_overlay__ {
+  background: $(panel.texture|sdf($(panel), 5));
+}
+
+.__dialog_title__ {
+  background: $(raised.texture|sdf($(raised), 0 0 5 5, 1, $(border@70)));
+  margin-bottom: -1;
+}
+
+.__dialog_title__ > label {
+  text-color: $(text);
+}
+
+.__dialog_content-container__ {
+  background: $(panel.texture|sdf($(panel), 0, 1, $(border@70)));
+}
+
+.__dialog_button-container__ {
+  background: $(panel.texture|sdf($(panel), 5 5 0 0, 1, $(border@70)));
+  margin-top: -1;
+}
+
+menu {
+  background: $(panel.texture|sdf($(panel@f7), 6, 1, $(border@70)));
+  arrow: sprite(ldlib2:textures/gui/right.png) scale(0.55) color($(text_soft));
+}
+
+.__editor__ code-editor {
+  background: $(field.texture|sdf($(field), 6, 1, $(border@4a)));
+}
+
+.__editor_top__ {
+  background: $(raised.texture|sdf($(raised), 0 0 6 6));
+}
+
+.__editor__ button:host {
+  base-background: sdf(#00000000, 5, 1, $(border@4a));
+  hover-background: sdf($(border@4a), 5, 1, $(border@70));
+  pressed-background: $(accent.texture|sdf($(accent@3d), 5, 1, $(accent)));
+}
+
+.__editor__ tab:host {
+  height: 15;
+}
+
+.__editor-gizmo-bar__ {
+  background: $(panel.texture|sdf($(panel@f2), 6, 1, $(border@70)));
+}
+
+.__view-container__ {
+  background: $(bg.texture|sdf($(bg)));
+}
+
+.__view-container_tab-view__ .__tab-view_tab_content_container__ {
+  padding-all: 3;
+}
+
+.__view-container_collapse-button__ {
+  height: 14;
+  width: 14;
+}
+
+ResourceView .__tab-view_tab_header_container__ .__scroller_view_view-container__ {
+  gap-all: 2;
+}
+
+ResourceView tab:host {
+  base-background: empty;
+  hover-background: sdf($(border@4a), 5) scale(0.92);
+  pressed-background: $(accent.texture|sdf($(accent@3d), 5) scale(0.92));
+}
+
+ResourceView tab:host:selected {
+  base-background: $(panel.texture|sdf($(panel), 5) scale(0.92));
+  hover-background: $(raised.texture|sdf($(raised), 5) scale(0.92));
+  pressed-background: $(raised.texture|sdf($(raised), 5) scale(0.92));
+}
+
+.__resource-view_placement-left__ .__tab-view_tab_header_container__ {
+  background: $(bg.texture|sdf($(bg), 7 0 0 7, 1, $(border@4a)));
+  transform: translate(1, 0);
+}
+
+.__resource-view_placement-left__ .__tab-view_tab_content_container__ {
+  background: $(panel.texture|sdf($(panel), 0 7 7 0, 1, $(border@4a)));
+}
+
+.__resource-view_placement-right__ .__tab-view_tab_header_container__ {
+  background: $(bg.texture|sdf($(bg), 0 7 7 0, 1, $(border@4a)));
+  transform: translate(-1, 0);
+}
+
+.__resource-view_placement-right__ .__tab-view_tab_content_container__ {
+  background: $(panel.texture|sdf($(panel), 7 0 0 7, 1, $(border@4a)));
+}
+
+.__resource-view_placement-top__ .__tab-view_tab_header_container__ {
+  background: $(bg.texture|sdf($(bg), 0 0 7 7, 1, $(border@4a)));
+  transform: translate(0, 1);
+}
+
+.__resource-view_placement-top__ .__tab-view_tab_content_container__ {
+  background: $(panel.texture|sdf($(panel), 7 7 0 0, 1, $(border@4a)));
+}
+
+.__resource-view_placement-bottom__ .__tab-view_tab_header_container__ {
+  background: $(bg.texture|sdf($(bg), 7 7 0 0, 1, $(border@4a)));
+  transform: translate(0, -1);
+}
+
+.__resource-view_placement-bottom__ .__tab-view_tab_content_container__ {
+  background: $(panel.texture|sdf($(panel), 0 0 7 7, 1, $(border@4a)));
+}
+
+.__resource-view_tab-placeholder__ {
+  background: $(accent.texture|sdf($(accent@3d), 5));
+}
+
+.__ui-editor-view_header__ {
+  background: $(panel.texture|sdf($(panel)));
+}
+
+.__ui-editor-view_header__ button {
+  height: 14;
+}
+
+.__ui-editor-view_header__ .__toggle_button__ {
+  base-background: sdf(#00000000, 4, 1, $(border@4a));
+  hover-background: sdf($(border@4a), 4, 1, $(border@70));
+  pressed-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+}
+
+.__ui-editor-view_canvas__ {
+  background: $(field.texture|$(field));
+}
+
+.__ui-editor-view_builtin-styles-toggle__ {
+  height: 14;
+  padding-all: 0;
+  mark-background: sdf(#00000000, 4, 1, $(accent));
+}
+
+.__ui-editor-view_builtin-styles-toggle__ .__toggle_button__ {
+  base-background: sdf(#00000000, 4, 1, $(border@4a));
+  hover-background: sdf($(border@4a), 4, 1, $(border@70));
+}
+
+.__ui-editor-view_builtin-styles-toggle__ .__toggle_mark-icon__ {
+  margin-all: 0;
+}
+
+.__ui-editor-view_style-view__ {
+  background: empty;
+  gap-all: 3;
+}
+
+.__editor-window_active__ {
+  background: $(accent.texture|$(accent));
+}
+
+.__editor-window_inactive__ {
+  background: $(raised.texture|$(raised));
+}
+
+.__configurator-group__ .__configurator-group_container__ {
+  background: $(panel.texture|sdf($(panel), 6 6 6 0, 1, $(border@4a)));
+}
+
+.__configurator-group__ > .__configurator_line__ {
+  background: $(bg.texture|sdf($(bg), 5, 1, $(border@4a)));
+}
+
+.__configurator-group__ > .__configurator_line__:hovered:not(:disabled) {
+  background: $(raised.texture|sdf($(raised), 5, 1, $(border@70)));
+}
+
+.__configurator-group__ > .__configurator_line__ > .__configurator_label__ {
+  text-color: $(text_soft);
+  text-shadow: false;
+}
+
+ToggleSelectorConfigurator .__toggle_mark-icon__ {
+  margin-all: 0;
+}
+
+ToggleSelectorConfigurator .__toggle_button__ {
+  base-background: sdf(#00000000, 4, 1, $(border@4a));
+  hover-background: sdf($(border@4a), 4, 1, $(border@70));
+  pressed-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+}
+
+.__array-configurator_button-group__ {
+  background: sdf(#00000000, 5, 1, $(border@4a));
+  padding-all: 2;
+}
+
+.__array-configurator_item_selected__ {
+  background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+}
+
+.__blackboard-var-prop_title-bar__ {
+  background: $(raised.texture|sdf($(raised), 0 0 6 6, 1, $(border@4a)));
+}
+
+.__blackboard-var-prop_content__ {
+  background: $(panel.texture|sdf($(panel), 6 6 0 0, 1, $(border@4a)));
+}
+
+.__node-graph-view_canvas__ {
+  background: $(field.texture|$(field));
+}
+
+.__node-graph-view_canvas-view__ {
+  color: $(bg);
+}
+
+.__node-element__ {
+  background: $(panel.texture|sdf($(panel@f2), 6, 1, $(border@70)));
+}
+
+.__node-title-element__ {
+  background: $(raised.texture|sdf($(raised), 0 0 6 6, 1, $(border@4a)));
+  padding-bottom: 4;
+}
+
+.__node-port-container__ {
+  background: sdf(#00000000, 6 6 0 0);
+}
+
+.__in-out-port-container_input__ {
+  background: sdf(#00000000);
+  margin-all: 1;
+}
+
+.__in-out-port-container_output__ {
+  background: sdf(#14000000);
+  margin-all: 1;
+}
+
+.__capsule-node__ {
+  background: $(raised.texture|sdf($(raised@f2), 8, 1, $(border@70)));
+}
+
+.__capsule-node__ .__node-title-element__ {
+  background: empty;
+  padding-bottom: 0;
+}
+
+.__capsule-node__ .__node-port-container__ {
+  background: empty;
+}
+
+.__context-node__ > .__node-title-element__ {
+  height: 30;
+  gap-all: 5;
+}
+
+.__block-node__ > .__node-title-element__ {
+  background: $(accent.texture|sdf($(accent@3d), 0 0 6 6, 1, $(accent)));
+}
+
+.__block-list-container__ {
+  background: $(field.texture|sdf($(field), 6));
+}
+
+.__subgraph-node__ .__node-title-element__ {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 0 0 6 6, 1, $(border@70))));
+}
+
+.__vertical-port-container__ {
+  padding-all: 2;
+  gap-all: 4;
+}
+
+.__vertical-port__ {
+  padding-all: 1;
+}
+
+.__node-preview__ {
+  background: $(field.texture|sdf($(field), 6 6 0 0, 1, $(border@4a)));
+  padding-all: 3;
+}
+
+.__item-library__ {
+  background: $(panel.texture|sdf($(panel@f7), 7, 1, $(accent)));
+}
+
+.__item-library_description-panel__ {
+  background: $(panel.texture|sdf($(panel@f2), 7, 1, $(border@4a)));
+  padding-all: 6;
+  gap-all: 5;
+}
+
+.__keymap_chord__ {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.__keymap_chord__:hovered {
+  background: $(panel.texture|sdf($(panel), 5, 1, $(border@70)));
+}
+
+.__keymap_chord__.__capturing__ {
+  background: $(field.texture|sdf($(field), 5, 1, $(accent)));
+}
+
+.__keymap_chord-text__ {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.__keymap_chord__.__conflict__ .__keymap_chord-text__ {
+  text-color: $(danger);
+}
+
+#eq_root {
+  background: $(panel.texture|sdf($(panel@f2), 7, 1, $(border@4a)));
+}
+
+#eq_title {
+  text-color: $(text);
+  font-size: 11;
+}
+
+#eq_header_count {
+  text-color: $(accent);
+}
+
+#eq_header_total {
+  text-color: $(text_note);
+}
+
+#eq_search_results {
+  background: $(panel.texture|sdf($(panel@f2), 6, 1, $(border@4a)));
+}
+
+.eq_search_row {
+  base-background: empty;
+  hover-background: sdf($(border@4a), 4);
+  pressed-background: $(accent.texture|sdf($(accent@3d), 4));
+}
+
+.eq_search_done .__button_text__ {
+  text-color: $(success);
+}
+
+.eq_search_chapter, .eq_search_note {
+  text-color: $(text_note);
+}
+
+.eq_node.eq_pulse {
+  overlay: sdf(#00000000, 8, 2, $(accent)) scale(1.2);
+}
+
+#eq_chapters {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+}
+
+#eq_chapters .__scroller_view_view-port__ {
+  background: empty;
+}
+
+.eq_chapter {
+  base-background: empty;
+  hover-background: sdf($(border@4a), 4);
+  pressed-background: $(accent.texture|sdf($(accent@3d), 4));
+}
+
+.eq_chapter.eq_selected {
+  base-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+  hover-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent_hover)));
+  pressed-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent_pressed)));
+}
+
+.eq_chapter .__button_text__ {
+  text-color: $(text);
+}
+
+.eq_chapter_count {
+  text-color: $(text_note);
+}
+
+.eq_chapter_done .eq_chapter_count {
+  text-color: $(success);
+}
+
+.eq_chapter .eq_chapter_count.eq_chapter_unclaimed {
+  text-color: $(node_claimable_outline);
+}
+
+.eq_chapter_check {
+  background: sprite(embersquesting:textures/gui/node_check_base.png) color($(node_check));
+}
+
+.eq_chapters_empty {
+  text-color: $(text_note);
+}
+
+#eq_inbox_button, #eq_todo_button {
+  base-background: $(raised.texture|sdf($(raised), 5, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(border@70))));
+}
+
+#eq_panel {
+  background: $(bg.texture|sdf($(bg), 5, 1, $(border@4a)));
+}
+
+#eq_panel_title {
+  text-color: $(text);
+  font-size: 10;
+}
+
+.eq_section, .eq_consequences_head {
+  text-color: $(text_soft);
+}
+
+#eq_panel_desc > .eq_paragraph > label, #eq_panel_desc .eq_content_label, #eq_panel_desc .eq_scene_text, .eq_scene_zoom .eq_scene_text, #eq_panel_desc .eq_locate_label, #eq_panel_desc .eq_locate_result, .eq_story_text > .eq_paragraph > label, .eq_story_text .eq_content_label {
+  text-color: $(text_soft);
+}
+
+.eq_task, .eq_reward {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+}
+
+.eq_task.eq_task_done {
+  background: $(success.texture|sdf($(success@3d), 4, 1, $(success@90)));
+}
+
+.eq_task_text, .eq_reward_text {
+  text-color: $(text);
+}
+
+.eq_task_done .eq_task_text {
+  text-color: $(success);
+}
+
+.eq_task_bar .__progress-bar_bar__ {
+  background: $(accent.texture|sdf($(accent), 3));
+}
+
+.eq_task_done .eq_task_bar .__progress-bar_bar__ {
+  background: $(success.texture|sdf($(success), 3));
+}
+
+.eq_inbox_row {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_inbox_row label {
+  text-color: $(text);
+}
+
+.eq_inbox_row:hovered, .eq_inbox_row.eq_key_focus {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+}
+
+.eq_submit, .eq_inbox_action:not(.__confirm-button__) {
+  base-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(accent))));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(accent_hover))));
+  pressed-background: $(raised.texture|sdf($(raised), 5, 1, $(accent_pressed)));
+}
+
+.eq_lookup:hovered {
+  overlay: sdf($(text@30), 4);
+}
+
+.eq_hud_quest {
+  text-color: $(accent);
+}
+
+.eq_hud_task, .eq_hud_locate {
+  text-color: $(text);
+}
+
+.eq_hud .eq_task_done {
+  text-color: $(success);
+}
+
+.eq_toast {
+  background: $(panel.texture|sdf($(panel@f2), 6, 1, $(accent)));
+}
+
+.eq_toast_title {
+  text-color: $(accent);
+}
+
+.eq_toast_text {
+  text-color: $(text);
+}
+
+.eq_form_label {
+  text-color: $(text_soft);
+}
+
+.eq_form_error {
+  text-color: $(danger);
+}
+
+#eq_edit.eq_selected {
+  base-background: $(accent.texture|sdf($(accent@3d), 5, 1, $(accent)));
+  hover-background: $(accent.texture|sdf($(accent@3d), 5, 1, $(accent_hover)));
+  pressed-background: $(accent.texture|sdf($(accent@3d), 5, 1, $(accent_pressed)));
+}
+
+#eq_new_chapter {
+  base-background: $(raised.texture|sdf($(raised), 5, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(border@70))));
+}
+
+.eq_popup {
+  background: $(panel.texture|sdf($(panel@fa), 7, 1, $(border@70)));
+}
+
+.eq_popup_shade {
+  background: $(shade.texture|rect($(shade)));
+}
+
+#eq_popup_close, .eq_inbox_x {
+  base-background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+  pressed-background: $(raised_pressed.texture|$(raised.texture|sdf($(raised_pressed), 4, 1, $(border@70))));
+}
+
+#eq_settings, #eq_header_inbox, #eq_header_todo, #eq_header_world, #eq_header_story, #eq_emergency, .eq_window_button {
+  base-background: $(raised.texture|sdf($(raised), 5, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 5, 1, $(border@70))));
+}
+
+.eq_hud_bg {
+  background: $(bg.texture|sdf($(bg@c8), 4, 0, #00000000));
+}
+
+.eq_hud_bar {
+  background: rect($(text@50));
+}
+
+.eq_hud_bar_fill {
+  background: $(accent.texture|rect($(accent)));
+}
+
+.eq_hud_bar.eq_task_done .eq_hud_bar_fill {
+  background: $(success.texture|rect($(success)));
+}
+
+.eq_hud_more {
+  text-color: $(text_soft);
+}
+
+.eq_lines_exclusive {
+  color: $(line_exclusive);
+}
+
+.eq_node.eq_locked {
+  background: sdf($(node_locked), 6, 1.5, $(node_locked_outline));
+}
+
+.eq_node.eq_locked .eq_node_icon {
+  color: $(node_locked_icon);
+}
+
+.eq_node.eq_failed {
+  background: sdf($(node_failed), 6, 1.5, $(node_failed_outline));
+}
+
+.eq_node.eq_failed .eq_node_icon {
+  color: $(node_failed_icon);
+}
+
+.eq_node.eq_unknown {
+  background: sdf($(node_unknown), 6, 1.5, $(node_unknown_outline));
+}
+
+.eq_node .eq_node_mark {
+  text-color: $(text_soft);
+}
+
+.eq_node_badge {
+  background: empty;
+}
+
+// .eq_unread {
+//   background: $(accent.texture|sdf($(accent), 3));
+// }
+
+.eq_unread {
+  background: empty;
+}
+
+#eq_map_controls {
+  background: $(panel.texture|sdf($(panel@e6), 5));
+}
+
+.eq_float {
+  background: $(panel.texture|sdf($(panel@c8), 5, 1, $(border@4a)));
+}
+
+.eq_float #eq_chapters {
+  background: empty;
+}
+
+#eq_map_zoom {
+  text-color: $(text_soft);
+}
+
+.eq_placeholder {
+  text-color: $(text_dim);
+}
+
+.eq_graph_empty {
+  text-color: $(text_dim);
+}
+
+.eq_tag {
+  background: $(raised.texture|sdf($(raised), 3));
+  text-color: $(text_soft);
+}
+
+.eq_tag.eq_tag_optional {
+  background: sdf(#33485a, 3, 1, #6f9fc4);
+  text-color: #cfe2f0;
+}
+
+.eq_optional_note {
+  text-color: $(text_dim);
+}
+
+.eq_section_rule {
+  background: rect($(text_soft@4a));
+}
+
+.eq_node.eq_optional.eq_locked {
+  background: group(sdf($(node_optional_locked), 6, 1.5, $(node_optional_locked_ring)), sdf(#00000000, 4, 1, #4c4c50) scale(0.8));
+}
+
+.eq_node.eq_optional.eq_available {
+  background: group(sdf($(node_optional), 6, 1.5, $(node_optional_available_ring)), sdf(#00000000, 4, 1, $(node_optional_outline)) scale(0.8));
+}
+
+.eq_node.eq_optional.eq_in_progress {
+  background: group(sdf($(node_optional), 6, 1.5, $(node_optional_started_ring)), sdf(#00000000, 4, 1, $(node_optional_outline)) scale(0.8));
+}
+
+.eq_node.eq_optional.eq_completed {
+  background: group(sdf($(node_optional), 6, 1.5, $(node_optional_claimable_ring)), sdf(#00000000, 4, 1, $(node_optional_outline)) scale(0.8));
+}
+
+.eq_node.eq_optional.eq_claimed {
+  background: group(sdf($(node_optional), 6, 1.5, $(node_optional_completed_ring)), sdf(#00000000, 4, 1, $(node_optional_outline)) scale(0.8));
+}
+
+.eq_node.eq_optional.eq_locked .eq_node_icon {
+  color: $(node_optional_locked_icon);
+}
+
+.eq_requires_head, .eq_dep {
+  text-color: $(text_soft);
+}
+
+.eq_dep_link {
+  text-color: $(accent);
+}
+
+.eq_dep_link:hovered {
+  text-color: $(accent_hover);
+}
+
+.eq_status_note {
+  text-color: $(success);
+}
+
+.eq_choose {
+  text-color: $(text_dim);
+}
+
+.eq_choice {
+  background: $(raised.texture|sdf($(raised), 4));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_choice:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4)));
+}
+
+.eq_choice.eq_selected {
+  background: $(raised_pressed.texture|$(raised.texture|sdf($(raised_pressed), 4, 1, $(accent))));
+}
+
+.eq_choice_closed:hovered {
+  background: $(raised.texture|sdf($(raised), 4));
+}
+
+.eq_choice_mark {
+  background: sdf(#00000000, 5, 1, $(text_dim));
+}
+
+.eq_choice.eq_selected .eq_choice_mark {
+  background: $(accent.texture|sdf($(accent), 5));
+}
+
+.eq_inbox_row .eq_inbox_note {
+  text-color: $(accent);
+}
+
+.eq_inbox_row .eq_inbox_chapter {
+  text-color: $(text_note);
+}
+
+.eq_inbox_row .eq_presence_text {
+  text-color: $(warning);
+}
+
+.eq_todo_group {
+  text-color: $(text_dim);
+  text-shadow: false;
+}
+
+#eq_root.eq_fullscreen {
+  background: $(panel.texture|rect($(panel)));
+}
+
+#eq_sidebar.eq_floating {
+  background: $(panel.texture|rect($(panel)));
+}
+
+#eq_root > dialog:host {
+  background: $(shade.texture|rect($(shade)));
+}
+
+.eq_edge:hover .eq_edge_line, .eq_edge.eq_dragging .eq_edge_line {
+  background: sdf($(line_active), 1);
+}
+
+.eq_edge.eq_collapsed {
+  background: $(bg.texture|sdf($(bg), 3, 1, $(border@4a)));
+}
+
+.eq_edge.eq_collapsed:hover {
+  background: $(bg.texture|sdf($(bg), 3, 1, $(accent)));
+}
+
+.eq_edge.eq_collapsed .eq_edge_line {
+  background: empty;
+}
+
+.eq_grip {
+  base-background: empty;
+  hover-background: empty;
+  pressed-background: empty;
+}
+
+.eq_grip .__button_text__ {
+  text-color: $(text_note);
+  text-shadow: false;
+}
+
+.eq_grip:hover .__button_text__ {
+  text-color: $(accent);
+}
+
+.eq_entry, .eq_dep_row {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_entry:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+}
+
+.eq_entry_text {
+  text-color: $(text);
+}
+
+.eq_section_bar label {
+  text-color: $(text_soft);
+}
+
+.eq_dep_chapter {
+  text-color: $(text_dim);
+}
+
+.eq_pick_hint {
+  text-color: $(accent);
+}
+
+.eq_ref_icon {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+}.eq_dep_head {
+  text-color: $(text);
+}
+
+.eq_menu {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@70)));
+}
+
+.eq_layer .__dialog_overlay__ {
+  background: $(bg.texture|sdf($(bg), 5));
+}
+
+.eq_layer .__dialog_content-container__ {
+  background: $(bg.texture|sdf($(bg), 0 0 5 5, 1, $(border@4a)));
+}
+
+.eq_layer .__dialog_button-container__ {
+  background: $(bg.texture|sdf($(bg), 5 5 0 0, 1, $(border@4a)));
+}
+
+.eq_scene_zoom .__dialog_content-container__, .eq_media_zoom .__dialog_content-container__ {
+  background: $(bg.texture|sdf($(bg), 5, 1, $(border@4a)));
+}
+
+.eq_layer_head {
+  background: $(panel.texture|sdf($(panel), 5, 1, $(border@4a)));
+}
+
+.eq_layer_title {
+  text-color: $(text);
+  font-size: 10;
+}
+
+.eq_section_title {
+  text-color: $(text_soft);
+  background: empty;
+}
+
+#eq_root > dialog.eq_layer_full:host {
+  background: $(bg.texture|rect($(bg)));
+}
+
+.eq_picker_bar .__tab-view_tab_header_container__ {
+  background: empty;
+}
+
+.eq_ref {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_ref:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+}
+
+.eq_ref_name {
+  text-color: $(text);
+}
+
+.eq_ref_arrow {
+  text-color: $(text_dim);
+  background: sprite(ldlib2:textures/gui/right.png) scale(0.55) color($(text_note));
+}
+
+.eq_card {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_card:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+}
+
+.eq_card label {
+  text-color: $(text);
+}
+
+.eq_card label.eq_card_hint {
+  text-color: $(text_note);
+}
+
+.eq_picker_row:hovered, .eq_gallery_tile:hovered {
+  background: sdf($(border@4a), 4);
+}
+
+.eq_picker_row.eq_selected, .eq_gallery_tile.eq_selected {
+  background: $(accent.texture|sdf($(accent@3d), 4));
+}
+
+.eq_picker_row label {
+  text-color: $(text);
+}
+
+.eq_desc_view {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@70)));
+}
+
+.eq_desc_preview {
+  text-color: $(text_soft);
+}
+
+.eq_hint, .eq_picker_row .eq_hint {
+  text-color: $(text_note);
+}
+
+.eq_code {
+  background: $(field.texture|sdf($(field), 3, 1, $(border@4a)));
+}
+
+#eq_panel_desc .eq_heading label, .eq_story_text .eq_heading label {
+  text-color: $(text);
+}
+
+.eq_quote_bar {
+  background: rect($(border@90));
+}
+
+.eq_rule {
+  background: rect($(border@90));
+}
+
+.eq_empty {
+  background: sdf($(border@2a), 4, 1, $(border@48));
+  text-color: $(text_dim);
+}
+
+.eq_icon_btn:host {
+  base-background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  hover-background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+  pressed-background: $(raised_pressed.texture|$(raised.texture|sdf($(raised_pressed), 4, 1, $(border@70))));
+  padding-all: 0;
+  height: 16;
+}.eq_ic_up {
+  overlay: sprite(ldlib2:textures/gui/up.png) scale(0.5) color($(text_soft));
+}
+
+.eq_ic_down {
+  overlay: sprite(ldlib2:textures/gui/down.png) scale(0.5) color($(text_soft));
+}
+
+.eq_ic_remove {
+  overlay: sprite(ldlib2:textures/gui/icon/close.png) scale(0.45) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_ic_remove:hovered {
+  overlay: sprite(ldlib2:textures/gui/icon/close.png) scale(0.45) color($(danger));
+}
+
+.eq_ic_map {
+  overlay: sprite(ldlib2:textures/gui/icon/cursor.png) scale(0.5) color($(text_soft));
+}
+
+.eq_picker_bar tab:host:selected {
+  base-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+  hover-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent_hover)));
+  pressed-background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent_pressed)));
+}
+
+.eq_picker_bar tab:host:selected label {
+  text-color: $(text);
+}
+
+.eq_picker_header label {
+  text-color: $(text_dim);
+}
+
+.eq_picker_count, .eq_pane_title, .eq_content_fields .eq_section_title {
+  text-color: $(text_dim);
+}
+
+.eq_picker_side > label {
+  text-color: $(text);
+}
+
+item-slot.eq_selected {
+  overlay: sdf(#00000000, 4, 1, $(accent));
+}
+
+.eq_saved {
+  text-color: $(success);
+}
+
+.eq_pick_bar {
+  background: $(panel.texture|sdf($(panel@e6), 5));
+}
+
+.eq_desc_view .__scroller_view_view-port__ {
+  background: empty;
+}
+
+.eq_layer_centered .__dialog_overlay__ {
+  background: $(bg.texture|sdf($(bg), 5, 1, $(border@4a)));
+}
+
+.eq_layer_centered .__dialog_content-container__ {
+  background: empty;
+}
+
+.eq_layer_centered .__dialog_button-container__ {
+  background: empty;
+  margin-top: 0;
+}
+
+.eq_picker_bar tab:host {
+  hover-background: sdf($(border@4a), 4);
+  padding-left: 6;
+  padding-right: 6;
+}
+
+.eq_desc_edit .__text-area_content-view__ {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@70)));
+}
+
+.eq_column text-field:host {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@70)));
+}
+
+.eq_desc_preview label {
+  text-color: $(text_note);
+}
+
+.eq_column .__scroller_view_view-port__ {
+  background: $(panel.texture|sdf($(panel), 5, 1, $(border@66)));
+}
+
+.eq_ref_box {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@66)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_ref_box:hovered {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@aa)));
+}
+
+.eq_ref_box .eq_ref_icon {
+  background: empty;
+}
+
+.eq_node.eq_picked {
+  overlay: sdf(#00000000, 7, 1.5, $(accent)) scale(1.07);
+}
+
+.eq_node.eq_pick_self {
+  overlay: sdf(#99000000, 6);
+}
+
+.eq_settings_nav {
+  background: $(panel.texture|sdf($(panel), 5, 1, $(border@66)));
+}
+
+.eq_setting {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+}
+
+.eq_setting_label {
+  text-color: $(text);
+}
+
+.eq_setting .eq_hint, .eq_panel_id {
+  text-color: $(text_dim);
+}
+
+.eq_setting:disabled {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@24)));
+}
+
+.eq_setting:disabled label, .eq_setting:disabled .eq_hint {
+  text-color: $(text_dim);
+}
+
+.eq_setting:disabled .__toggle_button__ {
+  base-background: $(field.texture|sdf($(field), 4, 1, $(text_dim)));
+}
+
+.eq_setting:disabled toggle:on .__toggle_button__ {
+  base-background: sdf($(text_dim), 4);
+}
+
+.eq_node.eq_dim {
+  overlay: sdf($(dim), 6);
+}
+
+.eq_scene {
+  background: $(bg.texture|sdf($(bg), 4, 1, $(border@4a)));
+}
+
+.eq_content_missing {
+  text-color: $(text_dim);
+}
+
+.eq_divider {
+  background: $(divider.texture|$(divider));
+}
+
+.eq_divider_space {
+  background: empty;
+}
+
+.eq_decoration_link:hovered, .eq_decoration_edit:hovered {
+  background: $(accent.texture|sdf($(accent@30), 4));
+}
+
+.eq_content_box > .eq_decoration {
+  background: sdf(#00000000, 2, 1, $(border@4a));
+}
+
+#eq_list {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+}
+
+.eq_list_row {
+  background: empty;
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_list_row:hovered, .eq_list_row.eq_key_focus {
+  background: sdf($(border@2a), 4);
+}
+
+.eq_list_row.eq_selected {
+  background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+}
+
+.eq_road_stop:hovered {
+  background: sdf($(border@2a), 4);
+}
+
+.eq_road_stop.eq_selected {
+  background: $(accent.texture|sdf($(accent@3d), 4, 1, $(accent)));
+}
+
+.eq_list_title {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_list_status {
+  text-color: $(text_soft);
+  text-shadow: false;
+}
+
+.eq_list_row.eq_in_progress .eq_list_status {
+  text-color: $(accent);
+}
+
+.eq_list_row.eq_completed .eq_list_status, .eq_list_row.eq_claimed .eq_list_status {
+  text-color: $(success);
+}
+
+.eq_list_row.eq_locked .eq_list_title, .eq_list_row.eq_unknown .eq_list_title {
+  text-color: $(text_dim);
+}
+
+.eq_list_row.eq_locked .eq_list_status, .eq_list_row.eq_unknown .eq_list_status {
+  text-color: $(text_dim);
+}
+
+.eq_list_row.eq_locked .eq_list_icon, .eq_list_row.eq_unknown .eq_list_icon {
+  color: $(node_locked_icon);
+}
+
+.eq_list_row.eq_failed .eq_list_title, .eq_list_row.eq_failed .eq_list_status {
+  text-color: $(danger);
+}
+
+.eq_list_row.eq_failed .eq_list_icon {
+  color: $(node_failed_icon);
+}
+
+.eq_list_divider {
+  background: rect($(border@2a));
+}
+
+.eq_list_empty {
+  text-color: $(text_dim);
+  text-shadow: false;
+}
+
+#eq_book_title {
+  text-color: $(text_note);
+}
+
+#eq_progress {
+  background: rect($(text@50));
+}
+
+#eq_progress_fill {
+  background: $(accent.texture|rect($(accent)));
+}
+
+#eq_progress.eq_progress_done #eq_progress_fill {
+  background: $(success.texture|rect($(success)));
+}
+
+.eq_status_failed {
+  text-color: $(danger);
+}
+
+.eq_retry_note, .eq_fails_if {
+  text-color: $(node_failed_icon);
+}
+
+.eq_task_while {
+  text-color: $(text_dim);
+}
+
+.eq_notify {
+  background: $(shade.texture|rect($(shade)));
+}
+
+.eq_notify_card {
+  background: $(bg.texture|sdf($(bg@fa), 7, 1, $(border@60)));
+}
+
+.eq_notify_title {
+  text-color: $(accent);
+}
+
+.eq_notify_text {
+  text-color: $(text_soft);
+}
+
+.eq_notify_complete .eq_notify_state {
+  text-color: $(success);
+}
+
+.eq_notify_strip {
+  margin-left: 2;
+  margin-right: 2;
+}
+
+.eq_notify_complete .eq_notify_strip {
+  background: $(success.texture|sdf($(success), 1));
+}
+
+.eq_notify_unlock .eq_notify_state {
+  text-color: $(warning);
+}
+
+.eq_notify_unlock .eq_notify_strip {
+  background: $(warning.texture|sdf($(warning), 1));
+}
+
+.eq_notify_fail .eq_notify_state {
+  text-color: $(danger);
+}
+
+.eq_notify_fail .eq_notify_strip {
+  background: $(danger.texture|sdf($(danger), 1));
+}
+
+#eq_root.eq_layout_log #eq_log_list {
+  background: $(bg.texture|sdf($(bg), 5, 1, $(border@4a)));
+  padding-all: 3;
+}
+
+#eq_log_track.eq_selected {
+  background: $(accent.texture|sdf($(accent@40), 5));
+}
+
+.eq_log_tab {
+  background: $(raised.texture|sdf($(raised), 4, 1, $(border@4a)));
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_log_tab:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@a0))));
+}
+
+.eq_log_tab.eq_selected, .eq_gallery_filter.eq_selected {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@a0))));
+}
+
+#eq_root.eq_layout_log .eq_list_status {
+  text-color: $(text_note);
+  text-shadow: false;
+}
+
+#eq_root.eq_layout_log .eq_list_status.eq_log_status_in_progress {
+  text-color: $(accent);
+}
+
+#eq_root.eq_layout_log .eq_list_status.eq_log_status_ready {
+  text-color: $(warning);
+}
+
+#eq_root.eq_layout_log .eq_list_status.eq_log_status_completed {
+  text-color: $(success);
+}
+
+#eq_root.eq_layout_log .eq_list_status.eq_log_status_failed {
+  text-color: $(danger);
+}
+
+#eq_root .eq_search_status.eq_log_status_in_progress {
+  text-color: $(accent);
+}
+
+#eq_root .eq_search_status.eq_log_status_ready {
+  text-color: $(warning);
+}
+
+#eq_root .eq_search_status.eq_log_status_completed {
+  text-color: $(success);
+}
+
+#eq_root .eq_search_status.eq_log_status_failed {
+  text-color: $(danger);
+}
+
+#eq_view_card {
+  background: $(panel.texture|sdf($(panel@f2), 7, 1, $(border@4a)));
+}
+
+#eq_view_title {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_chapter.eq_group {
+  base-background: empty;
+  hover-background: empty;
+  pressed-background: empty;
+}
+
+.eq_group .__button_text__ {
+  text-color: $(accent);
+}
+
+.eq_group:hovered .__button_text__ {
+  text-color: $(accent_hover);
+}
+
+.eq_group_chevron {
+  text-color: $(accent);
+}
+
+.eq_group:hovered .eq_group_chevron {
+  text-color: $(accent_hover);
+}
+
+.eq_group_guide {
+  background: rect($(border@4a));
+}
+
+.eq_selected .eq_group_guide {
+  background: $(accent.texture|rect($(accent)));
+}
+
+.eq_scene_track {
+  background: rect($(text@50));
+}
+
+.eq_scene_progress_fill {
+  background: $(accent.texture|rect($(accent)));
+}
+
+.eq_scene_keyframe {
+  background: rect($(text));
+}
+
+.eq_scene_tools, .eq_scene_pick {
+  background: $(panel.texture|rect($(panel@b0)));
+}
+
+.eq_scene_tool_text, .eq_scene_pick_name {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_scene_pick_hint {
+  text-color: $(text_dim);
+  text-shadow: false;
+}
+
+.eq_scene_sep {
+  background: rect($(text@30));
+}
+
+.eq_scene_tools .eq_icon_btn:host {
+  base-background: empty;
+  hover-background: rect($(text@20));
+  pressed-background: rect($(text@30));
+}
+
+.eq_sc_layer_down, .eq_sc_expand {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_down.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_layer_down:hovered, .eq_sc_expand:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_down.png) color($(text));
+}
+
+.eq_sc_layer_up, .eq_sc_collapse {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_up.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_layer_up:hovered, .eq_sc_collapse:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_up.png) color($(text));
+}
+
+.eq_sc_all {
+  overlay: sprite(embersquesting:textures/gui/icons/chevrons_vertical.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_all:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/chevrons_vertical.png) color($(text));
+}
+
+.eq_sc_ghost {
+  overlay: sprite(embersquesting:textures/gui/icons/eye.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_ghost:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/eye.png) color($(text));
+}
+
+.eq_sc_ghost_off {
+  overlay: sprite(embersquesting:textures/gui/icons/eye_off.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_ghost_off:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/eye_off.png) color($(text));
+}
+
+.eq_sc_build {
+  overlay: sprite(embersquesting:textures/gui/icons/building.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_build:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/building.png) color($(text));
+}
+
+.eq_sc_prev {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_left.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_prev:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_left.png) color($(text));
+}
+
+.eq_sc_play {
+  overlay: sprite(embersquesting:textures/gui/icons/play.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_play:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/play.png) color($(text));
+}
+
+.eq_sc_pause {
+  overlay: sprite(embersquesting:textures/gui/icons/pause.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_pause:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/pause.png) color($(text));
+}
+
+.eq_sc_next {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_right.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_next:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/chevron_right.png) color($(text));
+}
+
+.eq_sc_restart {
+  overlay: sprite(embersquesting:textures/gui/icons/refresh.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_restart:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/refresh.png) color($(text));
+}
+
+.eq_sc_enlarge {
+  overlay: sprite(embersquesting:textures/gui/icons/zoom_in.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_sc_enlarge:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/zoom_in.png) color($(text));
+}
+
+.eq_scene_slot, .eq_recipe_slot {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+}
+
+.eq_scene_slot.eq_scene_missing {
+  background: $(danger.texture|sdf($(danger@38), 4, 1, $(danger@c0)));
+}
+
+.eq_recipe_arrow {
+  background: sprite(embersquesting:textures/gui/icons/arrow_right.png) color($(text_soft));
+}
+
+.eq_recipe_flame {
+  background: sprite(embersquesting:textures/gui/icons/fire.png) color($(text_soft));
+}
+
+.eq_recipe_shapeless {
+  background: sprite(embersquesting:textures/gui/icons/shuffle.png) color($(text_soft));
+}
+
+.eq_scene_check {
+  background: sprite(embersquesting:textures/gui/icons/check.png) color($(success));
+}
+
+.eq_media {
+  background: $(bg.texture|sdf($(bg), 4, 1, $(border@4a)));
+}
+
+.eq_media_bar {
+  background: $(panel.texture|rect($(panel@b0)));
+}
+
+.eq_media_bar .eq_icon_btn:host {
+  base-background: empty;
+  hover-background: rect($(text@20));
+  pressed-background: rect($(text@30));
+}
+
+.eq_media_time {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_media_title {
+  text-color: $(text);
+}
+
+.eq_media_track {
+  background: rect($(text@50));
+}
+
+.eq_media_seek:hovered .eq_media_track, .eq_media_volume:hovered .eq_media_track {
+  background: rect($(text@70));
+}
+
+.eq_media_fill {
+  background: $(accent.texture|rect($(accent)));
+}
+
+.eq_media_seek:hovered .eq_media_fill, .eq_media_volume:hovered .eq_media_fill {
+  background: $(accent_hover.texture|$(accent.texture|rect($(accent_hover))));
+}
+
+.eq_media_sound {
+  overlay: sprite(embersquesting:textures/gui/icons/volume.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_media_sound:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/volume.png) color($(text));
+}
+
+.eq_media_muted {
+  overlay: sprite(embersquesting:textures/gui/icons/volume_x.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_media_muted:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/volume_x.png) color($(text));
+}
+
+.eq_media_shrink {
+  overlay: sprite(embersquesting:textures/gui/icons/zoom_out.png) color($(text_soft));
+  transition: overlay 0.15 QUAD_OUT;
+}
+
+.eq_media_shrink:hovered {
+  overlay: sprite(embersquesting:textures/gui/icons/zoom_out.png) color($(text));
+}
+
+.eq_media_badge {
+  background: $(panel.texture|sdf($(panel@c0), 4, 1, $(border@4a)));
+}
+
+.eq_media_screen:hovered .eq_media_badge {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover@e0), 4, 1, $(border@70))));
+}
+
+.eq_media_badge_icon {
+  background: sprite(embersquesting:textures/gui/icons/play.png) color($(text_soft));
+}
+
+.eq_media_screen:hovered .eq_media_badge_icon {
+  background: sprite(embersquesting:textures/gui/icons/play.png) color($(text));
+}
+
+.eq_media_caption {
+  background: $(panel.texture|rect($(panel@c0)));
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_media_wait {
+  background: $(panel.texture|sdf($(panel@c0), 4, 1, $(border@4a)));
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_media_transcript {
+  background: $(field.texture|sdf($(field), 4, 1, $(border@4a)));
+}
+
+.eq_media_cue_time {
+  text-color: $(text_dim);
+  text-shadow: false;
+}
+
+.eq_media_cue_text {
+  text-color: $(text_soft);
+  text-shadow: false;
+}
+
+.eq_media_cue_active {
+  background: $(accent.texture|sdf($(accent@30), 4));
+}
+
+.eq_media_cue_active .eq_media_cue_text {
+  text-color: $(text);
+}
+
+.eq_media_cue:hovered {
+  background: $(raised_hover.texture|$(raised.texture|sdf($(raised_hover), 4, 1, $(border@70))));
+}
+
+.eq_shop_list {
+  background: $(field.texture|sdf($(field), 5, 1, $(border@4a)));
+}
+
+.eq_shop_row {
+  background: empty;
+  transition: background 0.15 QUAD_OUT;
+}
+
+.eq_shop_row:hovered {
+  background: sdf($(border@2a), 4);
+}
+
+.eq_shop_row.eq_shop_disabled:hovered {
+  background: sdf($(border@16), 4);
+}
+
+.eq_shop_name {
+  text-color: $(text);
+  text-shadow: false;
+}
+
+.eq_shop_price {
+  text-color: $(text_soft);
+  text-shadow: false;
+}
+
+.eq_shop_row.eq_shop_disabled .eq_shop_name, .eq_shop_row.eq_shop_disabled .eq_shop_price {
+  text-color: $(text_dim);
+}
+
+.eq_shop_row.eq_shop_locked .eq_shop_icon, .eq_shop_lock {
+  color: $(node_locked_icon);
+}
+
+.eq_shop_add_text {
+  text-color: $(accent);
+  text-shadow: false;
+}
+
+.eq_shop_empty {
+  text-color: $(text_dim);
+  text-shadow: false;
+}
+
+.eq_shop_balance, .eq_shop_dialog_balance {
+  text-color: $(text_note);
+}
+
+.eq_pin_glyph {
+  color: $(pin|$(accent));
+}
+
+.eq_style_classiccopy_blank QuestNode.eq_node.eq_completed {
+  background: group(sprite(embersquesting:textures/gui/shapes/rsquare.png) color(#212121), sprite(embersquesting:textures/gui/classic/sheen_rsquare.png) color(#96ffffff), sprite(embersquesting:textures/gui/shapes/rsquare_outline.png) color(#c856ff56));
+}
+
+.eq_style_deepaclassic_blank QuestNode.eq_node.eq_completed {
+  background: group(sprite(embersquesting:textures/gui/shapes/rsquare.png) color(#212121), sprite(embersquesting:textures/gui/classic/sheen_rsquare.png) color(#96ffffff), sprite(embersquesting:textures/gui/shapes/rsquare_outline.png) color(#c856ff56));
+  overlay: sprite(embersquesting:textures/gui/shapes/rsquare.png) color(#64ffffff);
+}
+
+
+
+
+
+.eq_style_deepaclassic_blank #eq_claim {
+  base-background: sdf(#66000000, 5, 1, #14000000);
+  hover-background: sdf(#66000000, 5, 1, #14000000);
+  pressed-background: sdf(#66000000, 5, 1, #14000000);
+  height: 16;
+  padding-all: 3;
+}

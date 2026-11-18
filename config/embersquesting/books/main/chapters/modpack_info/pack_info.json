@@ -1,0 +1,22 @@
+{
+  "title": "Pack Info",
+  "subtitle": "hai :3 read me!",
+  "description": [
+    "There is no /tpa or /sethome, or waystones! All of the stronger travel methods are gated by mods.",
+    "",
+    "Create an FTB team to use FTB chunks to claim your land (Top left of inventory)",
+    "",
+    "If you have any questions, issues or suggestions please lmk!",
+    "",
+    "-Deepacat"
+  ],
+  "icon": "minecraft:textures/item/knowledge_book.png",
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "awa"
+    }
+  ],
+  "shape": "circle",
+  "size": 2.0
+}

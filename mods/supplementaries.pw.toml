@@ -1,0 +1,13 @@
+name = "Supplementaries"
+filename = "supplementaries-1.21.1-4.1.2-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9632/829/supplementaries-1.21.1-4.1.2-neoforge.jar"
+hash-format = "sha1"
+hash = "3db306bd16084a6773dc921ff9baed8bbf600f34"
+
+[update]
+[update.curseforge]
+project-id = 412082
+file-id = 9632829

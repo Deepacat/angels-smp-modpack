@@ -1,0 +1,24 @@
+{
+  "title": "Current Elevators",
+  "description": [
+    "These blocks allow for vertical movement similar to bubble columns, but both ways (depends on if you shift) and not just in water: the Bubble one works in water, the Slipstream in air (needs source to work) and the Magmatic in lava (this last one also gives fire resistance!)"
+  ],
+  "icon": "ars_elemental:air_upstream",
+  "x": 1,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_elemental:air_upstream) item(ars_elemental:water_upstream) item(ars_elemental:magma_upstream))",
+      "type": "item",
+      "title": "Any Current Elevator"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

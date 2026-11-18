@@ -1,0 +1,13 @@
+name = "Envelope"
+filename = "envelope-neoforge-1.21.1-0.8.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9525/999/envelope-neoforge-1.21.1-0.8.2.jar"
+hash-format = "sha1"
+hash = "46ab43001206f6f1f99f5aa29e1300fbaafb6a28"
+
+[update]
+[update.curseforge]
+project-id = 1281170
+file-id = 9525999

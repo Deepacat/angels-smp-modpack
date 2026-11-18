@@ -1,0 +1,23 @@
+{
+  "title": "Display Case",
+  "description": [
+    "Not only can it display items, but you can also link it to an inventory and it will act as a smart comparator!"
+  ],
+  "icon": "ars_nouveau:item_detector",
+  "x": 13.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ars/archwood"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:item_detector",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

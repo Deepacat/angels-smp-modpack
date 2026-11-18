@@ -1,0 +1,25 @@
+{
+  "title": "High-Power Steam Condenser",
+  "icon": "hbm:machine_condenser_powered",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3High-Power Steam Condenser&r is the a steam condenser which runs on electricity. It processes up to 60 mB/t of &bLow-Pressure Steam&r."
+  ],
+  "x": 6,
+  "y": 21.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh",
+      "oq_ntm_fission/welded_technetium_cadmium_steel_plate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_condenser_powered",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

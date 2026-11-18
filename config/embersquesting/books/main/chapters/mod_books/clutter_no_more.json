@@ -1,0 +1,25 @@
+{
+  "title": "Clutter No More",
+  "subtitle": "No more slab/stair/variant annoyance",
+  "description": [
+    "Clutter No More adds a scrollable variant menu for blocks",
+    "",
+    "This lets you easily swap between full block, slab, stairs",
+    "",
+    "It even adds new variants of tons of blocks, for vertical slabs/stairs and more"
+  ],
+  "icon": "clutternomore:vertical_oak_stairs",
+  "x": 11.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

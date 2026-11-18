@@ -1,0 +1,22 @@
+{
+  "title": "Washed Dissolved Byproduct",
+  "icon": "hbm:bedrock_ore_solvent_washed_heavy",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Product of second water washing."
+  ],
+  "x": 3.5,
+  "y": 15.5,
+  "deps": {
+    "all": [
+      "oq_ntm_bedrock_ores/seared_dissolved_byproduct"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

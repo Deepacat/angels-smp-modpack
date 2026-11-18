@@ -1,0 +1,10 @@
+{
+  "title": "Oil",
+  "icon": "hbm:machine_refinery",
+  "order": 3,
+  "scope": "team",
+  "group": "ntm",
+  "defaults": {
+    "progression": "linear"
+  }
+}

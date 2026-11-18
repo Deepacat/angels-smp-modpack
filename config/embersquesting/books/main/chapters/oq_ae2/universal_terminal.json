@@ -1,0 +1,21 @@
+{
+  "title": "Universal Terminal",
+  "description": [
+    "Ever wanted to bring more than just the Crafting Terminal on the go with you? Well, not only can you do that now, but you can combine them all into a single device: the Wireless Universal Terminal!"
+  ],
+  "icon": "ae2wtlib:wireless_universal_terminal",
+  "x": 3,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/going_wireless"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2wtlib:wireless_universal_terminal",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

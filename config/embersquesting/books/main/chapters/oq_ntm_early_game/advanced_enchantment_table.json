@@ -1,0 +1,32 @@
+{
+  "title": "Advanced Enchantment Table",
+  "icon": "eplus:tile.advancedenchantmenttable",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &dAdvanced Enchantment Table&r gives its user the ability to choose any enchantment they want, at the cost of significantly more experience.",
+    "",
+    "&2Since very low level books are cheap, its a great way of mass producing Pulverized Enchantment for endgame recipes.&r"
+  ],
+  "x": 20.5,
+  "y": 20,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "eplus:tile.advancedenchantmenttable",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "eplus:item.tableupgrade",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

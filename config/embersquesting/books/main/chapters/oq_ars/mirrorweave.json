@@ -1,0 +1,23 @@
+{
+  "title": "Mirrorweave",
+  "description": [
+    "Mirrorweave can take the appearance of any block, Falseweave is the same but you can walk through it, Ghostweave can make invisible walls and Skyweave mimics the appearance of the sky!"
+  ],
+  "icon": "ars_nouveau:sky_block",
+  "x": 13,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(ars_nouveau:mirrorweave) item(ars_nouveau:falseweave) item(ars_nouveau:ghostweave) item(ars_nouveau:sky_block))",
+      "type": "item",
+      "title": "Any Mirrorweave"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

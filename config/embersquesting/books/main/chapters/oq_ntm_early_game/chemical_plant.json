@@ -1,0 +1,25 @@
+{
+  "title": "Chemical Plant",
+  "icon": "hbm:machine_chemical_plant",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Chemical Plant&r is a machine needed for several processes, turning fluids into other fluids, synthesis of different compounds, ect. Like the &3Assembly Machine&r, recipes can be selected entirely within the GUI."
+  ],
+  "x": 14.5,
+  "y": 24.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_chemical_plant",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

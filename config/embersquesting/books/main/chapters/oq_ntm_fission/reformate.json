@@ -1,0 +1,25 @@
+{
+  "title": "Reformate",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:reformate\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&bReformate&r is a product of &bCrude Oil&r obtained via a &3Vacuum Refinery&r or from processing &bNaptha&r in a &3Hydrotreater&r.",
+    "",
+    "&2This step can be skipped if making Jet Fuel and BTX using a Hydrotreater."
+  ],
+  "x": 12.5,
+  "y": 13.5,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/vacuum_refinery",
+      "oq_ntm_fission/advanced_oil_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

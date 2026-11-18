@@ -1,0 +1,28 @@
+{
+  "title": "Auxilary Cooling Tower",
+  "icon": "hbm:machine_tower_small",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Auxiliary Cooling Tower&r is a larger version of the Steam Condenser able to process up to 50 mb/t of &bLow-Pressure Steam&r."
+  ],
+  "x": 13,
+  "y": 11,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/desh_anvil"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:machine_tower_small",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Charcoal Automation",
+  "icon": "minecraft:charcoal",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Wood&r obtained from a tree farm can be smelted or processed in a &3Combination Oven&r to produce &6Charcoal&r, which has many uses, such as fuel for &3Furnaces&r or even the &3Blast Furnace&r, &6Flux&r or &6Carbon&r in a Crucible for &6Steel&r production, or even &6Gunpowder&r for ammunition."
+  ],
+  "x": 3,
+  "y": 18.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/automatic_buzz_saw"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:charcoal",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

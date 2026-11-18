@@ -1,0 +1,23 @@
+{
+  "title": "Dominion Wand",
+  "subtitle": "Domain expansion!",
+  "description": [
+    "I know I just said Ars blocks all magically connect to each other, but that's only true of the simple blocks like Source Jars. More advanced sourcery requires the use of a Dominion Wand"
+  ],
+  "icon": "ars_nouveau:dominion_wand",
+  "x": 8,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ars/enchanting_apparatus"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:dominion_wand",
+      "type": "item"
+    }
+  ],
+  "shape": "circle",
+  "lines_out": "hover"
+}

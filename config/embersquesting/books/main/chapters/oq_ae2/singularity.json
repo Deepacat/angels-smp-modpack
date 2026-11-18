@@ -1,0 +1,29 @@
+{
+  "title": "Singularity",
+  "description": [
+    "Singularities are a product of compressing many thousands of items in a Matter Condenser.\nBlowing one up together with Ender Dust splits it into two Quantum Entangled Singularities.\nThese can then be used in a Quantum Network Bridge: see next quest."
+  ],
+  "icon": "ae2:singularity",
+  "x": 7,
+  "y": 6,
+  "deps": {
+    "all": [
+      "oq_ae2/matter_condenser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ae2:singularity",
+      "type": "item"
+    },
+    {
+      "item": "ae2:tiny_tnt",
+      "type": "item"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity",
+      "type": "item"
+    }
+  ],
+  "shape": "circle"
+}

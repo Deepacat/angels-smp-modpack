@@ -1,0 +1,27 @@
+{
+  "title": "Smart Cable",
+  "description": [
+    "Smart Cable displays the amount of channels it is transferring! It also looks cool!"
+  ],
+  "icon": "ae2:fluix_smart_cable",
+  "x": 8,
+  "y": 4,
+  "deps": {
+    "all": [
+      "oq_ae2/cables"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "ae2:smart_cable",
+      "type": "item",
+      "title": "Any Smart Cable"
+    },
+    {
+      "tag": "ae2:smart_dense_cable",
+      "type": "item",
+      "title": "Any Dense Smart Cable"
+    }
+  ],
+  "shape": "circle"
+}

@@ -1,0 +1,8 @@
+name = "Better End Biome Fix"
+filename = "endbiomefix-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://mods.deepa.cat/angel/packmods/endbiomefix-1.0.0.jar"
+hash-format = "sha1"
+hash = "a0fac8d8c17029aa2476cf5beca5770ecc8cec7b"

@@ -1,0 +1,18 @@
+{
+  "title": "Endermen don't grief",
+  "subtitle": "It's annoying. you can claim chunks anyways tho to prevent griefing",
+  "icon": "supplementaries:enderman_head",
+  "x": 1.5,
+  "y": 4,
+  "deps": {
+    "all": [
+      "vanilla_changes/changes_to_vanilla_mechanics"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

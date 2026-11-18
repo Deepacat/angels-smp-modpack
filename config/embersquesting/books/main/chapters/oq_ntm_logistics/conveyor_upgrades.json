@@ -1,0 +1,37 @@
+{
+  "title": "Conveyor Upgrades",
+  "icon": "hbm:upgrade_ejector_3",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "Conveyors blocks can be equiped with two different types of upgrades.",
+    "",
+    "&6Stack Ejection&r, which outputs more items at once.",
+    "",
+    "&6Speed Ejection&r, which outputs items at a faster rate."
+  ],
+  "x": 14.5,
+  "y": 5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/conveyor_belt"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "type": "checkmark"
+    },
+    {
+      "item": "hbm:upgrade_stack_1",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:upgrade_ejector_1",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

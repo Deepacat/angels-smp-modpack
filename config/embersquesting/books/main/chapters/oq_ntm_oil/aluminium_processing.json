@@ -1,0 +1,23 @@
+{
+  "title": "Aluminium Processing",
+  "icon": "hbm:fluid_icon{\"hbm:fluid\":\"hbm:sodium_aluminate\"}",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&7&6Bauxide&r and &6Cryolite&r from the light metal line of Bedrock Ore Processing can be further processed to obtain &6Aluminium&r, with additional byproducts of &6Iron&r, &6Titanium&r and &bMercury&r."
+  ],
+  "x": 22,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/industrial_mixer",
+      "oq_ntm_oil/electrolysis_machine"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

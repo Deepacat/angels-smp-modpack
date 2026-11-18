@@ -1,0 +1,29 @@
+{
+  "title": "Shredder",
+  "icon": "hbm:machine_shredder",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Shredder&r is a machine that shreds resources into their powder form, or in many cases, their crafting materials. It can also be used to double ores.",
+    "",
+    "&6Flour&r can also be made by shredding &6Wheat&r at a 1:1 ratio, which can be then smelted into bread for 3 times the bread from the same amount of wheat.",
+    "",
+    "&2Shredder blades are require in order for the machine to work."
+  ],
+  "x": 18.5,
+  "y": 20.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/assembly_machine"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_shredder",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

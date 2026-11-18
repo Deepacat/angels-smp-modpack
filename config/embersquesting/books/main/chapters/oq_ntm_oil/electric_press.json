@@ -1,0 +1,29 @@
+{
+  "title": "Electric Press",
+  "icon": "hbm:machine_epress",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Electric Press&r is a version of the &3Burner Press&r which runs on electricity. It also has upgrade slots inside it."
+  ],
+  "x": 2,
+  "y": 13.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/integrated_circuit_board"
+    ]
+  },
+  "routes": {
+    "oq_ntm_oil/integrated_circuit_board": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_epress",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

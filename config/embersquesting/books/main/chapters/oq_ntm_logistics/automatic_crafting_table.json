@@ -1,0 +1,24 @@
+{
+  "title": "Automatic Crafting Table",
+  "icon": "hbm:machine_autocrafter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Automatic Crafting Table&r is able to perform crafts when supplied with power and a blueprint inside of it is set. The Blueprint is located at the blue crafting area and the items can be defined by using either items inside the player's inventory or by dragging them fron the NEI menu."
+  ],
+  "x": 1.5,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/blast_furnace"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_autocrafter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Spark Laser Crystal",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Spark Laser Crystal&r unlocks new recipes, most importantly it is used to create &6Osmiridium&r."
+  ],
+  "icon": "hbm:laser_crystal_dnt",
+  "x": -0.5,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/dineutronium",
+      "oq_ntm_particle_physics/euphemium",
+      "oq_ntm_oil/balefire"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:laser_crystal_dnt",
+      "type": "item"
+    }
+  ]
+}

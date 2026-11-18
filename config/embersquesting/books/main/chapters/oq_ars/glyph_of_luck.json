@@ -1,0 +1,22 @@
+{
+  "title": "Glyph of Luck",
+  "description": [
+    "Fortune for your break spell! Rabbit's feet are mighty annoying to get, though - consider a drygmy farm?"
+  ],
+  "icon": "ars_nouveau:glyph_fortune",
+  "x": 6,
+  "y": 9,
+  "deps": {
+    "all": [
+      "oq_ars/mage_s_spell_book"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:glyph_fortune",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond"
+}

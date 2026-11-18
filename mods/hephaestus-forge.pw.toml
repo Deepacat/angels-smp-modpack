@@ -1,0 +1,13 @@
+name = "Hephaestus Forge"
+filename = "hephaestus-neoforge-1.21.1-1.0.20.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9442/32/hephaestus-neoforge-1.21.1-1.0.20.jar"
+hash-format = "sha1"
+hash = "dcb73dddf7d5aa0d4e58041fdd4ae434c6278a54"
+
+[update]
+[update.curseforge]
+project-id = 1542467
+file-id = 9442032

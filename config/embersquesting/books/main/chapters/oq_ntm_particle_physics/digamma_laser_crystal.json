@@ -1,0 +1,28 @@
+{
+  "title": "Digamma Laser Crystal",
+  "icon": "hbm:laser_crystal_digamma",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Digamma Laser Crystal&r is the fastest and final laser crystal which can be used in a SILEX.",
+    "",
+    "&2If the laser touches any block, the surrounding area will be atomized."
+  ],
+  "x": 1.5,
+  "y": 15.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/the_digamma_particle",
+      "oq_ntm_end_game/the_book_of_boxcars",
+      "oq_ntm_oil/balefire"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:laser_crystal_digamma",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

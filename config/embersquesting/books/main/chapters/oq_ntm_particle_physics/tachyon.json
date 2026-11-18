@@ -1,0 +1,25 @@
+{
+  "title": "Tachyon",
+  "icon": "hbm:particle_tachyon",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6Tachyon&r particles are created by colliding &6Higgs Boson&r and &6Muon particles&r."
+  ],
+  "x": 1.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "oq_ntm_particle_physics/muon",
+      "oq_ntm_particle_physics/higgs_boson"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:particle_tachyon",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Powered Drill",
+  "icon": "hbm:gun_drill",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Powered Drill&r is a modular mining device which can make resource gathering and excavation much faster than normal pickaxes.",
+    "",
+    "Various modifications can be attached in the &3Weapon Modification Table&r, such as new drillbits for a larger mining radious or even new engines, which let it run on electricity."
+  ],
+  "x": 11,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/basic_oil_processing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:gun_drill",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

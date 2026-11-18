@@ -1,0 +1,58 @@
+{
+  "title": "Crucible",
+  "icon": "hbm:machine_crucible",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Crucible&r is an important machine as it is the central component of metallurgy. It is used as a method of ore processing, alloying, and metal casting. It requires an external heat source to melt the inputs into liquids and when filled, it emits a consistent amount of soot that can cause a fair amount of pollution that cannot be mitigated. Some alloys, as mentioned before, can be made alternatively using a &3Blast Furnace&r, however this is generally slower.",
+    "",
+    "Press [F1] for more info on applicable items",
+    "",
+    "It is recommended that the wiki is checked out.",
+    {
+      "type": "button",
+      "buttons": [
+        {
+          "label": "https://nucleartech.wiki/wiki/Crucible",
+          "click": {
+            "action": "open_url",
+            "value": "https://nucleartech.wiki/wiki/Crucible"
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    "Optional items (not required):",
+    {
+      "type": "item",
+      "items": [
+        {
+          "item": "hbm:foundry_mold",
+          "count": 1
+        },
+        {
+          "item": "hbm:mold_ingot",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "x": 7.5,
+  "y": 16,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/heating_oven_firebox"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_crucible",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

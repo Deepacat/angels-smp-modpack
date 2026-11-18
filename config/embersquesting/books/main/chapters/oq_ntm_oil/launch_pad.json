@@ -1,0 +1,34 @@
+{
+  "title": "Launch Pad",
+  "icon": "hbm:launch_pad_large",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Launch Pad&r is the main launch table for most missiles. Although it is the earliest available, missiles must first be erected before launch, resulting in a small delay.",
+    "",
+    "The &3Silo Launch Pad&r is a miniaturized version of the launch pad. It can launch every generic missile with a delay of only 5 seconds. A rusted variant can be found in the naturally-occurring silo structure, holding the damaged Doomsday Missile."
+  ],
+  "x": 11,
+  "y": 19.5,
+  "size": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/military_grade_circuit_board",
+      "oq_ntm_early_game/shredder"
+    ]
+  },
+  "complete": "any",
+  "tasks": [
+    {
+      "item": "hbm:launch_pad_large",
+      "count": 1,
+      "type": "item"
+    },
+    {
+      "item": "hbm:launch_pad",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

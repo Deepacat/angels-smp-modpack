@@ -1,0 +1,13 @@
+name = "Iron's Rpg Tweaks"
+filename = "irons_rpg_tweaks-2.2.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8261/780/irons_rpg_tweaks-2.2.3.jar"
+hash-format = "sha1"
+hash = "bbe68f3dc28e66e0c95211a37cb4a5e4fe010dfe"
+
+[update]
+[update.curseforge]
+project-id = 871799
+file-id = 8261780

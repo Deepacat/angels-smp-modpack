@@ -1,0 +1,13 @@
+name = "Zeta"
+filename = "Zeta-1.1-40.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7980/10/Zeta-1.1-40.jar"
+hash-format = "sha1"
+hash = "72f6efe421cfc0547c774ae8241d727b7d996754"
+
+[update]
+[update.curseforge]
+project-id = 968868
+file-id = 7980010

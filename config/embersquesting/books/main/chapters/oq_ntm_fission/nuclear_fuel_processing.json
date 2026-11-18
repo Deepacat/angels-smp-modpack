@@ -1,0 +1,22 @@
+{
+  "title": "Nuclear Fuel Processing",
+  "icon": "hbm:weapon_mod_test_override_10",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "With the &3Spent Fuel Pool Drum&r to cool down &3ZIRNOX&r or &3PWR&r depleted nuclear fuel and the &3PUREX&r to further process them, many new materials are now available."
+  ],
+  "x": 6,
+  "y": 9.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fission/purex"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

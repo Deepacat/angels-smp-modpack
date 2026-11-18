@@ -1,0 +1,23 @@
+{
+  "title": "Etcetera",
+  "subtitle": "Clothes & misc gadgets",
+  "description": [
+    "It also adds a spider for some reason",
+    "",
+    "(It's part of the gross mobs list you can disable)"
+  ],
+  "icon": "etcetera:bouquet",
+  "x": 2.75,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "mod_books/mods_what_they_do_what_i_did"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "shape": "circle"
+}

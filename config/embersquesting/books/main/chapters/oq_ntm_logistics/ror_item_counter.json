@@ -1,0 +1,24 @@
+{
+  "title": "ROR Item Counter",
+  "icon": "hbm:radio_torch_counter",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The ROR &6Item Counter&r is used to count the amount of items inside a container. It can transmit up to 3 signals, the items of which need to be specified with filters."
+  ],
+  "x": 9,
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "oq_ntm_logistics/redstone_over_radio"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:radio_torch_counter",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

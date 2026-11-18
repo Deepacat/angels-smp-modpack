@@ -1,0 +1,36 @@
+{
+  "title": "Deuterium Extractor Tower",
+  "icon": "hbm:machine_deuterium_tower",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Deuterium Extractor Tower&r is a much larger version of the Deuterium Extractor, making it an easy and viable way of making cheap fuel for the &b&r&3Fusion Reactor&r.",
+    "",
+    "&2A Ferrouranium Anvil is required.&r"
+  ],
+  "x": 10.5,
+  "y": 0,
+  "size": 2,
+  "deps": {
+    "any": [
+      "oq_ntm_fission/vacuum_refinery",
+      "oq_ntm_fission/advanced_oil_processing"
+    ]
+  },
+  "routes": {
+    "oq_ntm_fission/vacuum_refinery": {
+      "style": "hidden"
+    },
+    "oq_ntm_fission/advanced_oil_processing": {
+      "style": "hidden"
+    }
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_deuterium_tower",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Scryer's Oculus",
+  "description": [
+    "Remote terminal for Scry Crystals, linked to them with Scryer's Scrolls."
+  ],
+  "icon": "ars_nouveau:scryers_oculus",
+  "x": 12.5,
+  "y": 2.5,
+  "deps": {
+    "all": [
+      "oq_ars/scry_crystal",
+      "oq_ars/magebloom"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "ars_nouveau:scryers_oculus",
+      "type": "item"
+    },
+    {
+      "item": "ars_nouveau:scryer_scroll",
+      "type": "item"
+    }
+  ],
+  "optional": true,
+  "shape": "diamond",
+  "lines_in": "hover"
+}

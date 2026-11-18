@@ -1,0 +1,27 @@
+{
+  "title": "Space Laboratory",
+  "icon": "hbm:satellite_science",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Space Laboratory&r is a modular satellite which produces data for drives.",
+    "",
+    "&2All of the Space Laboratory related satellites must have the same ID.&r"
+  ],
+  "x": 3,
+  "y": 11.5,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/drive_enclosure_and_disk_drives",
+      "oq_ntm_fusion/satellite_id_manager"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:satellite_science",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

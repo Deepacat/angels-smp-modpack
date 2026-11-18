@@ -1,0 +1,25 @@
+{
+  "title": "Telex Machine",
+  "icon": "hbm:radio_telex",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Telex Machine&r is used to send signals to other Telex Machines. It can also send signals if it receives a message and can print out messages on a piece of paper."
+  ],
+  "x": 6,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/analog_circuit",
+      "oq_ntm_logistics/redstone_over_radio"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:radio_telex",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

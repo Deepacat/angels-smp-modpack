@@ -1,0 +1,24 @@
+{
+  "title": "Drainage Pipe",
+  "icon": "hbm:machine_drain",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Drainage Pipe&r allows the dumping of fluids and gasses into the environment at the cost of pollution."
+  ],
+  "x": 7,
+  "y": 24.5,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/cast_plates"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:machine_drain",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

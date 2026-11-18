@@ -1,0 +1,13 @@
+name = "Quark Oddities"
+filename = "QuarkOddities-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7625/223/QuarkOddities-1.21.1.jar"
+hash-format = "sha1"
+hash = "45ed64b315f2cd3e1ef103b53faded6d45ec7117"
+
+[update]
+[update.curseforge]
+project-id = 301051
+file-id = 7625223

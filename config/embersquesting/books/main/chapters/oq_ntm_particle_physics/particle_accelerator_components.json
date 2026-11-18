@@ -1,0 +1,34 @@
+{
+  "title": "Particle Accelerator Components",
+  "icon": "hbm:pa_coil_gold",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &3Particle Accelerator&r is highly modular and as such has many parts, each serving a different function:",
+    "",
+    "&3Particle Source&r: To create the particle.",
+    "",
+    "&3Particle Detector&r (at a receiving end): To form the intended byproduct.",
+    "",
+    "&3Quadrupole Magnets&r: To reduce particle defocus.",
+    "",
+    "&3RF Cavities&r: For electromagnetic acceleration.",
+    "",
+    "&3Dipole Magnets&r: For re-directing the particle.",
+    "",
+    "&6Coils&r: For quadrupole and dipole magnets to function."
+  ],
+  "x": 4.5,
+  "y": 2,
+  "deps": {
+    "all": [
+      "oq_ntm_fusion/particle_accelerator"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}

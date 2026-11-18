@@ -1,0 +1,24 @@
+{
+  "title": "High-Speed Steel",
+  "icon": "hbm:ingot_dura_steel",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "&6High-speed steel&r is an advanced and specialized form of standard steel. It used in many recipes, such as the &3Oil Derrick&r and the &3Industrial Mixer&r."
+  ],
+  "x": 5.5,
+  "y": 17,
+  "deps": {
+    "all": [
+      "oq_ntm_early_game/crucible"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:ingot_dura_steel",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Rules",
+  "subtitle": "Must Read!!!!",
+  "description": [
+    "§nGeneral rules:§r",
+    "",
+    "1. Be nice do not the killing eachother unless you know for sure they won't be upset",
+    "",
+    "2. Be reasonable with chunk claims, don't claim things you aren't using and don't forceload unessecary chunks",
+    "",
+    "",
+    "§nNTM specific Rules:§r",
+    "",
+    "1. Do NOT nuke ANYWHERE within like 5k blocks of spawn I beg.",
+    "",
+    "2. If I ever add NTM: Space, DO NOT modify the atmosphere of earth. Not even for a second."
+  ],
+  "icon": "minecraft:tnt",
+  "x": 2,
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Yes"
+    },
+    {
+      "type": "checkmark",
+      "title": "Yes I read them"
+    },
+    {
+      "type": "checkmark",
+      "title": "I promise I did"
+    }
+  ],
+  "shape": "circle",
+  "size": 2.0
+}

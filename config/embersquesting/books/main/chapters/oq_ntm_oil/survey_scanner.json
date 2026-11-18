@@ -1,0 +1,24 @@
+{
+  "title": "Survey Scanner",
+  "icon": "hbm:survey_scanner",
+  "description": [
+    {
+      "type": "divider"
+    },
+    "The &6Survey Scanner&r is a handheld device that will point out underground resource deposits, such as &eDepth Rock&r and &eBedrock Ores&r."
+  ],
+  "x": 12,
+  "y": 17.5,
+  "deps": {
+    "all": [
+      "oq_ntm_oil/military_grade_circuit_board"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hbm:survey_scanner",
+      "count": 1,
+      "type": "item"
+    }
+  ]
+}
